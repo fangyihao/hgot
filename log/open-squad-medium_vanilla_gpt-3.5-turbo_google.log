@@ -1,0 +1,2105 @@
+##########In what year were two Block I CSMs launched?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: In what year were two Block I CSMs launched?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1969
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1969
+................................... ground truth ...................................
+['1966', '1966', '1966', '1966', '1966']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Many conferences have taking a position by voting in favor of what?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Many conferences have taking a position by voting in favor of what?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+divestment from fossil fuels
+=================================== ANSWER ===================================
+................................... prediction ...................................
+divestment from fossil fuels
+................................... ground truth ...................................
+['same-gender marriages with resolutions', 'permit ministers to officiate same-sex weddings', 'same-gender marriages']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########AC and NC are complexity classes typically associated with what type of circuit?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: AC and NC are complexity classes typically associated with what type of circuit?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Boolean circuits
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Boolean circuits
+................................... ground truth ...................................
+['Boolean', 'Boolean', 'Boolean circuits;']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########When was his lab destroyed?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: When was his lab destroyed?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, more context needed.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, more context needed.
+................................... ground truth ...................................
+['1904', '1904', '1904']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########When was his article published in Century Magazine?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: When was his article published in Century Magazine?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1890
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1890
+................................... ground truth ...................................
+['1900', '1900', '1900']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What constitutional change was considered?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What constitutional change was considered?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Term limits for Supreme Court justices.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Term limits for Supreme Court justices.
+................................... ground truth ...................................
+['eliminate the position of Prime Minister and simultaneously reduce the powers of the President', 'eliminate the position of Prime Minister', 'eliminate the position of Prime Minister']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What does Fortiter Defendit Triumphans mean?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What does Fortiter Defendit Triumphans mean?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Triumphing by a brave defense
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Triumphing by a brave defense
+................................... ground truth ...................................
+['Triumphing by a brave defence', 'Triumphing by a brave defence', 'Triumphing by a brave defence']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.75
+##########Which husband and wife modern furniture design team are represented in the V&A furniture collection?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Which husband and wife modern furniture design team are represented in the V&A furniture collection?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Charles and Ray Eames
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Charles and Ray Eames
+................................... ground truth ...................................
+['Charles and Ray Eames', 'Charles and Ray Eames', 'Charles and Ray Eames']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What was the Doritos customer Super Bowl ad campaign called?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What was the Doritos customer Super Bowl ad campaign called?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Crash the Super Bowl
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Crash the Super Bowl
+................................... ground truth ...................................
+['Crash the Super Bowl', 'Crash the Super Bowl', 'Crash the Super Bowl']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Why is Priestley usually given credit for being first to discover oxygen?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Why is Priestley usually given credit for being first to discover oxygen?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+He was the first to publish his findings.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+He was the first to publish his findings.
+................................... ground truth ...................................
+['published his findings first', 'he published his findings first', 'he published his findings first', 'he published his findings first', 'Because he published his findings first']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########How many graduate students does Harvard have?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: How many graduate students does Harvard have?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Approximately 14,000.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Approximately 14,000.
+................................... ground truth ...................................
+['14,000', '14,000', '14,000']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########What does Kuznets' curve predict about income inequality given time?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What does Kuznets' curve predict about income inequality given time?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+It will initially increase, then decrease.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+It will initially increase, then decrease.
+................................... ground truth ...................................
+['eventually decrease', 'eventually decrease', 'decrease']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.2857142857142857
+##########What were the first two destinations of Huguenot emigres?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What were the first two destinations of Huguenot emigres?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Netherlands and England
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Netherlands and England
+................................... ground truth ...................................
+['Switzerland and the Netherlands', 'Switzerland and the Netherlands.', 'Switzerland and the Netherlands']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########What type of wages result from jobs where there is low supply but high demand?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What type of wages result from jobs where there is low supply but high demand?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+High wages
+=================================== ANSWER ===================================
+................................... prediction ...................................
+High wages
+................................... ground truth ...................................
+['high', 'high wages', 'high']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What CBS show followed the Super Bowl?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What CBS show followed the Super Bowl?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Late Show with Stephen Colbert
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Late Show with Stephen Colbert
+................................... ground truth ...................................
+['The Late Show with Stephen Colbert', 'The Late Show with Stephen Colbert', 'Late Show with Stephen Colbert']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What prompted Shen Kuo to believe the land was formed by erosion of the mountains?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What prompted Shen Kuo to believe the land was formed by erosion of the mountains?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Fossil evidence of marine life on mountaintops.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Fossil evidence of marine life on mountaintops.
+................................... ground truth ...................................
+['his observation of fossil animal shells', 'fossil animal shells', 'based on his observation of fossil animal shells in a geological stratum in a mountain hundreds of miles from the ocean']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.30769230769230765
+##########What is the name of the Bronco's head coach, who was hired after John Fox? ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the name of the Bronco's head coach, who was hired after John Fox?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Gary Kubiak
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Gary Kubiak
+................................... ground truth ...................................
+['Gary Kubiak', 'Gary Kubiak', 'Kubiak']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########How many square miles large was the region impacted by the 2010 drought?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: How many square miles large was the region impacted by the 2010 drought?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1,040,000 square miles
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1,040,000 square miles
+................................... ground truth ...................................
+['1,160,000', '1,160,000', '1,160,000']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is the main difference between online pharmacies and community pharmacies?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the main difference between online pharmacies and community pharmacies?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Online pharmacies operate over the internet.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Online pharmacies operate over the internet.
+................................... ground truth ...................................
+['the method by which the medications are requested and received', 'method by which the medications are requested and received', 'the method by which the medications are requested and received']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What can result in creating a poverty trap?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What can result in creating a poverty trap?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Lack of access to education.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Lack of access to education.
+................................... ground truth ...................................
+['gender inequality in education', 'low economic growth', 'continued gender inequality in education']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.22222222222222224
+##########What band headlined half-time during Super Bowl 50?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What band headlined half-time during Super Bowl 50?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Coldplay
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Coldplay
+................................... ground truth ...................................
+['Coldplay', 'Coldplay', 'Coldplay']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What is the Roman numeral going to be for Super Bowl 51?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the Roman numeral going to be for Super Bowl 51?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+LI
+=================================== ANSWER ===================================
+................................... prediction ...................................
+LI
+................................... ground truth ...................................
+['LI.', 'LI', 'LI']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########When did Martin Luther protest the sale of indulgences to his bishop?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: When did Martin Luther protest the sale of indulgences to his bishop?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1517
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1517
+................................... ground truth ...................................
+['31 October 1517', '31 October 1517', '1517']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########When did General Hospital begin airing?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: When did General Hospital begin airing?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+April 1, 1963
+=================================== ANSWER ===================================
+................................... prediction ...................................
+April 1, 1963
+................................... ground truth ...................................
+['1963', '1963', '1963']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########When did Subutai's army return to Mongolia?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: When did Subutai's army return to Mongolia?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1242 AD
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1242 AD
+................................... ground truth ...................................
+['1225', '1225', '1225']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What President is credited with the original notion of putting Americans in space?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What President is credited with the original notion of putting Americans in space?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+President Dwight D. Eisenhower
+=================================== ANSWER ===================================
+................................... prediction ...................................
+President Dwight D. Eisenhower
+................................... ground truth ...................................
+['Dwight D. Eisenhower', "John F. Kennedy's", "John F. Kennedy's", 'Dwight D. Eisenhower', 'Dwight D. Eisenhower']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.8571428571428571
+##########What is the unproven assumption generally ascribed to the value of complexity classes?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the unproven assumption generally ascribed to the value of complexity classes?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+P ≠ NP
+=================================== ANSWER ===================================
+................................... prediction ...................................
+P ≠ NP
+................................... ground truth ...................................
+['suspected to be unequal', 'unequal', 'Many known complexity classes are suspected to be unequal']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########How many BAFTA Cymru Awards has Doctor Who received?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: How many BAFTA Cymru Awards has Doctor Who received?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+31
+=================================== ANSWER ===================================
+................................... prediction ...................................
+31
+................................... ground truth ...................................
+['25', '25', '25', '25']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########The term imperialism has been applied to western countries, and which eastern county?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: The term imperialism has been applied to western countries, and which eastern county?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Japan
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Japan
+................................... ground truth ...................................
+['Japan', 'Japan', 'Japanese', 'Japanese', 'Japan']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What is the boundary between the High and Upper Rhine? ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the boundary between the High and Upper Rhine?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Lake Constance
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Lake Constance
+................................... ground truth ...................................
+['Central Bridge', 'Central Bridge', 'Central Bridge']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is the name for a problem that meets Ladner's assertion?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is the name for a problem that meets Ladner's assertion?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+NP-complete
+=================================== ANSWER ===================================
+................................... prediction ...................................
+NP-complete
+................................... ground truth ...................................
+['NP-intermediate problems', 'NP-intermediate problems', 'NP-intermediate']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What were NTL's services rebranded as?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What were NTL's services rebranded as?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Virgin Media
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Virgin Media
+................................... ground truth ...................................
+['Virgin Media', 'Virgin Media', 'Virgin Media']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Who noticed that Luther's view of the soul after death differed from later theologians?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Who noticed that Luther's view of the soul after death differed from later theologians?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Karl Holl
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Karl Holl
+................................... ground truth ...................................
+['Franz Pieper', 'Franz Pieper', 'Pieper']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What types of recordings at Johnson Space Center were used to help restore the original tapes?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What types of recordings at Johnson Space Center were used to help restore the original tapes?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Magnetic tapes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Magnetic tapes
+................................... ground truth ...................................
+['kinescope recordings', 'kinescope', 'kinescope recordings', 'kinescope']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What was wrong with the pigeon?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What was wrong with the pigeon?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, more context needed.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, more context needed.
+................................... ground truth ...................................
+['broken wing and leg', 'broken wing and leg', 'broken wing and leg']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Suzuki Chokichi's incense burner dated 1875 is made of what from material?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Suzuki Chokichi's incense burner dated 1875 is made of what from material?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+silver
+=================================== ANSWER ===================================
+................................... prediction ...................................
+silver
+................................... ground truth ...................................
+['bronze', 'bronze', 'bronze']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########In what year was the Doctor Who 40th Anniversary show?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: In what year was the Doctor Who 40th Anniversary show?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+2003
+=================================== ANSWER ===================================
+................................... prediction ...................................
+2003
+................................... ground truth ...................................
+['2003', '2003', '2003']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What is responsible for constraining P according to the time hierarchy theorem?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What is responsible for constraining P according to the time hierarchy theorem?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+time complexity
+=================================== ANSWER ===================================
+................................... prediction ...................................
+time complexity
+................................... ground truth ...................................
+['EXPTIME', 'EXPTIME', 'EXPTIME']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What type of materials inside the cabin were removed to help prevent more fire hazards in the future?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: What type of materials inside the cabin were removed to help prevent more fire hazards in the future?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+flammable materials
+=================================== ANSWER ===================================
+................................... prediction ...................................
+flammable materials
+................................... ground truth ...................................
+['flammable cabin and space suit materials', 'flammable cabin', 'flammable', 'flammable cabin and space suit materials', 'flammable cabin and space suit materials.']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########How many teams did Los Angeles used to have?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: How many teams did Los Angeles used to have?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Two (Lakers and Clippers)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Two (Lakers and Clippers)
+................................... ground truth ...................................
+['two', 'two', 'two']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.4
+##########Funding limitations allowed CSNET to be what ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: Funding limitations allowed CSNET to be what
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a limited network
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a limited network
+................................... ground truth ...................................
+['role in spreading awareness of, and access to, national networking and was a major milestone on the path to development of the global Internet', 'not be directly connected to ARPANET', 'not be directly connected to ARPANET']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########How many games did the Broncos lose during their regular 2015 season?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What internal component has undergone considerable revision?
+Answer: classification
+
+Question: The revenues did what under the first 4 years of Watson being president?
+Answer: more than doubled to $9 million
+
+Question: Who work in the style of carving a traditional seal in the script?
+Answer: calligraphers
+
+Question: How many clubs entered in 2007-08?
+Answer: 731
+
+Question: What was the capital of England during the time of the Norman Conquest?
+Answer: Winchester
+
+Question: Who was expelled from the country after the assassination attempt on Joseph I?
+Answer: The Jesuits
+
+Question: Who shared the first homosexual kiss on EastEnders?
+Answer: Colin Russell and Guido Smith
+
+Question: How many games did the Broncos lose during their regular 2015 season?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+7 games
+=================================== ANSWER ===================================
+................................... prediction ...................................
+7 games
+................................... ground truth ...................................
+['four', '4', '4']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+################################### RESULT ###################################
+................................... EM ...................................
+0.2857142857142857
+................................... F1 ...................................
+0.42831996046281756

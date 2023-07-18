@@ -1,0 +1,1145 @@
+##########What is a physician's assistant?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What is a physician's assistant?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A physician assistant (PA) is a medical professional who works as part of a team with a doctor.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+A physician assistant (PA) is a medical professional who works as part of a team with a doctor.
+................................... ground truth ...................................
+['physician assistants are medical providers who are licensed to diagnose and treat illness and disease and to prescribe medication for patients']
+................................... F1 ...................................
+0.17142857142857143
+................................... nF1 ...................................
+0.1904761904761905
+##########What are the educational requirements required to become a physician's assistant?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What are the educational requirements required to become a physician's assistant?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+To become a physician assistant, one must complete a master's degree from an accredited program and pass the Physician Assistant National Certifying Exam (PANCE).
+=================================== ANSWER ===================================
+................................... prediction ...................................
+To become a physician assistant, one must complete a master's degree from an accredited program and pass the Physician Assistant National Certifying Exam (PANCE).
+................................... ground truth ...................................
+["Complete your bachelor's degree (a science or healthcare related major is usually best); Gain experience either working or volunteering in a healthcare setting; Apply to ARC-PA accredited physician assistant programs; Complete a 2-3 year, master's level PA program;"]
+................................... F1 ...................................
+0.2909090909090909
+................................... nF1 ...................................
+0.25
+##########What does it cost to become a physician's assistant?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What does it cost to become a physician's assistant?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The cost of becoming a physician's assistant varies depending on the program and location, but can range from $30,000 to $120,000.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The cost of becoming a physician's assistant varies depending on the program and location, but can range from $30,000 to $120,000.
+................................... ground truth ...................................
+['Average Cost Across all PA Schools for the 2017 Application Cycle is as Follows: Average cost of resident tuition for a 27-month physician assistant program is: $71,369. Average cost of non-resident tuition for a 27-month physician assistant program is: $89,975.']
+................................... F1 ...................................
+0.14545454545454545
+................................... nF1 ...................................
+0.07142857142857144
+##########What's the average starting salary for a physician's assistant in the UK?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What's the average starting salary for a physician's assistant in the UK?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+There is no data available on the average starting salary for a physician's assistant in the UK as the profession does not exist in the UK.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+There is no data available on the average starting salary for a physician's assistant in the UK as the profession does not exist in the UK.
+................................... ground truth ...................................
+['Typical starting salaries for physician associates are between £27,000 and £31,383 (though sometimes less for internships).']
+................................... F1 ...................................
+0.1081081081081081
+................................... nF1 ...................................
+0.11111111111111112
+##########What's the average starting salary for a physician's assistant in the US?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What's the average starting salary for a physician's assistant in the US?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The average starting salary for a physician assistant in the US is $95,000 per year.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The average starting salary for a physician assistant in the US is $95,000 per year.
+................................... ground truth ...................................
+['An early career Physician Assistant (PA) with 1-4 years of experience earns an average total compensation (includes tips, bonus, and overtime pay) of $91,587 based on 4,392 salaries.']
+................................... F1 ...................................
+0.15789473684210525
+................................... nF1 ...................................
+0
+##########What school subjects are needed to become a registered nurse?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What school subjects are needed to become a registered nurse?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Subjects needed to become a registered nurse include biology, chemistry, anatomy, physiology, and psychology.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Subjects needed to become a registered nurse include biology, chemistry, anatomy, physiology, and psychology.
+................................... ground truth ...................................
+['Courses that nursing students may be required to take include anatomy, physiology, microbiology, chemistry, nutrition, and psychology. Nursing students may also be required to take courses in liberal arts subjects.']
+................................... F1 ...................................
+0.37209302325581395
+................................... nF1 ...................................
+0.3870967741935483
+##########What is the physician's assistant average salary vs a registered nurse?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What is the physician's assistant average salary vs a registered nurse?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+According to the Bureau of Labor Statistics, the median annual salary for physician assistants in 2020 was $115,390, while the median annual salary for registered nurses was $75,330.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+According to the Bureau of Labor Statistics, the median annual salary for physician assistants in 2020 was $115,390, while the median annual salary for registered nurses was $75,330.
+................................... ground truth ...................................
+["Although many factors go into salaries, such as experience, specialty and geographic areas, PA's usually come out on top. According to the United States Bureau of Labor Statistics, the average salary for PA's in 2013 was about $90,000 a year. Nurses on the other hand made about $66,000 a year according to the BLS."]
+................................... F1 ...................................
+0.3013698630136986
+................................... nF1 ...................................
+0.2702702702702703
+##########What the difference between a physician assistant and a nurse practitioner?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What the difference between a physician assistant and a nurse practitioner?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Physician assistants are trained in general medicine and work under the supervision of a physician, while nurse practitioners are trained in nursing and can work independently or under the supervision of a physician.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Physician assistants are trained in general medicine and work under the supervision of a physician, while nurse practitioners are trained in nursing and can work independently or under the supervision of a physician.
+................................... ground truth ...................................
+['. Nurses follow a patient-centered model, in which they focus on disease prevention and health education and handle assessment, diagnosis and treatment. Physician assistants follow a disease-centered model, in which they focus on the biologic and pathologic components of health, and also practice assessment, diagnosis, and treatment.']
+................................... F1 ...................................
+0.19444444444444448
+................................... nF1 ...................................
+0
+##########Do nurse practitioners or physician assistants make more?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Do nurse practitioners or physician assistants make more?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Physician assistants typically make more than nurse practitioners.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Physician assistants typically make more than nurse practitioners.
+................................... ground truth ...................................
+['According to the Bureau of Labor and Statistics (BLS), the 2017 median pay for Nurse Practitioners is $110,930 per year, or $53.33 per hour. In comparison, 2017 median pay for Physician Assistants is $104,860 per year, or $50.41 per hour.']
+................................... F1 ...................................
+0.17391304347826086
+................................... nF1 ...................................
+0.11764705882352941
+##########Is a physician assistants above a nurse practitioner?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Is a physician assistants above a nurse practitioner?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Physician assistants and nurse practitioners have different roles and responsibilities, but both are considered advanced practice providers and have similar levels of education and training.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Physician assistants and nurse practitioners have different roles and responsibilities, but both are considered advanced practice providers and have similar levels of education and training.
+................................... ground truth ...................................
+['Physician Assistants are licensed medical professionals who may work independently of the lead physician, while Nurse Practitioners are well trained, but not necessarily licensed caregivers, who must work under the close supervision of the attending doctor.']
+................................... F1 ...................................
+0.2413793103448276
+................................... nF1 ...................................
+0
+##########What is the fastest way to become a nurse practitioner?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What is the fastest way to become a nurse practitioner?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The fastest way to become a nurse practitioner is to complete an accelerated Bachelor of Science in Nursing (BSN) program, which takes about 11-18 months, and then complete a Master of Science in Nursing (MSN) program, which takes an additional 2-3 years.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The fastest way to become a nurse practitioner is to complete an accelerated Bachelor of Science in Nursing (BSN) program, which takes about 11-18 months, and then complete a Master of Science in Nursing (MSN) program, which takes an additional 2-3 years.
+................................... ground truth ...................................
+["Become a Registered Nurse. The first step to a career as a nurse practitioner is earning your credentials as a registered nurse (RN). ...Earn a Bachelor's Degree. ...Gain Experience. ...Earn a Graduate Degree. ...Obtain State License and Certification. ...Pursue Further Specialization."]
+................................... F1 ...................................
+0.16901408450704225
+................................... nF1 ...................................
+0
+##########How much longer does it take to become a doctor after being a nurse practitioner?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: How much longer does it take to become a doctor after being a nurse practitioner?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+It typically takes 4 years of medical school to become a doctor after being a nurse practitioner.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+It typically takes 4 years of medical school to become a doctor after being a nurse practitioner.
+................................... ground truth ...................................
+['Anyone can become a doctor provided they graduate from medical school, pass their state licensing exams and complete the necessary residency. Nurse practitioners are the same as everyone else in this respect.']
+................................... F1 ...................................
+0.22727272727272724
+................................... nF1 ...................................
+0
+##########What are the main breeds of goat?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What are the main breeds of goat?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Some of the main breeds of goat include Alpine, Boer, LaMancha, Nubian, and Saanen.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Some of the main breeds of goat include Alpine, Boer, LaMancha, Nubian, and Saanen.
+................................... ground truth ...................................
+['Abaza...Zhongwei']
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########Tell me about boer goats##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Tell me about boer goats
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Boer goats are a breed of domestic goat developed in South Africa in the early 1900s for meat production.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Boer goats are a breed of domestic goat developed in South Africa in the early 1900s for meat production.
+................................... ground truth ...................................
+['The Boer goat is a breed of goat that was developed in South Africa in the early 1900s for meat production. Their name is derived from the Afrikaans (Dutch) word boer, meaning farmer.']
+................................... F1 ...................................
+0.608695652173913
+................................... nF1 ...................................
+0.6428571428571428
+##########What breed of goats is good for meat##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What breed of goats is good for meat
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Boer goats are a popular breed for meat production.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Boer goats are a popular breed for meat production.
+................................... ground truth ...................................
+['Before Boer goats became available in the United States in the late 1980s, Spanish goats were the standard meat goat breed, especially in the South. These goats are descendants of the goats brought by Spanish explorers, making their way to the United States via Mexico.']
+................................... F1 ...................................
+0.21276595744680848
+................................... nF1 ...................................
+0
+##########Are angora goats good for meat?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Are angora goats good for meat?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Angora goats are primarily raised for their mohair fiber, not for meat.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Angora goats are primarily raised for their mohair fiber, not for meat.
+................................... ground truth ...................................
+['Surplus or cull Angora and cashmere goats are also used for meat, although a good fiber-producing goat is generally a poor meat goat and vice versa.']
+................................... F1 ...................................
+0.2777777777777778
+................................... nF1 ...................................
+0.11764705882352941
+##########Are boer goats good for meat?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Are boer goats good for meat?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, Boer goats are a popular breed for meat production due to their fast growth rate and high meat yield.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Boer goats are a popular breed for meat production due to their fast growth rate and high meat yield.
+................................... ground truth ...................................
+['Boer goats were bred in South Africa for meat and selected for their superior body shape, high growth rate, and fertility.']
+................................... F1 ...................................
+0.45
+................................... nF1 ...................................
+0.35294117647058826
+##########What are pygmy goats used for?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What are pygmy goats used for?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Pygmy goats are often kept as pets or used for milk production.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Pygmy goats are often kept as pets or used for milk production.
+................................... ground truth ...................................
+['While Pygmy goats are most commonly kept as pets or used as meat goats, they can also be used for milk production. Pygmy goats can produce, on average, between one to two quarts of 4.5% to 11% butterfat milk.']
+................................... F1 ...................................
+0.4313725490196078
+................................... nF1 ...................................
+0.4
+##########What is the best goat for fiber production?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: What is the best goat for fiber production?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Angora goat is the best breed for fiber production, known for its luxurious mohair.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Angora goat is the best breed for fiber production, known for its luxurious mohair.
+................................... ground truth ...................................
+['Mohair goats are the most productive fiber producing animals.']
+................................... F1 ...................................
+0.1904761904761905
+................................... nF1 ...................................
+0.4000000000000001
+##########How long do Angora goats live?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: How long do Angora goats live?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Angora goats can live up to 12-14 years.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Angora goats can live up to 12-14 years.
+................................... ground truth ...................................
+['In our flock, it is not uncommon for our girls to go 9-11 years- undoubtedly we could push them longer, but they do not stay unless they can put kids on the ground.']
+................................... F1 ...................................
+0.15
+................................... nF1 ...................................
+0.1111111111111111
+##########Can you milk Angora goats?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Can you milk Angora goats?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, Angora goats can be milked for their high-quality mohair fiber.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Angora goats can be milked for their high-quality mohair fiber.
+................................... ground truth ...................................
+['Angora mothers have been known to not produce enough milk if they give birth to more than 1.']
+................................... F1 ...................................
+0.06896551724137931
+................................... nF1 ...................................
+0
+##########How many goats can you have per acre?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: How many goats can you have per acre?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The number of goats per acre depends on various factors such as the quality of the land, the breed of the goats, and the purpose of raising them. It is recommended to consult with a local agricultural extension agent for specific recommendations.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The number of goats per acre depends on various factors such as the quality of the land, the breed of the goats, and the purpose of raising them. It is recommended to consult with a local agricultural extension agent for specific recommendations.
+................................... ground truth ...................................
+['Poor ground may support 2-4 goats per acre while better pasture may be able to support 6-8 goats per acre.']
+................................... F1 ...................................
+0.18181818181818182
+................................... nF1 ...................................
+0.12903225806451615
+##########Are goats profitable?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What the topic of Sam Harris' thesis in his first book The end of faith?
+Answer: The End of Faith is a 2004 book by Sam Harris, concerning organized religion, the clash between religious faith and rational thought, and the problem of intolerance regarding religious fundamentalism.
+
+Question: Who wrote REO Speedwagon's hit song?
+Answer: Keep On Loving You is a soft rock power ballad written by Kevin Cronin
+
+Question: How many Grammy's has Ringo Starr won?
+Answer: The Beatles have received fourteen competitive awards out of 28 nominations.
+
+Question: when was fema created
+Answer: FEMA was established under the 1978 Reorganization Plan No. 3 and was activated by President Jimmy Carter in an Executive Order on April 1, 1979.
+
+Question: Where was Jan van Eyck a court painter at?
+Answer: Jan Van Eyck served as official to John of Bavaria-Straubing, ruler of Holland, Hainault and Zeeland.
+
+Question: Are there any interesting aspects about Rufus Thomas and his career?
+Answer: Rufus Thomas was inducted into the Blues Hall of Fame in 2001.
+
+Question: What kind of material did 64 Spoons record?
+Answer: Between 1976 and 1980, 64 Spoons wrote and performed a blend of pop, progressive rock, jazz, and comedy.
+
+Question: Are goats profitable?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, goats can be profitable for their milk, meat, and fiber.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, goats can be profitable for their milk, meat, and fiber.
+................................... ground truth ...................................

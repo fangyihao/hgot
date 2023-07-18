@@ -1,0 +1,1505 @@
+##########Which has more species, Clianthus or Callicoma?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Which has more species, Clianthus or Callicoma?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Callicoma
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Callicoma
+................................... ground truth ...................................
+['Clianthus']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Which  Australian singer-songwriter wrote  Cold Hard Bitch##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Which Australian singer-songwriter wrote Cold Hard Bitch
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Chris Cheney (of The Living End)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Chris Cheney (of The Living End)
+................................... ground truth ...................................
+['Nicholas John "Nic" Cester']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What empire was Aleksei Gen born into?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What empire was Aleksei Gen born into?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Soviet Union
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Soviet Union
+................................... ground truth ...................................
+['Russian Empire']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Which partner of Jash was born in 1970?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Which partner of Jash was born in 1970?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+unknown, more information needed
+=================================== ANSWER ===================================
+................................... prediction ...................................
+unknown, more information needed
+................................... ground truth ...................................
+['Sarah Kate Silverman']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What 1876 battle featured the Other Magpie?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What 1876 battle featured the Other Magpie?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Battle of the Little Bighorn
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Battle of the Little Bighorn
+................................... ground truth ...................................
+['Battle of the Rosebud']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5714285714285715
+##########Willi Forst and Brian Robbins are both what?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Willi Forst and Brian Robbins are both what?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+film directors
+=================================== ANSWER ===================================
+................................... prediction ...................................
+film directors
+................................... ground truth ...................................
+['actor, screenwriter, film director, film producer']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.25
+##########Where are Abbey Clancy and Peter Crouch from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Where are Abbey Clancy and Peter Crouch from?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+England
+=================================== ANSWER ===================================
+................................... prediction ...................................
+England
+................................... ground truth ...................................
+['England']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are both Trace Cyrus and Jizzy Pearl vocalists?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are both Trace Cyrus and Jizzy Pearl vocalists?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+yes
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are  Chrysalis and Look both women's magazines?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are Chrysalis and Look both women's magazines?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+no
+=================================== ANSWER ===================================
+................................... prediction ...................................
+no
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Was Kanako Momota or Mark Hollis born first?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Was Kanako Momota or Mark Hollis born first?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mark Hollis
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Mark Hollis
+................................... ground truth ...................................
+['Mark David Hollis']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.8
+##########Are Tweedia and Crossandra in separate families?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are Tweedia and Crossandra in separate families?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+yes
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Zach Parise's father played in which league?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Zach Parise's father played in which league?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+NHL
+=================================== ANSWER ===================================
+................................... prediction ...................................
+NHL
+................................... ground truth ...................................
+['NHL']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are both Aloinopsis and Eriogonum ice plants?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are both Aloinopsis and Eriogonum ice plants?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+no
+=================================== ANSWER ===================================
+................................... prediction ...................................
+no
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########who released the 2012 record of red?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: who released the 2012 record of red?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Taylor Swift
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Taylor Swift
+................................... ground truth ...................................
+['Big Machine Records']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Romans stars which Tamil and Telugu actress?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Romans stars which Tamil and Telugu actress?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Shruti Haasan
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Shruti Haasan
+................................... ground truth ...................................
+['Nivetha Thomas']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Which PGA championship did Mark Brooks win?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Which PGA championship did Mark Brooks win?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1996
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1996
+................................... ground truth ...................................
+['The 1996 PGA Championship']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########What county is Ron Teachworth from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What county is Ron Teachworth from?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, as there are multiple people with that name and no specific context provided.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, as there are multiple people with that name and no specific context provided.
+................................... ground truth ...................................
+['Oakland County']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are Daryl Hall and Gerry Marsden both musicians?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are Daryl Hall and Gerry Marsden both musicians?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+yes
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Grimsby Minster is located in which English Province?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Grimsby Minster is located in which English Province?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Lincolnshire
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Lincolnshire
+................................... ground truth ...................................
+['Province of Canterbury']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Is Rice University or Stanford University further west?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Is Rice University or Stanford University further west?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Stanford University
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Stanford University
+................................... ground truth ...................................
+['Stanford University']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are George Stevens and Luc Besson American cinematographers?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are George Stevens and Luc Besson American cinematographers?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+George Stevens was American, Luc Besson is French.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+George Stevens was American, Luc Besson is French.
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########what country are Mudvayne and Hellyeah both from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: what country are Mudvayne and Hellyeah both from?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+United States
+=================================== ANSWER ===================================
+................................... prediction ...................................
+United States
+................................... ground truth ...................................
+['American']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are both Viken Babikian and Don Manoukian American ?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are both Viken Babikian and Don Manoukian American ?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+yes
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What continents are the Moneuptychia found in?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What continents are the Moneuptychia found in?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+North and South America
+=================================== ANSWER ===================================
+................................... prediction ...................................
+North and South America
+................................... ground truth ...................................
+['the Americas']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are both Götterdämmerung and Dafne considered operas?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Are both Götterdämmerung and Dafne considered operas?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Only Götterdämmerung is considered an opera. Dafne is considered a "musical drama."
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Only Götterdämmerung is considered an opera. Dafne is considered a "musical drama."
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What occupations do Toshi and Emily Haines share?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What occupations do Toshi and Emily Haines share?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Musicians
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Musicians
+................................... ground truth ...................................
+['singer and songwriter']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is another name for basidiomycete fungus?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What is another name for basidiomycete fungus?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Club fungus
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Club fungus
+................................... ground truth ...................................
+['Funki Porcini']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Where is the first major improved highway located?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: Where is the first major improved highway located?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Rome, Italy
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Rome, Italy
+................................... ground truth ...................................
+['Wheeling, West Virginia']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########When was the creator of Bully Boy born?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: When was the creator of Bully Boy born?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown (information not provided)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown (information not provided)
+................................... ground truth ...................................
+['3 May 1958']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What are The Ready Set and Cell?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+Question: What are The Ready Set and Cell?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Musical artists/bands
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Musical artists/bands
+................................... ground truth ...................................
+['band']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+################################### RESULT ###################################
+................................... EM ...................................
+0.26666666666666666
+................................... F1 ...................................
+0.33738095238095234

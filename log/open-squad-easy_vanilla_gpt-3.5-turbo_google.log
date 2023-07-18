@@ -1,0 +1,2105 @@
+##########Who killed Harold II? ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who killed Harold II?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Harold II was killed by an arrow to the eye during the Battle of Hastings.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Harold II was killed by an arrow to the eye during the Battle of Hastings.
+................................... ground truth ...................................
+['William II', 'Duke William II', 'Duke William II']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.14285714285714285
+##########What is a typical configuration##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is a typical configuration
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+It depends on the context and subject matter. Please provide more information.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+It depends on the context and subject matter. Please provide more information.
+................................... ground truth ...................................
+['A typical configuration is to run IP over ATM or a version of MPLS', 'run IP over ATM or a version of MPLS', 'run IP over ATM or a version of MPLS']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is septicemia? ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is septicemia?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a serious bloodstream infection
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a serious bloodstream infection
+................................... ground truth ...................................
+['(a type of "blood poisoning"', 'a type of "blood poisoning"', 'a type of "blood poisoning"']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Who were otachi?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who were otachi?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a kaiju in the movie Pacific Rim
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a kaiju in the movie Pacific Rim
+................................... ground truth ...................................
+['non-Mongol physicians', 'non-Mongol physicians', 'non-Mongol physicians']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Who captured Fort Beausejour?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who captured Fort Beausejour?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+British forces under Colonel Robert Monckton.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+British forces under Colonel Robert Monckton.
+................................... ground truth ...................................
+['Colonel Monckton', 'Colonel Monckton', 'Colonel Monckton', 'Colonel Monckton', 'British']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########what does vBNS stand for ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: what does vBNS stand for
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Very high-speed Backbone Network Service
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Very high-speed Backbone Network Service
+................................... ground truth ...................................
+['The Very high-speed Backbone Network Service', 'Very high-speed Backbone Network Service', 'Very high-speed Backbone Network Service']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Who founded Woodward Park?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who founded Woodward Park?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+William Woodward Sr.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+William Woodward Sr.
+................................... ground truth ...................................
+['Ralph Woodward', 'Ralph Woodward', 'Ralph Woodward']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.4
+##########How are AUSTPAC connections made ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: How are AUSTPAC connections made
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+via undersea cables
+=================================== ANSWER ===================================
+................................... prediction ...................................
+via undersea cables
+................................... ground truth ...................................
+['Access can be via a dial-up terminal to a PAD, or, by linking a permanent X.25 node to the network', 'dial-up terminal to a PAD, or, by linking a permanent X.25 node', 'dial-up terminal']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.10526315789473684
+##########How can pyrenoids replicate?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: How can pyrenoids replicate?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Pyrenoids cannot replicate as they are not living structures, but rather organelles found in certain algae and cyanobacteria.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Pyrenoids cannot replicate as they are not living structures, but rather organelles found in certain algae and cyanobacteria.
+................................... ground truth ...................................
+['divide to form new pyrenoids, or be produced "de novo"', 'divide', 'divide to form new pyrenoids, or be produced "de novo"']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.07142857142857142
+##########What color is phycoerytherin?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What color is phycoerytherin?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+red
+=================================== ANSWER ===================================
+................................... prediction ...................................
+red
+................................... ground truth ...................................
+['red', 'red', 'red']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What does  mnemiopsis eat?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What does mnemiopsis eat?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+zooplankton
+=================================== ANSWER ===================================
+................................... prediction ...................................
+zooplankton
+................................... ground truth ...................................
+['fish larvae and organisms', 'fish larvae and organisms that would otherwise have fed the fish', 'fish larvae and organisms that would otherwise have fed the fish']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Who commissioned the Tapestry?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who commissioned the Tapestry?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+William the Conqueror
+=================================== ANSWER ===================================
+................................... prediction ...................................
+William the Conqueror
+................................... ground truth ...................................
+['Odo', 'Odo', 'Odo']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What does Untersee mean?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What does Untersee mean?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Undersea
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Undersea
+................................... ground truth ...................................
+['lower lake', 'lower lake', '"lower lake"', 'lower lake']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Why did he walk?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Why did he walk?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, more context needed.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, more context needed.
+................................... ground truth ...................................
+['exercise', 'For exercise', 'exercise']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What follows secondary education?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What follows secondary education?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+post-secondary education
+=================================== ANSWER ===================================
+................................... prediction ...................................
+post-secondary education
+................................... ground truth ...................................
+['tertiary education', 'tertiary education', 'tertiary education']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########Where is D'Olier Street?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Where is D'Olier Street?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Dublin, Ireland
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Dublin, Ireland
+................................... ground truth ...................................
+['Dublin', 'Dublin', 'Dublin']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########What shape are Plastoglobuli?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What shape are Plastoglobuli?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+spherical
+=================================== ANSWER ===================================
+................................... prediction ...................................
+spherical
+................................... ground truth ...................................
+['spherical bubbles', 'spherical', 'spherical']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What is a connection identifier ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is a connection identifier
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a unique identifier for a network connection
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a unique identifier for a network connection
+................................... ground truth ...................................
+['a connection identifier rather than address information and are negotiated between endpoints so that they are delivered in order and with error checking', 'negotiated between endpoints']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.14814814814814814
+##########When was Zia-ul-Haq killed?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: When was Zia-ul-Haq killed?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+August 17, 1988
+=================================== ANSWER ===================================
+................................... prediction ...................................
+August 17, 1988
+................................... ground truth ...................................
+['1988', '1988', '1988']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########Telnet Used what  Interface technology##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Telnet Used what Interface technology
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+command-line interface (CLI)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+command-line interface (CLI)
+................................... ground truth ...................................
+['host interface to X.25 and the terminal interface to X.29', 'X.25', 'ARPANET']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.16666666666666666
+##########What completed the triad ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What completed the triad
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The triad is not specified, please provide more information.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The triad is not specified, please provide more information.
+................................... ground truth ...................................
+['an interactive host to host connection was made between the IBM mainframe computer systems at the University of Michigan in Ann Arbor and Wayne State', 'the CDC mainframe at Michigan State University in East Lansing', '1972 connections']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is the IEEE?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is the IEEE?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Institute of Electrical and Electronics Engineers, a professional association for engineers in various fields.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Institute of Electrical and Electronics Engineers, a professional association for engineers in various fields.
+................................... ground truth ...................................
+['American Institute of Electrical Engineers', 'the American Institute of Electrical Engineers', 'American Institute of Electrical Engineers']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.4444444444444444
+##########What did Donald Davies Develop##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What did Donald Davies Develop
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+packet switching technology
+=================================== ANSWER ===================================
+................................... prediction ...................................
+packet switching technology
+................................... ground truth ...................................
+['independently developed the same message routing methodology as developed by Baran', 'the same message routing methodology as developed by Baran', 'message routing methodology']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########When did Temur rule?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: When did Temur rule?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1370-1405 AD
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1370-1405 AD
+................................... ground truth ...................................
+['1294 to 1307', '1294 to 1307', 'from 1294 to 1307']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Where is Kenya located?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Where is Kenya located?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+East Africa
+=================================== ANSWER ===================================
+................................... prediction ...................................
+East Africa
+................................... ground truth ...................................
+['in Africa', 'Africa']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+##########What did Mongols worship?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What did Mongols worship?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a variety of gods and spirits, including Tengri (the sky god) and ancestors
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a variety of gods and spirits, including Tengri (the sky god) and ancestors
+................................... ground truth ...................................
+['the Eternal Heaven', 'Eternal Heaven', 'the Eternal Heaven']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is an etioplast?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is an etioplast?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a plastid in a state of development before exposure to light
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a plastid in a state of development before exposure to light
+................................... ground truth ...................................
+['a plastid that lacks chlorophyll', 'plastid that lacks chlorophyll', 'plastid that lacks chlorophyll']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.15384615384615383
+##########How do platyctenids reproduce?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: How do platyctenids reproduce?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+asexually by budding
+=================================== ANSWER ===================================
+................................... prediction ...................................
+asexually by budding
+................................... ground truth ...................................
+['internal fertilization and keep the eggs in brood chambers until they hatch.', 'internal fertilization', 'internal fertilization']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What protects the statocyst?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What protects the statocyst?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a fluid-filled capsule or chamber
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a fluid-filled capsule or chamber
+................................... ground truth ...................................
+['a transparent dome made of long, immobile cilia', 'a transparent dome made of long, immobile cilia', 'transparent dome made of long, immobile cilia']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Who developed DATAPAC##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: Who developed DATAPAC
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+IBM
+=================================== ANSWER ===================================
+................................... prediction ...................................
+IBM
+................................... ground truth ...................................
+['DATAPAC was developed by Bell Northern Research', 'Bell Northern Research', 'Bell Northern Research']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is Christian Perfection?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is Christian Perfection?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the belief in achieving complete spiritual maturity and purity in Christianity
+=================================== ANSWER ===================================
+................................... prediction ...................................
+the belief in achieving complete spiritual maturity and purity in Christianity
+................................... ground truth ...................................
+['a genuine love of God with heart, soul, mind, and strength, and a genuine love of our neighbors as ourselves', 'leading a Spirit-filled and Christ-like life aimed toward love', 'a genuine love of God with heart, soul, mind']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.11111111111111112
+##########What did Paul Baran develop ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What did Paul Baran develop
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+packet switching
+=================================== ANSWER ===================================
+................................... prediction ...................................
+packet switching
+................................... ground truth ...................................
+['Paul Baran developed the concept Distributed Adaptive Message Block Switching', 'the concept Distributed Adaptive Message Block Switching', 'Distributed Adaptive Message Block Switching']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.28571428571428575
+##########What happened to Dane?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What happened to Dane?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, more context needed.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, more context needed.
+................................... ground truth ...................................
+['killed in a horse-riding accident', 'killed in a horse-riding accident', 'killed in a horse-riding accident']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What does ATP mean?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What does ATP mean?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+adenosine triphosphate
+=================================== ANSWER ===================================
+................................... prediction ...................................
+adenosine triphosphate
+................................... ground truth ...................................
+['adenosine triphosphate', 'adenosine triphosphate', 'adenosine triphosphate']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What are muroplasts?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What are muroplasts?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+cell wall precursors in bacteria
+=================================== ANSWER ===================================
+................................... prediction ...................................
+cell wall precursors in bacteria
+................................... ground truth ...................................
+['glaucophyte chloroplasts', 'glaucophyte chloroplasts', 'glaucophyte chloroplasts']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What did vBNS do ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What did vBNS do
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+vBNS (very high-speed Backbone Network Service) was a high-speed internet backbone network developed by the National Science Foundation in the United States.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+vBNS (very high-speed Backbone Network Service) was a high-speed internet backbone network developed by the National Science Foundation in the United States.
+................................... ground truth ...................................
+['provide high-speed interconnection between NSF-sponsored supercomputing centers and select access points in the United States', 'provide high-speed interconnection between NSF-sponsored supercomputing centers and select access points in the United States', 'high-speed interconnection']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.24242424242424243
+##########What is Plasmodium?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What is Plasmodium?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+a genus of parasitic protozoa that causes malaria in humans and other animals
+=================================== ANSWER ===================================
+................................... prediction ...................................
+a genus of parasitic protozoa that causes malaria in humans and other animals
+................................... ground truth ...................................
+['the malaria parasite', 'apicomplexans', 'malaria parasite']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.14285714285714285
+##########What did NSFNET promote##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What did NSFNET promote
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Internet access and research collaboration
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Internet access and research collaboration
+................................... ground truth ...................................
+['advanced research and education networking in the United States', 'advanced research and education networking', 'advanced research and education networking']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.4000000000000001
+##########How are packets normally forwarded##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: How are packets normally forwarded
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+through routers
+=================================== ANSWER ===================================
+................................... prediction ...................................
+through routers
+................................... ground truth ...................................
+['asynchronously using first-in, first-out buffering, but may be forwarded according to some scheduling discipline for fair queuing', 'asynchronously using first-in, first-out buffering', 'intermediate network nodes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What do carotenoids absorb?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: What do carotenoids absorb?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+light energy
+=================================== ANSWER ===================================
+................................... prediction ...................................
+light energy
+................................... ground truth ...................................
+['light energy', 'light energy', 'light energy']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########When did Zhenjin die?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: When did Zhenjin die?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Unknown, as there are multiple historical figures with the name Zhenjin.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown, as there are multiple historical figures with the name Zhenjin.
+................................... ground truth ...................................
+['before Kublai in 1285', '1285', '1285']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########When was Qutb executed?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: How are allopatric populations separated?
+Answer: geographically
+
+Question: How is COPD differentiated?
+Answer: by increased airway neutrophils, abnormally increased wall thickness, and increased smooth muscle in the bronchi
+
+Question: Who designed the Famicom system?
+Answer: Masayuki Uemura
+
+Question: Where were Swallows seen flying?
+Answer: between the islands of Minorca and Majorca
+
+Question: is the Fa cup sponsered?
+Answer: Since the start of the 1994–95 season, the FA Cup has been sponsored.
+
+Question: When are the transfer windows?
+Answer: The two transfer windows run from the last day of the season to 31 August and from 31 December to 31 January.
+
+Question: Who owns The Daily Northwestern?
+Answer: the Students Publishing Company
+
+Question: When was Qutb executed?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+August 29, 1966
+=================================== ANSWER ===================================
+................................... prediction ...................................
+August 29, 1966
+................................... ground truth ...................................
+['1966', '1966', '1966']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+################################### RESULT ###################################
+................................... EM ...................................
+0.11904761904761904
+................................... F1 ...................................
+0.2654308190649043

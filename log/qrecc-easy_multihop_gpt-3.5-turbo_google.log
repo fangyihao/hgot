@@ -1,0 +1,3391 @@
+##########What are tofus origins?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What are tofus origins?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+where tofu was first created.
+Search Query: Where was tofu first created?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «China | China, Tofu originated in China. It is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C. During the 1960s, the Japanese Food Research Institute recommended modernizing and standardizing tofu production throughout Japan., China»
+[2] «Tofu | Tofu making was first recorded during the Chinese Han dynasty about 2000 years ago. Chinese legend ascribes its invention to Prince Liu An (179–122 BC) of Anhui ...»
+
+Question: What are tofus origins?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Tofu originated in China during the Han Dynasty, and it is thought to have been developed by Prince Liu An. The Japanese Food Research Institute recommended modernizing and standardizing tofu production throughout Japan in the 1960s.
+
+Search Query: What is the history of tofu?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «China | China, Tofu originated in China. It is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C. During the 1960s, the Japanese Food Research Institute recommended modernizing and standardizing tofu production throughout Japan., China»
+[2] «Tofu | Tofu making was first recorded during the Chinese Han dynasty about 2000 years ago. Chinese legend ascribes its invention to Prince Liu An (179–122 BC) of Anhui ...»
+[3] «How Tofu Is Processed - IFT.org | It is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C. During the 1960s, the Japanese Food …Feb 1, 2016, It is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C.»
+[4] «Tofu | Another theory suggests that the production method for tofu was discovered accidentally when a slurry of boiled, ground soybeans was mixed with impure sea salt.»
+
+Question: What are tofus origins?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Tofu is a popular food item, but where did it come from? According to sources [1], [2], and [3], tofu is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C. Another theory suggests that the production method for tofu was discovered accidentally when a slurry of boiled, ground soybeans was mixed with impure sea salt [4].
+
+Answer: Tofu originated in China, and is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Tofu originated in China, and is thought to have been developed first by Liu An, a Han Dynasty prince who lived during the second century B.C.
+................................... ground truth ...................................
+['Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.']
+................................... F1 ...................................
+0.21818181818181817
+................................... nF1 ...................................
+0.125
+##########what category storm was dora##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what category storm was dora
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what the Saffir-Simpson Hurricane Wind Scale is and how it categorizes storms.
+Search Query: What is the Saffir-Simpson Hurricane Wind Scale and how does it categorize storms?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Saffir-Simpson Hurricane Wind Scale | The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based only on a hurricane's maximum sustained wind speed. This scale does not take into account other potentially deadly hazards such as storm surge, rainfall flooding, and tornadoes. The Saffir-Simpson Hurricane Wind Scale estimates potential property damage., a 1 to 5 rating based only on a hurricane's maximum sustained wind speed»
+[2] «Saffir-Simpson Hurricane Scale | The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on a hurricane's sustained wind speed. This scale estimates potential property damage.»
+
+Question: what category storm was dora
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that the Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on a hurricane's maximum sustained wind speed, and that it estimates potential property damage. We also know that Dora is a storm, but we don't know what category it falls under.
+
+Search Query: What category was Hurricane Dora on the Saffir-Simpson Hurricane Wind Scale?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Saffir-Simpson Hurricane Wind Scale | The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based only on a hurricane's maximum sustained wind speed. This scale does not take into account other potentially deadly hazards such as storm surge, rainfall flooding, and tornadoes. The Saffir-Simpson Hurricane Wind Scale estimates potential property damage., a 1 to 5 rating based only on a hurricane's maximum sustained wind speed»
+[2] «Saffir-Simpson Hurricane Scale | The Saffir-Simpson Hurricane Wind Scale is a 1 to 5 rating based on a hurricane's sustained wind speed. This scale estimates potential property damage.»
+[3] «category 2 hurricane | category 2 hurricane, Dora was a category 2 hurricane (on the Saffir-Simpson Hurricane Wind Scale) that moved parallel to the southwestern coast of Mexico., category 2»
+[4] «Hurricane Dora | Increasing in size and strength, Dora attained winds of 100 mph (160 km/h) early on September 3, the equivalent of a Category 2 on the modern-day Saffir–Simpson ...»
+
+Question: what category storm was dora
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Dora was a hurricane that hit Mexico. The Saffir-Simpson Hurricane Wind Scale is used to rate hurricanes based on their maximum sustained wind speed. Category 2 hurricanes have sustained winds between 96-110 mph. 
+
+Answer: Category 2.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Category 2.
+................................... ground truth ...................................
+['Hurricane Dora was a Category 4 Hurricane.']
+................................... F1 ...................................
+0.25
+................................... nF1 ...................................
+0.5
+##########when was peru liberated##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: when was peru liberated
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the date of Peru's independence.
+Search Query: What is the date of Peru's independence?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Peru/Date of Independence | July 28, 1821, When the viceroy withdrew his forces into the interior, San Martín entered Lima. Peruvian independence was declared on July 28, 1821.»
+[2] «PERU INDEPENDENCE DAY - July 28, 2023 | This holiday is always celebrated on July 28 and marks the declaration of independence from Spain in 1821. People in Peru celebrate the day by listening to the ...»
+
+Question: when was peru liberated
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Peruvian independence was declared on July 28, 1821. Peru celebrates its independence day on July 28. However, we still need to know the exact date when Peru was liberated from Spain.
+
+Search Query: What was the date of Peru's liberation from Spain?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Peru/Date of Independence | July 28, 1821, When the viceroy withdrew his forces into the interior, San Martín entered Lima. Peruvian independence was declared on July 28, 1821.»
+[2] «PERU INDEPENDENCE DAY - July 28, 2023 | This holiday is always celebrated on July 28 and marks the declaration of independence from Spain in 1821. People in Peru celebrate the day by listening to the ...»
+[3] «28 July 1821 | 28 July 1821, José de San Martín and his forces liberated Peru and proclaimed its independence from Spain on 28 July 1821. The two leading figures of the South American wars of independence were Simon Bolivar in the north and José de San Martín in the south., 28 July 1821»
+[4] «Peru - Independence Struggles, Argentine Control, and ... | Peruvian independence was declared on July 28, 1821. Lacking power to attack the strong Spanish forces in the interior, San Martín sought aid from Simón Bolívar ...»
+
+Question: when was peru liberated
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: Peru was liberated from whom? Spain.
+Step 2: Who led the liberation? José de San Martín.
+Step 3: When did the liberation happen? July 28, 1821.
+
+Answer: July 28, 1821.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+July 28, 1821.
+................................... ground truth ...................................
+['José de San Martín and his forces liberated Peru and proclaimed its independence from Spain on 28 July 1821']
+................................... F1 ...................................
+0.2727272727272727
+................................... nF1 ...................................
+0.2857142857142857
+##########how old is gaelic football##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: how old is gaelic football
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+when gaelic football was first played.
+Search Query: When was gaelic football first played?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Gaelic football | The first game of Gaelic football under GAA rules (developed by Maurice Davin) was played near Callan, Co Kilkenny in February 1885. From 1886 the GAA banned ...»
+[2] «Gaelic Football - USGAA | Gaelic football was first codified in 1887, although it has purported links to older varieties of football played in Ireland. A rough-and tumble form of ...»
+
+Question: how old is gaelic football
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Gaelic football was first played under GAA rules in February 1885 and was codified in 1887. 
+
+Search Query: When was Gaelic football first played under GAA rules?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Gaelic football | The first game of Gaelic football under GAA rules (developed by Maurice Davin) was played near Callan, Co Kilkenny in February 1885. From 1886 the GAA banned ...»
+[2] «Gaelic Football - USGAA | Gaelic football was first codified in 1887, although it has purported links to older varieties of football played in Ireland. A rough-and tumble form of ...»
+[3] «Gaelic Football - USGAA | The History. Gaelic football was first codified in 1887, although it has purported links to older varieties of football played in Ireland.»
+
+Question: how old is gaelic football
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Gaelic football was first codified in 1887, but it has purported links to older varieties of football played in Ireland. Therefore, the age of Gaelic football can be traced back to before 1887.
+
+Answer: Gaelic football is over 130 years old.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Gaelic football is over 130 years old.
+................................... ground truth ...................................
+['While Gaelic football as it is known today dates back to the late 19th century, various kinds of football were played in Ireland before this time.']
+................................... F1 ...................................
+0.1875
+................................... nF1 ...................................
+0
+##########Was Revival successful?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Was Revival successful?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what metrics were used to measure the success of Revival.
+Search Query: What were the sales figures for Revival?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Revival (Eminem album) - Wikipedia | Revival is Eminem's eighth consecutive album to top the US Billboard 200, debuting with 267,000 album-equivalent units, 197,000 being traditional album sales., 267,000 album-equivalent units»
+[2] «REVIVAL Revenue: Annual, Quarterly, and Historic | REVIVAL revenue is $1.6M annually. After extensive research and analysis, Zippia's data science team found the following key financial ...»
+
+Question: Was Revival successful?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Revival is Eminem's eighth consecutive album to top the US Billboard 200, debuting with 267,000 album-equivalent units, 197,000 being traditional album sales. Additionally, REVIVAL revenue is $1.6M annually.
+
+Search Query: What is the average revenue for a successful album?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Revival (Eminem album) - Wikipedia | Revival is Eminem's eighth consecutive album to top the US Billboard 200, debuting with 267,000 album-equivalent units, 197,000 being traditional album sales., 267,000 album-equivalent units»
+[2] «REVIVAL Revenue: Annual, Quarterly, and Historic | REVIVAL revenue is $1.6M annually. After extensive research and analysis, Zippia's data science team found the following key financial ...»
+[3] «How much money does the average album make? | With a classic major label deal, the artist usally gets between 5% and 35% of revenue, but only after the label has recouped all their costs (which the majority ...»
+[4] «Record label profitability: Top 7 FAQs | Typically, record labels can make a profit margin of around 10-20% after deducting all expenses, including artist royalties, marketing expenses, ...»
+
+Question: Was Revival successful?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: Check if Revival topped the US Billboard 200. 
+Step 2: Check the album's sales figures. 
+Step 3: Check the album's revenue. 
+Step 4: Check the average revenue for an album. 
+Step 5: Check the typical profit margin for record labels.
+
+Answer: Yes, Revival was successful, as it topped the US Billboard 200 and had traditional album sales of 197,000. Its annual revenue is $1.6M, which is within the range of average album revenue. The profit margin for record labels is typically around 10-20%, so it is likely that the album was profitable for Eminem's label.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Revival was successful, as it topped the US Billboard 200 and had traditional album sales of 197,000. Its annual revenue is $1.6M, which is within the range of average album revenue. The profit margin for record labels is typically around 10-20%, so it is likely that the album was profitable for Eminem's label.
+................................... ground truth ...................................
+["Revival entered the UK Albums Chart with 132,000 album-equivalent units, becoming the year's second largest opening behind Sheeran's ÷ and giving the rapper his eighth consecutive number-one album."]
+................................... F1 ...................................
+0.08
+................................... nF1 ...................................
+0
+##########what does the glycocalyx do##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what does the glycocalyx do
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what the glycocalyx is.
+Search Query: What is the glycocalyx?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Glycocalyx - an overview | ScienceDirect Topics | The glycocalyx is a thin layer of negatively charged (anionic) material 60–90 nm thick107 that coats the luminal surface of vascular endothelia82,107 and the ...»
+[2] «Glycocalyx - Definition and Examples | The glycocalyx act as a shield or gatekeeper that protects the cells from inflammatory stimuli, cytokines, reactive oxygen species, and enzymes ...»
+
+Question: what does the glycocalyx do
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The glycocalyx is a thin layer of negatively charged material that coats the luminal surface of vascular endothelia and acts as a shield or gatekeeper that protects cells from inflammatory stimuli, cytokines, reactive oxygen species, and enzymes.
+
+Search Query: What are the functions of the glycocalyx?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Glycocalyx - an overview | ScienceDirect Topics | The glycocalyx is a thin layer of negatively charged (anionic) material 60–90 nm thick107 that coats the luminal surface of vascular endothelia82,107 and the ...»
+[2] «Glycocalyx - Definition and Examples | The glycocalyx act as a shield or gatekeeper that protects the cells from inflammatory stimuli, cytokines, reactive oxygen species, and enzymes ...»
+[3] «The Structure and Function of the Glycocalyx and Its ... - NCBI | … role in many important physiological functions, including vascular permeability, inflammation, blood coagulation, and the synthesis of nitric oxideOct 7, 2021, vascular permeability, inflammation, blood coagulation, and the synthesis of nitric oxide»
+[4] «The Structure and Function of the Glycocalyx and Its ... | The glycocalyx in the BBB plays an indispensable role in many important physiological functions, including vascular permeability, inflammation, ...»
+
+Question: what does the glycocalyx do
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The sources mention that the glycocalyx is a layer that coats the surface of cells, particularly vascular endothelia. It acts as a shield or gatekeeper that protects cells from various stimuli and plays a role in important physiological functions such as vascular permeability, inflammation, blood coagulation, and the synthesis of nitric oxide.
+
+Answer: The glycocalyx acts as a shield or gatekeeper that protects cells from various stimuli and plays a role in important physiological functions such as vascular permeability, inflammation, blood coagulation, and the synthesis of nitric oxide.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The glycocalyx acts as a shield or gatekeeper that protects cells from various stimuli and plays a role in important physiological functions such as vascular permeability, inflammation, blood coagulation, and the synthesis of nitric oxide.
+................................... ground truth ...................................
+['The glycocalyx is a type of identifier that the body uses to distinguish between its own healthy cells and transplanted tissues, diseased cells, or invading organisms.']
+................................... F1 ...................................
+0.2222222222222222
+................................... nF1 ...................................
+0
+##########When was the IPS formed##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: When was the IPS formed
+Rationale: Let's think step by step. To answer this question, we first need to find out
+Backing off 1.0 seconds after 1 tries calling function <function GPT3.request at 0x7f841f5e7d00> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: When was the IPS formed
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the full form of IPS.
+Search Query: What is the full form of IPS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «IPS Full Form - Key Facts, Definition, Origin & Training - Byju's | What is the full form of IPS? The full form of IPS is Indian Police Service., Indian Police Service»
+[2] «Full form of IPS| Salary of an IPS Officer | The Full form of IPS is Indian Police Service, which is one of the three arms of All India Services along with IAS and IFoS. The cadre controlling authority ...»
+
+Question: When was the IPS formed
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context mentions the full form of IPS and provides information about its salary and position in the All India Services. However, it does not explicitly state when the IPS was formed.
+
+Search Query: What is the history of the Indian Police Service?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «IPS Full Form - Key Facts, Definition, Origin & Training - Byju's | What is the full form of IPS? The full form of IPS is Indian Police Service., Indian Police Service»
+[2] «Full form of IPS| Salary of an IPS Officer | The Full form of IPS is Indian Police Service, which is one of the three arms of All India Services along with IAS and IFoS. The cadre controlling authority ...»
+[3] «Encyclopedia of the Great Plains | INDIAN POLICE | Indian police forces first appeared on the Great Plains during the 1830s, when the federal government relocated eastern tribes such as the Cherokees to Indian Territory. Known as the Lighthorse, Cherokee police units performed law enforcement duties similar to their European American counterparts of the period., first appeared on the Great Plains during the 1830s, when the federal government relocated eastern tribes such as the Cherokees to Indian Territory»
+[4] «Indian Police Service | IPS) is a civil service under the All India Services. It replaced the Imperial Police in 1948, a year after India became independent from the British Raj.»
+
+Question: When was the IPS formed
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The IPS is the Indian Police Service. It is a civil service under the All India Services. It replaced the Imperial Police in 1948, a year after India became independent from the British Raj.
+
+Answer: 1948
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1948
+................................... ground truth ...................................
+['The Indian Police Service is formed in 1948, a year later of independence of India.']
+................................... F1 ...................................
+0.14285714285714288
+................................... nF1 ...................................
+0.33333333333333337
+##########how old is beth fowler##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: how old is beth fowler
+Rationale: Let's think step by step. To answer this question, we first need to find out
+Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7f841f5e7d00> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: how old is beth fowler
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who Beth Fowler is and if her age is publicly available.
+Search Query: What is the age of Beth Fowler?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Beth Fowler/Age | 82 years»
+[2] «Beth Fowler | Beth Fowler is an American actress and singer, best known for her performances on Broadway and for her role as Sister Ingalls, on Orange Is the New Black.»
+
+Question: how old is beth fowler
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Beth Fowler is an American actress and singer who is known for her performances on Broadway and for her role as Sister Ingalls on Orange Is the New Black. We also know that her age is mentioned in the context.
+
+Search Query: What is the age of Beth Fowler?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Beth Fowler/Age | 82 years»
+[2] «Beth Fowler | Beth Fowler is an American actress and singer, best known for her performances on Broadway and for her role as Sister Ingalls, on Orange Is the New Black.»
+
+Question: how old is beth fowler
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Beth Fowler's age is given in [1].
+
+Answer: 82 years.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+82 years.
+................................... ground truth ...................................
+['Beth Fowler is 79 years old.']
+................................... F1 ...................................
+0.25
+................................... nF1 ...................................
+0.4
+##########What are mammals?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What are mammals?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what defines a mammal.
+Search Query: What are the characteristics of mammals?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «What is a mammal? - The Australian Museum | Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear, and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull.»
+[2] «12.26: Mammal Characteristics | Characteristics of Mammals. Two characteristics are used to define the mammal class. They are mammary glands and body hair (or fur).»
+
+Question: What are mammals?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear, and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull. Additionally, two characteristics are used to define the mammal class, which are mammary glands and body hair (or fur).
+
+Search Query: What are the three bones in the middle ear of mammals?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «What is a mammal? - The Australian Museum | Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear, and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull.»
+[2] «12.26: Mammal Characteristics | Characteristics of Mammals. Two characteristics are used to define the mammal class. They are mammary glands and body hair (or fur).»
+[3] «Mammalian middle ear mechanics: A review - PMC - NCBI | 2.3 The ossicles and ligaments. Mammals have three middle ear ossicles: the malleus, incus, and stapes (Figure 4)., malleus, incus, and stapes»
+[4] «Ear-splitting discovery rocks mammal identity | Modern mammals are unique among vertebrates for possessing three tiny bones in the middle ear. The malleus, incus and stapes (commonly known ...»
+
+Question: What are mammals?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mammals are a class of animals with specific characteristics. These characteristics include: 
+
+- Having hair or fur
+- Possessing mammary glands used to suckle young with milk
+- Having a diaphragm
+- Having three bones in the middle ear (malleus, incus, and stapes)
+- Having a lower jaw made up of a single pair of bones that articulates in a unique way with the skull.
+
+Answer: Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear (malleus, incus, and stapes), and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear (malleus, incus, and stapes), and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull.
+................................... ground truth ...................................
+['Mammals are vertebrate animals constituting the class Mammalia, and characterized by the presence of mammary glands which in females produce milk for feeding their young, a neocortex, fur or hair, and three middle ear bones.']
+................................... F1 ...................................
+0.4166666666666667
+................................... nF1 ...................................
+0.40816326530612246
+##########was b-rabbit in a relationship##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: was b-rabbit in a relationship
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if b-rabbit is a real person or a fictional character.
+Search Query: Is b-rabbit a real person or a fictional character?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «All The Ways 8 Mile Is Radically Different From Eminem's ... | One major difference between B-Rabbit and Eminem is purely physical. This may seem confusing, since they are functionally the same person, but for his role in 8 ...»
+[2] «Is 8 Mile Based on a True Story? The plot, Review, and More | Based on aspects of Eminem's own life, the movie follows the story of a white rapper named Jimmy Smith Jr., also known as B-Rabbit, as he tries ...»
+
+Question: was b-rabbit in a relationship
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that 8 Mile is a movie based on aspects of Eminem's own life, and that the main character, B-Rabbit, is a white rapper. However, we do not know if B-Rabbit was in a relationship during the movie.
+
+Search Query: Was B-Rabbit in a relationship in 8 Mile?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «All The Ways 8 Mile Is Radically Different From Eminem's ... | One major difference between B-Rabbit and Eminem is purely physical. This may seem confusing, since they are functionally the same person, but for his role in 8 ...»
+[2] «Is 8 Mile Based on a True Story? The plot, Review, and More | Based on aspects of Eminem's own life, the movie follows the story of a white rapper named Jimmy Smith Jr., also known as B-Rabbit, as he tries ...»
+[3] «B-Rabbit | 8 Mile Wiki - Fandom | B-Rabbit has a rough relationship with his mother, a soft spot for his younger sibling, and a tumultuous on-again, off-again relationship with a young blonde …, B-Rabbit has a rough relationship with his mother, a soft spot for his younger sibling, and a tumultuous on-again, off-again relationship with a young blonde»
+[4] «Alex Laterno | 8 Mile Wiki - Fandom | Instantly B-Rabbit displays attraction to her and later on in the story they had sex in the factory B-Rabbit works at, the character's role is played by ...»
+
+Question: was b-rabbit in a relationship
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+B-Rabbit is a character in the movie 8 Mile. He has a tumultuous on-again, off-again relationship with a young blonde named Alex Laterno. Therefore, B-Rabbit was in a relationship.
+
+Answer: Yes, B-Rabbit was in a relationship with Alex Laterno.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, B-Rabbit was in a relationship with Alex Laterno.
+................................... ground truth ...................................
+['In the film 8 Mile, B-Rabbit has an ex-girlfriend, Janeane and a love interest, Alex.']
+................................... F1 ...................................
+0.3
+................................... nF1 ...................................
+0.2
+##########What is a trope?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What is a trope?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the definition of the term "trope".
+Search Query: What is the definition of the term "trope"?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Trope Definition & Meaning - Merriam-Webster | : a word or expression used in a figurative sense : figure of speech. : a common or overused theme or device : cliché the usual horror movie tropes., a word or expression used in a figurative sense»
+[2] «Trope Definition & Meaning | trope · any literary or rhetorical device, as metaphor, metonymy, synecdoche, and irony, that consists in the use of words in other than their literal sense. · an ...»
+
+Question: What is a trope?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context provides two different definitions of the term "trope" from two different sources. However, neither definition is very clear or comprehensive.
+
+Search Query: Can you provide a comprehensive definition of the term "trope" in literature and rhetoric?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Trope Definition & Meaning - Merriam-Webster | : a word or expression used in a figurative sense : figure of speech. : a common or overused theme or device : cliché the usual horror movie tropes., a word or expression used in a figurative sense»
+[2] «Trope Definition & Meaning | trope · any literary or rhetorical device, as metaphor, metonymy, synecdoche, and irony, that consists in the use of words in other than their literal sense. · an ...»
+[3] «Trope: Definition and Examples | LiteraryTerms.net | The word trope can refer to any type of figure of speech, theme, image, character, or plot element that is used many times. Any kind of literary device or ...»
+[4] «Trope Meaning in Literature & Writing - Video & Lesson ... | A trope is a literary term that, broadly stated, is figurative language such as metaphor or a repetitive element like a theme or motif. A meme is an image, ...»
+
+Question: What is a trope?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A trope is a literary term. It can refer to any type of figure of speech, theme, image, character, or plot element that is used many times. It is a common or overused theme or device.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Trope Definition & Meaning - Merriam-Webster | : a word or expression used in a figurative sense : figure of speech. : a common or overused theme or device : cliché the usual horror movie tropes., a word or expression used in a figurative sense»
+[2] «Trope Definition & Meaning | trope · any literary or rhetorical device, as metaphor, metonymy, synecdoche, and irony, that consists in the use of words in other than their literal sense. · an ...»
+[3] «Trope: Definition and Examples | LiteraryTerms.net | The word trope can refer to any type of figure of speech, theme, image, character, or plot element that is used many times. Any kind of literary device or ...»
+[4] «Trope Meaning in Literature & Writing - Video & Lesson ... | A trope is a literary term that, broadly stated, is figurative language such as metaphor or a repetitive element like a theme or motif. A meme is an image, ...»
+
+Question: What is a trope?
+
+Rationale: Let's think step by step. A trope is a literary term. It can refer to any type of figure of speech, theme, image, character, or plot element that is used many times. It is a common or overused theme or device.
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A word or expression used in a figurative sense or a common or overused theme or device in literature.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+A word or expression used in a figurative sense or a common or overused theme or device in literature.
+................................... ground truth ...................................
+['A literary trope is the use of figurative language, via word, phrase or an image, for artistic effect such as using a figure of speech. The word trope has also come to be used for describing commonly recurring literary and rhetorical devices, motifs or clichés in creative works']
+................................... F1 ...................................
+0.20338983050847456
+................................... nF1 ...................................
+0.1764705882352941
+##########who made the fees##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who made the fees
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what fees are being referred to and in what context they were made.
+Search Query: What fees are being referred to in the context of [insert context here]?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Coroutine context and dispatchers | The coroutine context includes a coroutine dispatcher (see CoroutineDispatcher) that determines what thread or threads the corresponding coroutine uses for its ...»
+[2] «12 Response Templates for Tricky Customer Service Emails | Use these customer service response templates and examples to craft perfect replies to the trickiest emails your team receives.»
+
+Question: who made the fees
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We have two sources that may contain relevant content. The first source talks about coroutine context and dispatchers, while the second source provides response templates for tricky customer service emails. There is no clear indication of what fees are being referred to in this context.
+
+Search Query: What fees are being referred to in the given context?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Coroutine context and dispatchers | The coroutine context includes a coroutine dispatcher (see CoroutineDispatcher) that determines what thread or threads the corresponding coroutine uses for its ...»
+[2] «12 Response Templates for Tricky Customer Service Emails | Use these customer service response templates and examples to craft perfect replies to the trickiest emails your team receives.»
+[3] «Confused about what the amount refers to in this sentence | So the 2000 USD is the refundable amount, regardless of the total of the Advisory Fees being just 2000 USD or more. It's the word "partial" ...»
+[4] «Bank Fees Definition and Different Types | Bank fees are nominal fees for a variety of account set-up and maintenance, and minor transactional services for retail and business customers.»
+
+Question: who made the fees
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+There are different types of bank fees, but they are nominal fees for account set-up, maintenance, and minor transactional services. Therefore, it is likely that the bank made the fees.
+
+Answer: The bank made the fees.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The bank made the fees.
+................................... ground truth ...................................
+['Tuition fees were first introduced across the entire United Kingdom in September 1998 under the Labour government.']
+................................... F1 ...................................
+0.1111111111111111
+................................... nF1 ...................................
+0
+##########what does the scream symbolize##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what does the scream symbolize
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what the artist intended to convey through the painting.
+Search Query: What was Edvard Munch's inspiration for "The Scream"?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Revealed: The Secret History Behind Edvard Munch's The ... | When he painted The Scream in 1893, Munch was inspired by “a gust of melancholy,” as he declared in his diary. It's because of this, coupled with the artist's personal life trauma, that the painting takes on a feeling of alienation, of the abnormal., a gust of melancholy»
+[2] «The Scream | The Scream is a composition created by Norwegian artist Edvard Munch in 1893. The Norwegian name of the piece is Skrik (Shriek), and the German title under ...»
+
+Question: what does the scream symbolize
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Edvard Munch painted The Scream in 1893 and was inspired by "a gust of melancholy." The painting takes on a feeling of alienation and abnormality due to the artist's personal life trauma.
+
+Search Query: What was the personal life trauma that inspired Edvard Munch to paint The Scream?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Revealed: The Secret History Behind Edvard Munch's The ... | When he painted The Scream in 1893, Munch was inspired by “a gust of melancholy,” as he declared in his diary. It's because of this, coupled with the artist's personal life trauma, that the painting takes on a feeling of alienation, of the abnormal., a gust of melancholy»
+[2] «The Scream | The Scream is a composition created by Norwegian artist Edvard Munch in 1893. The Norwegian name of the piece is Skrik (Shriek), and the German title under ...»
+[3] «Art Analysis: Meaning of The Scream by Edvard Munch | The most painful event in Edvard Munch's life was the premature death of his mother from tuberculosis when he was five years old. This tragedy was compounded when his older sister, Sophie, to whom he had become attached in her place, also died of tuberculosis when Munch was thirteen., premature death of his mother from tuberculosis»
+[4] «Revealed: The Secret History Behind Edvard Munch's The ... | It's because of this, coupled with the artist's personal life trauma, that the painting takes on a feeling of alienation, of the abnormal. It ...»
+
+Question: what does the scream symbolize
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The painting was created by Edvard Munch in 1893. Munch was inspired by "a gust of melancholy" when he painted The Scream. The painting takes on a feeling of alienation, of the abnormal, because of Munch's personal life trauma, including the premature death of his mother from tuberculosis when he was five years old and the death of his older sister from tuberculosis when he was thirteen.
+
+Answer: The Scream symbolizes a feeling of alienation and abnormality, inspired by Edvard Munch's personal life trauma.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Scream symbolizes a feeling of alienation and abnormality, inspired by Edvard Munch's personal life trauma.
+................................... ground truth ...................................
+['In what he referred to as his soul painting, Edvard Munch reveals in The Screan an honest and perhaps even ugly glimpse of his inner troubles and feelings of anxiety.']
+................................... F1 ...................................
+0.14285714285714285
+................................... nF1 ...................................
+0
+##########what makes edf optimal##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what makes edf optimal
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what EDF stands for and what are the criteria for being optimal.
+Search Query: What does EDF stand for and what are the criteria for being optimal?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Earliest Deadline First (EDF) CPU scheduling algorithm | In EDF, if the CPU usage is less than 100%, then it means that all the tasks have met the deadline. EDF finds an optimal feasible schedule.»
+[2] «Earliest deadline first scheduling | Earliest deadline first (EDF) or least time to go is a dynamic priority scheduling algorithm used in real-time operating systems to place processes in a ...»
+
+Question: what makes edf optimal
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+EDF is a CPU scheduling algorithm that finds an optimal feasible schedule. However, it is not clear what makes EDF optimal.
+
+Search Query: What are the criteria for a scheduling algorithm to be considered optimal?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Earliest Deadline First (EDF) CPU scheduling algorithm | In EDF, if the CPU usage is less than 100%, then it means that all the tasks have met the deadline. EDF finds an optimal feasible schedule.»
+[2] «Earliest deadline first scheduling | Earliest deadline first (EDF) or least time to go is a dynamic priority scheduling algorithm used in real-time operating systems to place processes in a ...»
+[3] «Various Criteria to select best CPU Scheduling Algorithm | Scheduling Algorithm Optimization Criteria:, Scheduling Algorithm Optimization Criteria:»
+[4] «CPU Scheduling Criteria | The criteria include the following: CPU utilization: The main objective of any CPU scheduling algorithm is to keep the CPU as busy as ...»
+
+Question: what makes edf optimal
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+EDF finds an optimal feasible schedule because it prioritizes tasks based on their deadlines. 
+
+Answer: Prioritizing tasks based on their deadlines makes EDF optimal.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Prioritizing tasks based on their deadlines makes EDF optimal.
+................................... ground truth ...................................
+['EDF is an optimal scheduling algorithm because all jobs are complete by their deadline.']
+................................... F1 ...................................
+0.27272727272727276
+................................... nF1 ...................................
+0.2222222222222222
+##########Is smoked turkey healthy?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Is smoked turkey healthy?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the nutritional value of smoked turkey.
+Search Query: What are the nutritional benefits of smoked turkey?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Is turkey healthy for you? Read this before you gobble any | "Turkey is a great source of protein, rich in many vitamins and minerals, and is low-fat – if you don't eat the skin," Champagne said. It's rich in B-complex vitamins niacin, B6 and B12 and the essential nutrient choline., a great source of protein, rich in many vitamins and minerals, and is low-fat»
+[2] «Is Smoked Turkey Healthy? Nutrition, Benefits and Risks | A 2-ounce serving of smoked turkey has about 510 milligrams of sodium, which is 22 percent of the recommended daily value (DV). Too much sodium ...»
+
+Question: Is smoked turkey healthy?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Turkey is generally considered healthy due to its high protein content and low fat content. However, smoked turkey may have high sodium content, which can be harmful to health.
+
+Search Query: What is the sodium content in smoked turkey?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Is turkey healthy for you? Read this before you gobble any | "Turkey is a great source of protein, rich in many vitamins and minerals, and is low-fat – if you don't eat the skin," Champagne said. It's rich in B-complex vitamins niacin, B6 and B12 and the essential nutrient choline., a great source of protein, rich in many vitamins and minerals, and is low-fat»
+[2] «Is Smoked Turkey Healthy? Nutrition, Benefits and Risks | A 2-ounce serving of smoked turkey has about 510 milligrams of sodium, which is 22 percent of the recommended daily value (DV). Too much sodium ...»
+[3] «Is Smoked Turkey Healthy? Nutrition, Benefits and Risks | A 2-ounce serving of smoked turkey has about 510 milligrams of sodium, which is 22 percent of the recommended daily value (DV).»
+[4] «Smoked Turkey Breast Nutrition Facts | Bandana's ; How much sodium is in Smoked Turkey Breast? Amount of sodium in Smoked Turkey Breast: Sodium 89mg, 4% ; How many carbs are in Smoked Turkey Breast?»
+
+Question: Is smoked turkey healthy?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Smoked turkey has both benefits and risks. 
+
+Answer: It depends on the serving size and your dietary needs.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+It depends on the serving size and your dietary needs.
+................................... ground truth ...................................
+["There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about."]
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########can women wear kippah##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: can women wear kippah
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if there are any religious or cultural restrictions on women wearing kippah.
+Search Query: Are there any restrictions on women wearing kippah in Judaism?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Head covering for Jewish women - Wikipedia | However, some more liberal Conservative synagogues suggest that women, married or not, wear head-coverings similar to those worn by men (the kippah/yarmulke); and some require it (or require it only for women receiving honors or leading services from the bimah) – not for modesty, but as a feminist gesture of ...»
+[2] «Ask the Expert: Can Women Wear Kippot? | Some women wear crocheted yarmulkes just like the ones worn by men. Others wear wire or beaded yarmulkes that are more feminine, and others cover their heads ...»
+
+Question: can women wear kippah
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Some Conservative synagogues suggest that women wear head-coverings similar to those worn by men, and some require it only for women receiving honors or leading services from the bimah. There are also different types of yarmulkes that women can wear.
+
+Search Query: What are the different types of yarmulkes that women can wear?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Head covering for Jewish women - Wikipedia | However, some more liberal Conservative synagogues suggest that women, married or not, wear head-coverings similar to those worn by men (the kippah/yarmulke); and some require it (or require it only for women receiving honors or leading services from the bimah) – not for modesty, but as a feminist gesture of ...»
+[2] «Ask the Expert: Can Women Wear Kippot? | Some women wear crocheted yarmulkes just like the ones worn by men. Others wear wire or beaded yarmulkes that are more feminine, and others cover their heads ...»
+[3] «Ask the Expert: Can Women Wear Kippot? - My Jewish Learning | Some women wear crocheted yarmulkes just like the ones worn by men. Others wear wire or beaded yarmulkes that are more feminine, and others cover their heads with scarves, hats, even headbands., wire or beaded yarmulkes»
+[4] «Yarmulke, Kippahs & Head Coverings | You can buy all types of Jewish Head Coverings including: Satin Yarmulkes, Imprinted Yarmulkes, Suede Yarmulkes, Knitted Kippahs, and more.»
+
+Question: can women wear kippah
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+In Orthodox Judaism, women are not required to wear a kippah, but some more liberal Conservative synagogues suggest that women wear head-coverings similar to those worn by men. Some women wear crocheted yarmulkes just like the ones worn by men, while others wear wire or beaded yarmulkes that are more feminine. 
+
+Answer: Yes, women can wear kippahs/yarmulkes, but it is not required in Orthodox Judaism.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, women can wear kippahs/yarmulkes, but it is not required in Orthodox Judaism.
+................................... ground truth ...................................
+['Kippot for women are also being made and worn. These are sometimes made of beaded wire to seem more feminine.']
+................................... F1 ...................................
+0.060606060606060615
+................................... nF1 ...................................
+0.13333333333333333
+##########who succeeded the soviet union##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who succeeded the soviet union
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what happened to the Soviet Union.
+Search Query: What happened to the Soviet Union?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «The Collapse of the Soviet Union - 1989-1992 - Milestones | The unsuccessful August 1991 coup against Gorbachev sealed the fate of the Soviet Union. Planned by hard-line Communists, the coup diminished Gorbachev's power and propelled Yeltsin and the democratic forces to the forefront of Soviet and Russian politics.»
+[2] «Why Did the Soviet Union Collapse? | There were many factors that led to the collapse of the Soviet Union, including political policies, economics, defense spending, and the Chernobyl nuclear ...»
+
+Question: who succeeded the soviet union
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Soviet Union collapsed in 1991 after an unsuccessful coup against Gorbachev. Yeltsin and the democratic forces came to the forefront of Soviet and Russian politics. There were many factors that led to the collapse of the Soviet Union, including political policies, economics, defense spending, and the Chernobyl nuclear disaster.
+
+Search Query: Who became the first president of the Russian Federation after the collapse of the Soviet Union?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Collapse of the Soviet Union - 1989-1992 - Milestones | The unsuccessful August 1991 coup against Gorbachev sealed the fate of the Soviet Union. Planned by hard-line Communists, the coup diminished Gorbachev's power and propelled Yeltsin and the democratic forces to the forefront of Soviet and Russian politics.»
+[2] «Why Did the Soviet Union Collapse? | There were many factors that led to the collapse of the Soviet Union, including political policies, economics, defense spending, and the Chernobyl nuclear ...»
+[3] «Boris Yeltsin - Wikipedia | Boris Nikolayevich Yeltsin (Russian: Борис Николаевич Ельцин, IPA: [bɐˈrʲis nʲɪkɐˈla(j)ɪvʲɪtɕ ˈjelʲtsɨn] ( listen); 1 February 1931 – 23 April 2007) was a Soviet and Russian politician who served as the first president of Russia from 1991 to 1999.»
+[4] «Presidency of Boris Yeltsin | On 12 June 1991, Yeltsin was elected as the first President of the Russian Federation, received 45,552,041 votes, representing 57.30 percent of the number who ...»
+
+Question: who succeeded the soviet union
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Soviet Union collapsed in 1991. Boris Yeltsin was elected as the first President of the Russian Federation on June 12, 1991. Therefore, Boris Yeltsin succeeded the Soviet Union.
+
+Answer: Boris Yeltsin.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Boris Yeltsin.
+................................... ground truth ...................................
+["The Russian Federation assumed the Soviet Union's rights and obligations and became recognized as the de facto successor state."]
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########who discovered iodine-131##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who discovered iodine-131
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+when iodine-131 was discovered.
+Search Query: When was iodine-131 discovered?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «1938 | 1938, The work progress continued when Glenn Seaborg and Jack Livingood discovered the popular 131I there in 1938 by irradiating tellurium targets (8)., in 1938»
+[2] «Iodine-131 | Iodine was discovered by the French chemist Barnard Courtois in 1811. Courtois was extracting sodium and potassium compounds from seaweed ash. Once these.»
+
+Question: who discovered iodine-131
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Iodine was discovered by Barnard Courtois in 1811, but the context mentions the discovery of the isotope iodine-131 in 1938 by Glenn Seaborg and Jack Livingood. Therefore, we need to find out who specifically discovered iodine-131.
+
+Search Query: Who specifically discovered iodine-131?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «1938 | 1938, The work progress continued when Glenn Seaborg and Jack Livingood discovered the popular 131I there in 1938 by irradiating tellurium targets (8)., in 1938»
+[2] «Iodine-131 | Iodine was discovered by the French chemist Barnard Courtois in 1811. Courtois was extracting sodium and potassium compounds from seaweed ash. Once these.»
+[3] «Iodine-131 - | Washington State Department of Health | Iodine was discovered by the French chemist Barnard Courtois in 1811. Courtois was extracting sodium and potassium compounds from seaweed ash., Barnard Courtois»
+[4] «Radioiodine – the success story of Nuclear Medicine | The use of iodine-131 (131I), discovered in 1938 by Glenn Seaborg and John Livingood at the University of California, Berkeley, has been the ...»
+
+Question: who discovered iodine-131
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Iodine-131 was discovered in 1938. Glenn Seaborg and Jack Livingood discovered it by irradiating tellurium targets. 
+
+Answer: Glenn Seaborg and Jack Livingood.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Glenn Seaborg and Jack Livingood.
+................................... ground truth ...................................
+['Iodine-131 was discovered by Glenn Seaborg and John Livingood in 1938 at the University of California, Berkeley..']
+................................... F1 ...................................
+0.38095238095238093
+................................... nF1 ...................................
+0.46153846153846156
+##########who designed the rrhof museum##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who designed the rrhof museum
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who founded the Rock and Roll Hall of Fame.
+Search Query: Who founded the Rock and Roll Hall of Fame?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Rock and Roll Hall of Fame | The Rock and Roll Hall of Fame Foundation was established on April 20, 1983, by Ahmet Ertegun, founder and chairman of Atlantic Records.»
+[2] «Rock and Roll Hall of Fame | Cleveland Historical | The idea for a Rock and Roll Hall of Fame was conceived by Atlantic Records founder and R&B producer Ahmet Ertegun. Ertegun and other music industry ...»
+
+Question: who designed the rrhof museum
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Ahmet Ertegun was the founder and chairman of Atlantic Records and the one who conceived the idea for the Rock and Roll Hall of Fame. However, it is not clear who designed the museum itself.
+
+Search Query: Who was the architect of the Rock and Roll Hall of Fame museum?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Rock and Roll Hall of Fame | The Rock and Roll Hall of Fame Foundation was established on April 20, 1983, by Ahmet Ertegun, founder and chairman of Atlantic Records.»
+[2] «Rock and Roll Hall of Fame | Cleveland Historical | The idea for a Rock and Roll Hall of Fame was conceived by Atlantic Records founder and R&B producer Ahmet Ertegun. Ertegun and other music industry ...»
+[3] «Rock & Roll Hall of Fame/Architect | I. M. Pei, Completed in 1995 and designed by I.M. Pei, the Rock and Roll Hall of Fame and Museum is an iconic feature on Cleveland's lakefront skyline., I.M., Pei»
+[4] «Rock And Roll Hall of Fame Architect I.M. Pei Dies at 102 | Pei, Architect Who Designed Rock And Roll Hall of Fame, Dies at 102. I.M. Pei, the versatile, globe-trotting architect who revived the Louvre ...»
+
+Question: who designed the rrhof museum
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Rock and Roll Hall of Fame Museum is an iconic feature on Cleveland's lakefront skyline. It was completed in 1995. Who designed it?
+
+Answer: I.M. Pei designed the Rock and Roll Hall of Fame Museum.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+I.M. Pei designed the Rock and Roll Hall of Fame Museum.
+................................... ground truth ...................................
+['Architect I.M. Pei designed the RRHOF museum']
+................................... F1 ...................................
+0.5
+................................... nF1 ...................................
+0.888888888888889
+##########How secure is blockchain?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: How secure is blockchain?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what are the potential security risks associated with blockchain technology.
+Search Query: What are the security risks of blockchain technology?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «5 blockchain security issues and how to prevent them | PHISHING ATTACKS They can send legitimate-looking emails to the owner of the wallet key. The user is required to enter login details via an attached fake hyperlink. Having access to a user's credentials and other sensitive information might result in damages for both the user and the blockchain network., PHISHING ATTACKS»
+[2] «What is Blockchain Security? | Hackers and fraudsters threaten blockchains in four primary ways: phishing, routing, Sybil and 51% attacks. Phishing attacks.»
+
+Question: How secure is blockchain?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Blockchain security is threatened by various types of attacks, including phishing attacks. However, we need more information to determine the overall level of security of blockchain technology.
+
+Search Query: What are the most common types of attacks on blockchain technology?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «5 blockchain security issues and how to prevent them | PHISHING ATTACKS They can send legitimate-looking emails to the owner of the wallet key. The user is required to enter login details via an attached fake hyperlink. Having access to a user's credentials and other sensitive information might result in damages for both the user and the blockchain network., PHISHING ATTACKS»
+[2] «What is Blockchain Security? | Hackers and fraudsters threaten blockchains in four primary ways: phishing, routing, Sybil and 51% attacks. Phishing attacks.»
+[3] «Blockchain Attack Vectors: Vulnerabilities of Secure Technology | 1. Main blockchain attack types, 1., Main blockchain attack types»
+[4] «What is Blockchain Security? | Hackers and fraudsters threaten blockchains in four primary ways: phishing, routing, Sybil and 51% attacks. Phishing attacks. Phishing is a ...»
+
+Question: How secure is blockchain?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Blockchain security is threatened by various types of attacks, including phishing attacks, routing attacks, Sybil attacks, and 51% attacks. Phishing attacks involve sending legitimate-looking emails to the owner of the wallet key, requiring them to enter login details via an attached fake hyperlink. This can result in damages for both the user and the blockchain network.
+
+Answer: Blockchain security is threatened by various types of attacks, including phishing attacks.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Blockchain security is threatened by various types of attacks, including phishing attacks.
+................................... ground truth ...................................
+['Private keys are even more secure as they are considerably longer. It is in this way that blockchain offers a greater level of security to the individual user as it removes the need for weak and easily compromised passwords and online identities.']
+................................... F1 ...................................
+0.15686274509803919
+................................... nF1 ...................................
+0.07407407407407408
+##########Did Harold Shipman marry?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Did Harold Shipman marry?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Harold Shipman had a spouse.
+Search Query: Was Harold Shipman married?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Harold Shipman/Spouse | Primrose Shipman, On 5 November 1966, he married Primrose May Oxtoby; the couple had four children. Shipman studied medicine at Leeds School of Medicine, University of Leeds, graduating in 1970., On 5 November 1966, he married Primrose May Oxtoby»
+[2] «Harold Shipman: where are his wife and children now? | Harold had been married to his partner Primrose for 40 years before he was arrested, and she steadfastly stayed by his side during the trial. It ...»
+
+Question: Did Harold Shipman marry?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Harold Shipman married Primrose May Oxtoby on November 5, 1966, and they had four children together. However, it is unclear if he married anyone else or if he remained married to Primrose until his death.
+
+Search Query: Did Harold Shipman remarry after his marriage to Primrose May Oxtoby?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Harold Shipman/Spouse | Primrose Shipman, On 5 November 1966, he married Primrose May Oxtoby; the couple had four children. Shipman studied medicine at Leeds School of Medicine, University of Leeds, graduating in 1970., On 5 November 1966, he married Primrose May Oxtoby»
+[2] «Harold Shipman: where are his wife and children now? | Harold had been married to his partner Primrose for 40 years before he was arrested, and she steadfastly stayed by his side during the trial. It ...»
+[3] «Harold Shipman: where are his wife and children now? | Harold had been married to his partner Primrose for 40 years before he was arrested, and she steadfastly stayed by his side during the trial ...»
+[4] «Who is Harold Shipman's wife Primrose Oxtoby and where ... | PRIMROSE Oxtoby was the wife of Harold Shipman, a GP who went on to become the most prolific serial killer in history.»
+
+Question: Did Harold Shipman marry?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Harold Shipman is mentioned in several sources in relation to his spouse, Primrose Oxtoby. The sources indicate that they were married for 40 years and had four children together.
+
+Answer: Yes, Harold Shipman married Primrose Oxtoby.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Harold Shipman married Primrose Oxtoby.
+................................... ground truth ...................................
+['On 5 November 1966, Harold Shipman married Primrose May Oxtoby.']
+................................... F1 ...................................
+0.625
+................................... nF1 ...................................
+0.5454545454545454
+##########Who is Sachin Tendulkar?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Who is Sachin Tendulkar?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what field Sachin Tendulkar is known for.
+Search Query: What is Sachin Tendulkar's profession?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Sachin Tendulkar/Profession | Cricketer»
+[2] «Sachin Tendulkar | He is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively. ... He also holds the record for ...»
+
+Question: Who is Sachin Tendulkar?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Sachin Tendulkar is a cricketer who holds several records in both ODI and Test cricket.
+
+Search Query: What are some of Sachin Tendulkar's records in cricket?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Sachin Tendulkar/Profession | Cricketer»
+[2] «Sachin Tendulkar | He is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively. ... He also holds the record for ...»
+[3] «Sachin Tendulkar Records, Test match, ODI, T20, IPL ... | Allround: Batting and fielding. record. 5000 runs and 50 fielding dismissals · Batting: Most runs. 1st. Most runs in career (15921) · Batting: Averages and strike ...»
+
+Question: Who is Sachin Tendulkar?
+
+Rationale: Let's think step by step.
+Backing off 0.0 seconds after 1 tries calling function <function GPT3.request at 0x7f841f5e7d00> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Sachin Tendulkar/Profession | Cricketer»
+[2] «Sachin Tendulkar | He is the all-time highest run-scorer in both ODI and Test cricket with more than 18,000 runs and 15,000 runs, respectively. ... He also holds the record for ...»
+[3] «Sachin Tendulkar Records, Test match, ODI, T20, IPL ... | Allround: Batting and fielding. record. 5000 runs and 50 fielding dismissals · Batting: Most runs. 1st. Most runs in career (15921) · Batting: Averages and strike ...»
+
+Question: Who is Sachin Tendulkar?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Sachin Tendulkar is mentioned in sources related to cricket. The sources mention that he is a cricketer and holds several records in both ODI and Test cricket.
+
+Answer: Sachin Tendulkar is a former Indian cricketer and the all-time highest run-scorer in both ODI and Test cricket.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Sachin Tendulkar is a former Indian cricketer and the all-time highest run-scorer in both ODI and Test cricket.
+................................... ground truth ...................................
+['Sachin Ramesh Tendulkar is an Indian former international cricketer and a former captain of the Indian national team.']
+................................... F1 ...................................
+0.45161290322580644
+................................... nF1 ...................................
+0.375
+##########who is Thor heyerdahl##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who is Thor heyerdahl
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what Thor Heyerdahl is known for.
+Search Query: What are Thor Heyerdahl's accomplishments?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Thor Heyerdahl | Biography, Kon-Tiki, Ra, Books, & Facts | … Micheri, Italy), Norwegian ethnologist and adventurer who organized and led the famous Kon-Tiki (1947) and Ra (1969–70) transoceanic scientific expeditions, organized and led the famous Kon-Tiki (1947) and Ra (1969–70) transoceanic scientific expeditions»
+[2] «Thor Heyerdahl | Heyerdahl is notable for his Kon-Tiki expedition in 1947, in which he sailed 8,000 km (5,000 mi) across the Pacific Ocean in a hand-built raft from South ...»
+
+Question: who is Thor heyerdahl
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Thor Heyerdahl is a Norwegian ethnologist and adventurer who organized and led the famous Kon-Tiki and Ra transoceanic scientific expeditions. We also know that he sailed 8,000 km across the Pacific Ocean in a hand-built raft from South America to the Tuamotu Islands. However, we still need more information about his background and accomplishments.
+
+Search Query: What are Thor Heyerdahl's major accomplishments?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Thor Heyerdahl | Biography, Kon-Tiki, Ra, Books, & Facts | … Micheri, Italy), Norwegian ethnologist and adventurer who organized and led the famous Kon-Tiki (1947) and Ra (1969–70) transoceanic scientific expeditions, organized and led the famous Kon-Tiki (1947) and Ra (1969–70) transoceanic scientific expeditions»
+[2] «Thor Heyerdahl | Heyerdahl is notable for his Kon-Tiki expedition in 1947, in which he sailed 8,000 km (5,000 mi) across the Pacific Ocean in a hand-built raft from South ...»
+[3] «Thor Heyerdahl | Biography, Kon-Tiki, Ra, Books, & Facts | Thor Heyerdahl, (born October 6, 1914, Larvik, Norway—died April 18, 2002, Colla Micheri, Italy), Norwegian ethnologist and adventurer who organized and led ...»
+
+Question: who is Thor heyerdahl
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Thor Heyerdahl was a Norwegian ethnologist and adventurer who organized and led famous transoceanic scientific expeditions, including the Kon-Tiki and Ra expeditions.
+
+Answer: Thor Heyerdahl was a Norwegian ethnologist and adventurer.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Thor Heyerdahl was a Norwegian ethnologist and adventurer.
+................................... ground truth ...................................
+['Thor Heyerdahl; October 6, 1914 – April 18, 2002) was a Norwegian adventurer and ethnographer with a background in zoology, botany, and geography.']
+................................... F1 ...................................
+0.42857142857142855
+................................... nF1 ...................................
+0.23529411764705882
+##########can non-jews wear kippah##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: can non-jews wear kippah
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if wearing a kippah is a religious requirement for Jews or just a cultural tradition.
+Search Query: Is wearing a kippah a religious requirement for Jews?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Kippah - Wikipedia | Nowadays, almost all Conservative synagogues require men to wear a head covering (usually a kippah), but in Reform synagogues there is no requirement. However, kippot may be provided to anybody who wishes to wear them., almost all Conservative synagogues require men to wear a head covering (usually a kippah), but in Reform synagogues there is no requirement»
+[2] «Why Do We Wear a Kippah? | The tradition to wear a kippah is not derived from any biblical passage. Rather, it is a custom which evolved as a sign of our recognition that there is Someone ...»
+
+Question: can non-jews wear kippah
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Wearing a kippah is a tradition in Judaism, but it is not required in all synagogues. The tradition is not derived from any biblical passage. 
+
+Search Query: Is it appropriate for non-Jews to wear a kippah?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Kippah - Wikipedia | Nowadays, almost all Conservative synagogues require men to wear a head covering (usually a kippah), but in Reform synagogues there is no requirement. However, kippot may be provided to anybody who wishes to wear them., almost all Conservative synagogues require men to wear a head covering (usually a kippah), but in Reform synagogues there is no requirement»
+[2] «Why Do We Wear a Kippah? | The tradition to wear a kippah is not derived from any biblical passage. Rather, it is a custom which evolved as a sign of our recognition that there is Someone ...»
+[3] «Kippah - Wikipedia | Wearing by non-Jews Though it is not required, when a non-Jew wears a kippah in a synagogue, it is considered a sign of respect. Kippot are often provided to guests at a Bar or Bat Mitzvah. They are also often provided at bereavement events and at Jewish cemeteries., Though it is not required»
+[4] «Kippah for a Non-Jew | In practice, non-Jews will sometimes wear a kippah while attending a Jewish religious function (many world leaders have been photographed at the Western Wall ...»
+
+Question: can non-jews wear kippah
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Non-Jews can wear kippahs as a sign of respect in synagogues and at Jewish events, but it is not required.
+
+Answer: Yes, non-Jews can wear kippahs as a sign of respect, but it is not required.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, non-Jews can wear kippahs as a sign of respect, but it is not required.
+................................... ground truth ...................................
+['Though it is not required, when a non-Jew wears a kippah in a synagogue, it is considered a sign of respect.']
+................................... F1 ...................................
+0.45161290322580644
+................................... nF1 ...................................
+0.42857142857142855
+##########was Hollywood Babylon successful?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: was Hollywood Babylon successful?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the definition of success in the context of Hollywood Babylon.
+Search Query: What is the definition of success in the context of Hollywood Babylon?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Babylon: The Real Meaning Behind Damien Chazelle's Title | The title of Damien Chazelle's new film, Babylon, contains a deeper meaning possibly tied to the biblical significance of the ancient city.»
+[2] «Babylon: The truth behind the outrageous Hollywood epic | Margot Robbie and Brad Pitt's new period blockbuster about the scandalous side of 1920s Tinseltown has been making waves.»
+
+Question: was Hollywood Babylon successful?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+There are two articles discussing the new Hollywood film Babylon, one of which mentions it as an "outrageous Hollywood epic" and the other discussing the possible biblical significance of the title. However, there is no clear indication of the film's success.
+
+Search Query: "Babylon movie box office results"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Babylon: The Real Meaning Behind Damien Chazelle's Title | The title of Damien Chazelle's new film, Babylon, contains a deeper meaning possibly tied to the biblical significance of the ancient city.»
+[2] «Babylon: The truth behind the outrageous Hollywood epic | Margot Robbie and Brad Pitt's new period blockbuster about the scandalous side of 1920s Tinseltown has been making waves.»
+[3] «C9ae 8505-a - textrama.com | Up for Sale: Restored Water … babylon movie box office results WebREBUILT 1962-64 FORD Fairlane Mustang water pump C4OE-8505-A 289ci K code HIPO - £213.33.»
+
+Question: was Hollywood Babylon successful?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking about the success of a movie called Hollywood Babylon. There are multiple sources mentioned, but none of them provide a clear answer to the question.
+
+Answer: Unable to determine from the given sources.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unable to determine from the given sources.
+................................... ground truth ...................................
+['The NYT said, If a book such as Hollywood Babylon can be said to have charm, it lies in the fact that the book is without one single redeeming merit.“']
+................................... F1 ...................................
+0.0625
+................................... nF1 ...................................
+0
+##########what were the oligarchs##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what were the oligarchs
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what is the definition of an oligarch.
+Search Query: What is the definition of an oligarch?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Oligarch Definition & Meaning | Oligarch definition, one of the rulers in an oligarchy. See more.»
+[2] «Oligarch Definition & Meaning | The meaning of OLIGARCH is a member or supporter of an oligarchy. How to use oligarch in a sentence.»
+
+Question: what were the oligarchs
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context provides definitions of the term "oligarch," but does not provide information on who or what the oligarchs were.
+
+Search Query: Who were the oligarchs in history?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Oligarch Definition & Meaning | Oligarch definition, one of the rulers in an oligarchy. See more.»
+[2] «Oligarch Definition & Meaning | The meaning of OLIGARCH is a member or supporter of an oligarchy. How to use oligarch in a sentence.»
+[3] «Oligarchy | One of the first oligarchies in history is that of Sparta, which developed the concept alongside its rival Athens, and essentially provided a counterpoint ...»
+[4] «Oligarchy | In modern times, “oligarchy” is a term generally applied to China and Iran. China describes itself as a communist “people's republic,” but leadership of the ...»
+
+Question: what were the oligarchs
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The term "oligarch" refers to a member or supporter of an oligarchy, which is a form of government where power is held by a small group of people. This concept has existed throughout history, with examples including Sparta and Athens in ancient Greece. In modern times, the term is often applied to countries like China and Iran.
+
+Answer: Members or supporters of an oligarchy, a form of government where power is held by a small group of people.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Members or supporters of an oligarchy, a form of government where power is held by a small group of people.
+................................... ground truth ...................................
+['Business oligarchs of the former Soviet republics.']
+................................... F1 ...................................
+0.08695652173913045
+................................... nF1 ...................................
+0
+##########Who started Cheap Trick?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Who started Cheap Trick?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who the members of Cheap Trick are.
+Search Query: Who are the members of Cheap Trick?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Cheap Trick | Cheap Trick ; Robin Zander · Rick Nielsen · Tom Petersson · Bun E. Carlos · Jon Brant; Pete Comita; Randy Hogan.»
+[2] «Cheap Trick Biography, Songs, & Albums | Carlos and vocalist Randy "Xeno" Hogan to the lineup. Hogan was fired the following year, making room for ex-folksinger Robin Zander to join the group. Between ...»
+
+Question: Who started Cheap Trick?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Cheap Trick is a band that has had multiple members over the years. The context mentions some of the members, including Robin Zander, Rick Nielsen, Tom Petersson, Bun E. Carlos, Jon Brant, Pete Comita, and Randy Hogan. However, it is not clear who started the band.
+
+Search Query: Who founded Cheap Trick?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Cheap Trick | Cheap Trick ; Robin Zander · Rick Nielsen · Tom Petersson · Bun E. Carlos · Jon Brant; Pete Comita; Randy Hogan.»
+[2] «Cheap Trick Biography, Songs, & Albums | Carlos and vocalist Randy "Xeno" Hogan to the lineup. Hogan was fired the following year, making room for ex-folksinger Robin Zander to join the group. Between ...»
+[3] «Cheap Trick - Wikipedia | Cheap Trick is an American rock band from Rockford, Illinois, formed in 1973 by guitarist Rick Nielsen, bassist Tom Petersson, lead vocalist Robin Zander and drummer Bun E. Carlos. The current lineup of the band consists of Zander, Nielsen and Petersson., guitarist Rick Nielsen, bassist Tom Petersson, lead vocalist Robin Zander and drummer Bun E. Carlos»
+[4] «Cheap Trick Biography, Songs, & Albums | Cheap Trick's roots lie in Fuse, a late-'60s band formed by Rick Nielsen and bassist Tom Petersson in Rockford, Illinois. The group released an album on Epic in ...»
+
+Question: Who started Cheap Trick?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Cheap Trick was formed in 1973 by a group of musicians. According to sources [1], [2], and [3], the original lineup consisted of guitarist Rick Nielsen, bassist Tom Petersson, lead vocalist Robin Zander, and drummer Bun E. Carlos. Therefore, one of these four musicians started Cheap Trick.
+
+Answer: The original lineup of Cheap Trick consisted of Rick Nielsen, Tom Petersson, Robin Zander, and Bun E. Carlos.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The original lineup of Cheap Trick consisted of Rick Nielsen, Tom Petersson, Robin Zander, and Bun E. Carlos.
+................................... ground truth ...................................
+['In 1967, Rick Nielsen formed Fuse with Tom Peterson and Bun E. Carlos joining on drums. the band adopted the name Cheap Trick on August 25, 1973.']
+................................... F1 ...................................
+0.42857142857142855
+................................... nF1 ...................................
+0.4444444444444445
+################################### RESULT ###################################
+................................... F1 ...................................
+0.24827729080922986
+................................... nF1 ...................................
+0.23101862921346272

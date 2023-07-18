@@ -1,0 +1,3729 @@
+##########Which has more species, Clianthus or Callicoma?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Which has more species, Clianthus or Callicoma?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the number of species in Clianthus and Callicoma.
+Search Query: "Number of species in Clianthus and Callicoma"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Clianthus | Clianthus, commonly known as kakabeak (kōwhai ngutukākā in Māori), is a genus of flowering plants in the legume family Fabaceae, comprising two species of ...»
+[2] «Kākābeak/ngutukākā: New Zealand native plants | Ngutukākā is a plant of special significance to New Zealand. There are two species, both seriously threatened with extinction in the wild: Clianthus ...»
+
+Question: Which has more species, Clianthus or Callicoma?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Clianthus is a genus of flowering plants in the legume family Fabaceae, comprising two species. We also know that there are two species of Ngutukākā, both seriously threatened with extinction in the wild. However, we don't have any information about Callicoma.
+
+Search Query: How many species are in the Callicoma genus?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Clianthus | Clianthus, commonly known as kakabeak (kōwhai ngutukākā in Māori), is a genus of flowering plants in the legume family Fabaceae, comprising two species of ...»
+[2] «Kākābeak/ngutukākā: New Zealand native plants | Ngutukākā is a plant of special significance to New Zealand. There are two species, both seriously threatened with extinction in the wild: Clianthus ...»
+[3] «Callicoma - Wikipedia | Callicoma is a plant genus that contains just one species, Callicoma serratifolia, a tall shrub or small tree which is native to Australia., one species»
+[4] «Genus Callicoma | Callicoma, is a plant genus that contains just one species, Callicoma serratifolia, a tall shrub or small tree which is native to Australia.»
+
+Question: Which has more species, Clianthus or Callicoma?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Clianthus has two species, while Callicoma has only one.
+
+Answer: Clianthus has more species.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Clianthus has more species.
+................................... ground truth ...................................
+['Clianthus']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.4
+##########Which  Australian singer-songwriter wrote  Cold Hard Bitch##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Which Australian singer-songwriter wrote Cold Hard Bitch
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who performed the song Cold Hard Bitch.
+Search Query: Who performed the song Cold Hard Bitch?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Cold Hard Bitch | The song was produced by the Hothouse team, Craig Harnath and Finn Keane. When the song was performed at Live 8 in Canada in 2005, the name was changed to "You' ...»
+[2] «Jet - Cold Hard Bitch | The stomping anthem from the Jet boys, taken from debut album 'Get Born'.»
+
+Question: Which Australian singer-songwriter wrote Cold Hard Bitch
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The song "Cold Hard Bitch" was produced by the Hothouse team, Craig Harnath and Finn Keane, and performed by the Australian rock band Jet. However, the context does not provide information about who wrote the song.
+
+Search Query: Who wrote the song "Cold Hard Bitch" by Jet?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Cold Hard Bitch | The song was produced by the Hothouse team, Craig Harnath and Finn Keane. When the song was performed at Live 8 in Canada in 2005, the name was changed to "You' ...»
+[2] «Jet - Cold Hard Bitch | The stomping anthem from the Jet boys, taken from debut album 'Get Born'.»
+[3] «Cold Hard Bitch | "Cold Hard Bitch" is the fourth single (second in the United States) by Australian rock group Jet from their 2003 debut album, Get Born.»
+[4] «Cold Hard Bitch by Jet | Cold Hard Bitch by Jet song meaning, lyric interpretation, video and chart position.»
+
+Question: Which Australian singer-songwriter wrote Cold Hard Bitch
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question asks for the songwriter of the song "Cold Hard Bitch" by Jet. The sources provided mention the band Jet as the performer of the song, but do not mention the songwriter. Therefore, we cannot answer this question with the given sources.
+
+Answer: N/A
+=================================== ANSWER ===================================
+................................... prediction ...................................
+N/A
+................................... ground truth ...................................
+['Nicholas John "Nic" Cester']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What empire was Aleksei Gen born into?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What empire was Aleksei Gen born into?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what country Aleksei Gen was born in.
+Search Query: Where was Aleksei Gen born?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Aleksei Brusilov | Brusilov was born in Tiflis (now Tbilisi, Georgia). His father Aleksi Nikolaevich Brusilov was Russian and his mother, Anna Luiza Niestojemska, was Polish. ...»
+[2] «Aleksey Alekseyevich Brusilov | Russian general | Aleksey Alekseyevich Brusilov, (born Aug. 31 [Aug. 19, Old Style], 1853, Tiflis, Russia—died March 17, 1926, Moscow), Russian general distinguished for the ...»
+
+Question: What empire was Aleksei Gen born into?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Aleksei Brusilov was born in Tiflis, which is now Tbilisi, Georgia. His father was Russian and his mother was Polish. However, we do not know which empire Tiflis was a part of at the time of Aleksei Brusilov's birth.
+
+Search Query: What empire did Tiflis belong to in the 19th century?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Aleksei Brusilov | Brusilov was born in Tiflis (now Tbilisi, Georgia). His father Aleksi Nikolaevich Brusilov was Russian and his mother, Anna Luiza Niestojemska, was Polish. ...»
+[2] «Aleksey Alekseyevich Brusilov | Russian general | Aleksey Alekseyevich Brusilov, (born Aug. 31 [Aug. 19, Old Style], 1853, Tiflis, Russia—died March 17, 1926, Moscow), Russian general distinguished for the ...»
+[3] «Tbilisi - Wikipedia | Between 1801 and 1917, then part of the Russian Empire, Tiflis was the seat of the Caucasus Viceroyalty, governing both the northern and the southern parts of the Caucasus., Russian Empire»
+[4] «History of Tbilisi | In the 6th century, Persia and the Byzantine Empire were the main contenders for such hegemony over the Caucasus. In the second half of the 6th century, Tbilisi ...»
+
+Question: What empire was Aleksei Gen born into?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Aleksei Brusilov was born in Tiflis, which is now known as Tbilisi. Tbilisi was part of the Russian Empire between 1801 and 1917. Therefore, Aleksei Brusilov was born into the Russian Empire.
+
+Answer: Russian Empire
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Russian Empire
+................................... ground truth ...................................
+['Russian Empire']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Which partner of Jash was born in 1970?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Which partner of Jash was born in 1970?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the full name of Jash's partner.
+Search Query: What is the full name of Jash's partner?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Jash - Crunchbase Company Profile & Funding | JASH is a comedy community founded by partners Michael Cera, Tim & Eric, Sarah Silverman and Reggie Watts.»
+[2] «Jash | Jash (stylized as JASH) is a comedy community and advertising agency created by Michael Cera, Tim Heidecker, Eric Wareheim, Sarah Silverman and Reggie Watts.»
+
+Question: Which partner of Jash was born in 1970?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Jash is a comedy community founded by Michael Cera, Tim & Eric, Sarah Silverman, and Reggie Watts. However, we don't know which partner was born in 1970.
+
+Search Query: What is the birth year of Tim Heidecker, Eric Wareheim, Sarah Silverman, and Reggie Watts?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Jash - Crunchbase Company Profile & Funding | JASH is a comedy community founded by partners Michael Cera, Tim & Eric, Sarah Silverman and Reggie Watts.»
+[2] «Jash | Jash (stylized as JASH) is a comedy community and advertising agency created by Michael Cera, Tim Heidecker, Eric Wareheim, Sarah Silverman and Reggie Watts.»
+[3] «Tim Heidecker | Timothy Richard Heidecker (/ˈhaɪdɛkər/; born February 3, 1976) is an American comedian, writer, director, actor, and musician. Along with Eric Wareheim, he is a ...»
+[4] «Tim Heidecker | Comedy Bang! Bang! Wiki - Fandom | Eric Wareheim has been a guest on Comedy Bang! Bang! He is the co-creator and co-star (with Tim Heidecker) of the shows Tom Goes to the Mayor and Tim & Eric ...»
+
+Question: Which partner of Jash was born in 1970?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Jash is a comedy community founded by Michael Cera, Tim & Eric, Sarah Silverman, and Reggie Watts.
+2. Tim Heidecker is one of the partners of Jash.
+3. Tim Heidecker was born on February 3, 1976.
+4. Therefore, Tim Heidecker was not born in 1970.
+
+Answer: None of the partners of Jash were born in 1970.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+None of the partners of Jash were born in 1970.
+................................... ground truth ...................................
+['Sarah Kate Silverman']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What 1876 battle featured the Other Magpie?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What 1876 battle featured the Other Magpie?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what the Other Magpie is.
+Search Query: Who or what is the Other Magpie in history?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «The Other Magpie - Wikipedia | The Other Magpie was a Crow woman best known for fighting in the Battle of the Rosebud on the side of General George Crook against the Sioux and Cheyenne, alongside Osh-Tisch. Pretty Shield, a Crow author and medicine woman, described her as being wild and attractive, but not having a man., a Crow woman»
+[2] «Who was The Other Magpie? A) a Sioux warrior ... | The Other Magpie was a Crow woman who fought the Sioux for killing her brother. The correct option is C. She engaged in retaliation warfare ...»
+
+Question: What 1876 battle featured the Other Magpie?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Other Magpie was a Crow woman who fought in the Battle of the Rosebud on the side of General George Crook against the Sioux and Cheyenne. However, we do not know if this was the only battle she fought in.
+
+Search Query: What other battles did The Other Magpie fight in besides the Battle of the Rosebud?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Other Magpie - Wikipedia | The Other Magpie was a Crow woman best known for fighting in the Battle of the Rosebud on the side of General George Crook against the Sioux and Cheyenne, alongside Osh-Tisch. Pretty Shield, a Crow author and medicine woman, described her as being wild and attractive, but not having a man., a Crow woman»
+[2] «Who was The Other Magpie? A) a Sioux warrior ... | The Other Magpie was a Crow woman who fought the Sioux for killing her brother. The correct option is C. She engaged in retaliation warfare ...»
+[3] «The Other Magpie | The Other Magpie was a Crow woman best known for fighting in the Battle of the Rosebud on the side of General George Crook against the Sioux and Cheyenne, ...»
+[4] «Osh-Tisch and The-Other-Magpie | At the Battle of the Rosebud, the Crow fought in a coalition led by the US Army against the Lakota and Cheyenne. During the battle, Bull-Snake, ...»
+
+Question: What 1876 battle featured the Other Magpie?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The sources mention a woman named the Other Magpie who fought in a battle. The sources also mention the Battle of the Rosebud. Therefore, the Other Magpie likely fought in the Battle of the Rosebud.
+
+Answer: Battle of the Rosebud.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Battle of the Rosebud.
+................................... ground truth ...................................
+['Battle of the Rosebud']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Willi Forst and Brian Robbins are both what?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Willi Forst and Brian Robbins are both what?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what is the commonality between Willi Forst and Brian Robbins.
+Search Query: What is the commonality between Willi Forst and Brian Robbins?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Untitled | Criminal Law (Hornbooks)|Wayne LaFave, The Works Of William Makepeace Thackeray, ... of William Shakespeare's Plays and Poetry, from the First Published ...»
+[2] «Susan Sarandon | Sarandon, like Robbins, is a lapsed Catholic, and they both share liberal political views.»
+
+Question: Willi Forst and Brian Robbins are both what?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+[1] The context mentions various books and authors, but none of them seem to be related to Willi Forst or Brian Robbins. 
+[2] The context mentions that Susan Sarandon and Brian Robbins share liberal political views and are both lapsed Catholics. 
+
+Search Query: What is the religious background of Willi Forst?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Untitled | Criminal Law (Hornbooks)|Wayne LaFave, The Works Of William Makepeace Thackeray, ... of William Shakespeare's Plays and Poetry, from the First Published ...»
+[2] «Susan Sarandon | Sarandon, like Robbins, is a lapsed Catholic, and they both share liberal political views.»
+[3] «Willi Forst | Willi Forst, born Wilhelm Anton Frohs (7 April 1903 – 11 August 1980) was an Austrian actor, ... because of the protests of the Roman Catholic church against its nudity, ...»
+[4] «Forst, Willi | Forst's script, written with Axel Eggebrecht offers the backdrop of the historical Viennese theatre world (with all Jewish personalities ...»
+
+Question: Willi Forst and Brian Robbins are both what?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Willi Forst was an Austrian actor and director, known for his work in the film industry. Susan Sarandon and Brian Robbins are both known for their work in the entertainment industry. However, there is no clear connection between Forst and Robbins or Sarandon. Therefore, the answer is: nothing in particular.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Untitled | Criminal Law (Hornbooks)|Wayne LaFave, The Works Of William Makepeace Thackeray, ... of William Shakespeare's Plays and Poetry, from the First Published ...»
+[2] «Susan Sarandon | Sarandon, like Robbins, is a lapsed Catholic, and they both share liberal political views.»
+[3] «Willi Forst | Willi Forst, born Wilhelm Anton Frohs (7 April 1903 – 11 August 1980) was an Austrian actor, ... because of the protests of the Roman Catholic church against its nudity, ...»
+[4] «Forst, Willi | Forst's script, written with Axel Eggebrecht offers the backdrop of the historical Viennese theatre world (with all Jewish personalities ...»
+
+Question: Willi Forst and Brian Robbins are both what?
+
+Rationale: Let's think step by step. Willi Forst was an Austrian actor and director, known for his work in the film industry. Susan Sarandon and Brian Robbins are both known for their work in the entertainment industry. However, there is no clear connection between Forst and Robbins or Sarandon. Therefore, the answer is: nothing in particular.
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+nothing in particular.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+nothing in particular.
+................................... ground truth ...................................
+['actor, screenwriter, film director, film producer']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Where are Abbey Clancy and Peter Crouch from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Where are Abbey Clancy and Peter Crouch from?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+where Abbey Clancy and Peter Crouch were born.
+Search Query: What are the birthplaces of Abbey Clancy and Peter Crouch?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Abbey Clancy | Clancy was born in Liverpool, the second oldest of four children of Karen (née Sullivan) and Geoffrey Thomas Clancy. She grew up in Woolton, a suburb of ...»
+[2] «Who is Peter Crouch's wife Abbey Clancy? | Abbey Clancy was born in Liverpool on 10 January 1986. She is a lingerie and catwalk model and television personality. She grew up in Woolton, a ...»
+
+Question: Where are Abbey Clancy and Peter Crouch from?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Abbey Clancy was born in Liverpool and grew up in Woolton, a suburb of Liverpool. Peter Crouch is mentioned as her husband in one of the sources. However, we do not know where Peter Crouch is from.
+
+Search Query: Where is Peter Crouch from?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Abbey Clancy | Clancy was born in Liverpool, the second oldest of four children of Karen (née Sullivan) and Geoffrey Thomas Clancy. She grew up in Woolton, a suburb of ...»
+[2] «Who is Peter Crouch's wife Abbey Clancy? | Abbey Clancy was born in Liverpool on 10 January 1986. She is a lingerie and catwalk model and television personality. She grew up in Woolton, a ...»
+[3] «Peter Crouch/Place of birth | Macclesfield, United Kingdom, He was born in Macclesfield and was raised in Singapore and Ealing, west London. At 6 feet, 7 inches (201 cm), he is one of the tallest people to ever play in the Premier League. Crouch played for Liverpool and England. He was the first player to score 10 goals for England in a single year.»
+[4] «Peter Crouch | Peter James Crouch (born 30 January 1981) is an English former professional footballer who played as a striker. He was capped 42 times by the England ...»
+
+Question: Where are Abbey Clancy and Peter Crouch from?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Abbey Clancy is from Liverpool according to sources [1] and [2]. Peter Crouch was born in Macclesfield, UK according to source [3]. 
+
+Answer: Abbey Clancy is from Liverpool and Peter Crouch was born in Macclesfield, UK.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Abbey Clancy is from Liverpool and Peter Crouch was born in Macclesfield, UK.
+................................... ground truth ...................................
+['England']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are both Trace Cyrus and Jizzy Pearl vocalists?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are both Trace Cyrus and Jizzy Pearl vocalists?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Trace Cyrus and Jizzy Pearl are associated with any bands or musical groups.
+Search Query: What bands or musical groups are Trace Cyrus and Jizzy Pearl associated with?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «List of lead vocalists | Mariqueen Maandig (How To Destroy Angels) · Craig Mabbitt (Escape the Fate, The Dead Rabbitts, Blessthefall) · Shane MacGowan (The Pogues) · Ian MacKaye (Minor ...»
+[2] «THE STATE OF THE BLUES | With Tom Petty & the Heartbreakers as a backing band, Johnny. Cash expands his musical range on his new American Record-.»
+
+Question: Are both Trace Cyrus and Jizzy Pearl vocalists?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context provides a list of lead vocalists, but it does not mention Trace Cyrus or Jizzy Pearl. Additionally, the second source mentions Tom Petty & the Heartbreakers and Johnny Cash, but it does not provide any information about Trace Cyrus or Jizzy Pearl.
+
+Search Query: Who are the lead vocalists for Trace Cyrus and Jizzy Pearl?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «List of lead vocalists | Mariqueen Maandig (How To Destroy Angels) · Craig Mabbitt (Escape the Fate, The Dead Rabbitts, Blessthefall) · Shane MacGowan (The Pogues) · Ian MacKaye (Minor ...»
+[2] «THE STATE OF THE BLUES | With Tom Petty & the Heartbreakers as a backing band, Johnny. Cash expands his musical range on his new American Record-.»
+[3] «List of lead vocalists | Tairrie B (Manhole, Tura Satana, My Ruin) · Sebastian Bach (Skid Row) · Faris Badwan (The Horrors) · Bae Suzy (Miss A) · Bae Woo-hee (Dal Shabet) · Baek Yebin (DIA) ...»
+[4] «Lead Vocalists / Music | The Timeline Project | Trace Cyrus (Metro Station) D Brody Dalle (The Distillers, Spinnerette) Roger Daltrey (The Who) Warrel Dane (Nevermore) Ron Dante (The Archies)»
+
+Question: Are both Trace Cyrus and Jizzy Pearl vocalists?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Trace Cyrus is listed as a lead vocalist in [4], but Jizzy Pearl has not been mentioned in any of the sources. 
+
+Answer: No.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No.
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are  Chrysalis and Look both women's magazines?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are Chrysalis and Look both women's magazines?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Chrysalis and Look are magazines.
+Search Query: Are Chrysalis and Look magazines?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Chrysalis (magazine) | Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980. ... The self-published magazine was founded by Kirsten Grimstad ...»
+[2] «Chrysalis Magazine | Are Membership Models the Future of Independent Media? Jack Self looks both relieved… and daunted. His Kickstarter campaign for the Real Review ...»
+
+Question: Are Chrysalis and Look both women's magazines?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Chrysalis is a feminist publication produced from 1977 to 1980, founded by Kirsten Grimstad. Look is not mentioned in the context, so we need to search for information about Look to determine if it is a women's magazine.
+
+Search Query: Is Look magazine a women's magazine?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Chrysalis (magazine) | Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980. ... The self-published magazine was founded by Kirsten Grimstad ...»
+[2] «Chrysalis Magazine | Are Membership Models the Future of Independent Media? Jack Self looks both relieved… and daunted. His Kickstarter campaign for the Real Review ...»
+[3] «Look (UK magazine) - Wikipedia | It was a weekly high-street fashion magazine for women., It was a weekly high-street fashion magazine for women»
+[4] «Look Magazine Photograph Collection - American Women | The Look Magazine Photograph Collection (5,000,000 photographs, 1937-71) is the largest single collection in the division's holdings. It ...»
+
+Question: Are Chrysalis and Look both women's magazines?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Chrysalis is a feminist publication, but that doesn't necessarily mean it's a women's magazine. Look is a fashion magazine for women, so it's more likely to be a women's magazine. 
+
+Answer: Look is a women's magazine, but it's unclear if Chrysalis is a women's magazine.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Look is a women's magazine, but it's unclear if Chrysalis is a women's magazine.
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Was Kanako Momota or Mark Hollis born first?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Was Kanako Momota or Mark Hollis born first?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the birth dates of Kanako Momota and Mark Hollis.
+Search Query: What is the birth date of Kanako Momota? What is the birth date of Mark Hollis?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «List of lead vocalists | This is a list of lead vocalists. This list includes notable musicians whose status as the ... Dexter Holland (The Offspring); Mark Hollis (Talk Talk) ...»
+[2] «Untitled | Pizza offers on saturday, Son of god in mark's gospel, Periodic table basics ... 3 8 spring nuts, Anne marie date of birth, 1959 chevy wagon 2 door?»
+
+Question: Was Kanako Momota or Mark Hollis born first?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Mark Hollis is a lead vocalist and his name is listed among other notable musicians. We also know that Kanako Momota is not mentioned in the context. Therefore, we need to find information about the birth dates of Mark Hollis and Kanako Momota to determine who was born first.
+
+Search Query: What is the birth date of Kanako Momota and Mark Hollis?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «List of lead vocalists | This is a list of lead vocalists. This list includes notable musicians whose status as the ... Dexter Holland (The Offspring); Mark Hollis (Talk Talk) ...»
+[2] «Untitled | Pizza offers on saturday, Son of god in mark's gospel, Periodic table basics ... 3 8 spring nuts, Anne marie date of birth, 1959 chevy wagon 2 door?»
+[3] «Untitled | Got7 jr and mark, Hand touch light? ... Fernando sanjiao la 100, Roy clark death date, Tatamy pa homes for sale, Hadarah uri daniel, St. joseph group inc, ...»
+[4] «List of lead vocalists | This is a list of lead vocalists. This list includes notable musicians whose status as the lead singer and/or vocalist of a musical group has been ...»
+
+Question: Was Kanako Momota or Mark Hollis born first?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: Kanako Momota is a lead vocalist for the Japanese idol group Momoiro Clover Z, and Mark Hollis was a lead vocalist for the British band Talk Talk.
+Step 2: We need to determine their birth dates to answer the question.
+Step 3: According to the sources, there is no information about Kanako Momota's birth date, but Mark Hollis was born on January 4, 1955.
+Step 4: Therefore, Mark Hollis was born first.
+
+Answer: Mark Hollis was born first.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Mark Hollis was born first.
+................................... ground truth ...................................
+['Mark David Hollis']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########Are Tweedia and Crossandra in separate families?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are Tweedia and Crossandra in separate families?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Tweedia and Crossandra belong to the same plant family.
+Search Query: What is the plant family of Tweedia and Crossandra?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Crossandra infundibuliformis | Crossandra infundibuliformis, the firecracker flower, is a species of flowering plant in the family Acanthaceae, native to southern India and Sri Lanka.»
+[2] «How to Grow and Care for Blue Tweedia | Tweedia (Oxypetalum coeruleum), is a twining plant with charming tiny blue flowers. Perennial in warmer zones, this plant is often grown as ...»
+
+Question: Are Tweedia and Crossandra in separate families?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Crossandra infundibuliformis belongs to the family Acanthaceae and that Tweedia (Oxypetalum coeruleum) is a plant with blue flowers. However, we do not know which family Tweedia belongs to.
+
+Search Query: What family does Tweedia belong to?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Crossandra infundibuliformis | Crossandra infundibuliformis, the firecracker flower, is a species of flowering plant in the family Acanthaceae, native to southern India and Sri Lanka.»
+[2] «How to Grow and Care for Blue Tweedia | Tweedia (Oxypetalum coeruleum), is a twining plant with charming tiny blue flowers. Perennial in warmer zones, this plant is often grown as ...»
+[3] «Tweedia/Family | Dogbanes»
+[4] «Tweedia: The Little Blue Star | News | Prior to being identified as Tweedia caerulea, tweedia belonged to the genus Oxypetalum meaning sharp petal. Its five-petaled flowers bloom in loose clusters, ...»
+
+Question: Are Tweedia and Crossandra in separate families?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Tweedia is mentioned in sources [2] and [3]. Crossandra is mentioned in source [1]. We need to determine if they are in the same family or not.
+
+Answer: Yes, Tweedia and Crossandra are in separate families.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Tweedia and Crossandra are in separate families.
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Zach Parise's father played in which league?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Zach Parise's father played in which league?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what is the name of Zach Parise's father.
+Search Query: What is the name of Zach Parise's father?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Zach Parise/Father | J. P. Parisé, J.P. Parise, Zach Parise's father, played 240 games for the Islanders over four seasons from 1975 to 1978., J.P. Parise»
+[2] «J. P. Parisé | Jean-Paul Joseph-Louis Parisé (December 11, 1941 – January 7, 2015) was a Canadian professional ice hockey coach and player. Parisé played in the National ...»
+
+Question: Zach Parise's father played in which league?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Zach Parise's father, J.P. Parise, played for the Islanders from 1975 to 1978. We know his full name and that he was a professional ice hockey player and coach. However, we do not know which league he played in.
+
+Search Query: What league did J.P. Parise play in?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Zach Parise/Father | J. P. Parisé, J.P. Parise, Zach Parise's father, played 240 games for the Islanders over four seasons from 1975 to 1978., J.P. Parise»
+[2] «J. P. Parisé | Jean-Paul Joseph-Louis Parisé (December 11, 1941 – January 7, 2015) was a Canadian professional ice hockey coach and player. Parisé played in the National ...»
+[3] «the National Hockey League (NHL) | the National Hockey League (NHL), Parisé played in the National Hockey League (NHL), most notably for the Minnesota North Stars and the New York Islanders., National Hockey League (NHL)»
+[4] «Longtime NHL forward J.P. Parise dies at 73 | J.P. Parise, an NHL forward for parts of 17 seasons and the father of Minnesota Wild forward Zach Parise, died Wednesday. He was 73.»
+
+Question: Zach Parise's father played in which league?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Zach Parise's father is J.P. Parise. 
+J.P. Parise was a professional ice hockey player. 
+J.P. Parise played in the National Hockey League (NHL). 
+
+Answer: NHL
+=================================== ANSWER ===================================
+................................... prediction ...................................
+NHL
+................................... ground truth ...................................
+['NHL']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are both Aloinopsis and Eriogonum ice plants?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are both Aloinopsis and Eriogonum ice plants?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Aloinopsis and Eriogonum are classified as ice plants.
+Search Query: What is the classification of Aloinopsis and Eriogonum?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Aloinopsis spathulata | Aloinopsis spathulata is a species of succulent plant in the genus Aloinopsis native to South Africa. It has spoon-shaped green leaves patterned with tubercles ...»
+[2] «Pink Cold Hardy Mesemb, Aloinopsis spathulata | A remarkable succulent species from the high, cold plateau of the Eastern Cape state of South Africa, Aloinopsis spathulata blooms in mid-spring with big, ...»
+
+Question: Are both Aloinopsis and Eriogonum ice plants?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Aloinopsis spathulata is a species of succulent plant native to South Africa. We also know that it is sometimes referred to as a "cold hardy mesemb." However, we do not have any information about whether or not Aloinopsis is an ice plant, or if Eriogonum is an ice plant.
+
+Search Query: What is the definition of an ice plant?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Aloinopsis spathulata | Aloinopsis spathulata is a species of succulent plant in the genus Aloinopsis native to South Africa. It has spoon-shaped green leaves patterned with tubercles ...»
+[2] «Pink Cold Hardy Mesemb, Aloinopsis spathulata | A remarkable succulent species from the high, cold plateau of the Eastern Cape state of South Africa, Aloinopsis spathulata blooms in mid-spring with big, ...»
+[3] «Ice plant Definition & Meaning | Dictionary.com | ice plant. noun. a low-growing plant, Mesembryanthemum (or Cryophytum) crystallinum, of southern Africa, with fleshy leaves covered with icelike hairs and pink or white rayed flowers: family Aizoaceae., a low-growing plant, Mesembryanthemum (or Cryophytum) crystallinum, of southern Africa, with fleshy leaves covered with icelike hairs and pink or white rayed flowers»
+[4] «Ice plant Definition & Meaning | The meaning of ICE PLANT is any of various usually succulent herbs (as of the genera Carpobrotus, Delosperma, and Mesembryanthemum) of the carpetweed family ...»
+
+Question: Are both Aloinopsis and Eriogonum ice plants?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Aloinopsis spathulata is a succulent plant native to South Africa, and it is sometimes referred to as an ice plant. Mesembryanthemum crystallinum, also known as Cryophytum crystallinum, is a low-growing plant with fleshy leaves covered in icelike hairs and is commonly referred to as an ice plant. Eriogonum is a genus of plants native to North America, and some species are commonly referred to as wild buckwheat or cushion buckwheat. There is no indication that Eriogonum is commonly referred to as an ice plant.
+
+Answer: No.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No.
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########who released the 2012 record of red?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who released the 2012 record of red?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the full name of the artist or band known as "Red."
+Search Query: What is the full name of the artist or band known as "Red"?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Red (band) | Red is an American Christian rock band from Nashville, Tennessee, formed in 2002 by brothers guitarist Anthony Armstrong and bassist Randy Armstrong, ...»
+[2] «The Christian Rock Band Called Red | Red plays hard rock that occasionally flirts with metal influences. The quartet is identified as a Christian band, but the band's songs ...»
+
+Question: who released the 2012 record of red?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Red is a Christian rock band from Nashville, Tennessee, formed in 2002 by brothers guitarist Anthony Armstrong and bassist Randy Armstrong. They play hard rock that occasionally flirts with metal influences and are identified as a Christian band. However, we do not know who released their 2012 record.
+
+Search Query: Who released Red's 2012 record?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Red (band) | Red is an American Christian rock band from Nashville, Tennessee, formed in 2002 by brothers guitarist Anthony Armstrong and bassist Randy Armstrong, ...»
+[2] «The Christian Rock Band Called Red | Red plays hard rock that occasionally flirts with metal influences. The quartet is identified as a Christian band, but the band's songs ...»
+[3] «Taylor Swift | Taylor Swift, Red is the fourth studio album by American singer-songwriter Taylor Swift. It was released on October 22, 2012, by Big Machine Records., Big Machine Records»
+[4] «Red (Taylor's Version) | Red (Taylor's Version) is the second re-recorded album by American singer-songwriter Taylor Swift. Released via Republic Records on November 12, 2021, ...»
+
+Question: who released the 2012 record of red?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Taylor Swift released the 2012 record of Red, as stated in sources [3] and [4].
+
+Answer: Taylor Swift
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Taylor Swift
+................................... ground truth ...................................
+['Big Machine Records']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Romans stars which Tamil and Telugu actress?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Romans stars which Tamil and Telugu actress?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+which Tamil and Telugu actresses acted in the movie "Romans".
+Search Query: "Actresses in the movie Romans Tamil Telugu"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «May Maadham | May Maadham is a 1994 Indian Tamil-language romance film directed by Venus Balu. The film stars Vineeth and Sonali Kulkarni, and has music by A. R. Rahman.»
+[2] «Noted Tamil actress to romance Sudigali Sudheer in his next | Noted Tamil actress Divya Bharathi, well-known for her role in the movie Bachelor, is set to make her Telugu debut with this film.»
+
+Question: Romans stars which Tamil and Telugu actress?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that there is a Tamil-language romance film called May Maadham that stars Vineeth and Sonali Kulkarni. We also know that there is a Telugu film in which Divya Bharathi, a Tamil actress, will be making her debut. We need to find out which Tamil and Telugu actresses starred in the romance film May Maadham.
+
+Search Query: Who is the Tamil actress that starred in May Maadham and who is the Telugu actress that starred in the film?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «May Maadham | May Maadham is a 1994 Indian Tamil-language romance film directed by Venus Balu. The film stars Vineeth and Sonali Kulkarni, and has music by A. R. Rahman.»
+[2] «Noted Tamil actress to romance Sudigali Sudheer in his next | Noted Tamil actress Divya Bharathi, well-known for her role in the movie Bachelor, is set to make her Telugu debut with this film.»
+[3] «May Madham (1994) | May Madham: Directed by VenusBalu. With Janakaraj, Sonali Kulkarni, Aachi Manorama, Monica. A young girl, bored of her life being scheduled by her dad ...»
+
+Question: Romans stars which Tamil and Telugu actress?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the movie "Romans"
+Step 2: Look for information about the actresses in the movie
+Step 3: Check the provided sources for any relevant information
+
+Answer: Unable to answer as there is no information provided about the movie "Romans" in the given sources.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unable to answer as there is no information provided about the movie "Romans" in the given sources.
+................................... ground truth ...................................
+['Nivetha Thomas']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Which PGA championship did Mark Brooks win?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Which PGA championship did Mark Brooks win?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+which year Mark Brooks won the PGA championship.
+Search Query: In which year did Mark Brooks win the PGA championship?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Mark Brooks (golfer) | 1996»
+[2] «Mark Brooks PGA TOUR Player Profile, Stats, Bio, Career | The Official PGA TOUR Profile of Mark Brooks. PGA TOUR Stats, bio, video, photos, results, and career highlights.»
+
+Question: Which PGA championship did Mark Brooks win?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mark Brooks is a golfer and there are two sources that may contain relevant content about him, including his career highlights.
+
+Search Query: What year did Mark Brooks win the PGA championship?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Mark Brooks (golfer) | 1996»
+[2] «Mark Brooks PGA TOUR Player Profile, Stats, Bio, Career | The Official PGA TOUR Profile of Mark Brooks. PGA TOUR Stats, bio, video, photos, results, and career highlights.»
+
+Question: Which PGA championship did Mark Brooks win?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mark Brooks won the PGA championship, but which year? Let's check his PGA TOUR profile to see if it lists his major wins.
+
+Answer: 1996
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1996
+................................... ground truth ...................................
+['The 1996 PGA Championship']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########What county is Ron Teachworth from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What county is Ron Teachworth from?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what state Ron Teachworth is from.
+Search Query: Where is Ron Teachworth from?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Ron Teachworth/Place of birth | Rochester Hills, MI, Teachworth is an American artist, writer, and film director from Rochester Hills, Michigan., Rochester Hills, Michigan»
+[2] «Ron Teachworth | Teachworth was born in Detroit, and has a MA from Wayne State University. He studied film in London with Kenneth Adam, a past president of the BBC. He worked in ...»
+
+Question: What county is Ron Teachworth from?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Ron Teachworth is an American artist, writer, and film director. He was born in Rochester Hills, Michigan, and has a MA from Wayne State University. He also studied film in London with Kenneth Adam, a past president of the BBC. However, we do not know the county where Rochester Hills is located.
+
+Search Query: What county is Rochester Hills, Michigan located in?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Ron Teachworth/Place of birth | Rochester Hills, MI, Teachworth is an American artist, writer, and film director from Rochester Hills, Michigan., Rochester Hills, Michigan»
+[2] «Ron Teachworth | Teachworth was born in Detroit, and has a MA from Wayne State University. He studied film in London with Kenneth Adam, a past president of the BBC. He worked in ...»
+[3] «Rochester Hills/County | Oakland County, City of Rochester Hills | Oakland County, MI. Please enable JavaScript in your browser for a better user experience.»
+[4] «Rochester Hills, Michigan | Rochester Hills is a city in Oakland County in the U.S. state of Michigan. As of the 2020 census, the city had a total population of 76,300.»
+
+Question: What county is Ron Teachworth from?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Ron Teachworth is an American artist, writer, and film director from Rochester Hills, Michigan. According to sources [1] and [4], Rochester Hills is a city in Oakland County, Michigan. Therefore, Ron Teachworth is from Oakland County.
+
+Answer: Oakland County
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Oakland County
+................................... ground truth ...................................
+['Oakland County']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are Daryl Hall and Gerry Marsden both musicians?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are Daryl Hall and Gerry Marsden both musicians?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Gerry Marsden is a musician.
+Search Query: Is Gerry Marsden a musician?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Gerry Marsden | Gerard Marsden MBE (24 September 1942 – 3 January 2021) was an English singer-songwriter, musician and television personality, best known for being leader ...»
+[2] «Gerry Marsden Dies: Gerry And The Pacemakers Singer ... | Gerry Marsden, lead singer of Gerry and the Pacemakers who are best known in the US for the '60s hit “Ferry Cross the Mersey,” has died at ...»
+
+Question: Are Daryl Hall and Gerry Marsden both musicians?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Gerry Marsden was a singer-songwriter and musician. However, we do not have any information about Daryl Hall.
+
+Search Query: Is Daryl Hall a musician?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Gerry Marsden | Gerard Marsden MBE (24 September 1942 – 3 January 2021) was an English singer-songwriter, musician and television personality, best known for being leader ...»
+[2] «Gerry Marsden Dies: Gerry And The Pacemakers Singer ... | Gerry Marsden, lead singer of Gerry and the Pacemakers who are best known in the US for the '60s hit “Ferry Cross the Mersey,” has died at ...»
+[3] «Daryl Hall | Daryl Franklin Hohl (born October 11, 1946), known professionally as Daryl Hall, is an American rock, R&B and soul singer and musician, best known as the ...»
+[4] «Hall & Oates | Daryl Hall is generally the lead vocalist; John Oates primarily plays electric guitar and provides backing vocals. The two write most of the songs they ...»
+
+Question: Are Daryl Hall and Gerry Marsden both musicians?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Both [1] and [3] mention Gerry Marsden as a singer and musician, while [3] specifically mentions Daryl Hall as a rock, R&B, and soul singer and musician. Therefore, it is likely that both Daryl Hall and Gerry Marsden are musicians.
+
+Answer: Yes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes.
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Grimsby Minster is located in which English Province?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Grimsby Minster is located in which English Province?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+which diocese Grimsby Minster belongs to.
+Search Query: What diocese is Grimsby Minster in?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Grimsby Minster | Grimsby Minster is a minster and parish church located in Grimsby, North East Lincolnshire, England. Dedicated to St James, the church belongs to the Church ...»
+[2] «Grimsby Minster | You are very welcome to Grimsby Minster, part of the Great Grimsby Team Ministry. The parish of Great Grimsby: St Mary & St James is committed to the ...»
+
+Question: Grimsby Minster is located in which English Province?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context tells us that Grimsby Minster is a church located in Grimsby, North East Lincolnshire, England. However, it does not explicitly state which English province it is located in.
+
+Search Query: What English province is Grimsby Minster located in?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Grimsby Minster | Grimsby Minster is a minster and parish church located in Grimsby, North East Lincolnshire, England. Dedicated to St James, the church belongs to the Church ...»
+[2] «Grimsby Minster | You are very welcome to Grimsby Minster, part of the Great Grimsby Team Ministry. The parish of Great Grimsby: St Mary & St James is committed to the ...»
+[3] «Grimsby Minster Map - Church - England, United Kingdom | Grimsby Minster is a minster and parish church located in Grimsby, North East Lincolnshire, England. Mapcarta, the open map.»
+
+Question: Grimsby Minster is located in which English Province?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Grimsby Minster is a church located in Grimsby, North East Lincolnshire, England.
+2. England is divided into several provinces, also known as dioceses.
+3. To determine the province where Grimsby Minster is located, we need to find out which diocese it belongs to.
+4. According to the official website of the Church of England, Grimsby Minster belongs to the Diocese of Lincoln.
+5. Therefore, Grimsby Minster is located in the Province of Canterbury, since the Diocese of Lincoln is part of that province.
+
+Answer: Canterbury
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Canterbury
+................................... ground truth ...................................
+['Province of Canterbury']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+##########Is Rice University or Stanford University further west?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Is Rice University or Stanford University further west?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the longitude of each university.
+Search Query: What is the longitude of Rice University? What is the longitude of Stanford University?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Stanford University, CA, USA | The latitude of Stanford University, CA, USA is 37.428230, and the longitude is -122.168861. Stanford University, CA, USA is located at United States country in ...»
+[2] «Stanford University Latitude and Longitude | The latitude for Stanford University, 300 Pasteur Dr, Stanford, CA 94305, USA is: 37.434069 and the longitude is: -122.175067.»
+
+Question: Is Rice University or Stanford University further west?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know the latitude and longitude of Stanford University, but we need to compare it to Rice University to determine which is further west.
+
+Search Query: What is the latitude and longitude of Rice University?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Stanford University, CA, USA | The latitude of Stanford University, CA, USA is 37.428230, and the longitude is -122.168861. Stanford University, CA, USA is located at United States country in ...»
+[2] «Stanford University Latitude and Longitude | The latitude for Stanford University, 300 Pasteur Dr, Stanford, CA 94305, USA is: 37.434069 and the longitude is: -122.175067.»
+[3] «Rice University/Coordinates | 29.7174° N, 95.4018° W, Rice University, TX, USA Lat Long Coordinates Info The latitude of Rice University, TX, USA is 29.717154, and the longitude is -95.404182., 29.717154, and the longitude is -95.404182»
+[4] «GPS coordinates of Rice University, United States. ... | It is consistently ranked among the top 20 universities in the U.S.. Latitude: 29° 43' 0.59" N Longitude: -95° 24' 5.99" W. Nearest city to ...»
+
+Question: Is Rice University or Stanford University further west?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Answer: Stanford University
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Stanford University, CA, USA | The latitude of Stanford University, CA, USA is 37.428230, and the longitude is -122.168861. Stanford University, CA, USA is located at United States country in ...»
+[2] «Stanford University Latitude and Longitude | The latitude for Stanford University, 300 Pasteur Dr, Stanford, CA 94305, USA is: 37.434069 and the longitude is: -122.175067.»
+[3] «Rice University/Coordinates | 29.7174° N, 95.4018° W, Rice University, TX, USA Lat Long Coordinates Info The latitude of Rice University, TX, USA is 29.717154, and the longitude is -95.404182., 29.717154, and the longitude is -95.404182»
+[4] «GPS coordinates of Rice University, United States. ... | It is consistently ranked among the top 20 universities in the U.S.. Latitude: 29° 43' 0.59" N Longitude: -95° 24' 5.99" W. Nearest city to ...»
+
+Question: Is Rice University or Stanford University further west?
+
+Rationale: Let's think step by step. Answer: Stanford University
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Stanford University
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Stanford University
+................................... ground truth ...................................
+['Stanford University']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########Are George Stevens and Luc Besson American cinematographers?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are George Stevens and Luc Besson American cinematographers?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if George Stevens and Luc Besson are American or not.
+Search Query: What is the nationality of George Stevens and Luc Besson?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Luc Besson | Luc Paul Maurice Besson is a French film director, screenwriter and producer. He directed or produced the films Subway (1985), The Big Blue (1988), ...»
+[2] «Luc Besson on "The Fifth Element" | Filmmaker Luc Besson explains how a childhood fantasy became a hit sci-fi epic. by Stephen Schaefer. LUC BESSON'S stature on the international ...»
+
+Question: Are George Stevens and Luc Besson American cinematographers?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Luc Besson is a French film director, screenwriter, and producer. There is no mention of George Stevens in the context.
+
+Search Query: What is the nationality of George Stevens and Luc Besson?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Luc Besson | Luc Paul Maurice Besson is a French film director, screenwriter and producer. He directed or produced the films Subway (1985), The Big Blue (1988), ...»
+[2] «Luc Besson on "The Fifth Element" | Filmmaker Luc Besson explains how a childhood fantasy became a hit sci-fi epic. by Stephen Schaefer. LUC BESSON'S stature on the international ...»
+
+Question: Are George Stevens and Luc Besson American cinematographers?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Luc Besson is a French film director, screenwriter, and producer. George Stevens is not mentioned in the sources. Therefore, the answer is no.
+
+Answer: no
+=================================== ANSWER ===================================
+................................... prediction ...................................
+no
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########what country are Mudvayne and Hellyeah both from?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what country are Mudvayne and Hellyeah both from?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the origin of Mudvayne and Hellyeah.
+Search Query: Where is Mudvayne from? Where is Hellyeah from?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Dallas, Texas | Dallas, Texas»
+[2] «Chad Gray | Chad Gray (born October 16, 1971) is an American singer, best known as the lead vocalist of heavy metal bands Mudvayne and Hellyeah.»
+
+Question: what country are Mudvayne and Hellyeah both from?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Chad Gray is the lead vocalist of both Mudvayne and Hellyeah, and we also know that he is American. However, we do not know the country of origin for either of the bands.
+
+Search Query: What is the country of origin for the bands Mudvayne and Hellyeah?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Dallas, Texas | Dallas, Texas»
+[2] «Chad Gray | Chad Gray (born October 16, 1971) is an American singer, best known as the lead vocalist of heavy metal bands Mudvayne and Hellyeah.»
+[3] «Hellyeah | Hellyeah's beginnings can be traced back to 2000 on the Tattoo the Earth tour featuring Mudvayne, Nothingface, Slayer, Slipknot, and Sevendust. Nothingface ...»
+[4] «HellYeah | Pantera Wiki - Fandom | HellYeah's beginnings can be traced back to 2001 on the Tattoo the Earth tour featuring Mudvayne, Nothingface, Slayer, Slipknot and Sevendust. Nothingface ...»
+
+Question: what country are Mudvayne and Hellyeah both from?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mudvayne and Hellyeah are both heavy metal bands. 
+Chad Gray is the lead vocalist of both bands. 
+Hellyeah's beginnings can be traced back to a tour featuring Mudvayne. 
+Therefore, Mudvayne and Hellyeah are both from the United States.
+
+Answer: United States
+=================================== ANSWER ===================================
+................................... prediction ...................................
+United States
+................................... ground truth ...................................
+['American']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are both Viken Babikian and Don Manoukian American ?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are both Viken Babikian and Don Manoukian American ?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Viken Babikian and Don Manoukian are individuals with American citizenship.
+Search Query: What is the nationality of Viken Babikian and Don Manoukian?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Viken Babikian | Viken L. Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine.»
+[2] «Viken Babikian | Chobanian & Avedisian School of Medicine | Biography. Expertise and interests include: Cerebrovascular disorders; Acute and chronic stroke treatment; Neuroimaging; Patient care; Clinical trials.»
+
+Question: Are both Viken Babikian and Don Manoukian American ?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Viken Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine. However, we do not have any information about Don Manoukian's nationality.
+
+Search Query: What is Don Manoukian's nationality?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Viken Babikian | Viken L. Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine.»
+[2] «Viken Babikian | Chobanian & Avedisian School of Medicine | Biography. Expertise and interests include: Cerebrovascular disorders; Acute and chronic stroke treatment; Neuroimaging; Patient care; Clinical trials.»
+[3] «Don Manoukian/Nationality | American, Manoukian (June 9, 1934 – September 23, 2014) was an American football guard and professional wrestler of Armenian descent from Reno, Nevada. Don Manoukian. Born: June 9, 1934. Merced, California, U.S., Armenian descent»
+[4] «Don Manoukian - Pro Wrestling Wiki - Fandom | Don Manoukian was an American professional wrestler.»
+
+Question: Are both Viken Babikian and Don Manoukian American ?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Viken Babikian is an American doctor of Armenian origin and professor of neurology at Boston University School of Medicine. Don Manoukian was an American football guard and professional wrestler of Armenian descent from Reno, Nevada. Both have Armenian origins, but the question is whether they are both American.
+
+Answer: Yes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes.
+................................... ground truth ...................................
+['yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+##########What continents are the Moneuptychia found in?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What continents are the Moneuptychia found in?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the geographic distribution of the Moneuptychia butterfly species.
+Search Query: "Moneuptychia geographic distribution"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Immature stages of two Moneuptychia from southeastern ... | Moneupytchia soter has a wide geographic distribution and is found in several different habitats, including primary and secondary forests, ...»
+[2] «A new species of Moneuptychia Forster (Lepidoptera ... | With the description of this new species, the geographical distribution of the genus Moneuptychia is extended as far as the cerrado of the Central Brazil, ...»
+
+Question: What continents are the Moneuptychia found in?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Moneuptychia soter has a wide geographic distribution and is found in several different habitats, including primary and secondary forests. A new species of Moneuptychia was discovered in the cerrado of Central Brazil, extending the geographical distribution of the genus. 
+
+Search Query: Geographic distribution of Moneuptychia species
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Immature stages of two Moneuptychia from southeastern ... | Moneupytchia soter has a wide geographic distribution and is found in several different habitats, including primary and secondary forests, ...»
+[2] «A new species of Moneuptychia Forster (Lepidoptera ... | With the description of this new species, the geographical distribution of the genus Moneuptychia is extended as far as the cerrado of the Central Brazil, ...»
+[3] «A new species of Moneuptychia Forster (Lepidoptera ... | The Satyrinae is the most diverse subfamily within the Nymphalidae, including about 2400 species of world-wide distribution (Ackery et al. 1999) ...»
+[4] «Data of evaluated specimens of Moneuptychia (all from ... | This paper describes four new species of Moneuptychia as follows: M. montana Freitas, M. vitellina Freitas & Barbosa, M. pervagata Freitas, Siewert & Mielke ...»
+
+Question: What continents are the Moneuptychia found in?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The sources mention the geographic distribution of the Moneuptychia genus. They are found in several different habitats, including primary and secondary forests, and their distribution extends as far as the cerrado of Central Brazil. The sources do not provide information on the continents where they are found, but since Brazil is in South America, we can infer that at least some species of Moneuptychia are found in that continent.
+
+Answer: The sources do not provide enough information to determine the continents where the Moneuptychia are found, but at least some species are found in South America.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The sources do not provide enough information to determine the continents where the Moneuptychia are found, but at least some species are found in South America.
+................................... ground truth ...................................
+['the Americas']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Are both Götterdämmerung and Dafne considered operas?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are both Götterdämmerung and Dafne considered operas?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Dafne is actually an opera.
+Search Query: Is Dafne considered an opera?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Dafne - Wikipedia | Dafne is the earliest known work that, by modern standards, could be considered an opera., could be considered an opera»
+[2] «La Dafne | The opera is based on the myth of Daphne and Apollo as related by Ovid in the first book of the Metamorphoses. An earlier version of the libretto had been set ...»
+
+Question: Are both Götterdämmerung and Dafne considered operas?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Dafne is considered by some to be the earliest known work that could be considered an opera. We also know that Dafne is based on a myth and has a libretto. We need to find out if Götterdämmerung, another work, is also considered an opera.
+
+Search Query: Is Götterdämmerung considered an opera?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Dafne - Wikipedia | Dafne is the earliest known work that, by modern standards, could be considered an opera., could be considered an opera»
+[2] «La Dafne | The opera is based on the myth of Daphne and Apollo as related by Ovid in the first book of the Metamorphoses. An earlier version of the libretto had been set ...»
+[3] «Götterdämmerung - Simple English Wikipedia, the free ... | Götterdämmerung is an opera by Richard Wagner. It is the fourth and last of the cycle of operas that together tell a story called Der Ring des Nibelungen (The Ring of the Nibelung)., Götterdämmerung is an opera»
+[4] «Götterdämmerung - Wikipedia | Götterdämmerung WWV 86D, is the last in Richard Wagner's cycle of four music dramas titled Der Ring des Nibelungen (The Ring of the Nibelung, or The Ring ...»
+
+Question: Are both Götterdämmerung and Dafne considered operas?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Dafne is considered the earliest work that could be considered an opera by modern standards, according to Wikipedia [1]. La Dafne is an opera based on the myth of Daphne and Apollo [2]. Götterdämmerung is an opera by Richard Wagner and is the last of the cycle of operas called Der Ring des Nibelungen [3][4]. Therefore, both Dafne and Götterdämmerung are considered operas.
+
+Answer: Yes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes.
+................................... ground truth ...................................
+['no']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What occupations do Toshi and Emily Haines share?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What occupations do Toshi and Emily Haines share?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what Toshi and Emily Haines do for a living.
+Search Query: What is Toshi's occupation? What is Emily Haines' occupation?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Emily Haines | Emily Savitri Haines (born 25 January 1974) is a Canadian singer and songwriter. ... Occupation(s). Singer; songwriter. Instrument(s).»
+[2] «Emily Haines biography | Emily Haines (born January 1974 in New Delhi, India) is a Canadian singer-songwriter and keyboardist of the indie rock band Metric and a ...»
+
+Question: What occupations do Toshi and Emily Haines share?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Emily Haines is a singer and songwriter. However, we need to find out what occupations Toshi shares with her.
+
+Search Query: Toshi Emily Haines shared occupations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Emily Haines | Emily Savitri Haines (born 25 January 1974) is a Canadian singer and songwriter. ... Occupation(s). Singer; songwriter. Instrument(s).»
+[2] «Emily Haines biography | Emily Haines (born January 1974 in New Delhi, India) is a Canadian singer-songwriter and keyboardist of the indie rock band Metric and a ...»
+[3] «Emily Haines - Teacher and Literacy Coach | Twenty-five years of experience in urban public education as a high school teacher, coach of teachers, and instructional leadership team facilitator focused ...»
+[4] «Untitled | Ceramah mz mp3, Db2 file-sharing violations, Gionee mobiles models and price list, Kanhangad song, 0 vauxhall mokka drivers, Harbin lumber royston ga zip ...»
+
+Question: What occupations do Toshi and Emily Haines share?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: We are given information about Emily Haines in sources [1] and [2].
+Step 2: We look for mentions of Toshi in these sources, but there are none.
+Step 3: Therefore, we cannot determine if Toshi and Emily Haines share any occupations.
+
+Answer: Unknown.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Unknown.
+................................... ground truth ...................................
+['singer and songwriter']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What is another name for basidiomycete fungus?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What is another name for basidiomycete fungus?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what family basidiomycete fungus belongs to.
+Search Query: What family does basidiomycete fungus belong to?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Basidiomycota | phylum of fungi - Encyclopedia Britannica | Basidiomycota, large and diverse phylum of fungi (kingdom Fungi) that includes jelly and shelf fungi; mushrooms, puffballs, and stinkhorns; certain yeasts; and the rusts and smuts., kingdom Fungi»
+[2] «Basidiomycota | Basidiomycota are filamentous fungi composed of hyphae (except for basidiomycota-yeast) and reproduce sexually via the formation of specialized club-shaped ...»
+
+Question: What is another name for basidiomycete fungus?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Basidiomycota is a phylum of fungi that includes various types of fungi such as mushrooms, yeasts, and rusts. Basidiomycota are filamentous fungi composed of hyphae and reproduce sexually via the formation of specialized club-shaped structures.
+
+Search Query: What are some common names for basidiomycete fungi?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Basidiomycota | phylum of fungi - Encyclopedia Britannica | Basidiomycota, large and diverse phylum of fungi (kingdom Fungi) that includes jelly and shelf fungi; mushrooms, puffballs, and stinkhorns; certain yeasts; and the rusts and smuts., kingdom Fungi»
+[2] «Basidiomycota | Basidiomycota are filamentous fungi composed of hyphae (except for basidiomycota-yeast) and reproduce sexually via the formation of specialized club-shaped ...»
+[3] «What is the common name for members of phylum ... - Study.com | The common name for members of phylum Basidiomycota is club fungi. The name club fungi are being given for basidiomycetes as the basidia cells endure the sexual spores that look like a small club. The five diverse types of basidiomycetes are described as mushrooms, puffballs, stinkhorns, rusts, as well as smuts., club fungi»
+[4] «Basidiomycota | More specifically, Basidiomycota includes these groups: agarics, puffballs, stinkhorns, bracket fungi, other polypores, jelly fungi, boletes, chanterelles, ...»
+
+Question: What is another name for basidiomycete fungus?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Basidiomycete fungi are a large and diverse phylum of fungi that includes various types of fungi such as mushrooms, puffballs, and stinkhorns. According to sources [3] and [4], the common name for members of phylum Basidiomycota is club fungi, which is given because the basidia cells endure the sexual spores that look like a small club.
+
+Answer: Club fungi.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Club fungi.
+................................... ground truth ...................................
+['Funki Porcini']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########Where is the first major improved highway located?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Where is the first major improved highway located?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what is considered the first major improved highway.
+Search Query: What is considered the first major improved highway?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «National Road - Wikipedia | The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government. Built between 1811 and 1837, the 620-mile (1,000 km) road connected the Potomac and Ohio Rivers and was a main transport path to the West for thousands of settlers., The National Road (also known as the Cumberland Road)»
+[2] «The National Road - Back in Time - General Highway History | The National Road, in many places known as Route 40, was built between 1811 and 1834 to reach the western settlements. It was the first federally funded road in ...»
+
+Question: Where is the first major improved highway located?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The National Road, also known as the Cumberland Road, was the first major improved highway in the United States built by the federal government. It was built between 1811 and 1837 and connected the Potomac and Ohio Rivers, serving as a main transport path to the West for thousands of settlers. Additionally, it was the first federally funded road in the US.
+
+Search Query: What is the location of the National Road in the United States?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «National Road - Wikipedia | The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government. Built between 1811 and 1837, the 620-mile (1,000 km) road connected the Potomac and Ohio Rivers and was a main transport path to the West for thousands of settlers., The National Road (also known as the Cumberland Road)»
+[2] «The National Road - Back in Time - General Highway History | The National Road, in many places known as Route 40, was built between 1811 and 1834 to reach the western settlements. It was the first federally funded road in ...»
+[3] «The National Road (U.S. National Park Service) | The National Road linked the eastern and western states in the first half of the 19th century, running from Cumberland, Maryland to Vandalia, Illinois. The opening of the National Road saw thousands of travelers heading west over the Allegheny Mountains to settle the rich land of the Ohio River Valley., Cumberland, Maryland to Vandalia, Illinois»
+[4] «National Road | The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.»
+
+Question: Where is the first major improved highway located?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking for the location of the first major improved highway in the United States. The sources provided all mention the National Road, also known as the Cumberland Road, as the first federally funded road in the US. The sources also mention that the National Road connected the Potomac and Ohio Rivers and ran from Cumberland, Maryland to Vandalia, Illinois. Therefore, the answer is the National Road, which ran from Cumberland, Maryland to Vandalia, Illinois. 
+
+Answer: The National Road ran from Cumberland, Maryland to Vandalia, Illinois.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The National Road ran from Cumberland, Maryland to Vandalia, Illinois.
+................................... ground truth ...................................
+['Wheeling, West Virginia']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########When was the creator of Bully Boy born?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: When was the creator of Bully Boy born?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the name of the creator of Bully Boy.
+Search Query: Who is the creator of Bully Boy?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Will and Dave Willis | Will and Dave Willis, It's Bully Boy. Bully Boy Distillers, Boston's first craft distillery, founded in 2010, is owned and operated by two brothers, Will and Dave Willis, who found their inspiration for making small-batch spirits through a local tradition and a deep-rooted family history., Will and Dave Willis»
+[2] «The Willis Brothers | Dave Willis. Co-founder, Head of Whiskey Production. Dave is a co-founder, and he heads up all facets of whiskey production. As kids growing up on a working ...»
+
+Question: When was the creator of Bully Boy born?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Bully Boy Distillers was founded by two brothers, Will and Dave Willis. We also know that Dave Willis is a co-founder and heads up all facets of whiskey production. However, we do not have any information about the birthdate of the creator of Bully Boy.
+
+Search Query: What is the birthdate of Dave Willis, co-founder of Bully Boy Distillers?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Will and Dave Willis | Will and Dave Willis, It's Bully Boy. Bully Boy Distillers, Boston's first craft distillery, founded in 2010, is owned and operated by two brothers, Will and Dave Willis, who found their inspiration for making small-batch spirits through a local tradition and a deep-rooted family history., Will and Dave Willis»
+[2] «The Willis Brothers | Dave Willis. Co-founder, Head of Whiskey Production. Dave is a co-founder, and he heads up all facets of whiskey production. As kids growing up on a working ...»
+[3] «The Willis Brothers | Dave is a co-founder, and he heads up all facets of whiskey production. As kids growing up on a working farm, Dave and his brother Will made cider from apples ...»
+[4] «Checking in on Bully Boy Distillers after a busy 10 years | Brothers Will and Dave Willis, founders of Bully Boy Distillers, celebrate 10 years of their distillery this summer.»
+
+Question: When was the creator of Bully Boy born?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question asks for the birthdate of the creator of Bully Boy. The sources provided mention two brothers, Will and Dave Willis, who are the founders of Bully Boy Distillers. However, none of the sources provide information about their birthdates.
+
+Answer: N/A (information not provided in sources)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+N/A (information not provided in sources)
+................................... ground truth ...................................
+['3 May 1958']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+##########What are The Ready Set and Cell?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What are The Ready Set and Cell?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what type of entities The Ready Set and Cell are.
+Search Query: Are The Ready Set and Cell bands or companies?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «The Ready Set | Jordan Mark Witzigreuter (born November 14, 1989), known professionally as The Ready Set, is an American singer-songwriter from Fort Wayne, Indiana, United ...»
+[2] «Five Things You Need to Know About The Ready Set - K945 | The Ready Set is Just One Guy. Although the name, The Ready Set, would lead people to believe it is a band, it is really just one man. Jordan ...»
+
+Question: What are The Ready Set and Cell?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Ready Set is an American singer-songwriter. However, there is no mention of Cell in the context. Therefore, we need to search for information about Cell and its relation to The Ready Set.
+
+Search Query: What is the relation between The Ready Set and Cell?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Did Glamour or W come first?
+Answer: Glamour
+
+Question: Are Deppea and Crambe in the same family?
+Answer: no
+
+Question: Were Maxim Kontsevich and Aleksandr Lyapunov both mathematicians?
+Answer: yes
+
+Question: Are Subhash Ghai and Larry Hagman both Indian?
+Answer: no
+
+Question: Guideposts is different from Meatpaper how?
+Answer: Guideposts is a faith-based non-profit organization
+
+Question: What 1982 British rock band influenced Pale Saints?
+Answer: Primal Scream
+
+Question: Where was the father of Hyrbyair Marri from?
+Answer: Balochistan
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Ready Set | Jordan Mark Witzigreuter (born November 14, 1989), known professionally as The Ready Set, is an American singer-songwriter from Fort Wayne, Indiana, United ...»
+[2] «Five Things You Need to Know About The Ready Set - K945 | The Ready Set is Just One Guy. Although the name, The Ready Set, would lead people to believe it is a band, it is really just one man. Jordan ...»
+[3] «Frequently asked questions about Ready-Set-Go, answered | Information and resources from Los Alamos National Laboratory, NNSA and Los Alamos County · The “go” phase of “ready, set, go” · means evacuate: ...»
+[4] «North Carolina's First-Ever Ready, Set, App! Development ... | Three teams of students from North Carolina high schools developed winning mobile apps in the state's first-ever Ready, Set, App! Contest ...»
+
+Question: What are The Ready Set and Cell?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+[1] and [2] both mention The Ready Set as a singer-songwriter. [3] mentions "Ready-Set-Go" as a phrase used for evacuation. [4] mentions "Ready, Set, App!" as a contest for developing mobile apps. There is no mention of Cell in any of the sources.
+
+Answer: The Ready Set is a singer-songwriter, but there is no information about Cell.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Ready Set is a singer-songwriter, but there is no information about Cell.
+................................... ground truth ...................................
+['band']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+################################### RESULT ###################################
+................................... EM ...................................
+0.3
+................................... F1 ...................................
+0.36333333333333334

@@ -1,0 +1,1355 @@
+##########Was Edward Weston a writer or were things written about him?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Was Edward Weston a writer or were things written about him?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Weston was a photographer, but many things have been written about him.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Weston was a photographer, but many things have been written about him.
+................................... ground truth ...................................
+['Edward Weston was a prolific writer.']
+................................... F1 ...................................
+0.25000000000000006
+................................... nF1 ...................................
+0.22222222222222224
+##########what is the CPVI for the 1st district of alabama?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: what is the CPVI for the 1st district of alabama?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Sorry, I cannot answer this question as it requires current and specific political information that is beyond my training and programming as a language AI model.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Sorry, I cannot answer this question as it requires current and specific political information that is beyond my training and programming as a language AI model.
+................................... ground truth ...................................
+['The CPVI for the 1st district of Alabama is R+15.']
+................................... F1 ...................................
+0.06060606060606061
+................................... nF1 ...................................
+0
+##########did Hall & Oates fulfill their contract with RCA?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: did Hall & Oates fulfill their contract with RCA?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, they fulfilled their contract with RCA in 1988.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, they fulfilled their contract with RCA in 1988.
+................................... ground truth ...................................
+["Live at the Apollo was released primarily to fulfill the duo's contract with RCA"]
+................................... F1 ...................................
+0.28571428571428575
+................................... nF1 ...................................
+0.3636363636363636
+##########When did Charles Kennedy resign?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: When did Charles Kennedy resign?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+2006.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+2006.
+................................... ground truth ...................................
+['On 7 January 2006, Charles Kennedy called another press conference, at which he announced that he could not continue as leader.']
+................................... F1 ...................................
+0.0909090909090909
+................................... nF1 ...................................
+0.14285714285714288
+##########What happened after Gennady Golovkin was signed with Universum Box- Promotion?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What happened after Gennady Golovkin was signed with Universum Box- Promotion?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Golovkin won his first world title in 2010.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Golovkin won his first world title in 2010.
+................................... ground truth ...................................
+["By the end of 2008, Golovkin's record stood at 14–0 and while he had few wins, he was regarded as one of the best prospects in the world."]
+................................... F1 ...................................
+0.12121212121212122
+................................... nF1 ...................................
+0.13333333333333333
+##########Who is the most successful pirate of all time?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Who is the most successful pirate of all time?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Cheng I Sao, a female pirate who commanded a fleet of over 300 ships and 40,000 pirates in the early 19th century.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Cheng I Sao, a female pirate who commanded a fleet of over 300 ships and 40,000 pirates in the early 19th century.
+................................... ground truth ...................................
+['10 Most Successful Pirate CaptainsCheng I Sao (Chinese, 1785 – 1844) Public domain.Sir Francis Drake (English, 1540 – 1596) ...Bartholomew Roberts (Welsh, 1682 - 1722) ...Sir Henry Morgan (Welsh, 1635 - 1688) ...Peter Easton (English, 1570 – 1620) ...Cheung Po Tsai (Chinese, Early 1800s - Mid 1800s) ...Henry Every (English, 1653 - ?) ...Blackbeard (English, 1680 - 1718) ...']
+................................... F1 ...................................
+0.11267605633802817
+................................... nF1 ...................................
+0.09523809523809523
+##########Did the album Roll On by The Living End win any awards?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Did the album Roll On by The Living End win any awards?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, it won the ARIA Award for Best Rock Album in 2001.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, it won the ARIA Award for Best Rock Album in 2001.
+................................... ground truth ...................................
+['The album Roll On by The Living End did not recieve any awards']
+................................... F1 ...................................
+0.09090909090909091
+................................... nF1 ...................................
+0
+##########How are the Spanish Christmas Lottery tickets sold?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: How are the Spanish Christmas Lottery tickets sold?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The tickets are sold in décimos, or tenths.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The tickets are sold in décimos, or tenths.
+................................... ground truth ...................................
+['People line up for hours to purchase their Christmas lottery tickets in Spain. About 75 percent of adults in the country participate in the lottery draw each year.']
+................................... F1 ...................................
+0.12121212121212123
+................................... nF1 ...................................
+0
+##########How was Bill Russell as a competitor?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: How was Bill Russell as a competitor?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Bill Russell was known for his fierce competitiveness and winning mentality, leading the Boston Celtics to 11 NBA championships in 13 seasons.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Bill Russell was known for his fierce competitiveness and winning mentality, leading the Boston Celtics to 11 NBA championships in 13 seasons.
+................................... ground truth ...................................
+['Russell was driven by a neurotic need to win, as his Celtic teammate Heinsohn observed. He was so tense before every game that he regularly vomited in the locker room.']
+................................... F1 ...................................
+0.20408163265306123
+................................... nF1 ...................................
+0.06451612903225808
+##########whose work influenced francis Bacon in formalizing the concept of a true scientific method##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: whose work influenced francis Bacon in formalizing the concept of a true scientific method
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Francis Bacon was influenced by the work of philosophers such as Aristotle and Roger Bacon in formalizing the concept of a true scientific method.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Francis Bacon was influenced by the work of philosophers such as Aristotle and Roger Bacon in formalizing the concept of a true scientific method.
+................................... ground truth ...................................
+['The work of Nicolaus Copernicus and Galileo Galilei influenced Bacon tremendously in formalizing the concept of a true scientific method.']
+................................... F1 ...................................
+0.6315789473684211
+................................... nF1 ...................................
+0.42857142857142855
+##########What did the other members of Future Islands, besides Cashion and Welmers, play?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What did the other members of Future Islands, besides Cashion and Welmers, play?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Samuel T. Herring was the lead vocalist and Michael Lowry was the drummer.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Samuel T. Herring was the lead vocalist and Michael Lowry was the drummer.
+................................... ground truth ...................................
+['Samuel Herring sang and Erick Murillo played drums.']
+................................... F1 ...................................
+0.3157894736842105
+................................... nF1 ...................................
+0.2222222222222222
+##########What was Hanson's hit song?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What was Hanson's hit song?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+"Mmmbop"
+=================================== ANSWER ===================================
+................................... prediction ...................................
+"Mmmbop"
+................................... ground truth ...................................
+['Hanson are best known for the 1997 hit song MMMBop from their debut album.']
+................................... F1 ...................................
+0.14285714285714288
+................................... nF1 ...................................
+0.19999999999999998
+##########How did Björn Borg compare to other players?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: How did Björn Borg compare to other players?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Björn Borg is considered one of the greatest tennis players of all time.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Björn Borg is considered one of the greatest tennis players of all time.
+................................... ground truth ...................................
+['Björn Borg is considered to have been the No. 1 player in the world for 1977, 1978, and 1980.']
+................................... F1 ...................................
+0.27586206896551724
+................................... nF1 ...................................
+0
+##########What were Jack Abramoff political alliances?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What were Jack Abramoff political alliances?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Abramoff had political alliances with both Republican and Democratic politicians.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Abramoff had political alliances with both Republican and Democratic politicians.
+................................... ground truth ...................................
+['hold key roles in state and national politics and business, and some would later interact with Abramoff in his role as a lobbyist.']
+................................... F1 ...................................
+0.18749999999999997
+................................... nF1 ...................................
+0.10526315789473684
+##########What was special about Stereolab's lyrics?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What was special about Stereolab's lyrics?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+They often included Marxist and feminist themes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+They often included Marxist and feminist themes.
+................................... ground truth ...................................
+["Stereolab's music is politically and philosophically charged."]
+................................... F1 ...................................
+0.14285714285714285
+................................... nF1 ...................................
+0
+##########What was Robert Owen's position on the Poor Laws?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: What was Robert Owen's position on the Poor Laws?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Robert Owen was a critic of the Poor Laws.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Robert Owen was a critic of the Poor Laws.
+................................... ground truth ...................................
+['Robert Owen attributed the immediate causes of misery to the wars, he also argued that the underlying cause of distress was the competition of human labour with machinery']
+................................... F1 ...................................
+0.25806451612903225
+................................... nF1 ...................................
+0
+##########how long is the mississippi river##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: how long is the mississippi river
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+2,320 miles (3,734 kilometers)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+2,320 miles (3,734 kilometers)
+................................... ground truth ...................................
+['The Mississippi River is 2,320 miles in length.']
+................................... F1 ...................................
+0.36363636363636365
+................................... nF1 ...................................
+0.5714285714285715
+##########How does a 529 plan work?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: How does a 529 plan work?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A 529 plan is a tax-advantaged savings plan designed to encourage saving for future education costs.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+A 529 plan is a tax-advantaged savings plan designed to encourage saving for future education costs.
+................................... ground truth ...................................
+['A 529 college savings plan is a specialized savings account that is used to save money for college. ... The money in a 529 plan may be used to pay for the college expenses and K-12 tuition of the beneficiary, tax-free.']
+................................... F1 ...................................
+0.2916666666666667
+................................... nF1 ...................................
+0.14285714285714285
+##########Where was George Steiner born?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Where was George Steiner born?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Paris, France.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Paris, France.
+................................... ground truth ...................................
+['George Steiner was born in 1929 in Paris.']
+................................... F1 ...................................
+0.2
+................................... nF1 ...................................
+0.6666666666666666
+##########was Mr. darcy in pride and prejudice married##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: was Mr. darcy in pride and prejudice married
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, he marries Elizabeth Bennet.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, he marries Elizabeth Bennet.
+................................... ground truth ...................................
+['Fitzwilliam Darcy proposes to Elizabeth Bennet again, who accepts his proposal.']
+................................... F1 ...................................
+0.25000000000000006
+................................... nF1 ...................................
+0
+##########do the animal and plant cells contain plastids##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: do the animal and plant cells contain plastids
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Only plant cells contain plastids.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Only plant cells contain plastids.
+................................... ground truth ...................................
+['Animal cells do not have plastids. Plant cells contain plastids such as chloroplasts, which are needed for photosynthesis.']
+................................... F1 ...................................
+0.3478260869565218
+................................... nF1 ...................................
+0.5
+##########how were the electors from the states chosen during the 1800 election##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: how were the electors from the states chosen during the 1800 election
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+By state legislatures.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+By state legislatures.
+................................... ground truth ...................................
+['During the 1800 elections, the electors from the states were generally chosen by state legislatures, not by popular vote.']
+................................... F1 ...................................
+0.3157894736842105
+................................... nF1 ...................................
+0.4
+##########Why did Roger Clemens return to the Yankees?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Why did Roger Clemens return to the Yankees?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+To help them win a championship.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+To help them win a championship.
+................................... ground truth ...................................
+["Roger Clemens unexpectedly appeared in the owner's box at Yankee Stadium on May 6, 2007, during the seventh-inning stretch of a game against the Seattle Mariners."]
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########Are one pound notes still legal tender?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Are one pound notes still legal tender?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No, they were withdrawn in 1988.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No, they were withdrawn in 1988.
+................................... ground truth ...................................
+['The Royal Bank of Scotland ceased regular production of £1 notes in 2001; the denomination is still in circulation although rarely seen in cash transactions today.']
+................................... F1 ...................................
+0.06666666666666667
+................................... nF1 ...................................
+0
+##########when was the song funiculi funicula written##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: when was the song funiculi funicula written
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1880.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1880.
+................................... ground truth ...................................
+['Funiculì, Funiculà was composed in 1880.']
+................................... F1 ...................................
+0.2857142857142857
+................................... nF1 ...................................
+0
+##########Once LASIK is done, what kind of precautions do I need to take?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: Once LASIK is done, what kind of precautions do I need to take?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Avoid rubbing your eyes and swimming for a few weeks after the procedure. Follow your doctor's instructions for using eye drops and attending follow-up appointments.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Avoid rubbing your eyes and swimming for a few weeks after the procedure. Follow your doctor's instructions for using eye drops and attending follow-up appointments.
+................................... ground truth ...................................
+['1 to 2 weeks post LASIK: You can usually begin exercising within a week after LASIK surgery, but you should continue to avoid contact sports for at least a month. Wear sunglasses when out in the sun to protect your eyes from the ultraviolet light, and use the provided eye drops to minimize dry eyes.']
+................................... F1 ...................................
+0.2465753424657534
+................................... nF1 ...................................
+0.1714285714285714
+##########who did Sheryl Crow have an affair with?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+Question: who did Sheryl Crow have an affair with?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No information available. As an AI language model, I cannot speculate or spread rumors about someone's personal life.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No information available. As an AI language model, I cannot speculate or spread rumors about someone's personal life.
+................................... ground truth ...................................
+['There was speculation about a brief affair with Eric Clapton.']
+................................... F1 ...................................
+0.07692307692307691
+................................... nF1 ...................................
+0
+################################### RESULT ###################################
+................................... F1 ...................................
+0.21246769311588415
+................................... nF1 ...................................
+0.1640830017551391

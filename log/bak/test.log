@@ -1,0 +1,1062 @@
+##########Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?##########
+=================================== PLAN ===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Sketch a plan to answer the following question with the provided context. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+
+Context:
+${sources that may contain relevant content}
+
+Plan:
+Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}
+
+Dependencies: ${interdependencies among multiple steps}
+
+---
+
+Question: The American attorney, law professor and former member of the Texas House of Representatives who was portrayed by the actress known for "Love Child" (1982), "Places in the Heart" (1984), "Field of Dreams" (1989) and etc., is best known for which U. S. Supreme Court case?
+
+Context:
+[1] «WHO'S WHO | Adapted Screenplay, 1979), Still of the Night, Places in the Heart. (Acad. Award for Best ... Racer, Honky Tonk Freeway, Night Crossing, Love Child, Heart»
+[2] «movie-titles.txt | ... Inglourious Basterds The Doors Field of Dreams The King's Speech Minority ... Boys: The Tribe Places in the Heart Napoléon The Thing from Another World ...»
+[3] «Historical Dictionary Of African American Cinema ... | His film credits include Witness, 1985; Places in the Heart, 1985; ... 1987; Coming to America, 1988; Field of Dreams, 1989; Best of the Best, 1989; ...»
+
+Plan:
+Step 1: Who is the American attorney, law professor and former member of the Texas House of Representatives who was portrayed by the actress known for "Love Child" (1982), "Places in the Heart" (1984), "Field of Dreams" (1989) and etc.? Step 2: What is the U.S. Supreme Court case that the person in Step 1 is best known for?
+
+Dependencies: Step 2 depends on the answer from Step 1.
+
+---
+
+Question: Capital Carnage was a UK-only professional wrestling pay-per-view (PPV) event produced by the World Wrestling Federation (WWF) that took place on which date, Jim Ross suffered his second Bells palsy attack on-air during this event, he officially called matches again for the WWE, in the main event of WrestleMania XV?
+
+Context:
+[1] «PPV REVIEW: WWF Capital Carnage 1998 | WWE / WWF Capital Carnage 1998 - Jim Ross & Jerry 'The King' Lawler ... the night that Ross would suffer his second attack of Bell's Palsey.»
+[2] «The many highs and lows of Jim Ross's checkered WWE ... | December 6th, 1998 - Jim Ross suffers a relapse of his Bell's Palsy during the broadcast of the UK only pay-per-view Capital Carnage caused ...»
+[3] «Capital Carnage - History of Wrestling | This show marks the WWF's long-awaited return to UK-only pay-per-view after 1997's inaugural One Night Only event, with Mayhem in Manchester ...»
+
+Plan:
+Step 1: When did the UK-only professional wrestling pay-per-view (PPV) event Capital Carnage, produced by the World Wrestling Federation (WWF), take place? Step 2: During which event did Jim Ross suffer his second Bells palsy attack on-air? Step 3: When did Jim Ross officially call matches again for the WWE? Step 4: In which main event of WrestleMania XV did Jim Ross call matches?
+
+Dependencies: None
+
+---
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+
+Plan:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: What is Mookychick? Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
+
+Dependencies: None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Highlight interdependencies among the steps below if any. Higher number steps can depend on lower number steps, while the reverse is not possible.
+
+---
+
+Follow the following format.
+
+Plan:
+Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}
+
+Dependencies: ${interdependencies among multiple steps}
+
+---
+
+Plan:
+Step 1: Who is the American attorney, law professor and former member of the Texas House of Representatives who was portrayed by the actress known for "Love Child" (1982), "Places in the Heart" (1984), "Field of Dreams" (1989) and etc.? Step 2: What is the U.S. Supreme Court case that the person in Step 1 is best known for?
+
+Dependencies: Step 2 depends on the answer from Step 1.
+
+---
+
+Plan:
+Step 1: When did the UK-only professional wrestling pay-per-view (PPV) event Capital Carnage, produced by the World Wrestling Federation (WWF), take place? Step 2: During which event did Jim Ross suffer his second Bells palsy attack on-air? Step 3: When did Jim Ross officially call matches again for the WWE? Step 4: In which main event of WrestleMania XV did Jim Ross call matches?
+
+Dependencies: None
+
+---
+
+Plan:
+Step 1: What is Mookychick? Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
+
+Dependencies:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 2 depends on the answer from Step 1.
+=================================== SEARCH ===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Express the dependencies in formal language by giving the descriptions below.
+
+---
+
+Follow the following format.
+
+Descriptions: ${descriptions of dependencies}
+Dependencies: ${e.g. If Step 2 depends on Step 1, then write Step 1 -> Step 2; If Step 2 and Step 3 depend on Step 1, then write Step 1 -> (Step 2 and Step 3); If Step 3 depends on Step 1 and Step 2, then write (Step 1 and Step 2) -> Step 3}
+
+---
+
+Descriptions: Step 2 depends on the answer from Step 1.
+Dependencies:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1 -> Step 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[2] «About | Mookychick is like water – babbling, tranquil, charged, unquiet, delicate, ferocious, restorative and deep. Its spirit is both flowers and owls. We are a ...»
+
+Question: What is Mookychick?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an alternative feminist website and community that covers social and cultural trends and gender issues. The website's about page describes it as a site that is "like water" and embodies the spirits of both flowers and owls.
+
+Answer: Mookychick is an alternative feminist website and community.
+----------------------------------- CHOICE 1 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community" with content related to social and cultural trends and gender issues. The website's "About" page describes it as "like water" and with a spirit of both flowers and owls.
+
+Answer: An alternative feminist website and community with content related to social and cultural trends and gender issues.
+----------------------------------- CHOICE 2 -----------------------------------
+...................................assistant...................................
+It is a website and community. It focuses on social and cultural trends and issues relating to gender. It has a spirit that is both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 3 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an alternative feminist website and community. It is compared to water, with a spirit of both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 4 -----------------------------------
+...................................assistant...................................
+Mookychick is an alternative feminist website and community that analyzes social and cultural trends and issues relating to gender. It is described as being like water, with a spirit that is both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 5 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community" that covers analysis of social and cultural trends and issues relating to gender. It is also described as having a spirit that is "both flowers and owls." Based on these descriptions, what is Mookychick?
+
+Answer: An alternative feminist website and community covering social and cultural trends and issues relating to gender.
+----------------------------------- CHOICE 6 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an alternative feminist website and community, with content focused on social and cultural trends and gender issues. The website's About page further describes Mookychick as having a spirit that is both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 7 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an alternative feminist website and community. Its spirit is both flowers and owls. What is Mookychick?
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 8 -----------------------------------
+...................................assistant...................................
+Mookychick is a website and community. It is alternative and feminist. It features analysis of social and cultural trends, and issues relating to gender. It is described as being like water, with a spirit of both flowers and owls.
+
+Answer: A website and community, alternative and feminist, featuring analysis of social and cultural trends and issues relating to gender, described as being like water with a spirit of both flowers and owls.
+----------------------------------- CHOICE 9 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community." The website's About page compares it to water, and states that its spirit is both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 10 -----------------------------------
+...................................assistant...................................
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 11 -----------------------------------
+...................................assistant...................................
+It is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender. It is described as like water – babbling, tranquil, charged, unquiet, delicate, ferocious, restorative and deep. Its spirit is both flowers and owls.
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 12 -----------------------------------
+...................................assistant...................................
+Mookychick is a website and community. It is alternative and feminist. Its spirit is both flowers and owls.
+
+Answer: A feminist website and community.
+----------------------------------- CHOICE 13 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community". The website's about page describes it as having the spirit of both flowers and owls. 
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 14 -----------------------------------
+...................................assistant...................................
+Answer: An alternative feminist website.
+----------------------------------- CHOICE 15 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community" on [1], and as having a spirit of "both flowers and owls" on [2].
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 16 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an alternative feminist website and community, and its spirit is both flowers and owls. 
+
+Answer: An alternative feminist website and community.
+----------------------------------- CHOICE 17 -----------------------------------
+...................................assistant...................................
+It is an alternative feminist website and community. It has a spirit that is both flowers and owls.
+
+Answer: An alternative feminist website and community with a spirit that is both flowers and owls.
+----------------------------------- CHOICE 18 -----------------------------------
+...................................assistant...................................
+It is described as an alternative feminist website and community. It is also compared to water, with a spirit that is both flowers and owls.
+
+Answer: Mookychick is an alternative feminist website and community.
+----------------------------------- CHOICE 19 -----------------------------------
+...................................assistant...................................
+Mookychick is described as an "alternative feminist website and community" that discusses social and cultural trends and gender issues. The website is also described as having a spirit that is both "flowers and owls."
+
+Answer: An alternative feminist website and community.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Rewrite the last question in a standalone manner by giving the answers to previous questions. Do not consider answers that were not specified. Only show the last question after the rewrite.
+
+---
+
+Follow the following format.
+
+Questions:
+${previous questions and answers}
+
+Rewrite: ${the last question after the rewrite}
+
+---
+
+Questions:
+Step 1: Who authored the opinion in Hawaii v. Office of Hawaiian Affairs, 556 U.S. 163 (2009)? ANSWER: Justice Samuel Alito. Step 2: When did the author join the Supreme Court?
+
+Rewrite: When did Justice Samuel Alito join the Supreme Court?
+
+---
+
+Questions:
+Step 1: What is Mookychick? ANSWER: An alternative feminist website and community.. Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
+
+Rewrite:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
+
+Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
+
+Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 0.1 seconds after 2 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
+
+Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 1.1 seconds after 3 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
+
+Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 1.8 seconds after 4 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
+
+Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The magazine was founded in 1993 by Stoller and Henzel. It has a Riot Girls sensibility. The magazine is published six times a year. 
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 1 -----------------------------------
+...................................assistant...................................
+Bust Magazine was founded in 1993 by Stoller and Henzel. They started the magazine with a "Riot Girls" sensibility. The magazine is still being published today. 
+
+Answer: Bust Magazine
+----------------------------------- CHOICE 2 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine is focused on women's lifestyle. 
+Step 2: It was founded in 1993 by Debbie Stoller, Henzel, and Marcelle Karp. 
+Step 3: Debbie Stoller and Laurie Henzel are the current editors of the magazine. 
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 3 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp.
+Step 2: The magazine has a Riot Girls sensibility.
+Step 3: The magazine is still being published after 25 years.
+Answer: Bust Magazine.
+----------------------------------- CHOICE 4 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine is a women's lifestyle magazine.
+Step 2: It is published six times a year.
+Step 3: It was founded by Debbie Stoller and Laurie Henzel in 1993.
+Step 4: The name of the magazine is being asked.
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 5 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 by Stoller and Henzel.
+Step 2: The magazine has a Riot Girls sensibility.
+Step 3: The magazine is still being published today.
+Answer: Bust Magazine.
+----------------------------------- CHOICE 6 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp.
+Step 2: The founding editors are Debbie Stoller and Laurie Henzel.
+Step 3: The magazine has a Riot Girls sensibility.
+Step 4: The magazine is published six times a year.
+Step 5: The name of the magazine is mentioned in both sources.
+Step 6: Therefore, the answer is Bust Magazine.
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 7 -----------------------------------
+...................................assistant...................................
+The magazine was founded in 1993 by Stoller and Henzel. It has a Riot Girls sensibility. The magazine is published six times a year. 
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 8 -----------------------------------
+...................................assistant...................................
+Bust Magazine was founded in NYC in 1993 by Stoller and Henzel. The founding editors started the magazine with a Riot Girls sensibility. Therefore, the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel is Bust Magazine.
+
+Answer: Bust Magazine
+----------------------------------- CHOICE 9 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 by Stoller and Henzel.
+Step 2: The magazine has a "Riot Girls sensibility."
+Step 3: The magazine is published six times a year.
+Step 4: The name of the magazine is mentioned in both sources.
+Step 5: Therefore, the name of the magazine is Bust.
+
+Answer: Bust
+----------------------------------- CHOICE 10 -----------------------------------
+...................................assistant...................................
+The magazine was founded in 1993 by Stoller and Henzel. They started it with a Riot Girls sensibility. It is published six times a year. What is its name?
+
+Answer: Bust
+----------------------------------- CHOICE 11 -----------------------------------
+...................................assistant...................................
+- The magazine was founded in 1993 in New York City by Stoller, Henzel, and Marcelle Karp.
+- The founding editors have a Riot Girls sensibility.
+- The magazine is about women's lifestyle.
+- The magazine is published six times a year.
+- What is the name of the magazine?
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 12 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 in New York City by Stoller, Henzel, and Marcelle Karp.
+Step 2: It has a Riot Girls sensibility.
+Step 3: It is published six times a year.
+Step 4: What is the name of the magazine? 
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 13 -----------------------------------
+...................................assistant...................................
+Bust is a women's lifestyle magazine. The magazine was founded in 1993. The founders are Debbie Stoller and Laurie Henzel.
+
+Answer: Bust
+----------------------------------- CHOICE 14 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine is focused on women's lifestyle.
+Step 2: It was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp.
+Step 3: The founding editors are Debbie Stoller and Laurie Henzel.
+Step 4: The magazine is published six times a year.
+Step 5: The name of the magazine is mentioned in the sources.
+Answer: Bust Magazine.
+----------------------------------- CHOICE 15 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp.
+Step 2: The founding editors are Debbie Stoller and Laurie Henzel.
+Step 3: The magazine has a Riot Girls sensibility.
+Step 4: The magazine is published six times a year.
+Step 5: Therefore, the name of the women's lifestyle magazine is Bust.
+
+Answer: Bust.
+----------------------------------- CHOICE 16 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine was founded in 1993 by Stoller and Henzel.
+Step 2: It has a Riot Girls sensibility.
+Step 3: It is published six times a year.
+Step 4: It is a women's lifestyle magazine.
+Answer: Bust Magazine.
+----------------------------------- CHOICE 17 -----------------------------------
+...................................assistant...................................
+Step 1: The magazine is a women's lifestyle magazine. 
+Step 2: It was founded in New York City in 1993. 
+Step 3: The founding editors are Debbie Stoller and Laurie Henzel. 
+Step 4: The name of the magazine is mentioned in the sources. 
+
+Answer: Bust Magazine.
+----------------------------------- CHOICE 18 -----------------------------------
+...................................assistant...................................
+The magazine was founded in 1993 by Stoller and Henzel in New York City with a Riot Girls sensibility. The magazine is still active and published six times a year. Therefore, the name of the women's lifestyle magazine is Bust.
+
+Answer: Bust.
+----------------------------------- CHOICE 19 -----------------------------------
+...................................assistant...................................
+The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp. Stoller and Henzel started the magazine with a Riot Girls sensibility. The magazine is still being published today, 25 years later. 
+
+Answer: Bust Magazine.
+----------------------------------- STEPS WITH ANSWERS -----------------------------------
+None
+Step 1: What is Mookychick? ANSWER: An alternative feminist website and community.
+Step 2: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel? ANSWER: Bust Magazine.
+=================================== PREDICT ===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 1.4 seconds after 2 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 3.6 seconds after 3 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 0.7 seconds after 4 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 6.8 seconds after 5 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 1.0 seconds after 6 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
+[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
+[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
+[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+
+Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+
+Rationale: Let's think step by step.
+Backing off 14.0 seconds after 7 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
