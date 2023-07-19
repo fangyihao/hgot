@@ -25,6 +25,7 @@ from networkx.exception import NetworkXNoCycle
 from collections import OrderedDict
 import random
 import copy
+import matplotlib.ticker as ticker
 seed = 42
 language_model='gpt-3.5-turbo'
 #language_model='gpt-4'
@@ -251,9 +252,9 @@ def load_data(dataset):
     return [train_df, dev_df, test_df]
 
 
-
 def analyze_data(df_dict):
     dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC"}
+    
     for dataset in dataset_dict:
         train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
         dev_len_df = pd.DataFrame(sent_len(df_dict[dataset][1]["Question"].values), columns=["Dev"])
@@ -273,7 +274,47 @@ def analyze_data(df_dict):
         plt.savefig("log/%s_question_length.png"%dataset)
         plt.clf()
         plt.close() 
-
+    
+    
+    #fig = plt.figure(figsize=(6,2))
+    fig, axes = plt.subplots(nrows=1,ncols=3, figsize=(5,2))
+    
+    for i, dataset in enumerate(dataset_dict):
+        train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
+        dev_len_df = pd.DataFrame(sent_len(df_dict[dataset][1]["Question"].values), columns=["Dev"])
+        test_len_df = pd.DataFrame(sent_len(df_dict[dataset][2]["Question"].values), columns=["Test"])
+        df = pd.concat([train_len_df, dev_len_df, test_len_df], join = 'outer', axis = 1)
+        
+        #plt.subplot(1, 3, i+1)
+        ax = axes[i]
+        #ax = plt.gca()
+        sns.histplot(df, element='step', fill=True, kde=False, alpha=0.5, shrink=0.8, multiple='dodge', bins=20, ax=ax, log_scale=False)
+        
+        
+        ax.margins(x=0.01) # less spacing
+        ax.set_title("SQuAD" if dataset == "open-squad" else dataset_dict[dataset])
+        ax.set_xlabel("Sentence Length")
+        #plt.yscale('log')
+        ax.set_yscale('log')
+        ax.set_yticks([10,1000])
+        #formatter = ticker.FuncFormatter(lambda x, pos: "%.0fK"%(x/1000) if x > 0 else "0")
+        #ax.yaxis.set_major_formatter(formatter)
+        
+        if i < len(dataset_dict) - 1:
+            ax.get_legend().remove()
+        else:
+            handles = ax.get_legend().legendHandles
+            ax.get_legend().remove()
+    
+    fig.tight_layout() 
+    fig.subplots_adjust(top=0.7)   ##  Need to play with this number.
+    fig.legend(handles, ['Train', 'Dev', 'Test'], loc='upper center', ncol=3)
+    #plt.tight_layout()
+    
+    plt.draw()
+    plt.savefig("log/question_length.png")
+    plt.clf()
+    plt.close() 
 
 
 class Vanilla_LM_QA:
@@ -1118,10 +1159,16 @@ def main_test():
     log_file.close()
 
 if __name__=='__main__':
-    main()
+    #main()
     #main(True)
     #main_test()
     #preprocess_data("qrecc")
     #annotate()
+    
+    df_dict = {}
+    df_dict["open-squad"] = load_data("open-squad")
+    df_dict["hotpotqa"] = load_data("hotpotqa")
+    df_dict["qrecc"] = load_data("qrecc")
+    analyze_data(df_dict)
 
     
