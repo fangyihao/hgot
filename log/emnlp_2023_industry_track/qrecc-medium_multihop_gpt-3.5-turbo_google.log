@@ -1,0 +1,3486 @@
+##########Was Edward Weston a writer or were things written about him?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Was Edward Weston a writer or were things written about him?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Edward Weston wrote anything himself or if he was only the subject of written works.
+Search Query: Did Edward Weston write any books or articles?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Edward Weston | Writings. Weston was a prolific writer. His Daybooks were published in two volumes totaling more than 500 pages in the first edition. This does not include the ...»
+[2] «The Daybooks Of Edward Weston | Aperture | Spring 1962 | The book and fifteen portfolios of original prints represent the efforts of a photojournalist to come to grips with his medium on his own terms, without the ...»
+
+Question: Was Edward Weston a writer or were things written about him?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Edward Weston was a prolific writer and his Daybooks were published in two volumes totaling more than 500 pages in the first edition. However, there is also a book and fifteen portfolios of original prints that represent the efforts of a photojournalist to come to grips with his medium on his own terms.
+
+Search Query: Did Edward Weston write his own Daybooks or were they written about him?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Edward Weston | Writings. Weston was a prolific writer. His Daybooks were published in two volumes totaling more than 500 pages in the first edition. This does not include the ...»
+[2] «The Daybooks Of Edward Weston | Aperture | Spring 1962 | The book and fifteen portfolios of original prints represent the efforts of a photojournalist to come to grips with his medium on his own terms, without the ...»
+[3] «Daybooks 1923-1930.pdf | In Mexico in 1923, Weston began keeping a kind of diary or journal which he called his daybooks. In it he wrote about his friends, his sons, his many lovers, and his continuous struggle to perfect his art and still manage to make enough money to live on., he wrote about his friends, his sons, his many lovers, and his continuous struggle to perfect his art and still manage to make enough money to live on.»
+
+Question: Was Edward Weston a writer or were things written about him?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Weston was a prolific writer and kept a diary or journal called his daybooks. There are also books and portfolios of his original prints. Therefore, he was both a writer and had things written about him.
+
+Answer: Edward Weston was both a writer and had things written about him.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Edward Weston was both a writer and had things written about him.
+................................... ground truth ...................................
+['Edward Weston was a prolific writer.']
+................................... F1 ...................................
+0.5000000000000001
+................................... nF1 ...................................
+0.6666666666666665
+##########what is the CPVI for the 1st district of alabama?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: what is the CPVI for the 1st district of alabama?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what CPVI stands for and how it is calculated.
+Search Query: What is CPVI and how is it calculated?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Cook Partisan Voting Index - Wikipedia | The Cook Partisan Voting Index, abbreviated Cook PVI, CPVI, or PVI, is a measurement of how strongly a United States congressional district or U.S. state leans toward the Democratic or Republican Party, compared to the nation as a whole, based on how that district or state voted in the previous two presidential ...»
+[2] «Calculating political lean of new legislative districts | With the new state House and Senate district lines in place, MinnPost has analyzed the political leaning of each district, based on the ...»
+
+Question: what is the CPVI for the 1st district of alabama?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that the Cook Partisan Voting Index (CPVI) is a measurement of how strongly a congressional district leans towards the Democratic or Republican Party. We also know that MinnPost has analyzed the political leaning of each district in Minnesota based on the CPVI. However, we need to know the CPVI for the 1st district of Alabama.
+
+Search Query: What is the Cook Partisan Voting Index (CPVI) for the 1st district of Alabama?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Cook Partisan Voting Index - Wikipedia | The Cook Partisan Voting Index, abbreviated Cook PVI, CPVI, or PVI, is a measurement of how strongly a United States congressional district or U.S. state leans toward the Democratic or Republican Party, compared to the nation as a whole, based on how that district or state voted in the previous two presidential ...»
+[2] «Calculating political lean of new legislative districts | With the new state House and Senate district lines in place, MinnPost has analyzed the political leaning of each district, based on the ...»
+[3] «2022 Cook PVI℠: District Map and List | A Partisan Voting Index (Cook PVI) score of D+2, for example, means that in the 2016 and 2020 presidential elections, the state or district ...»
+[4] «Cook Partisan Voting Index | The Cook Partisan Voting Index, abbreviated Cook PVI, CPVI, or PVI, is a measurement of how strongly a United States congressional district or U.S. state ...»
+
+Question: what is the CPVI for the 1st district of alabama?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. The CPVI is a measurement of how strongly a congressional district leans toward the Democratic or Republican Party.
+2. The CPVI is based on how that district voted in the previous two presidential elections.
+3. We need to find the CPVI for the 1st district of Alabama.
+4. We can search for this information in sources that provide CPVI scores for congressional districts.
+
+Answer: The CPVI for the 1st district of Alabama is R+15.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The CPVI for the 1st district of Alabama is R+15.
+................................... ground truth ...................................
+['The CPVI for the 1st district of Alabama is R+15.']
+................................... F1 ...................................
+1.0
+................................... nF1 ...................................
+1.0
+##########did Hall & Oates fulfill their contract with RCA?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: did Hall & Oates fulfill their contract with RCA?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Hall & Oates had a contract with RCA and what the terms of the contract were.
+Search Query: What was the contract between Hall & Oates and RCA?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Hall & Oates | Hall and Oates signed with Arista Records, their third record company, in 1987, shortly before the string of Top 10 hits ended, in Tommy Mottola's effort to ...»
+[2] «When it comes to making records, Hall and Oates do it for ... | Two years ago, Hall & Oates had signed to Sony, parent company to Columbia and Epic Records. They went to work on a studio CD in London only to ...»
+
+Question: did Hall & Oates fulfill their contract with RCA?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Hall & Oates signed with Arista Records in 1987, which was their third record company. Two years ago, they had signed to Sony, parent company to Columbia and Epic Records. However, it is unclear if they fulfilled their contract with RCA, their second record company.
+
+Search Query: Did Hall & Oates fulfill their contract with RCA?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Hall & Oates | Hall and Oates signed with Arista Records, their third record company, in 1987, shortly before the string of Top 10 hits ended, in Tommy Mottola's effort to ...»
+[2] «When it comes to making records, Hall and Oates do it for ... | Two years ago, Hall & Oates had signed to Sony, parent company to Columbia and Epic Records. They went to work on a studio CD in London only to ...»
+[3] «Hall & Oates | Live at the Apollo was released primarily to fulfill the duo's contract with RCA, and contained a Top 20 Grammy-nominated hit with a medley of "The Way You Do ...»
+[4] «When it comes to making records, Hall and Oates do it for ... | They financed the sessions themselves and have not yet signed a record deal to release the new CD, although Oates said he thinks it will come ...»
+
+Question: did Hall & Oates fulfill their contract with RCA?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Hall & Oates released Live at the Apollo primarily to fulfill their contract with RCA. 
+
+Answer: Yes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes.
+................................... ground truth ...................................
+["Live at the Apollo was released primarily to fulfill the duo's contract with RCA"]
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########When did Charles Kennedy resign?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: When did Charles Kennedy resign?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what year Charles Kennedy was the leader of the Liberal Democrats.
+Search Query: What year was Charles Kennedy the leader of the Liberal Democrats?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Charles Kennedy - Wikipedia | Charles Peter Kennedy (25 November 1959 – 1 June 2015) was a British politician who served as Leader of the Liberal Democrats from 1999 to 2006, and was the Member of Parliament (MP) for Ross, Skye and Lochaber from 1983 to 2015.»
+[2] «Charles Kennedy | Ambitious and popular, he quickly emerged as a potential party leader. In 1994, by which time the SDP and the Liberal Party had merged, he became President of ...»
+
+Question: When did Charles Kennedy resign?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Charles Kennedy was a British politician who served as Leader of the Liberal Democrats from 1999 to 2006 and was the Member of Parliament for Ross, Skye and Lochaber from 1983 to 2015. However, we do not know when he resigned.
+
+Search Query: When did Charles Kennedy resign as Leader of the Liberal Democrats?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Charles Kennedy - Wikipedia | Charles Peter Kennedy (25 November 1959 – 1 June 2015) was a British politician who served as Leader of the Liberal Democrats from 1999 to 2006, and was the Member of Parliament (MP) for Ross, Skye and Lochaber from 1983 to 2015.»
+[2] «Charles Kennedy | Ambitious and popular, he quickly emerged as a potential party leader. In 1994, by which time the SDP and the Liberal Party had merged, he became President of ...»
+
+Question: When did Charles Kennedy resign?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Kennedy was the Leader of the Liberal Democrats from 1999 to 2006, and was an MP from 1983 to 2015. So, we need to find out when he resigned from his position as Leader of the Liberal Democrats.
+
+Answer: Charles Kennedy resigned as Leader of the Liberal Democrats in 2006.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Charles Kennedy resigned as Leader of the Liberal Democrats in 2006.
+................................... ground truth ...................................
+['On 7 January 2006, Charles Kennedy called another press conference, at which he announced that he could not continue as leader.']
+................................... F1 ...................................
+0.3225806451612903
+................................... nF1 ...................................
+0.4
+##########What happened after Gennady Golovkin was signed with Universum Box- Promotion?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What happened after Gennady Golovkin was signed with Universum Box- Promotion?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+when Gennady Golovkin was signed with Universum Box-Promotion.
+Search Query: When was Gennady Golovkin signed with Universum Box-Promotion?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Gennady Golovkin - Wikipedia | After ending his amateur career in 2005, Golovkin signed with the Universum Box-Promotion (UBP) and made his professional debut in May 2006., May 2006»
+[2] «Hamburg Court Confirms: Golovkin With Universum | A Hamburg Regional Court has confirmed the validity of the promotional contract between Universum and WBA "regular" middleweight champion ...»
+
+Question: What happened after Gennady Golovkin was signed with Universum Box- Promotion?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Gennady Golovkin signed with Universum Box-Promotion in May 2006 and made his professional debut. A Hamburg Regional Court confirmed the validity of the promotional contract between Universum and Golovkin.
+
+Search Query: What fights did Gennady Golovkin have while under contract with Universum Box-Promotion?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Gennady Golovkin - Wikipedia | After ending his amateur career in 2005, Golovkin signed with the Universum Box-Promotion (UBP) and made his professional debut in May 2006., May 2006»
+[2] «Hamburg Court Confirms: Golovkin With Universum | A Hamburg Regional Court has confirmed the validity of the promotional contract between Universum and WBA "regular" middleweight champion ...»
+[3] «Gennady Golovkin | Golovkin was scheduled to make his HBO debut against Dmitry Pirog (20-0, 15 KOs) in August 2012. Pirog had vacated his WBO middleweight title to face Golovkin.»
+
+Question: What happened after Gennady Golovkin was signed with Universum Box- Promotion?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Golovkin signed with Universum Box-Promotion in May 2006. A Hamburg Regional Court confirmed the validity of the promotional contract between Universum and Golovkin. Golovkin was scheduled to make his HBO debut against Dmitry Pirog in August 2012.
+
+Answer: Golovkin made his professional debut in May 2006.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Golovkin made his professional debut in May 2006.
+................................... ground truth ...................................
+["By the end of 2008, Golovkin's record stood at 14–0 and while he had few wins, he was regarded as one of the best prospects in the world."]
+................................... F1 ...................................
+0.06060606060606061
+................................... nF1 ...................................
+0
+##########Who is the most successful pirate of all time?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Who is the most successful pirate of all time?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who are the most famous pirates in history.
+Search Query: What are the names of the most famous pirates in history?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «10 Most Famous Pirates in History | Tampa Pirate Ship | Here we share ten of the most famous pirates in history:, Here we share ten of the most famous pirates in history:»
+[2] «List of Famous Pirates | Blackbeard, Calico Jack, William Kidd and more famous pirates · Anne Bonny · Bartholomew Roberts · Benjamin Hornigold · Blackbeard · Calico Jack · Charles Vane.»
+
+Question: Who is the most successful pirate of all time?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+There are several sources that list famous pirates throughout history. However, we need to find out who among them is the most successful.
+
+Search Query: What criteria are used to determine the success of a pirate?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «10 Most Famous Pirates in History | Tampa Pirate Ship | Here we share ten of the most famous pirates in history:, Here we share ten of the most famous pirates in history:»
+[2] «List of Famous Pirates | Blackbeard, Calico Jack, William Kidd and more famous pirates · Anne Bonny · Bartholomew Roberts · Benjamin Hornigold · Blackbeard · Calico Jack · Charles Vane.»
+[3] «Skills Required for Being a Successful Pirate - Blog | Impressive Combat Skills ... Being that the life of a pirate could be quite dangerous at times, it was essential that any good pirate knew how to enter into ...»
+[4] «What did it Take to be a Great Pirate? | One of the most basic yet overlooked traits that was important to becoming a successful pirate was the ability to sail without getting seasick. Those who couldn ...»
+
+Question: Who is the most successful pirate of all time?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Look at sources [1] and [2] for a list of famous pirates.
+2. Look at source [3] for skills required to be a successful pirate.
+3. Look at source [4] for basic traits important to becoming a successful pirate.
+4. Consider factors such as successful raids, wealth accumulated, and longevity of career.
+
+Answer: There is no clear answer as to who the most successful pirate of all time is, as success can be measured in different ways. However, some of the most famous and successful pirates include Blackbeard, Calico Jack, Bartholomew Roberts, and William Kidd.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+There is no clear answer as to who the most successful pirate of all time is, as success can be measured in different ways. However, some of the most famous and successful pirates include Blackbeard, Calico Jack, Bartholomew Roberts, and William Kidd.
+................................... ground truth ...................................
+['10 Most Successful Pirate CaptainsCheng I Sao (Chinese, 1785 – 1844) Public domain.Sir Francis Drake (English, 1540 – 1596) ...Bartholomew Roberts (Welsh, 1682 - 1722) ...Sir Henry Morgan (Welsh, 1635 - 1688) ...Peter Easton (English, 1570 – 1620) ...Cheung Po Tsai (Chinese, Early 1800s - Mid 1800s) ...Henry Every (English, 1653 - ?) ...Blackbeard (English, 1680 - 1718) ...']
+................................... F1 ...................................
+0.13043478260869565
+................................... nF1 ...................................
+0.1408450704225352
+##########Did the album Roll On by The Living End win any awards?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Did the album Roll On by The Living End win any awards?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Roll On by The Living End was nominated for any awards.
+Search Query: "Roll On The Living End" + "awards" + "nominations"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «The Living End - Wikipedia | The Living End have won a total of six awards from thirty nominations., thirty nominations»
+[2] «The Living End | Less Than Jake Wiki | The album was also nominated for the 2006 J Award. ... The Living End > Biography; ↑ Roll On : The Living End; ↑ [23rdPrecinct]; ↑ State of Emergency ...»
+
+Question: Did the album Roll On by The Living End win any awards?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Living End have won six awards from thirty nominations, and the album Roll On was nominated for the 2006 J Award.
+
+Search Query: Did Roll On by The Living End win any awards?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Living End - Wikipedia | The Living End have won a total of six awards from thirty nominations., thirty nominations»
+[2] «The Living End | Less Than Jake Wiki | The album was also nominated for the 2006 J Award. ... The Living End > Biography; ↑ Roll On : The Living End; ↑ [23rdPrecinct]; ↑ State of Emergency ...»
+[3] «The Living End | The Band was nominated 27 times and won five awards at the Australian ARIA Music Awards ... The Living End's second album, Roll On, was recorded during July 2000 ...»
+[4] «The Living End | Bringing together a mix of punk, rockabilly, pop, and rock 'n' roll, The Living End became popular in their native Australia, then took their punkabilly sound ...»
+
+Question: Did the album Roll On by The Living End win any awards?
+
+Rationale: Let's think step by step.
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7f841f5e7d00> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Living End - Wikipedia | The Living End have won a total of six awards from thirty nominations., thirty nominations»
+[2] «The Living End | Less Than Jake Wiki | The album was also nominated for the 2006 J Award. ... The Living End > Biography; ↑ Roll On : The Living End; ↑ [23rdPrecinct]; ↑ State of Emergency ...»
+[3] «The Living End | The Band was nominated 27 times and won five awards at the Australian ARIA Music Awards ... The Living End's second album, Roll On, was recorded during July 2000 ...»
+[4] «The Living End | Bringing together a mix of punk, rockabilly, pop, and rock 'n' roll, The Living End became popular in their native Australia, then took their punkabilly sound ...»
+
+Question: Did the album Roll On by The Living End win any awards?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The sources mention several nominations and awards won by The Living End, as well as their album Roll On. We need to find out if Roll On specifically won any awards.
+
+Answer: Yes, Roll On was nominated for the 2006 J Award.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Roll On was nominated for the 2006 J Award.
+................................... ground truth ...................................
+['The album Roll On by The Living End did not recieve any awards']
+................................... F1 ...................................
+0.19999999999999998
+................................... nF1 ...................................
+0
+##########How are the Spanish Christmas Lottery tickets sold?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: How are the Spanish Christmas Lottery tickets sold?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+how the Spanish Christmas Lottery works.
+Search Query: What is the Spanish Christmas Lottery and how does it work?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Spanish Christmas Lottery - Wikipedia | Two large spherical cages are used. The largest one contains 100,000 small wooden balls, each with a unique five-digit ticket number on it, from 00000 to 99999. The smaller cage contains 1,807 small wooden balls, each one representing a prize written in Euros: 1 ball for the first prize, called El Gordo.»
+[2] «All About El Gordo: The Spanish Christmas Lottery Explained | Décimo: One-tenth of a lottery ticket, which sells for €20. Número: The main five-digit number of a billete, décimo or participación.»
+
+Question: How are the Spanish Christmas Lottery tickets sold?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Spanish Christmas Lottery consists of two large spherical cages, one containing 100,000 small wooden balls with unique five-digit ticket numbers, and the other containing 1,807 small wooden balls representing prizes in Euros. Additionally, there are different types of lottery tickets, including billetes, décimos, and participaciones, with different prices and numbers.
+
+Search Query: What are the different types of Spanish Christmas Lottery tickets and how are they sold?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Spanish Christmas Lottery - Wikipedia | Two large spherical cages are used. The largest one contains 100,000 small wooden balls, each with a unique five-digit ticket number on it, from 00000 to 99999. The smaller cage contains 1,807 small wooden balls, each one representing a prize written in Euros: 1 ball for the first prize, called El Gordo.»
+[2] «All About El Gordo: The Spanish Christmas Lottery Explained | Décimo: One-tenth of a lottery ticket, which sells for €20. Número: The main five-digit number of a billete, décimo or participación.»
+[3] «All About El Gordo: The Spanish Christmas Lottery Explained | Décimo: One-tenth of a lottery ticket, which sells for €20. · Número: The main five-digit number of a billete, décimo or participación.»
+[4] «Spanish Christmas Lottery | Tickets are officially sold in official lottery shops (administraciones) throughout the country as well as by licensed (and unlicensed) sellers on the street.»
+
+Question: How are the Spanish Christmas Lottery tickets sold?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Answer: Tickets are sold in official lottery shops and by licensed and unlicensed sellers on the street.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Spanish Christmas Lottery - Wikipedia | Two large spherical cages are used. The largest one contains 100,000 small wooden balls, each with a unique five-digit ticket number on it, from 00000 to 99999. The smaller cage contains 1,807 small wooden balls, each one representing a prize written in Euros: 1 ball for the first prize, called El Gordo.»
+[2] «All About El Gordo: The Spanish Christmas Lottery Explained | Décimo: One-tenth of a lottery ticket, which sells for €20. Número: The main five-digit number of a billete, décimo or participación.»
+[3] «All About El Gordo: The Spanish Christmas Lottery Explained | Décimo: One-tenth of a lottery ticket, which sells for €20. · Número: The main five-digit number of a billete, décimo or participación.»
+[4] «Spanish Christmas Lottery | Tickets are officially sold in official lottery shops (administraciones) throughout the country as well as by licensed (and unlicensed) sellers on the street.»
+
+Question: How are the Spanish Christmas Lottery tickets sold?
+
+Rationale: Let's think step by step. Answer: Tickets are sold in official lottery shops and by licensed and unlicensed sellers on the street.
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Tickets are sold in official lottery shops and by licensed and unlicensed sellers on the street.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Tickets are sold in official lottery shops and by licensed and unlicensed sellers on the street.
+................................... ground truth ...................................
+['People line up for hours to purchase their Christmas lottery tickets in Spain. About 75 percent of adults in the country participate in the lottery draw each year.']
+................................... F1 ...................................
+0.14634146341463417
+................................... nF1 ...................................
+0
+##########How was Bill Russell as a competitor?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: How was Bill Russell as a competitor?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what were Bill Russell's achievements and records as a basketball player.
+Search Query: What were Bill Russell's achievements and records as a basketball player?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Bill Russell's basketball career: By the numbers | FOX Sports | 11: Russell's 11 championships titles are an NBA record. Those 11 titles are more than all but two franchises have in their history; The Los Angeles Lakers and the Celtics both have 17. Two of the championships were won as a player-coach. 12: In his 13-year career, Russell appeared in a record 12 NBA Finals., 11 championships titles»
+[2] «Bill Russell | As player: 11× NBA champion (1957, 1959–1966, 1968–1969); 5× NBA Most Valuable Player (1958, 1961–1963, 1965); 12× NBA All-Star (1958–1969); NBA All-Star Game ...»
+
+Question: How was Bill Russell as a competitor?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Bill Russell won 11 NBA championships, appeared in a record 12 NBA Finals, and was a 5-time NBA Most Valuable Player. However, we do not know much about his overall performance as a competitor.
+
+Search Query: What was Bill Russell's overall record as a basketball player?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bill Russell's basketball career: By the numbers | FOX Sports | 11: Russell's 11 championships titles are an NBA record. Those 11 titles are more than all but two franchises have in their history; The Los Angeles Lakers and the Celtics both have 17. Two of the championships were won as a player-coach. 12: In his 13-year career, Russell appeared in a record 12 NBA Finals., 11 championships titles»
+[2] «Bill Russell | As player: 11× NBA champion (1957, 1959–1966, 1968–1969); 5× NBA Most Valuable Player (1958, 1961–1963, 1965); 12× NBA All-Star (1958–1969); NBA All-Star Game ...»
+[3] «Bill Russell NBA Win Loss Record - StatMuse | Bill Russell had a 690-273 record in his career., 690-273»
+[4] «Bill Russell | Russell averaged 16.6 points per game and a league-record average of 22.7 rebounds per game. The NBA reasoned that other centers were better all-round players ...»
+
+Question: How was Bill Russell as a competitor?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+- Bill Russell won 11 NBA championships, more than all but two franchises in NBA history.
+- He appeared in a record 12 NBA Finals in his 13-year career.
+- He was a 5-time NBA Most Valuable Player and a 12-time NBA All-Star.
+- He had a career win-loss record of 690-273.
+- He averaged 16.6 points per game and a league-record average of 22.7 rebounds per game.
+- Therefore, Bill Russell was a highly successful and dominant competitor in the NBA.
+
+Answer: Bill Russell was a highly successful and dominant competitor in the NBA.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Bill Russell was a highly successful and dominant competitor in the NBA.
+................................... ground truth ...................................
+['Russell was driven by a neurotic need to win, as his Celtic teammate Heinsohn observed. He was so tense before every game that he regularly vomited in the locker room.']
+................................... F1 ...................................
+0.15789473684210525
+................................... nF1 ...................................
+0.08695652173913043
+##########whose work influenced francis Bacon in formalizing the concept of a true scientific method##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: whose work influenced francis Bacon in formalizing the concept of a true scientific method
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who were the prominent scientists or philosophers during Francis Bacon's time.
+Search Query: Who were the prominent scientists or philosophers during Francis Bacon's time?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Francis Bacon - Philosophy, Facts & Accomplishments | Scientific institutions followed this model in kind. Political philosopher Thomas Hobbes played the role of Bacon's last amanuensis. The "father of classic liberalism," John Locke, as well as 18th-century encyclopedists and inductive logicians David Hume and John Mill, also showed Bacon's influence in their work., Thomas Hobbes»
+[2] «Francis Bacon and the scientific revolution (article) | Previous scientists such as Robert Grossetesste, Roger Bacon, Richard Swineshead and the Oxford Calculators, etc. promoted using empiricism to understand nature ...»
+
+Question: whose work influenced francis Bacon in formalizing the concept of a true scientific method
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Francis Bacon is known for formalizing the concept of a true scientific method. He was influenced by other philosophers and scientists who promoted using empiricism to understand nature. Thomas Hobbes played the role of Bacon's last amanuensis, and John Locke, David Hume, and John Mill also showed Bacon's influence in their work. However, it is not clear who specifically influenced Bacon in formalizing the concept of a true scientific method.
+
+Search Query: Who influenced Francis Bacon in formalizing the concept of a true scientific method?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Francis Bacon - Philosophy, Facts & Accomplishments | Scientific institutions followed this model in kind. Political philosopher Thomas Hobbes played the role of Bacon's last amanuensis. The "father of classic liberalism," John Locke, as well as 18th-century encyclopedists and inductive logicians David Hume and John Mill, also showed Bacon's influence in their work., Thomas Hobbes»
+[2] «Francis Bacon and the scientific revolution (article) | Previous scientists such as Robert Grossetesste, Roger Bacon, Richard Swineshead and the Oxford Calculators, etc. promoted using empiricism to understand nature ...»
+[3] «Who Invented the Scientific Method? - Video & Lesson ... | Francis Bacon published his interpretation of the scientific method in his 1620 treatise entitled Novum Organum. However, he was strongly influenced by previous thinkers like Roger Bacon and Aristotle, who championed the ideas of empiricism and inductive reasoning., Roger Bacon and Aristotle»
+[4] «History of the Scientific Method | Francis Bacon was the first to formalize the concept of a true scientific method, but he didn't do so in a vacuum. The work of Nicolaus ...»
+
+Question: whose work influenced francis Bacon in formalizing the concept of a true scientific method
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Francis Bacon formalized the concept of a true scientific method.
+2. However, he was influenced by previous thinkers.
+3. These previous thinkers include Robert Grosseteste, Roger Bacon, Richard Swineshead, the Oxford Calculators, and Aristotle.
+4. So, who specifically influenced Francis Bacon in formalizing the concept of a true scientific method?
+5. Roger Bacon and Aristotle.
+
+Answer: Roger Bacon and Aristotle.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Roger Bacon and Aristotle.
+................................... ground truth ...................................
+['The work of Nicolaus Copernicus and Galileo Galilei influenced Bacon tremendously in formalizing the concept of a true scientific method.']
+................................... F1 ...................................
+0.19047619047619047
+................................... nF1 ...................................
+0
+##########What did the other members of Future Islands, besides Cashion and Welmers, play?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What did the other members of Future Islands, besides Cashion and Welmers, play?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who the other members of Future Islands are.
+Search Query: Who are the members of Future Islands?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Future Islands | Future Islands is an American synth-pop band based in Baltimore, Maryland, comprising Gerrit Welmers (keyboards and programming), William Cashion Samuel T.»
+[2] «20 Questions With Future Islands | Ahead of the release of As Long As You Are, all four members of Future Islands — Samuel T. Herring, Mike Lowry, keyboardist Gerrit Welmers and ...»
+
+Question: What did the other members of Future Islands, besides Cashion and Welmers, play?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that Future Islands is a synth-pop band based in Baltimore, Maryland, and that it comprises Gerrit Welmers and William Cashion. We also know that there are other members of the band besides these two. 
+
+Search Query: What are the names of the other members of Future Islands and what instruments do they play?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Future Islands | Future Islands is an American synth-pop band based in Baltimore, Maryland, comprising Gerrit Welmers (keyboards and programming), William Cashion Samuel T.»
+[2] «20 Questions With Future Islands | Ahead of the release of As Long As You Are, all four members of Future Islands — Samuel T. Herring, Mike Lowry, keyboardist Gerrit Welmers and ...»
+[3] «Future Islands - Wikipedia | Future Islands is an American synth-pop band based in Baltimore, Maryland, comprising Gerrit Welmers (keyboards and programming), William Cashion (bass, acoustic and electric guitars), Samuel T. Herring (lyrics and vocals), and Michael Lowry (percussion)., Gerrit Welmers (keyboards and programming), William Cashion (bass, acoustic and electric guitars), Samuel T., Herring (lyrics and vocals), and Michael Lowry (percussion)»
+[4] «Future Islands Biography, Songs, & Albums | Along with Herring, the initial members of the group were keyboardist Adam Beeby, bassist William Cashion, keyboardist Gerrit Welmers, and percussionist Kymia ...»
+
+Question: What did the other members of Future Islands, besides Cashion and Welmers, play?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking about the roles of the other members of Future Islands besides Cashion and Welmers. The sources mention the names of all four members of the band, so we just need to identify which instruments they play.
+
+Answer: Samuel T. Herring is the vocalist and Michael Lowry is the percussionist.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Samuel T. Herring is the vocalist and Michael Lowry is the percussionist.
+................................... ground truth ...................................
+['Samuel Herring sang and Erick Murillo played drums.']
+................................... F1 ...................................
+0.33333333333333326
+................................... nF1 ...................................
+0.25
+##########What was Hanson's hit song?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What was Hanson's hit song?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+which year Hanson released their hit song.
+Search Query: When did Hanson release their hit song?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «April 1997 | April 1997, It topped charts everywhere and made the brothers instant superstars. But its success was anything but assured. Upon its April 1997 release, Hanson's debut single “MMMBop” was inescapable., April 1997»
+[2] «Hanson (band) | Hanson are best known for the 1997 hit song "MMMBop" from their debut album released through Mercury/Polygram Records, entitled Middle of Nowhere, ...»
+
+Question: What was Hanson's hit song?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Hanson is a band that released their debut album in 1997. The album was titled "Middle of Nowhere" and was released through Mercury/Polygram Records. The band's debut single was "MMMBop" and it was a huge success.
+
+Search Query: What was Hanson's debut single?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «April 1997 | April 1997, It topped charts everywhere and made the brothers instant superstars. But its success was anything but assured. Upon its April 1997 release, Hanson's debut single “MMMBop” was inescapable., April 1997»
+[2] «Hanson (band) | Hanson are best known for the 1997 hit song "MMMBop" from their debut album released through Mercury/Polygram Records, entitled Middle of Nowhere, ...»
+[3] «Hanson on the meaning of "MMMBop," and their new album | If you were around in 1997, you simply could not miss it: "MMMBop" was everywhere. The song, off Hanson's debut "Middle of Nowhere," helped sell more than 10 million albums, and knocked the Notorious BIG off the top of the charts., "MMMBop"»
+[4] «Hanson (band) | The first single is titled "Get the Girl Back", which was released on April 9, 2013. The single charted at number 39 on the Billboard Adult Pop Songs. On ...»
+
+Question: What was Hanson's hit song?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+- The sources mention a band called Hanson.
+- The sources mention a hit song from 1997.
+- The sources mention the title of the hit song.
+
+Answer: "MMMBop"
+=================================== ANSWER ===================================
+................................... prediction ...................................
+"MMMBop"
+................................... ground truth ...................................
+['Hanson are best known for the 1997 hit song MMMBop from their debut album.']
+................................... F1 ...................................
+0.14285714285714288
+................................... nF1 ...................................
+0.19999999999999998
+##########How did Björn Borg compare to other players?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: How did Björn Borg compare to other players?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+how other players performed during the same time period as Björn Borg.
+Search Query: Who were the top tennis players during the 1970s and 1980s?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «The Most Famous Tennis Players Throughout The 70s & 80s | The Most Famous Tennis Players Throughout The 70s & 80s · Contents · Björn Borg · John Newcombe · Vitas Gerulaitis · Jimmy Connors · Vintage tennis ...»
+[2] «The Top Ranked Tennis Players of the 1970s | 1, Bjorn Borg ; 2, Jimmy Connors ; 3, John Newcombe ; 4, Guillermo Vilas ; 5, Ken Rosewall.»
+
+Question: How did Björn Borg compare to other players?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Björn Borg is one of the most famous tennis players of the 70s and 80s, and he is also ranked as the number one player of the 1970s. However, we do not know how he compares to other players in terms of their rankings or achievements.
+
+Search Query: What were the rankings and achievements of other top tennis players in the 70s and 80s?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «The Most Famous Tennis Players Throughout The 70s & 80s | The Most Famous Tennis Players Throughout The 70s & 80s · Contents · Björn Borg · John Newcombe · Vitas Gerulaitis · Jimmy Connors · Vintage tennis ...»
+[2] «The Top Ranked Tennis Players of the 1970s | 1, Bjorn Borg ; 2, Jimmy Connors ; 3, John Newcombe ; 4, Guillermo Vilas ; 5, Ken Rosewall.»
+[3] «The Top 25 Men's Players During the Open Era | 19) Ilie Nastase ... Nastase was one of the original characters of Open Era tennis. His temper was legendary. Nastase was the first player ranked number one when ...»
+[4] «Top 10 Greatest Men's Tennis Players of All Time | With the likes of Jimmy Connors, Bjorn Borg, John McEnroe, Chris Evert, and others, there were plenty of personalities to fuel the rivalries ...»
+
+Question: How did Björn Borg compare to other players?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Björn Borg was a famous tennis player. We need to find out how he compared to other players.
+
+Answer: Björn Borg was ranked number one in the 1970s, along with other greats like Jimmy Connors and John Newcombe. He is also considered one of the greatest tennis players of all time.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Björn Borg was ranked number one in the 1970s, along with other greats like Jimmy Connors and John Newcombe. He is also considered one of the greatest tennis players of all time.
+................................... ground truth ...................................
+['Björn Borg is considered to have been the No. 1 player in the world for 1977, 1978, and 1980.']
+................................... F1 ...................................
+0.25531914893617025
+................................... nF1 ...................................
+0
+##########What were Jack Abramoff political alliances?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What were Jack Abramoff political alliances?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+which political parties Jack Abramoff was affiliated with.
+Search Query: Was Jack Abramoff affiliated with any political parties?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Jack Abramoff/Party | Republican Party, College Republican National Chairman After graduating from Brandeis, Abramoff ran for election as chairman of the College Republican National Committee (CRNC). After a campaign which cost over $11,000 and was managed by Grover Norquist, Abramoff won the election.»
+[2] «Jack Abramoff Indian lobbying scandal | The Jack Abramoff Indian lobbying scandal was a United States political scandal exposed in 2005; it related to fraud perpetrated by political lobbyists Jack ...»
+
+Question: What were Jack Abramoff political alliances?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Jack Abramoff was involved in the Republican Party and was the College Republican National Chairman. He was also involved in the Indian lobbying scandal.
+
+Search Query: What other political affiliations did Jack Abramoff have?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Jack Abramoff/Party | Republican Party, College Republican National Chairman After graduating from Brandeis, Abramoff ran for election as chairman of the College Republican National Committee (CRNC). After a campaign which cost over $11,000 and was managed by Grover Norquist, Abramoff won the election.»
+[2] «Jack Abramoff Indian lobbying scandal | The Jack Abramoff Indian lobbying scandal was a United States political scandal exposed in 2005; it related to fraud perpetrated by political lobbyists Jack ...»
+[3] «Jack Abramoff - Wikipedia | Abramoff was College Republican National Committee National Chairman from 1981 to 1985, a founding member of the International Freedom Foundation, allegedly financed by apartheid South Africa, and served on the board of directors of the National Center for Public Policy Research, a conservative think tank.»
+
+Question: What were Jack Abramoff political alliances?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Jack Abramoff was the College Republican National Committee National Chairman from 1981 to 1985.
+2. He was a founding member of the International Freedom Foundation, allegedly financed by apartheid South Africa.
+3. He served on the board of directors of the National Center for Public Policy Research, a conservative think tank.
+Therefore, Jack Abramoff's political alliances were with the Republican Party, the International Freedom Foundation, and the National Center for Public Policy Research.
+
+Answer: Republican Party, International Freedom Foundation, National Center for Public Policy Research.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Republican Party, International Freedom Foundation, National Center for Public Policy Research.
+................................... ground truth ...................................
+['hold key roles in state and national politics and business, and some would later interact with Abramoff in his role as a lobbyist.']
+................................... F1 ...................................
+0.060606060606060615
+................................... nF1 ...................................
+0.08695652173913043
+##########What was special about Stereolab's lyrics?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What was special about Stereolab's lyrics?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what themes and styles Stereolab's lyrics typically featured.
+Search Query: What are the common themes and styles in Stereolab's lyrics?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Stereolab | Their lyrics have political and philosophical themes influenced by the Surrealist and Situationist movements. On stage, they play in a more feedback-driven ...»
+[2] «Stereolab | Themes of Stereolab songs in English are loosely concerned with politics, existentialism, and personal freedom.»
+
+Question: What was special about Stereolab's lyrics?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Stereolab's lyrics have political and philosophical themes influenced by the Surrealist and Situationist movements. The themes of their songs in English are loosely concerned with politics, existentialism, and personal freedom. However, we still need to know what makes their lyrics special.
+
+Search Query: What sets Stereolab's lyrics apart from other bands?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Stereolab | Their lyrics have political and philosophical themes influenced by the Surrealist and Situationist movements. On stage, they play in a more feedback-driven ...»
+[2] «Stereolab | Themes of Stereolab songs in English are loosely concerned with politics, existentialism, and personal freedom.»
+[3] «Stereolab | Their lyrics have political and philosophical themes influenced by the Surrealist and Situationist movements. On stage, they play in a more feedback-driven and ...»
+[4] «The complete guide to Stereolab | While the label ended up releasing other groups (Tortoise, Labradford, Broadcast, Pram, The High Llamas, Huggy Bear, and the pre-Daft Punk ...»
+
+Question: What was special about Stereolab's lyrics?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+- Stereolab's lyrics have political and philosophical themes influenced by Surrealist and Situationist movements. 
+- The themes of their songs in English are concerned with politics, existentialism, and personal freedom. 
+- On stage, they play in a more feedback-driven style. 
+- The label that released their music also released other groups like Tortoise, Labradford, Broadcast, Pram, The High Llamas, Huggy Bear, and the pre-Daft Punk. 
+
+Answer: Stereolab's lyrics have political and philosophical themes influenced by Surrealist and Situationist movements, and their songs in English are concerned with politics, existentialism, and personal freedom.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Stereolab's lyrics have political and philosophical themes influenced by Surrealist and Situationist movements, and their songs in English are concerned with politics, existentialism, and personal freedom.
+................................... ground truth ...................................
+["Stereolab's music is politically and philosophically charged."]
+................................... F1 ...................................
+0.12121212121212123
+................................... nF1 ...................................
+0.09523809523809523
+##########What was Robert Owen's position on the Poor Laws?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: What was Robert Owen's position on the Poor Laws?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what the Poor Laws were.
+Search Query: What were the Poor Laws in 19th century England?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «1834 Poor Law - The National Archives | The new Poor Law ensured that the poor were housed in workhouses, clothed and fed. Children who entered the workhouse would receive some schooling., ensured that the poor were housed in workhouses, clothed and fed»
+[2] «English Poor Laws | The English Poor Laws were a system of poor relief in England and Wales that developed out of the codification of late-medieval and Tudor-era laws in ...»
+
+Question: What was Robert Owen's position on the Poor Laws?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that the Poor Laws were a system of poor relief in England and Wales that developed out of the codification of late-medieval and Tudor-era laws. We also know that the new Poor Law ensured that the poor were housed in workhouses, clothed and fed, and that children who entered the workhouse would receive some schooling. To answer the question about Robert Owen's position on the Poor Laws, we need to find information about his views on the system of poor relief in England and Wales.
+
+Search Query: What were Robert Owen's views on the English Poor Laws?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «1834 Poor Law - The National Archives | The new Poor Law ensured that the poor were housed in workhouses, clothed and fed. Children who entered the workhouse would receive some schooling., ensured that the poor were housed in workhouses, clothed and fed»
+[2] «English Poor Laws | The English Poor Laws were a system of poor relief in England and Wales that developed out of the codification of late-medieval and Tudor-era laws in ...»
+[3] «Owen's Report to the Committee on Poor Laws | Under the existing laws, the unemployed working classes are maintained by, and consume part of, the property and produce of the wealthy and industrious, while ...»
+[4] «Robert Owen: pioneer of personnel management | Owen immediately withdrew from accepting any further children from the poor house and raised the minimum age of employment to 10. He also banned the beating of ...»
+
+Question: What was Robert Owen's position on the Poor Laws?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Robert Owen opposed the existing Poor Laws, but what was his position on them? We can look at sources [3] and [4] to find out.
+
+Answer: Robert Owen opposed the existing Poor Laws.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Robert Owen opposed the existing Poor Laws.
+................................... ground truth ...................................
+['Robert Owen attributed the immediate causes of misery to the wars, he also argued that the underlying cause of distress was the competition of human labour with machinery']
+................................... F1 ...................................
+0.13333333333333333
+................................... nF1 ...................................
+0
+##########how long is the mississippi river##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: how long is the mississippi river
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the location of the Mississippi River.
+Search Query: Where is the Mississippi River located?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Mississippi River | Map, Length, History, Location, Tributaries ... | The Mississippi River rises in Lake Itasca in Minnesota and ends in the Gulf of Mexico. It covers a total distance of 2,340 miles (3,766 km) from its source. The Mississippi River is the longest river of North America., rises in Lake Itasca in Minnesota and ends in the Gulf of Mexico»
+[2] «Mississippi River Facts | The Mississippi River is the second longest river in North America, flowing 2,350 miles from its source at Lake Itasca through the center of the ...»
+
+Question: how long is the mississippi river
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that the Mississippi River is the longest river in North America and that it rises in Lake Itasca in Minnesota and ends in the Gulf of Mexico. We also know that there are different sources providing slightly different information about its length.
+
+Search Query: What is the exact length of the Mississippi River?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Mississippi River | Map, Length, History, Location, Tributaries ... | The Mississippi River rises in Lake Itasca in Minnesota and ends in the Gulf of Mexico. It covers a total distance of 2,340 miles (3,766 km) from its source. The Mississippi River is the longest river of North America., rises in Lake Itasca in Minnesota and ends in the Gulf of Mexico»
+[2] «Mississippi River Facts | The Mississippi River is the second longest river in North America, flowing 2,350 miles from its source at Lake Itasca through the center of the ...»
+[3] «Mississippi River Facts | When compared to other world rivers, the Mississippi-Missouri River combination ranks fourth in length (3,710 miles/5,970km) following the Nile ...»
+[4] «Mississippi River | Map, Length, History, Location, ... | It covers a total distance of 2,340 miles (3,766 km) from its source. The Mississippi River is the longest river of North America.»
+
+Question: how long is the mississippi river
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking for a specific measurement. We can look at the sources provided to find the answer.
+
+Answer: 2,340 miles (3,766 km)
+=================================== ANSWER ===================================
+................................... prediction ...................................
+2,340 miles (3,766 km)
+................................... ground truth ...................................
+['The Mississippi River is 2,320 miles in length.']
+................................... F1 ...................................
+0.18181818181818182
+................................... nF1 ...................................
+0.28571428571428575
+##########How does a 529 plan work?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: How does a 529 plan work?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what a 529 plan is and what its purpose is.
+Search Query: What is a 529 plan and what is its purpose?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «What is a 529 college savings plan? - BlackRock | A 529 college savings plan is a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses. You can withdraw funds tax-free to cover nearly any type of college expense., a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses»
+[2] «What Is a 529 Plan? - Savingforcollege.com | A 529 plan is an investment account that offers tax benefits when used to pay for qualified education expenses for a designated beneficiary.»
+
+Question: How does a 529 plan work?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A 529 plan is a state-sponsored investment plan that allows you to save money for a beneficiary and pay for education expenses. It offers tax benefits when used to pay for qualified education expenses. 
+
+Search Query: What are the tax benefits of a 529 plan?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «What is a 529 college savings plan? - BlackRock | A 529 college savings plan is a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses. You can withdraw funds tax-free to cover nearly any type of college expense., a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses»
+[2] «What Is a 529 Plan? - Savingforcollege.com | A 529 plan is an investment account that offers tax benefits when used to pay for qualified education expenses for a designated beneficiary.»
+[3] «529 Plan Tax Benefits and Advantages - Learning Quest | Tax-Deferred Growth — Contributions grow free of federal and state income taxes while in the account. Tax-Free 529 Withdrawals — No income tax is paid on the growth of your account when withdrawals are used for qualified expenses. State Tax Deduction — Deduct your contributions from your taxable income.»
+[4] «The Top 10 Benefits of 529 Plans | Tax-free withdrawals may include up to $10,000 in tuition expenses for private, public, or religious elementary and secondary schools (per year, ...»
+
+Question: How does a 529 plan work?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Answer: A 529 plan is a state-sponsored investment plan that allows you to save money for a beneficiary's education expenses. Contributions grow tax-free, and withdrawals are also tax-free when used for qualified expenses. Some plans also offer state tax deductions for contributions.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «What is a 529 college savings plan? - BlackRock | A 529 college savings plan is a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses. You can withdraw funds tax-free to cover nearly any type of college expense., a state-sponsored investment plan that enables you to save money for a beneficiary and pay for education expenses»
+[2] «What Is a 529 Plan? - Savingforcollege.com | A 529 plan is an investment account that offers tax benefits when used to pay for qualified education expenses for a designated beneficiary.»
+[3] «529 Plan Tax Benefits and Advantages - Learning Quest | Tax-Deferred Growth — Contributions grow free of federal and state income taxes while in the account. Tax-Free 529 Withdrawals — No income tax is paid on the growth of your account when withdrawals are used for qualified expenses. State Tax Deduction — Deduct your contributions from your taxable income.»
+[4] «The Top 10 Benefits of 529 Plans | Tax-free withdrawals may include up to $10,000 in tuition expenses for private, public, or religious elementary and secondary schools (per year, ...»
+
+Question: How does a 529 plan work?
+
+Rationale: Let's think step by step. Answer: A 529 plan is a state-sponsored investment plan that allows you to save money for a beneficiary's education expenses. Contributions grow tax-free, and withdrawals are also tax-free when used for qualified expenses. Some plans also offer state tax deductions for contributions.
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A 529 plan is a state-sponsored investment plan that allows you to save money for a beneficiary's education expenses. Contributions grow tax-free, and withdrawals are also tax-free when used for qualified expenses. Some plans also offer state tax deductions for contributions.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+A 529 plan is a state-sponsored investment plan that allows you to save money for a beneficiary's education expenses. Contributions grow tax-free, and withdrawals are also tax-free when used for qualified expenses. Some plans also offer state tax deductions for contributions.
+................................... ground truth ...................................
+['A 529 college savings plan is a specialized savings account that is used to save money for college. ... The money in a 529 plan may be used to pay for the college expenses and K-12 tuition of the beneficiary, tax-free.']
+................................... F1 ...................................
+0.3888888888888889
+................................... nF1 ...................................
+0.1935483870967742
+##########Where was George Steiner born?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Where was George Steiner born?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+the basic information about George Steiner's life.
+Search Query: Who is George Steiner?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «George Steiner | Francis George Steiner, FBA (April 23, 1929 – February 3, 2020) was a Franco-American literary critic, essayist, philosopher, novelist and educator.»
+[2] «George Steiner | Biography, Books, & Facts | George Steiner, in full Francis George Steiner, (born April 23, 1929, Paris, France—died February 3, 2020, Cambridge, England), influential French-born ...»
+
+Question: Where was George Steiner born?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that George Steiner was a Franco-American literary critic, essayist, philosopher, novelist, and educator. We also know his birth and death dates. However, we do not know where he was born.
+
+Search Query: What is the birthplace of George Steiner?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «George Steiner | Francis George Steiner, FBA (April 23, 1929 – February 3, 2020) was a Franco-American literary critic, essayist, philosopher, novelist and educator.»
+[2] «George Steiner | Biography, Books, & Facts | George Steiner, in full Francis George Steiner, (born April 23, 1929, Paris, France—died February 3, 2020, Cambridge, England), influential French-born ...»
+[3] «George Steiner/Place of birth | Neuilly-sur-Seine, France»
+[4] «George Steiner | George Steiner was born in 1929 in Paris, to Viennese Jewish parents Else (née Franzos) and Frederick Georg Steiner. He had an elder sister, Ruth Lilian, ...»
+
+Question: Where was George Steiner born?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Answer: Paris, France.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «George Steiner | Francis George Steiner, FBA (April 23, 1929 – February 3, 2020) was a Franco-American literary critic, essayist, philosopher, novelist and educator.»
+[2] «George Steiner | Biography, Books, & Facts | George Steiner, in full Francis George Steiner, (born April 23, 1929, Paris, France—died February 3, 2020, Cambridge, England), influential French-born ...»
+[3] «George Steiner/Place of birth | Neuilly-sur-Seine, France»
+[4] «George Steiner | George Steiner was born in 1929 in Paris, to Viennese Jewish parents Else (née Franzos) and Frederick Georg Steiner. He had an elder sister, Ruth Lilian, ...»
+
+Question: Where was George Steiner born?
+
+Rationale: Let's think step by step. Answer: Paris, France.
+
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Paris, France.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Paris, France.
+................................... ground truth ...................................
+['George Steiner was born in 1929 in Paris.']
+................................... F1 ...................................
+0.2
+................................... nF1 ...................................
+0.6666666666666666
+##########was Mr. darcy in pride and prejudice married##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: was Mr. darcy in pride and prejudice married
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Mr. Darcy got married in the book Pride and Prejudice.
+Search Query: Does Mr. Darcy get married in Pride and Prejudice?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Pride and Prejudice: What Does the Ending Mean? | SparkNotes | Essays What Does the Ending Mean? At the end of the novel, Elizabeth and Darcy get married and go to live at Pemberley, while Jane and Bingley move to an estate nearby. The other assorted family members gradually reconcile themselves to the relationship and in most cases, end up on friendly terms., Elizabeth and Darcy get married»
+[2] «Darcy and Elizabeth: Their Wedding Night (Leaving More ... | A brand new romantic 3-part scene based on a snippet from The Darcys of Pemberley, Shannon Winslow's first Pride and Prejudice sequel.»
+
+Question: was Mr. darcy in pride and prejudice married
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The context mentions that Elizabeth and Darcy get married at the end of the novel. However, it is not clear if Mr. Darcy was married before.
+
+Search Query: Was Mr. Darcy married before Pride and Prejudice?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Pride and Prejudice: What Does the Ending Mean? | SparkNotes | Essays What Does the Ending Mean? At the end of the novel, Elizabeth and Darcy get married and go to live at Pemberley, while Jane and Bingley move to an estate nearby. The other assorted family members gradually reconcile themselves to the relationship and in most cases, end up on friendly terms., Elizabeth and Darcy get married»
+[2] «Darcy and Elizabeth: Their Wedding Night (Leaving More ... | A brand new romantic 3-part scene based on a snippet from The Darcys of Pemberley, Shannon Winslow's first Pride and Prejudice sequel.»
+[3] «Mr. Darcy | Bennet and Mrs. Bennet despite having been married for 20 years; by contrast after his engagement, Darcy for the first time calls his fiancée Elizabeth, which ...»
+[4] «Fitzwilliam Darcy | The Jane Austen Wiki - Fandom | His wife and true love is Elizabeth, the female protagonist of Pride and Prejudice.»
+
+Question: was Mr. darcy in pride and prejudice married
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mr. Darcy is a character in Pride and Prejudice. He is initially portrayed as a proud and arrogant man who eventually falls in love with Elizabeth Bennet. The ending of the novel shows Elizabeth and Darcy getting married. Therefore, Mr. Darcy is married in Pride and Prejudice.
+
+Answer: Yes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes.
+................................... ground truth ...................................
+['Fitzwilliam Darcy proposes to Elizabeth Bennet again, who accepts his proposal.']
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########do the animal and plant cells contain plastids##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: do the animal and plant cells contain plastids
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if plastids are present in animal and plant cells.
+Search Query: What are plastids and in which types of cells are they found?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Different types of Plastids and their functions in Plants Cell | What are Plastids? Plastids are double-membrane organelles which are found in the cells of plants and algae. Plastids are responsible for manufacturing and storing of food. These often contain pigments that are used in photosynthesis and different types of pigments that can change the colour of the cell., double-membrane organelles which are found in the cells of plants and algae»
+[2] «What do Plastids do in Plant Cells? | Plastids are double-membrane bound organelles with their own DNA and ribosomes that are found in photosynthetic organisms like plants and algae.»
+
+Question: do the animal and plant cells contain plastids
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Plastids are organelles found in the cells of plants and algae, responsible for manufacturing and storing food, and containing pigments used in photosynthesis. However, it is not clear whether plastids are exclusive to plant and algae cells or if they can also be found in animal cells.
+
+Search Query: Do animal cells contain plastids?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Different types of Plastids and their functions in Plants Cell | What are Plastids? Plastids are double-membrane organelles which are found in the cells of plants and algae. Plastids are responsible for manufacturing and storing of food. These often contain pigments that are used in photosynthesis and different types of pigments that can change the colour of the cell., double-membrane organelles which are found in the cells of plants and algae»
+[2] «What do Plastids do in Plant Cells? | Plastids are double-membrane bound organelles with their own DNA and ribosomes that are found in photosynthetic organisms like plants and algae.»
+[3] «Plastids are present in both animal and plant cells. - Byju's | Plastids are found in plant cells, but not in animal cells. There are three types of plastids, which are the chloroplast, chromoplast and leucoplast. The pigments containing plastids are chloroplast and chromoplast., not in animal cells»
+[4] «Why Plastids Are Absent In Animal Cells? NEET Questions | They contain their own DNA and ribosomes. Plastids are absent in animals because: Animals are mobile organisms, which means that they can move around to ...»
+
+Question: do the animal and plant cells contain plastids
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Plastids are organelles responsible for manufacturing and storing food, and are found in the cells of plants and algae. They have their own DNA and ribosomes. According to sources [1], [2], and [3], plastids are present in plant cells but not in animal cells. Source [4] confirms that plastids are absent in animals because they are mobile organisms. Therefore, the answer is:
+
+Answer: Plastids are present in plant cells but not in animal cells.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Plastids are present in plant cells but not in animal cells.
+................................... ground truth ...................................
+['Animal cells do not have plastids. Plant cells contain plastids such as chloroplasts, which are needed for photosynthesis.']
+................................... F1 ...................................
+0.4827586206896552
+................................... nF1 ...................................
+0.25
+##########how were the electors from the states chosen during the 1800 election##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: how were the electors from the states chosen during the 1800 election
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+how the electoral college worked during the 1800 election.
+Search Query: What was the process for selecting electors in the United States during the 1800 election?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Election of 1800 - Creating the United States | Exhibitions | In the election of 1800, the Federalist incumbent John Adams ran against the rising Republican Thomas Jefferson. The extremely partisan and outright nasty ...»
+[2] «1800 United States presidential election | In what is sometimes called the "Revolution of 1800", the Democratic-Republican Party candidate, Vice President Thomas Jefferson, defeated the Federalist Party ...»
+
+Question: how were the electors from the states chosen during the 1800 election
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+We know that the 1800 election was between John Adams and Thomas Jefferson, and that Jefferson won as the Democratic-Republican candidate. However, we do not know how the electors from the states were chosen.
+
+Search Query: What was the process for selecting electors in the United States during the 1800 presidential election?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Election of 1800 - Creating the United States | Exhibitions | In the election of 1800, the Federalist incumbent John Adams ran against the rising Republican Thomas Jefferson. The extremely partisan and outright nasty ...»
+[2] «1800 United States presidential election | In what is sometimes called the "Revolution of 1800", the Democratic-Republican Party candidate, Vice President Thomas Jefferson, defeated the Federalist Party ...»
+[3] «Election of 1800 - Creating the United States | Exhibitions | The manner of electing a national president sparked one of the most contentious debates at the federal Constitutional Convention. The convention rejected direct election of the president by “the people,” in favor of a system of electors equal to the number of senators and representatives and to be chosen by the states.»
+[4] «Presidential Election of 1800: A Resource Guide | After Thomas Jefferson and his running-mate, Aaron Burr, tied in the Electoral College vote, Jefferson was elected president by the House of ...»
+
+Question: how were the electors from the states chosen during the 1800 election
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking about the process of choosing electors during the 1800 election. According to [3], the Constitutional Convention rejected direct election of the president by "the people" and instead opted for a system of electors chosen by the states. [1] and [2] confirm that Thomas Jefferson, the Democratic-Republican Party candidate, won the election against the Federalist Party candidate John Adams. [4] adds that after Jefferson and his running-mate Aaron Burr tied in the Electoral College vote, Jefferson was eventually elected president by the House of Representatives.
+
+Answer: Electors were chosen by the states.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Electors were chosen by the states.
+................................... ground truth ...................................
+['During the 1800 elections, the electors from the states were generally chosen by state legislatures, not by popular vote.']
+................................... F1 ...................................
+0.47619047619047616
+................................... nF1 ...................................
+0.4
+##########Why did Roger Clemens return to the Yankees?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Why did Roger Clemens return to the Yankees?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+when did Roger Clemens return to the Yankees.
+Search Query: When did Roger Clemens return to the Yankees?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «2007 | 2007, In 2003, he reached his 300th win and 4,000th strikeout in the same game. Clemens left for the Houston Astros in 2004, where he spent three seasons and won his seventh Cy Young Award. He rejoined the Yankees in 2007 for one last season before retiring., 2007»
+[2] «This Day in Yankees History: Roger Clemens returns | Roger Clemens had retired from baseball for the second time after 2006 at age 44, yet there he was at Yankee Stadium on May 6, 2007, in George ...»
+
+Question: Why did Roger Clemens return to the Yankees?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Roger Clemens retired from baseball in 2006 but returned to the Yankees in 2007 for one last season. However, the context does not provide information on why he returned.
+
+Search Query: What was the reason for Roger Clemens' return to the Yankees in 2007?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «2007 | 2007, In 2003, he reached his 300th win and 4,000th strikeout in the same game. Clemens left for the Houston Astros in 2004, where he spent three seasons and won his seventh Cy Young Award. He rejoined the Yankees in 2007 for one last season before retiring., 2007»
+[2] «This Day in Yankees History: Roger Clemens returns | Roger Clemens had retired from baseball for the second time after 2006 at age 44, yet there he was at Yankee Stadium on May 6, 2007, in George ...»
+[3] «Clemens Returns, and So Does Hope for Yankees | Clemens's contract allows him some flexibility in his schedule, giving him the freedom to return to Houston on days he is not scheduled to pitch ...»
+
+Question: Why did Roger Clemens return to the Yankees?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+He retired from baseball in 2006, but returned to the Yankees in 2007. Why did he come back? 
+
+Answer: For one last season before retiring.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+For one last season before retiring.
+................................... ground truth ...................................
+["Roger Clemens unexpectedly appeared in the owner's box at Yankee Stadium on May 6, 2007, during the seventh-inning stretch of a game against the Seattle Mariners."]
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########Are one pound notes still legal tender?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Are one pound notes still legal tender?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if the Bank of England still issues one pound notes.
+Search Query: Does the Bank of England still issue one pound notes?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Bank of England £1 note - Wikipedia | The one pound note was issued by the Bank of England for the first time in 1797 and continued to be printed until 1984. The note was withdrawn in 1988 due to inflation and was replaced by a coin.»
+[2] «Banknotes of the pound sterling | Millions of pounds' worth of sterling banknotes in circulation are not legal tender, but that does not mean that they are illegal or of lesser value; their ...»
+
+Question: Are one pound notes still legal tender?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The one pound note was issued by the Bank of England for the first time in 1797 and continued to be printed until 1984. The note was withdrawn in 1988 due to inflation and was replaced by a coin. However, not all banknotes of the pound sterling are legal tender.
+
+Search Query: What banknotes of the pound sterling are legal tender?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Bank of England £1 note - Wikipedia | The one pound note was issued by the Bank of England for the first time in 1797 and continued to be printed until 1984. The note was withdrawn in 1988 due to inflation and was replaced by a coin.»
+[2] «Banknotes of the pound sterling | Millions of pounds' worth of sterling banknotes in circulation are not legal tender, but that does not mean that they are illegal or of lesser value; their ...»
+[3] «Banknotes of the pound sterling - Wikipedia | Bank of England notes are the only banknotes that are legal tender in England and Wales. Scottish and Northern Irish banknotes are not legal tender anywhere, and Jersey, Guernsey and Manx banknotes are only legal tender in their respective jurisdictions., Bank of England notes»
+[4] «Current banknotes | The Bank of England banknotes. There are four denominations of banknotes in circulation: £5, £10, £20 and £50. All four denominations of notes ...»
+
+Question: Are one pound notes still legal tender?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: Check if one pound notes are still in circulation.
+Step 2: Check if they are legal tender.
+
+Answer: No, one pound notes are no longer legal tender. They were withdrawn in 1988 and replaced by a coin.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No, one pound notes are no longer legal tender. They were withdrawn in 1988 and replaced by a coin.
+................................... ground truth ...................................
+['The Royal Bank of Scotland ceased regular production of £1 notes in 2001; the denomination is still in circulation although rarely seen in cash transactions today.']
+................................... F1 ...................................
+0.09523809523809525
+................................... nF1 ...................................
+0
+##########when was the song funiculi funicula written##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: when was the song funiculi funicula written
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+who wrote the song.
+Search Query: Who wrote the song "Funiculi Funicula"?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Funiculì, Funiculà | "Funiculì, Funiculà" (IPA: [funikuˈli funikuˈla], English: "Funicular Up, Funicular Down") is a Neapolitan song composed in 1880 by Luigi Denza to lyrics by ...»
+[2] «'Funiculì, Funiculà': what are the original and English lyrics ... | 'Funiculì, Funiculà' was composed by Luigi Denza in 1880, to lyrics in Neapolitan dialect by Peppino Turco. The merry Neapolitan tune sings of a ...»
+
+Question: when was the song funiculi funicula written
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The song "Funiculì, Funiculà" was composed by Luigi Denza to lyrics by Peppino Turco. It is a Neapolitan song that has an English translation. 
+
+Search Query: What is the year of composition of "Funiculì, Funiculà" by Luigi Denza?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Funiculì, Funiculà | "Funiculì, Funiculà" (IPA: [funikuˈli funikuˈla], English: "Funicular Up, Funicular Down") is a Neapolitan song composed in 1880 by Luigi Denza to lyrics by ...»
+[2] «'Funiculì, Funiculà': what are the original and English lyrics ... | 'Funiculì, Funiculà' was composed by Luigi Denza in 1880, to lyrics in Neapolitan dialect by Peppino Turco. The merry Neapolitan tune sings of a ...»
+[3] «Funiculì, Funiculà | Funiculì, Funiculà is a Neapolitan song composed in 1880 by Luigi Denza to lyrics by Peppino Turco. It was written to commemorate the opening of the first ...»
+[4] «Baton Music Catalogue | Funiculì, Funiculà by Luigi Denza | Italian composer Luigi Denza (1846 - 1922) is best remembered for 'Funiculì, Funiculà' (1880), a humorous Neapolitan song inspired by the inauguration of a ...»
+
+Question: when was the song funiculi funicula written
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question is asking for the year the song "Funiculì, Funiculà" was written. The sources provided all mention the composer Luigi Denza and the fact that the song was written in Neapolitan dialect. They also mention that the song was written to commemorate the opening of the first funicular railway on Mount Vesuvius. Therefore, the answer should be the year in which the first funicular railway on Mount Vesuvius was opened, which is likely the same year the song was written.
+
+Answer: 1880.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1880.
+................................... ground truth ...................................
+['Funiculì, Funiculà was composed in 1880.']
+................................... F1 ...................................
+0.2857142857142857
+................................... nF1 ...................................
+0
+##########Once LASIK is done, what kind of precautions do I need to take?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: Once LASIK is done, what kind of precautions do I need to take?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+what are the common side effects of LASIK.
+Search Query: What are the common side effects of LASIK?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «LASIK eye surgery - Mayo Clinic | Risks of LASIK surgery include:, Risks of LASIK surgery include:»
+[2] «The Side Effects of LASIK Surgery | Common Side Effects Following LASIK Surgery · Soreness · Discomfort · Dry eye · Itchiness · Light sensitivity · Glare · Halos · Starbursts ...»
+
+Question: Once LASIK is done, what kind of precautions do I need to take?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+LASIK surgery has risks and common side effects. To ensure a successful recovery, it is important to know what precautions to take after the surgery.
+
+Search Query: What precautions should I take after LASIK surgery?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «LASIK eye surgery - Mayo Clinic | Risks of LASIK surgery include:, Risks of LASIK surgery include:»
+[2] «The Side Effects of LASIK Surgery | Common Side Effects Following LASIK Surgery · Soreness · Discomfort · Dry eye · Itchiness · Light sensitivity · Glare · Halos · Starbursts ...»
+[3] «10 Precautions To Take After Lasik Surgery - Manipal Hospitals | Following are the general instructions that you should follow after the Lasik surgery:, Following are the general instructions that you should follow after the Lasik surgery:»
+[4] «How to Protect Your Eyes After Laser Eye Surgery | Don't take a shower or wash your hair until the day after. · Avoid getting non-sterile water from showers, hair washing, etc. · Be careful when ...»
+
+Question: Once LASIK is done, what kind of precautions do I need to take?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+After LASIK surgery, it is important to take certain precautions to ensure proper healing and avoid complications. These precautions may include avoiding water in the eyes, avoiding rubbing the eyes, and avoiding certain activities that could put strain on the eyes.
+
+Answer: Precautions after LASIK surgery may include avoiding water in the eyes, avoiding rubbing the eyes, and avoiding certain activities that could put strain on the eyes.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Precautions after LASIK surgery may include avoiding water in the eyes, avoiding rubbing the eyes, and avoiding certain activities that could put strain on the eyes.
+................................... ground truth ...................................
+['1 to 2 weeks post LASIK: You can usually begin exercising within a week after LASIK surgery, but you should continue to avoid contact sports for at least a month. Wear sunglasses when out in the sun to protect your eyes from the ultraviolet light, and use the provided eye drops to minimize dry eyes.']
+................................... F1 ...................................
+0.19178082191780824
+................................... nF1 ...................................
+0
+##########who did Sheryl Crow have an affair with?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Rationale: Let's think step by step. To answer this question, we first need to find out ${the missing information}
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Question: who did Sheryl Crow have an affair with?
+Rationale: Let's think step by step. To answer this question, we first need to find out
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+if Sheryl Crow had an affair at all.
+Search Query: Did Sheryl Crow have an affair?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Write a search query that will help answer a complex question.
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. Based on the context, we have learned the following. ${information from the context that provides useful clues}
+
+Search Query: ${a simple question for seeking the missing information}
+
+---
+
+Context:
+[1] «Looking Back on Sheryl Crow's Surprising Relationship ... | Perhaps her highest-profile relationship, Crow began dating famed (and now disgraced) cyclist Lance Armstrong after meeting at a charity event ...»
+[2] «Who Is Sheryl Crow Dating? All About The Country ... | No, Sheryl Crow isn't currently dating the disgraced former world champion cyclist Lance Armstrong, though they did have a whirlwind romance ...»
+
+Question: who did Sheryl Crow have an affair with?
+
+Rationale: Let's think step by step. Based on the context, we have learned the following.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Sheryl Crow had a relationship with Lance Armstrong, but it is unclear if it was an affair or not.
+
+Search Query: Did Sheryl Crow have an affair with Lance Armstrong?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: What years did Giuseppe Verdi's politics take place?
+Answer: in the 1840s.
+
+Question: John Morrison Frequently collaborated in what other than WWE and Movies?
+Answer: Hennigan is also a frequent collaborator with comic book-based film producers Bat in the Sun Productions, appearing in two episodes of their well known Super Power Beat Down series
+
+Question: And how was Edmund Hillary's married life with Louise Mary Rose?
+Answer: Edmund Hillary admitted he was terrified of proposing to her and relied on her mother to propose on his behalf.
+
+Question: where did Glenda Jackson attend school?
+Answer: Jackson was educated at the West Kirby County Grammar School for Girls
+
+Question: where was the first printing press established in India in the mid 16th century?
+Answer: Jesuit Saint Paul's College in Old Goa
+
+Question: What is Brimstone to the Police?
+Answer: In 1982, Sting furthered his acting career by co-starring in the Richard Loncraine film Brimstone and Treacle.
+
+Question: Did Fred Hampton's family move to Chicago as well?
+Answer: Yes
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Looking Back on Sheryl Crow's Surprising Relationship ... | Perhaps her highest-profile relationship, Crow began dating famed (and now disgraced) cyclist Lance Armstrong after meeting at a charity event ...»
+[2] «Who Is Sheryl Crow Dating? All About The Country ... | No, Sheryl Crow isn't currently dating the disgraced former world champion cyclist Lance Armstrong, though they did have a whirlwind romance ...»
+[3] «Did Sheryl Crow Know About Lance Armstrong Doping? | Crow and Armstrong had a whirlwind relationship. The two met at a charity event in 2003. At the time, Armstrong had just split from his ex-wife Kristin. "I knew pretty quickly that I was totally into him," Crow explained. They ultimately ended up sharing a ranch in Austin, TX, and Armstrong proposed in August 2005., Crow and Armstrong had a whirlwind relationship»
+[4] «TBT: Lance Armstrong and Sheryl Crow | Less than six months after Armstrong's romantic proposal, the couple split. In February 2006 Armstrong and Crow released a joint statement ...»
+
+Question: who did Sheryl Crow have an affair with?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1. Sheryl Crow had a high-profile relationship with a cyclist.
+2. The cyclist is now disgraced.
+3. The relationship was a whirlwind romance.
+4. They shared a ranch in Austin, TX.
+5. The cyclist proposed to Crow in August 2005.
+6. The couple split less than six months later.
+Therefore, Sheryl Crow had a relationship with Lance Armstrong.
+
+Answer: Lance Armstrong.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Lance Armstrong.
+................................... ground truth ...................................
+['There was speculation about a brief affair with Eric Clapton.']
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+################################### RESULT ###################################
+................................... F1 ...................................
+0.22434756999424185
+................................... nF1 ...................................
+0.17491082278826978

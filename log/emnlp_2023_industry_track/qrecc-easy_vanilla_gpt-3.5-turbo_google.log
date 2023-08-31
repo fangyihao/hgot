@@ -1,0 +1,1355 @@
+##########What are tofus origins?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: What are tofus origins?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Tofu originated in China over 2,000 years ago.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Tofu originated in China over 2,000 years ago.
+................................... ground truth ...................................
+['Like many soya foods, tofu originated in China. Legend has it that it was discovered about 2000 years ago by a Chinese cook who accidentally curdled soy milk when he added nigari seaweed.']
+................................... F1 ...................................
+0.35
+................................... nF1 ...................................
+0.4166666666666667
+##########what category storm was dora##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: what category storm was dora
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Dora was a Category 4 hurricane.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Dora was a Category 4 hurricane.
+................................... ground truth ...................................
+['Hurricane Dora was a Category 4 Hurricane.']
+................................... F1 ...................................
+0.9090909090909091
+................................... nF1 ...................................
+1.0
+##########when was peru liberated##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: when was peru liberated
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Peru declared its independence from Spain on July 28, 1821.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Peru declared its independence from Spain on July 28, 1821.
+................................... ground truth ...................................
+['José de San Martín and his forces liberated Peru and proclaimed its independence from Spain on 28 July 1821']
+................................... F1 ...................................
+0.6206896551724138
+................................... nF1 ...................................
+0.6
+##########how old is gaelic football##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: how old is gaelic football
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Gaelic football was first played in 1885.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Gaelic football was first played in 1885.
+................................... ground truth ...................................
+['While Gaelic football as it is known today dates back to the late 19th century, various kinds of football were played in Ireland before this time.']
+................................... F1 ...................................
+0.25
+................................... nF1 ...................................
+0.13333333333333333
+##########Was Revival successful?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: Was Revival successful?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Revival is a term that can refer to many things, please provide more context for a specific answer.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Revival is a term that can refer to many things, please provide more context for a specific answer.
+................................... ground truth ...................................
+["Revival entered the UK Albums Chart with 132,000 album-equivalent units, becoming the year's second largest opening behind Sheeran's ÷ and giving the rapper his eighth consecutive number-one album."]
+................................... F1 ...................................
+0.048780487804878044
+................................... nF1 ...................................
+0
+##########what does the glycocalyx do##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: what does the glycocalyx do
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The glycocalyx is a sugar coating on the surface of cells that helps with cell recognition and communication.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The glycocalyx is a sugar coating on the surface of cells that helps with cell recognition and communication.
+................................... ground truth ...................................
+['The glycocalyx is a type of identifier that the body uses to distinguish between its own healthy cells and transplanted tissues, diseased cells, or invading organisms.']
+................................... F1 ...................................
+0.31578947368421056
+................................... nF1 ...................................
+0
+##########When was the IPS formed##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: When was the IPS formed
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The International Psychoanalytical Association (IPA) was formed in 1910.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The International Psychoanalytical Association (IPA) was formed in 1910.
+................................... ground truth ...................................
+['The Indian Police Service is formed in 1948, a year later of independence of India.']
+................................... F1 ...................................
+0.1904761904761905
+................................... nF1 ...................................
+0.1818181818181818
+##########how old is beth fowler##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: how old is beth fowler
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+As of 2021, Beth Fowler is 74 years old.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+As of 2021, Beth Fowler is 74 years old.
+................................... ground truth ...................................
+['Beth Fowler is 79 years old.']
+................................... F1 ...................................
+0.6666666666666667
+................................... nF1 ...................................
+0.5714285714285715
+##########What are mammals?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: What are mammals?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Mammals are warm-blooded vertebrates that have hair or fur, produce milk to feed their young, and typically give birth to live young.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Mammals are warm-blooded vertebrates that have hair or fur, produce milk to feed their young, and typically give birth to live young.
+................................... ground truth ...................................
+['Mammals are vertebrate animals constituting the class Mammalia, and characterized by the presence of mammary glands which in females produce milk for feeding their young, a neocortex, fur or hair, and three middle ear bones.']
+................................... F1 ...................................
+0.3703703703703703
+................................... nF1 ...................................
+0.33333333333333326
+##########was b-rabbit in a relationship##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: was b-rabbit in a relationship
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+B-Rabbit is a fictional character from the movie "8 Mile" and therefore does not have a real-life relationship.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+B-Rabbit is a fictional character from the movie "8 Mile" and therefore does not have a real-life relationship.
+................................... ground truth ...................................
+['In the film 8 Mile, B-Rabbit has an ex-girlfriend, Janeane and a love interest, Alex.']
+................................... F1 ...................................
+0.2962962962962963
+................................... nF1 ...................................
+0
+##########What is a trope?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: What is a trope?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+A trope is a commonly used literary or rhetorical device, such as a metaphor or irony.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+A trope is a commonly used literary or rhetorical device, such as a metaphor or irony.
+................................... ground truth ...................................
+['A literary trope is the use of figurative language, via word, phrase or an image, for artistic effect such as using a figure of speech. The word trope has also come to be used for describing commonly recurring literary and rhetorical devices, motifs or clichés in creative works']
+................................... F1 ...................................
+0.3571428571428571
+................................... nF1 ...................................
+0.25
+##########who made the fees##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: who made the fees
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+This question is unclear and cannot be answered with a factoid answer. Please provide more context or rephrase the question.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+This question is unclear and cannot be answered with a factoid answer. Please provide more context or rephrase the question.
+................................... ground truth ...................................
+['Tuition fees were first introduced across the entire United Kingdom in September 1998 under the Labour government.']
+................................... F1 ...................................
+0
+................................... nF1 ...................................
+0
+##########what does the scream symbolize##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: what does the scream symbolize
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Scream by Edvard Munch is believed to symbolize the anxiety and existential angst of modern humans.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Scream by Edvard Munch is believed to symbolize the anxiety and existential angst of modern humans.
+................................... ground truth ...................................
+['In what he referred to as his soul painting, Edvard Munch reveals in The Screan an honest and perhaps even ugly glimpse of his inner troubles and feelings of anxiety.']
+................................... F1 ...................................
+0.27906976744186046
+................................... nF1 ...................................
+0
+##########what makes edf optimal##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: what makes edf optimal
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+EDF (Earliest Deadline First) scheduling is optimal for minimizing average response time in real-time systems.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+EDF (Earliest Deadline First) scheduling is optimal for minimizing average response time in real-time systems.
+................................... ground truth ...................................
+['EDF is an optimal scheduling algorithm because all jobs are complete by their deadline.']
+................................... F1 ...................................
+0.3571428571428571
+................................... nF1 ...................................
+0.28571428571428575
+##########Is smoked turkey healthy?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: Is smoked turkey healthy?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Smoked turkey can be a healthy protein source, but it depends on the preparation and added ingredients.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Smoked turkey can be a healthy protein source, but it depends on the preparation and added ingredients.
+................................... ground truth ...................................
+["There's no specific amount that's considered safe, but if you're a strictly-on-Thanksgiving smoked-meat eater, it's not something to stress about."]
+................................... F1 ...................................
+0.058823529411764705
+................................... nF1 ...................................
+0
+##########can women wear kippah##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: can women wear kippah
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, women can wear kippahs in some Jewish communities.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, women can wear kippahs in some Jewish communities.
+................................... ground truth ...................................
+['Kippot for women are also being made and worn. These are sometimes made of beaded wire to seem more feminine.']
+................................... F1 ...................................
+0.06896551724137932
+................................... nF1 ...................................
+0.15384615384615385
+##########who succeeded the soviet union##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: who succeeded the soviet union
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The Soviet Union was succeeded by the Russian Federation.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The Soviet Union was succeeded by the Russian Federation.
+................................... ground truth ...................................
+["The Russian Federation assumed the Soviet Union's rights and obligations and became recognized as the de facto successor state."]
+................................... F1 ...................................
+0.26086956521739124
+................................... nF1 ...................................
+0.16666666666666669
+##########who discovered iodine-131##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: who discovered iodine-131
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Glenn T. Seaborg and John Livingood discovered iodine-131 in 1938.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Glenn T. Seaborg and John Livingood discovered iodine-131 in 1938.
+................................... ground truth ...................................
+['Iodine-131 was discovered by Glenn Seaborg and John Livingood in 1938 at the University of California, Berkeley..']
+................................... F1 ...................................
+0.6923076923076923
+................................... nF1 ...................................
+0.8
+##########who designed the rrhof museum##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: who designed the rrhof museum
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+I. M. Pei designed the Rock and Roll Hall of Fame museum in Cleveland, Ohio.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+I. M. Pei designed the Rock and Roll Hall of Fame museum in Cleveland, Ohio.
+................................... ground truth ...................................
+['Architect I.M. Pei designed the RRHOF museum']
+................................... F1 ...................................
+0.3
+................................... nF1 ...................................
+0.5454545454545454
+##########How secure is blockchain?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: How secure is blockchain?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Blockchain is considered to be highly secure due to its decentralized and encrypted nature, but it is not completely immune to hacking or other security breaches.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Blockchain is considered to be highly secure due to its decentralized and encrypted nature, but it is not completely immune to hacking or other security breaches.
+................................... ground truth ...................................
+['Private keys are even more secure as they are considerably longer. It is in this way that blockchain offers a greater level of security to the individual user as it removes the need for weak and easily compromised passwords and online identities.']
+................................... F1 ...................................
+0.2153846153846154
+................................... nF1 ...................................
+0.12903225806451613
+##########Did Harold Shipman marry?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: Did Harold Shipman marry?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, Harold Shipman was married to Primrose Oxtoby.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Harold Shipman was married to Primrose Oxtoby.
+................................... ground truth ...................................
+['On 5 November 1966, Harold Shipman married Primrose May Oxtoby.']
+................................... F1 ...................................
+0.5555555555555556
+................................... nF1 ...................................
+0.5454545454545454
+##########Who is Sachin Tendulkar?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: Who is Sachin Tendulkar?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Sachin Tendulkar is a retired Indian cricketer widely considered one of the greatest batsmen in the history of cricket.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Sachin Tendulkar is a retired Indian cricketer widely considered one of the greatest batsmen in the history of cricket.
+................................... ground truth ...................................
+['Sachin Ramesh Tendulkar is an Indian former international cricketer and a former captain of the Indian national team.']
+................................... F1 ...................................
+0.38709677419354843
+................................... nF1 ...................................
+0.25
+##########who is Thor heyerdahl##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: who is Thor heyerdahl
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Thor Heyerdahl was a Norwegian adventurer and ethnographer known for his Kon-Tiki expedition in 1947, in which he sailed 4,300 miles across the Pacific Ocean on a balsa wood raft.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Thor Heyerdahl was a Norwegian adventurer and ethnographer known for his Kon-Tiki expedition in 1947, in which he sailed 4,300 miles across the Pacific Ocean on a balsa wood raft.
+................................... ground truth ...................................
+['Thor Heyerdahl; October 6, 1914 – April 18, 2002) was a Norwegian adventurer and ethnographer with a background in zoology, botany, and geography.']
+................................... F1 ...................................
+0.3333333333333333
+................................... nF1 ...................................
+0.23076923076923075
+##########can non-jews wear kippah##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: can non-jews wear kippah
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, non-Jews can wear a kippah as a sign of respect or as part of cultural exchange.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, non-Jews can wear a kippah as a sign of respect or as part of cultural exchange.
+................................... ground truth ...................................
+['Though it is not required, when a non-Jew wears a kippah in a synagogue, it is considered a sign of respect.']
+................................... F1 ...................................
+0.25
+................................... nF1 ...................................
+0.26666666666666666
+##########was Hollywood Babylon successful?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: was Hollywood Babylon successful?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes, Hollywood Babylon was a successful book by Kenneth Anger that exposed scandals and secrets of Hollywood celebrities.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes, Hollywood Babylon was a successful book by Kenneth Anger that exposed scandals and secrets of Hollywood celebrities.
+................................... ground truth ...................................
+['The NYT said, If a book such as Hollywood Babylon can be said to have charm, it lies in the fact that the book is without one single redeeming merit.“']
+................................... F1 ...................................
+0.186046511627907
+................................... nF1 ...................................
+0
+##########what were the oligarchs##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: what were the oligarchs
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The oligarchs were a group of wealthy businessmen who gained significant political power and influence in post-Soviet Russia in the 1990s.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+The oligarchs were a group of wealthy businessmen who gained significant political power and influence in post-Soviet Russia in the 1990s.
+................................... ground truth ...................................
+['Business oligarchs of the former Soviet republics.']
+................................... F1 ...................................
+0.16666666666666666
+................................... nF1 ...................................
+0.11764705882352941
+##########Who started Cheap Trick?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Who is Steve Carlton?
+Answer: Steven Norman Carlton, nicknamed Lefty, is a former Major League Baseball left-handed pitcher.
+
+Question: Is Maria Shriver married?
+Answer: Married to Arnold Schwarzenegger
+
+Question: Was Giuseppe Verdi Political?
+Answer: Verdi began in 1859 to take an active interest in Italian politics.
+
+Question: Was Josh Homme married?
+Answer: Josh Homme met Australian singer and musician Brody Dalle in 1996. Homme and Dalle were married on December 3, 2005.
+
+Question: Who was Josef Breuer?
+Answer: Josef Breuer was a distinguished physician who made key discoveries in neurophysiology and one of Freud's influences.
+
+Question: Who was Sitting Bull?
+Answer: Sitting Bull in Standard Lakota orthography, also nicknamed Húŋkešni  or Slow) was a Hunkpapa Lakota leader who led his people during years of resistance to United States government policies.
+
+Question: What happened in 1999?
+Answer: On May 22, 1999, Mia Hamm broke the all-time international goal record with her 108th goal in a game against Brazil in Orlando, Florida.
+
+Question: Who started Cheap Trick?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Cheap Trick was formed by Rick Nielsen and Tom Petersson in 1974.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Cheap Trick was formed by Rick Nielsen and Tom Petersson in 1974.
+................................... ground truth ...................................
+['In 1967, Rick Nielsen formed Fuse with Tom Peterson and Bun E. Carlos joining on drums. the band adopted the name Cheap Trick on August 25, 1973.']
+................................... F1 ...................................
+0.43243243243243246
+................................... nF1 ...................................
+0.3
+################################### RESULT ###################################
+................................... F1 ...................................
+0.33033324906154804
+................................... nF1 ...................................
+0.2695493147422306
