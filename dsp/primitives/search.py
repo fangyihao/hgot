@@ -7,13 +7,14 @@ def retrieve(query: str, k: int) -> list[str]:
     if not dsp.settings.rm:
         raise AssertionError("No RM is loaded.")
     passages = dsp.settings.rm(query, k=k)
-    passages = [psg.long_text for psg in passages]
-    
+
     if dsp.settings.reranker:
         passages_cs_scores = dsp.settings.reranker(query, passages)
         passages_cs_scores_sorted = np.argsort(passages_cs_scores)[::-1]
-        passages = [passages[idx] for idx in passages_cs_scores_sorted]
-
+        #passages = [passages[idx] for idx in passages_cs_scores_sorted]
+        passages = [passages[idx].long_text for idx in passages_cs_scores_sorted]
+    else:
+        passages = [psg.long_text for psg in passages]
     return passages
 
 
@@ -24,7 +25,8 @@ def retrieveRerankEnsemble(queries: list[str], k: int) -> list[str]:
     passages = {}
     for query in queries:
         retrieved_passages = dsp.settings.rm(query, k=k*3)
-        passages_cs_scores = dsp.settings.reranker(query, [psg.long_text for psg in retrieved_passages])
+        #passages_cs_scores = dsp.settings.reranker(query, [psg.long_text for psg in retrieved_passages])
+        passages_cs_scores = dsp.settings.reranker(query, retrieved_passages)
         for idx in np.argsort(passages_cs_scores)[::-1]:
             psg = retrieved_passages[idx]
             passages[psg.long_text] = passages.get(psg.long_text, []) + [
@@ -35,7 +37,7 @@ def retrieveRerankEnsemble(queries: list[str], k: int) -> list[str]:
     return [text for _, text in sorted(passages, reverse=True)[:k]]
 
 
-def retrieveEnsemble(queries: list[str], k: int, by_prob: bool = True) -> list[str]:
+def retrieveEnsemble(queries: list[str], k: int, by_prob: bool = False) -> list[str]:
     """Retrieves passages from the RM for each query in queries and returns the top k passages
     based on the probability or score.
     """

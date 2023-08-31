@@ -1,4 +1,8 @@
-##########Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?##########
+##########In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?##########
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: "The Walking Dead" Cherokee Rose (TV Episode 2011) | With Carl recovering, the group puts their focus on finding Sophia. ... Andrew Lincoln, Scott Wilson, and Lauren Cohan in The Walking Dead (2010).  Claim: In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: 'The Walking Dead' Launching Best of Carol Marathon | AMC will air an eight-episode The Walking Dead marathon highlighting fan-favorite Carol Peletier (Melissa McBride), re-running stand out ...  Claim: In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Hershel Greene (TV Series) - Walking Dead Wiki - Fandom | Hershel Greene is a main character and a survivor of the outbreak in AMC's The Walking Dead. He is a farm owner who lived in rural Georgia for many years ...  Claim: In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
 =================================== PLAN ===================================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
@@ -48,18 +52,18 @@ Dependencies: None
 
 ---
 
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+Question: In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?
 
 Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
+[1] «"The Walking Dead" Cherokee Rose (TV Episode 2011) | With Carl recovering, the group puts their focus on finding Sophia. ... Andrew Lincoln, Scott Wilson, and Lauren Cohan in The Walking Dead (2010).»
+[2] «'The Walking Dead' Launching Best of Carol Marathon | AMC will air an eight-episode The Walking Dead marathon highlighting fan-favorite Carol Peletier (Melissa McBride), re-running stand out ...»
+[3] «Hershel Greene (TV Series) - Walking Dead Wiki - Fandom | Hershel Greene is a main character and a survivor of the outbreak in AMC's The Walking Dead. He is a farm owner who lived in rural Georgia for many years ...»
 
 Plan:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
 ...................................assistant...................................
-Step 1: What is Mookychick? Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
+Step 1: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"? Step 2: What company's advertisements is the actor from Step 1 famous for his work in?
 
 Dependencies: None
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -92,13 +96,13 @@ Dependencies: None
 ---
 
 Plan:
-Step 1: What is Mookychick? Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
+Step 1: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"? Step 2: What company's advertisements is the actor from Step 1 famous for his work in?
 
 Dependencies:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
 ...................................assistant...................................
-Step 2 depends on the answer from Step 1.
+None
 =================================== SEARCH ===================================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
@@ -113,579 +117,412 @@ Dependencies: ${e.g. If Step 2 depends on Step 1, then write Step 1 -> Step 2; I
 
 ---
 
-Descriptions: Step 2 depends on the answer from Step 1.
+Descriptions: None
 Dependencies:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
 ...................................assistant...................................
-Step 1 -> Step 2
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[2] «About | Mookychick is like water – babbling, tranquil, charged, unquiet, delicate, ferocious, restorative and deep. Its spirit is both flowers and owls. We are a ...»
-
-Question: What is Mookychick?
-
-Rationale: Let's think step by step.
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an alternative feminist website and community that covers social and cultural trends and gender issues. The website's about page describes it as a site that is "like water" and embodies the spirits of both flowers and owls.
-
-Answer: Mookychick is an alternative feminist website and community.
------------------------------------ CHOICE 1 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community" with content related to social and cultural trends and gender issues. The website's "About" page describes it as "like water" and with a spirit of both flowers and owls.
-
-Answer: An alternative feminist website and community with content related to social and cultural trends and gender issues.
------------------------------------ CHOICE 2 -----------------------------------
-...................................assistant...................................
-It is a website and community. It focuses on social and cultural trends and issues relating to gender. It has a spirit that is both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 3 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an alternative feminist website and community. It is compared to water, with a spirit of both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 4 -----------------------------------
-...................................assistant...................................
-Mookychick is an alternative feminist website and community that analyzes social and cultural trends and issues relating to gender. It is described as being like water, with a spirit that is both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 5 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community" that covers analysis of social and cultural trends and issues relating to gender. It is also described as having a spirit that is "both flowers and owls." Based on these descriptions, what is Mookychick?
-
-Answer: An alternative feminist website and community covering social and cultural trends and issues relating to gender.
------------------------------------ CHOICE 6 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an alternative feminist website and community, with content focused on social and cultural trends and gender issues. The website's About page further describes Mookychick as having a spirit that is both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 7 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an alternative feminist website and community. Its spirit is both flowers and owls. What is Mookychick?
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 8 -----------------------------------
-...................................assistant...................................
-Mookychick is a website and community. It is alternative and feminist. It features analysis of social and cultural trends, and issues relating to gender. It is described as being like water, with a spirit of both flowers and owls.
-
-Answer: A website and community, alternative and feminist, featuring analysis of social and cultural trends and issues relating to gender, described as being like water with a spirit of both flowers and owls.
------------------------------------ CHOICE 9 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community." The website's About page compares it to water, and states that its spirit is both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 10 -----------------------------------
-...................................assistant...................................
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 11 -----------------------------------
-...................................assistant...................................
-It is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender. It is described as like water – babbling, tranquil, charged, unquiet, delicate, ferocious, restorative and deep. Its spirit is both flowers and owls.
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 12 -----------------------------------
-...................................assistant...................................
-Mookychick is a website and community. It is alternative and feminist. Its spirit is both flowers and owls.
-
-Answer: A feminist website and community.
------------------------------------ CHOICE 13 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community". The website's about page describes it as having the spirit of both flowers and owls. 
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 14 -----------------------------------
-...................................assistant...................................
-Answer: An alternative feminist website.
------------------------------------ CHOICE 15 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community" on [1], and as having a spirit of "both flowers and owls" on [2].
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 16 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an alternative feminist website and community, and its spirit is both flowers and owls. 
-
-Answer: An alternative feminist website and community.
------------------------------------ CHOICE 17 -----------------------------------
-...................................assistant...................................
-It is an alternative feminist website and community. It has a spirit that is both flowers and owls.
-
-Answer: An alternative feminist website and community with a spirit that is both flowers and owls.
------------------------------------ CHOICE 18 -----------------------------------
-...................................assistant...................................
-It is described as an alternative feminist website and community. It is also compared to water, with a spirit that is both flowers and owls.
-
-Answer: Mookychick is an alternative feminist website and community.
------------------------------------ CHOICE 19 -----------------------------------
-...................................assistant...................................
-Mookychick is described as an "alternative feminist website and community" that discusses social and cultural trends and gender issues. The website is also described as having a spirit that is both "flowers and owls."
-
-Answer: An alternative feminist website and community.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Rewrite the last question in a standalone manner by giving the answers to previous questions. Do not consider answers that were not specified. Only show the last question after the rewrite.
-
----
-
-Follow the following format.
-
-Questions:
-${previous questions and answers}
-
-Rewrite: ${the last question after the rewrite}
-
----
-
-Questions:
-Step 1: Who authored the opinion in Hawaii v. Office of Hawaiian Affairs, 556 U.S. 163 (2009)? ANSWER: Justice Samuel Alito. Step 2: When did the author join the Supreme Court?
-
-Rewrite: When did Justice Samuel Alito join the Supreme Court?
-
----
-
-Questions:
-Step 1: What is Mookychick? ANSWER: An alternative feminist website and community.. Step 2: What is the women's lifestyle magazine that is published six times a year and is published by Debbie Stoller and Laurie Henzel?
-
-Rewrite:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
-
-Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
-
-Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 0.1 seconds after 2 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
-
-Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 1.1 seconds after 3 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
-
-Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 1.8 seconds after 4 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-[2] «Bust Magazine Is on a Mission | Founding editors Debbie Stoller and Laurie Henzel started the magazine with a Riot Girls sensibility in 1993. Twenty-five years later, they are ...»
-
-Question: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-The magazine was founded in 1993 by Stoller and Henzel. It has a Riot Girls sensibility. The magazine is published six times a year. 
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 1 -----------------------------------
-...................................assistant...................................
-Bust Magazine was founded in 1993 by Stoller and Henzel. They started the magazine with a "Riot Girls" sensibility. The magazine is still being published today. 
-
-Answer: Bust Magazine
------------------------------------ CHOICE 2 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine is focused on women's lifestyle. 
-Step 2: It was founded in 1993 by Debbie Stoller, Henzel, and Marcelle Karp. 
-Step 3: Debbie Stoller and Laurie Henzel are the current editors of the magazine. 
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 3 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp.
-Step 2: The magazine has a Riot Girls sensibility.
-Step 3: The magazine is still being published after 25 years.
-Answer: Bust Magazine.
------------------------------------ CHOICE 4 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine is a women's lifestyle magazine.
-Step 2: It is published six times a year.
-Step 3: It was founded by Debbie Stoller and Laurie Henzel in 1993.
-Step 4: The name of the magazine is being asked.
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 5 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 by Stoller and Henzel.
-Step 2: The magazine has a Riot Girls sensibility.
-Step 3: The magazine is still being published today.
-Answer: Bust Magazine.
------------------------------------ CHOICE 6 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp.
-Step 2: The founding editors are Debbie Stoller and Laurie Henzel.
-Step 3: The magazine has a Riot Girls sensibility.
-Step 4: The magazine is published six times a year.
-Step 5: The name of the magazine is mentioned in both sources.
-Step 6: Therefore, the answer is Bust Magazine.
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 7 -----------------------------------
-...................................assistant...................................
-The magazine was founded in 1993 by Stoller and Henzel. It has a Riot Girls sensibility. The magazine is published six times a year. 
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 8 -----------------------------------
-...................................assistant...................................
-Bust Magazine was founded in NYC in 1993 by Stoller and Henzel. The founding editors started the magazine with a Riot Girls sensibility. Therefore, the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel is Bust Magazine.
-
-Answer: Bust Magazine
------------------------------------ CHOICE 9 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 by Stoller and Henzel.
-Step 2: The magazine has a "Riot Girls sensibility."
-Step 3: The magazine is published six times a year.
-Step 4: The name of the magazine is mentioned in both sources.
-Step 5: Therefore, the name of the magazine is Bust.
-
-Answer: Bust
------------------------------------ CHOICE 10 -----------------------------------
-...................................assistant...................................
-The magazine was founded in 1993 by Stoller and Henzel. They started it with a Riot Girls sensibility. It is published six times a year. What is its name?
-
-Answer: Bust
------------------------------------ CHOICE 11 -----------------------------------
-...................................assistant...................................
-- The magazine was founded in 1993 in New York City by Stoller, Henzel, and Marcelle Karp.
-- The founding editors have a Riot Girls sensibility.
-- The magazine is about women's lifestyle.
-- The magazine is published six times a year.
-- What is the name of the magazine?
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 12 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 in New York City by Stoller, Henzel, and Marcelle Karp.
-Step 2: It has a Riot Girls sensibility.
-Step 3: It is published six times a year.
-Step 4: What is the name of the magazine? 
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 13 -----------------------------------
-...................................assistant...................................
-Bust is a women's lifestyle magazine. The magazine was founded in 1993. The founders are Debbie Stoller and Laurie Henzel.
-
-Answer: Bust
------------------------------------ CHOICE 14 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine is focused on women's lifestyle.
-Step 2: It was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp.
-Step 3: The founding editors are Debbie Stoller and Laurie Henzel.
-Step 4: The magazine is published six times a year.
-Step 5: The name of the magazine is mentioned in the sources.
-Answer: Bust Magazine.
------------------------------------ CHOICE 15 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp.
-Step 2: The founding editors are Debbie Stoller and Laurie Henzel.
-Step 3: The magazine has a Riot Girls sensibility.
-Step 4: The magazine is published six times a year.
-Step 5: Therefore, the name of the women's lifestyle magazine is Bust.
-
-Answer: Bust.
------------------------------------ CHOICE 16 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine was founded in 1993 by Stoller and Henzel.
-Step 2: It has a Riot Girls sensibility.
-Step 3: It is published six times a year.
-Step 4: It is a women's lifestyle magazine.
-Answer: Bust Magazine.
------------------------------------ CHOICE 17 -----------------------------------
-...................................assistant...................................
-Step 1: The magazine is a women's lifestyle magazine. 
-Step 2: It was founded in New York City in 1993. 
-Step 3: The founding editors are Debbie Stoller and Laurie Henzel. 
-Step 4: The name of the magazine is mentioned in the sources. 
-
-Answer: Bust Magazine.
------------------------------------ CHOICE 18 -----------------------------------
-...................................assistant...................................
-The magazine was founded in 1993 by Stoller and Henzel in New York City with a Riot Girls sensibility. The magazine is still active and published six times a year. Therefore, the name of the women's lifestyle magazine is Bust.
-
-Answer: Bust.
------------------------------------ CHOICE 19 -----------------------------------
-...................................assistant...................................
-The magazine was founded in 1993 by Stoller, Henzel, and Marcelle Karp. Stoller and Henzel started the magazine with a Riot Girls sensibility. The magazine is still being published today, 25 years later. 
-
-Answer: Bust Magazine.
------------------------------------ STEPS WITH ANSWERS -----------------------------------
 None
-Step 1: What is Mookychick? ANSWER: An alternative feminist website and community.
-Step 2: What is the name of the women's lifestyle magazine that is published six times a year by Debbie Stoller and Laurie Henzel? ANSWER: Bust Magazine.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: Cherokee Rose (The Walking Dead) - Wikipedia | The survivors are given a temporary sanctuary at the farm of Hershel Greene (Scott Wilson) While the group contemplates what to do, Daryl Dixon (Norman Reedus) continues to search for Sophia Peletier (Madison Lintz)., Madison Lintz  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 1  New Score: 0.5
+Passage: "The Walking Dead" Cherokee Rose (TV Episode 2011) | With Carl recovering, the group puts their focus on finding Sophia. ... Andrew Lincoln, Scott Wilson, and Lauren Cohan in The Walking Dead (2010).  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Walking Dead: Cherokee Rose - Headhunter's Horror House | Daryl Dixon continues the search for Sophia on his own while Maggie and Glenn ... This is the first episode of The Walking Dead directed by Billy Gierhart.  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Sophia Peletier | The Walking Dead Charectors Wiki - Fandom | Sophia Peletier is a minor protagonist and survivor of the zombie apocalypse in AMC's The Walking Dead. She is the daughter of Ed and Carol.  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: Every Episode of The Walking Dead Ranked by Tomatometer | The Walking Dead fans have hung with AMC's zombie series for over 10 seasons now — 161 episodes — and helped the show break several ratings records, ...  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: Sophia Peletier | The Walking Dead character. SophiaPeletier.jpg. Sophia, as portrayed by Madison Lintz in the television series (left) and as depicted in the comic book series ( ...  Claim: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.2  New Score: 0.1
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: Cherokee Rose (The Walking Dead) - Wikipedia | The survivors are given a temporary sanctuary at the farm of Hershel Greene (Scott Wilson) While the group contemplates what to do, Daryl Dixon (Norman Reedus) continues to search for Sophia Peletier (Madison Lintz).  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: True  Old Score: 1  New Score: 1.0
+Passage: "The Walking Dead" Cherokee Rose (TV Episode 2011) | Cherokee Rose: Directed by Billy Gierhart. With Andrew Lincoln, Jon Bernthal, ... Andrew Lincoln, Scott Wilson, and Lauren Cohan in The Walking Dead (2010).  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Sophia Peletier | The Walking Dead Charectors Wiki - Fandom | In The Walking Dead Social Game, there is a mission in Chapter 3 where the ... Daryl goes off in search of Sophia again, but only finds a Cherokee Rose, ...  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: The Walking Dead: Season 2, Episode 4 | The Walking Dead: Season 2 ... "Cherokee Rose" is an episode that seems as stuck as the characters in the story, ... Genres: Drama, Horror, Sci-Fi.  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: The Walking Dead: Daryl Dixon's 5 best episodes | Daryl Dixon's best episodes of The Walking Dead. “Cherokee Rose,” season 2, episode 4, premiered on AMC on November 6, 2011.  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: Zainap Baraket on Tumblr | Sophia (Madison Lintz), Ed Peletier(Adam Minarovich), and Carol Peletier (Melissa McBride). ... 2x04-Cherokee-Rose The-Walking-Dead.  Claim: In the episode "Cherokee Rose" of "The Walking Dead," which actor plays the character who is still looking for Sophia Peletier?  Entailment: False  Old Score: 0.2  New Score: 0.1
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: Cherokee Rose (The Walking Dead) - Wikipedia | The survivors are given a temporary sanctuary at the farm of Hershel Greene (Scott Wilson) While the group contemplates what to do, Daryl Dixon (Norman Reedus) continues to search for Sophia Peletier (Madison Lintz).  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: True  Old Score: 1  New Score: 1.0
+Passage: Pretty Much Dead Already | The death of Sophia Peletier is a prominent theme in "Pretty Much Dead ... You don't want people to be expecting it, especially in the Walking Dead.  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Vatos (Episode) | Walking Dead Wiki | Fandom | "Vatos" is the fourth episode of the first season of AMC's The Walking Dead. ... Rick agrees to help Daryl search the streets for his brother.  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Character Spotlight: 'The Walking Dead's Carol Peletier | Enter Carol Peletier. Melissa McBride in The Walking Dead. Photo: AMC. I have always been drawn to the characters that people like to ...  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: MY TOP 31 CHARACTERS IN "THE WALKING DEAD ... | DARYL DIXON - Actor Norman Reedus has hit fame in a lot of his movies, namely "The Boondock Saints". His portrayal of Daryl on "The Walking Dead" is probably ...  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: Every Episode of The Walking Dead Ranked by Tomatometer | The Walking Dead fans have hung with AMC's zombie series for over 10 ... Critics Consensus: "Cherokee Rose" is an episode that seems as ...  Claim: Which actor portrays the character who remains on the search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?  Entailment: False  Old Score: 0.2  New Score: 0.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Cherokee Rose (The Walking Dead) - Wikipedia | The survivors are given a temporary sanctuary at the farm of Hershel Greene (Scott Wilson) While the group contemplates what to do, Daryl Dixon (Norman Reedus) continues to search for Sophia Peletier (Madison Lintz).»
+[2] «Pretty Much Dead Already | The death of Sophia Peletier is a prominent theme in "Pretty Much Dead ... You don't want people to be expecting it, especially in the Walking Dead.»
+
+Question: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+The question asks for the actor who portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead."
+- The context mentions that the character is Daryl Dixon.
+- The context also mentions that the actor's name is Norman Reedus.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 1 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks for the actor who portrays the character continuing to search for Sophia Peletier.
+Step 2: The context mentions that Daryl Dixon is the character who continues to search for Sophia Peletier.
+Step 3: The question asks for the actor who portrays Daryl Dixon.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 2 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the episode mentioned in the context.
+Step 2: Determine the character who continues to search for Sophia Peletier in that episode.
+Step 3: Identify the actor who portrays that character.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 3 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks for the actor who portrays the character searching for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead."
+Step 2: The context mentions that Daryl Dixon is the character searching for Sophia Peletier.
+Step 3: The actor who portrays Daryl Dixon is Norman Reedus.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 4 -----------------------------------
+...................................assistant...................................
+The context mentions that Daryl Dixon continues to search for Sophia Peletier in the episode "Cherokee Rose." We need to identify the actor who portrays Daryl Dixon in "The Walking Dead."
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 5 -----------------------------------
+...................................assistant...................................
+The question asks for the actor who portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead." This can be deduced by combining the information from [1] and [2].
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 6 -----------------------------------
+...................................assistant...................................
+Step 1: The question is asking for the actor who portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead".
+Step 2: The context mentions that Daryl Dixon is the character who continues to search for Sophia Peletier.
+Step 3: Therefore, the actor who portrays Daryl Dixon is the answer to the question.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 7 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the episode mentioned in the context.
+Step 2: Find the character who continues to search for Sophia Peletier in that episode.
+Step 3: Determine the actor who portrays that character.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 8 -----------------------------------
+...................................assistant...................................
+The actor who portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead" is mentioned in the provided context as Daryl Dixon. 
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 9 -----------------------------------
+...................................assistant...................................
+The question asks for the actor who portrays the character searching for Sophia Peletier in the "Cherokee Rose" episode of "The Walking Dead." This can be deduced by combining the two provided sources, which mention the character Daryl Dixon continuing to search for Sophia Peletier. 
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 10 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the character who continues to search for Sophia Peletier in the Cherokee Rose episode.
+Step 2: Find the actor who portrays that character.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 11 -----------------------------------
+...................................assistant...................................
+From the context, we know that Daryl Dixon is the character who continues to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead." We need to find the actor who portrays Daryl Dixon.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 12 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks for the actor who portrays the character continuing to search for Sophia Peletier.
+Step 2: The context mentions that Daryl Dixon continues to search for Sophia Peletier.
+Step 3: We need to identify the actor who portrays Daryl Dixon.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 13 -----------------------------------
+...................................assistant...................................
+1. The character continuing to search for Sophia Peletier is Daryl Dixon.
+2. We need to find the actor who portrays Daryl Dixon.
+3. The actor's name is Norman Reedus.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 14 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the episode mentioned in the context. 
+Step 2: Determine the character who continues to search for Sophia Peletier in that episode.
+Step 3: Find out the actor who portrays that character.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 15 -----------------------------------
+...................................assistant...................................
+The question asks for the actor who portrays the character searching for Sophia Peletier in the "Cherokee Rose" episode of "The Walking Dead." The context mentions that Daryl Dixon continues to search for Sophia Peletier. 
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 16 -----------------------------------
+...................................assistant...................................
+1. The character who continues to search for Sophia Peletier is Daryl Dixon.
+2. We need to find the actor who portrays Daryl Dixon in "The Walking Dead."
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 17 -----------------------------------
+...................................assistant...................................
+1. The actor portrayed a character who continues to search for Sophia Peletier.
+2. The character's name is Daryl Dixon.
+3. We need to find the actor who portrays Daryl Dixon.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 18 -----------------------------------
+...................................assistant...................................
+1. The character searching for Sophia Peletier is Daryl Dixon.
+2. The actor who portrays Daryl Dixon is Norman Reedus.
+
+Answer: Norman Reedus
+----------------------------------- CHOICE 19 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the episode mentioned in the context.
+Step 2: Find the character mentioned in the episode.
+Step 3: Determine the actor who portrays the character.
+
+Answer: Norman Reedus
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: Wilford Brimley | Brimley appeared in numerous television advertisements for Liberty Medical, a company specializing in home delivery of medical products (including diabetes ...  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Jon Hamm | Jonathan Daniel Hamm (born March 10, 1971) is an American actor. He is best known for his role as Don Draper in the period drama television series Mad Men ...  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Ryan Reynolds Net Worth and Business Empire Explained | Hollywood star Ryan Reynolds, best known for his work as Deadpool, is also an entrepreneur who has earned millions of dollars from his business ventures.  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: Advertising FAQ's: A Guide for Small Business | What truth-in-advertising rules apply to advertisers? Under the Federal Trade Commission Act:  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: Effective Advertising Makes People Remember Your Name | In this article, we outline best practices for an effective and successful advertising campaign. Have the right name for your business. Your company name is a ...  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 0.2  New Score: 0.1
+Passage: Ways to advertise your business | Do an online search to find examples of successful advertising campaigns that helped to speed up business growth and make brands famous.  Claim: What company's advertisements is the actor from Step 1 famous for his work in?  Entailment: False  Old Score: 0.16666666666666666  New Score: 0.08333333333333333
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: Who Is the Allstate Commercial Guy? | The man who has become known as the Allstate commercial guy is Dennis Haysbert. Haysbert is an accomplished actor who has a long list of ...  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Wilford Brimley | Brimley frequently appeared in commercials, including a series of commercials for Quaker Oats, a campaign which became famous for his repeating their slogan " ...  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Why Hollywood's Most Famous Ad Man Jon Hamm Loves ... | The Emmy-winning actor has appeared in multiple commercials, selling everything from Mercedes-Benz cars to H&R Block tax preparations services.  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: 18 Of The Most Popular TV Commercial Actors We All Love | Taking the number one spot as the most recognized commercial actor is Stephanie Courtney, better known as Flo. Courtney is famous for portraying ...  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: The Top Five Most Memorable Insurance Company Brand ... | In many of the commercials, Flo takes on a Big Sister type role to Jamie, such as Sprinkles are for Winners. But one of the funniest commercials ...  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 0.2  New Score: 0.1
+Passage: Progressive commercial actors and actresses (with photos) | All Progressive commercial actors and actresses (with photos) · Photo: canva.com (modified by author) · Bill Glass plays Dr Rick. · Flo, played by Stephanie ...  Claim: Which company's commercials is the actor well-known for appearing in during Step 1?  Entailment: False  Old Score: 0.16666666666666666  New Score: 0.08333333333333333
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+Passage: George Hamilton (actor) | George Stevens Hamilton (born August 12, 1939) is an American actor. His notable films include Home from the Hill (1960), By Love Possessed (1961), Light in ...  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 1.0  New Score: 0.5
+Passage: Ryan Reynolds credits his success to one skill: It 'changed ... | Ryan Reynolds has a reputation for being one of the nicest actors in Hollywood, despite the snarky, sarcastic characters he often plays on ...  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 0.5  New Score: 0.25
+Passage: Are Your Ads Funding Disinformation? | Companies need to take three steps: check your ad campaigns, avoid brand safety technology, and demand cash refunds.  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 0.3333333333333333  New Score: 0.16666666666666666
+Passage: Advertising FAQ's: A Guide for Small Business | Advertising must be truthful and non-deceptive;; Advertisers must have evidence to back up their claims; and; Advertisements cannot be unfair.  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 0.25  New Score: 0.125
+Passage: 8 Highly Successful Advertising Campaigns | The eight successful advertising campaigns below demonstrate how integral clever slogans are for a company's brand recognition. Key Takeaways. Every year, major ...  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 0.2  New Score: 0.1
+Passage: 18 Of The Most Popular TV Commercial Actors We All Love | Dannis Haysbert is one of the most recognized actors in advertising for his role in the Allstate Insurance commercials, so much so that the ...  Claim: For which company's advertisements is the actor renowned for his work in Step 1?  Entailment: False  Old Score: 0.16666666666666666  New Score: 0.08333333333333333
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
+Answer: 1959
+
+Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
+Answer: 1660
+
+Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
+Answer: New York City
+
+Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
+Answer: Sweden
+
+Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
+Answer: Scotland
+
+Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
+Answer: Flinders Street railway station
+
+Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
+Answer: 1994 European Cup Winners' Cup Final
+
+---
+
+Follow the following format.
+
+Context:
+${sources that may contain relevant content}
+
+Question: ${the question to be answered}
+
+Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
+
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Context:
+[1] «Wilford Brimley | Brimley appeared in numerous television advertisements for Liberty Medical, a company specializing in home delivery of medical products (including diabetes ...»
+[2] «Who Is the Allstate Commercial Guy? | The man who has become known as the Allstate commercial guy is Dennis Haysbert. Haysbert is an accomplished actor who has a long list of ...»
+
+Question: What company's advertisements is the actor from Step 1 famous for his work in?
+
+Rationale: Let's think step by step.
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 is famous for appearing in advertisements for a certain company.
+Step 2: The actor is Dennis Haysbert.
+Step 3: Dennis Haysbert is known for appearing in Allstate commercials.
+Step 4: Allstate is the company famous for its advertisements featuring Dennis Haysbert.
+
+Answer: Allstate
+----------------------------------- CHOICE 1 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 is known for appearing in television advertisements.
+Step 2: These advertisements are for a company specializing in home delivery of medical products.
+Step 3: The company is mentioned in [1] as Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 2 -----------------------------------
+...................................assistant...................................
+Step 1 mentions that the actor is famous for his work in television advertisements.
+Step 2 mentions that the actor is known as the Allstate commercial guy.
+Therefore, the answer must be Allstate.
+
+Answer: Allstate
+----------------------------------- CHOICE 3 -----------------------------------
+...................................assistant...................................
+Step 1: The actor in question is known for appearing in commercials for a certain company.
+Step 2: The commercials are related to medical products, particularly diabetes.
+Step 3: The company specializes in home delivery of these medical products.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 4 -----------------------------------
+...................................assistant...................................
+Step 1: The actor in question is famous for appearing in television advertisements.
+Step 2: These advertisements are for a company specializing in home delivery of medical products, particularly for diabetes.
+Step 3: The company is mentioned in the context as Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 5 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 appeared in television advertisements for a company specializing in home delivery of medical products.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 6 -----------------------------------
+...................................assistant...................................
+Step 1: The actor mentioned in the context is known for appearing in television advertisements.
+Step 2: The context specifically mentions that the actor appeared in advertisements for a company specializing in home delivery of medical products, including diabetes.
+Step 3: Putting it all together, the actor is famous for his work in advertisements for a company called Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 7 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 appeared in numerous television advertisements for a company specializing in home delivery of medical products.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 8 -----------------------------------
+...................................assistant...................................
+Step 1 mentions that the actor is famous for appearing in television advertisements. 
+Step 2 mentions that the actor is known as the Allstate commercial guy. 
+
+Answer: Allstate
+----------------------------------- CHOICE 9 -----------------------------------
+...................................assistant...................................
+Step 1 mentions that the actor is famous for appearing in numerous television advertisements. 
+Step 2 identifies the actor as Dennis Haysbert. 
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 10 -----------------------------------
+...................................assistant...................................
+Step 1 mentions that the actor in question appeared in numerous television advertisements for a specific company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 11 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 appeared in television advertisements for a company specializing in home delivery of medical products, specifically for diabetes.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 12 -----------------------------------
+...................................assistant...................................
+Step 1: The actor referred to in Step 1 is Wilford Brimley.
+Step 2: According to source [1], Wilford Brimley appeared in numerous television advertisements for a company specializing in home delivery of medical products.
+Step 3: The company being referred to is Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 13 -----------------------------------
+...................................assistant...................................
+Step 1 mentions that the actor is famous for appearing in television advertisements.
+Step 2 identifies the actor as Dennis Haysbert.
+Putting these together, we can conclude that Dennis Haysbert is famous for appearing in the television advertisements of a certain company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 14 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 appeared in television advertisements for a company specializing in home delivery of medical products, including diabetes.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 15 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 appeared in numerous television advertisements.
+Step 2: These advertisements were for a company specializing in home delivery of medical products.
+Step 3: The company is known as Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 16 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from the commercials is Dennis Haysbert.
+Step 2: Dennis Haysbert is known for appearing in Allstate commercials.
+Step 3: The question is asking for the company whose advertisements the actor is famous for.
+Step 4: Therefore, the answer is Allstate.
+
+Answer: Allstate
+----------------------------------- CHOICE 17 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 is Wilford Brimley.
+Step 2: Wilford Brimley appeared in numerous television advertisements.
+Step 3: These advertisements were for a company specializing in home delivery of medical products.
+Step 4: The company is called Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 18 -----------------------------------
+...................................assistant...................................
+Step 1: The actor is known for appearing in television advertisements for a specific company specializing in home delivery of medical products.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 19 -----------------------------------
+...................................assistant...................................
+Step 1: The actor from Step 1 is known for appearing in Liberty Medical advertisements.
+Step 2: Liberty Medical specializes in home delivery of medical products, including diabetes products.
+
+Answer: Liberty Medical
+----------------------------------- STEPS WITH ANSWERS -----------------------------------
+Step 1: Who is the actor that portrays the character continuing to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead"? ANSWER: Norman Reedus
+Step 2: What company's advertisements is the actor from Step 1 famous for his work in? ANSWER: Liberty Medical
 =================================== PREDICT ===================================
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
@@ -730,333 +567,186 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 ---
 
 Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
+[1] «"The Walking Dead" Cherokee Rose (TV Episode 2011) | With Carl recovering, the group puts their focus on finding Sophia. ... Andrew Lincoln, Scott Wilson, and Lauren Cohan in The Walking Dead (2010).»
+[2] «'The Walking Dead' Launching Best of Carol Marathon | AMC will air an eight-episode The Walking Dead marathon highlighting fan-favorite Carol Peletier (Melissa McBride), re-running stand out ...»
+[3] «Hershel Greene (TV Series) - Walking Dead Wiki - Fandom | Hershel Greene is a main character and a survivor of the outbreak in AMC's The Walking Dead. He is a farm owner who lived in rural Georgia for many years ...»
+[4] «Cherokee Rose (The Walking Dead) - Wikipedia | The survivors are given a temporary sanctuary at the farm of Hershel Greene (Scott Wilson) While the group contemplates what to do, Daryl Dixon (Norman Reedus) continues to search for Sophia Peletier (Madison Lintz).»
+[5] «Wilford Brimley | Brimley appeared in numerous television advertisements for Liberty Medical, a company specializing in home delivery of medical products (including diabetes ...»
 
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
+Question: In the Cherokee Rose episode of "The Walking Dead," the character that continues to search for Sophia Peletier is portrayed by an actor who is also famous for his work in what company's advertisements?
 
 Rationale: Let's think step by step.
-Backing off 1.4 seconds after 2 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 3.6 seconds after 3 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 0.7 seconds after 4 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 6.8 seconds after 5 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 1.0 seconds after 6 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Question: Les Mistons ("The Mischief Makers") is a short film directed by François Truffaut in 1957, in 2013 the Museum of Modern Art in New York City screened this film together with Truffaut's "The 400 Blows", a French drama film, the debut by director François Truffaut, released in what year?
-Answer: 1959
-
-Question: Takashi Nagase, was an interpreter of the Ministry of War of Japan, he was one of the officers in charge of the construction of the "Death Railway" which ran between Thailand and Burma, and is known for the use of forced labour of Allied prisoners of war, a prisoner of war, enemy prisoner of war (EPW) or "missing-captured, is a person, whether combatant or non-combatant, who is held in custody by a belligerent power during or immediately after an armed conflict, the arliest recorded usage of the phrase "prisoner of war", dates to what year?
-Answer: 1660
-
-Question: Suspension of Disbelief was the lone AP2 release, put out by Tooth & Nail Records in 2000, Argyle Park had consisted of Buka and Klayton, Klayton (born Scott Albert) is a multi-instrumentalist musician formerly of which location, and currently of Detroit, Michigan who has led several cult status underground bands, and has performed under a variety of stage names since the early 1990s?
-Answer: New York City
-
-Question: Conrad Vogt-Svendsen, was a Norwegian priest, he was assistant seamen's priest in Hamburg during Second World War, helped with the White Buses operation in 1945, an operation undertaken by the Swedish Red Cross and the Danish government in the spring of 1945 to rescue concentration camp inmates in areas under Nazi control, and transport them to which neutral country?
-Answer: Sweden
-
-Question: The Dunvegan Cup is a wooden ceremonial cup, decorated with silver plates, which dates to 1493, the cup is an heirloom of the Macleods of Dunvegan, and is held at their seat located where, 1 mi to the north of Dunvegan, on the Isle of Skye, off the west coast of which country?
-Answer: Scotland
-
-Question: Closer to the Sun is the third studio album by Australian singer-songwriter Guy Sebastian, released on 28 October 2006 by Sony BMG Australia, some tracks that appear on the album were premiered at the free concert, on 27 September 2006, at Federation Square, a mixed-use development in the inner city of Melbourne, it is located at the intersection of Flinders Street and Swanston Street/St Kilda Road in the city's Central Business District, adjacent which location?
-Answer: Flinders Street railway station
-
-Question: The 1995 UEFA Cup Winners' Cup Final was a football match on 10 May 1995 contested between cup holders Arsenal of England and Real Zaragoza of Spain, Real Zaragoza won the match 2–1 after extra time, preventing Arsenal from retaining the trophy that they had won in which was a football match on 4 May 1994 contested between Arsenal of England and Parma of Italy?
-Answer: 1994 European Cup Winners' Cup Final
-
----
-
-Follow the following format.
-
-Context:
-${sources that may contain relevant content}
-
-Question: ${the question to be answered}
-
-Rationale: Let's think step by step. ${a step-by-step deduction that identifies the correct response, which will be provided below}
-
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Context:
-[1] «How the 1970s Opened Feminist Fashion | Blog | Can workwear be feminist? Learn how women in the 1970s tried to change the American workplace wardrobe.»
-[2] «How Movies Changed the Way We Dress | In other words, as we discover new methods to dress current fashion trends, we implement them into our daily attire. Additionally, films and ...»
-[3] «How Social Movements & Activism Influenced Fashion? | Fashion and activism were always mixed together, bringing social and political changes. Certain clothes have given visual currency to social ...»
-[4] «Mookychick | Mookychick is an alternative feminist website and community. Content includes analysis of social and cultural trends, issues relating to gender, ...»
-[5] «Bust | Bust, Bust was founded in New York City in 1993 by Stoller, Henzel, and Marcelle Karp., Bust»
-
-Question: Mookychick is an independent daily online magazine and community with more than 100,000 readers a month and over 5,000 forum members, content includes analysis of current sociopolitical events, social and cultural trends, alternative fashion, movies, books, music and arts and crafts from a feminist perspective, in contrast with feminist publications and communities such as which women's lifestyle magazine that is published six times a year, and is published by Debbie Stoller and Laurie Henzel?
-
-Rationale: Let's think step by step.
-Backing off 14.0 seconds after 7 tries calling function <function GPT3.request at 0x7f2b0dbedb40> with kwargs {'n': 20, 'temperature': 0.7}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks about an actor who is famous for his work in a company's advertisements.
+Step 2: The question specifies that the actor appears in the Cherokee Rose episode of "The Walking Dead."
+Step 3: The actor portrayed a character who continues to search for Sophia Peletier in that episode.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 1 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks about an actor who is famous for his work in a company's advertisements.
+Step 2: The question provides the context of "The Walking Dead" episode called "Cherokee Rose."
+Step 3: The context mentions that the character continues to search for Sophia Peletier.
+Step 4: The context also mentions that the actor is famous for his work in a company's advertisements.
+Step 5: Putting all the information together, we can deduce that the actor is Norman Reedus, known for his role as Daryl Dixon in "The Walking Dead" and his work in advertisements for a specific company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 2 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in "The Walking Dead" episode "Cherokee Rose."
+2. The actor is also famous for his work in advertisements.
+3. The advertisements are for a company specializing in home delivery of medical products, including diabetes-related items.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 3 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead."
+2. The actor is also famous for his work in advertisements for a company.
+3. The company specializes in home delivery of medical products, including diabetes supplies.
+4. The actor is Wilford Brimley.
+5. Wilford Brimley is known for his work in advertisements for Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 4 -----------------------------------
+...................................assistant...................................
+Step 1: The question asks about the actor who continues to search for Sophia Peletier in "The Walking Dead" episode "Cherokee Rose."
+Step 2: The actor is also famous for his work in advertisements.
+Step 3: The actor is associated with a company that specializes in home delivery of medical products, including diabetes.
+Step 4: The company is Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 5 -----------------------------------
+...................................assistant...................................
+1. The question is asking about an actor who appears in "The Walking Dead" episode "Cherokee Rose."
+2. The actor is known for his work in advertisements.
+3. The actor is associated with a specific company.
+4. The company specializes in home delivery of medical products.
+5. The company is related to diabetes.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 6 -----------------------------------
+...................................assistant...................................
+Step 1: The question is asking about an actor who appears in "The Walking Dead" and is also known for their work in a company's advertisements.
+Step 2: The question specifically mentions the Cherokee Rose episode of "The Walking Dead."
+Step 3: The actor in question is the one who continues to search for Sophia Peletier in that episode.
+Step 4: The actor is also known for their work in advertisements for a specific company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 7 -----------------------------------
+...................................assistant...................................
+1. The question asks about an actor who is famous for his work in a company's advertisements.
+2. The actor is known for his role in "The Walking Dead" and specifically in the Cherokee Rose episode.
+3. The actor portrayed a character who continued to search for Sophia Peletier.
+4. The actor is also known for his work in commercials for a specific company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 8 -----------------------------------
+...................................assistant...................................
+1. The question asks for the actor who continues to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead".
+2. The actor is also famous for his work in a company's advertisements.
+3. The actor is not named in the context.
+4. The context [5] mentions Wilford Brimley appearing in numerous television advertisements for a company specializing in home delivery of medical products.
+5. Therefore, the actor who continues to search for Sophia Peletier in "The Walking Dead" and is famous for his work in Liberty Medical advertisements is Wilford Brimley.
+
+Answer: Wilford Brimley
+----------------------------------- CHOICE 9 -----------------------------------
+...................................assistant...................................
+- The question asks about the actor who continues to search for Sophia Peletier in the "Cherokee Rose" episode of "The Walking Dead."
+- The actor is also famous for his work in a company's advertisements.
+- The information from the context mentions the character's name, Daryl Dixon, and the actor's name, Norman Reedus.
+- To find the answer, we need to identify the company associated with Norman Reedus.
+- The context mentions that Wilford Brimley appeared in advertisements for Liberty Medical, but there is no mention of Norman Reedus being associated with this company.
+- Therefore, the correct answer cannot be determined from the given context.
+
+Answer: Cannot be determined.
+----------------------------------- CHOICE 10 -----------------------------------
+...................................assistant...................................
+1. The question asks about an actor who is famous for his work in a company's advertisements.
+2. The actor is known for his role in "The Walking Dead" and specifically the episode titled "Cherokee Rose."
+3. The actor who continues to search for Sophia Peletier in that episode is Daryl Dixon.
+4. The actor who portrays Daryl Dixon is Norman Reedus.
+5. Norman Reedus is also famous for his work in advertisements for a specific company.
+6. The company is known for specializing in home delivery of medical products, including diabetes-related items.
+7. The company is Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 11 -----------------------------------
+...................................assistant...................................
+1. The question asks about an actor who appears in "The Walking Dead" and is also known for his work in a company's advertisements.
+2. The actor who continues to search for Sophia Peletier in the Cherokee Rose episode is mentioned in the sources.
+3. One of the sources mentions that the actor is also famous for his work in a company's advertisements.
+4. Another source mentions that the company specializes in home delivery of medical products, including diabetes.
+5. The actor is Wilford Brimley.
+6. Wilford Brimley is known for his work in Liberty Medical's advertisements.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 12 -----------------------------------
+...................................assistant...................................
+Step 1: The question is asking about an actor who is famous for his work in a company's advertisements.
+Step 2: The question mentions the episode "Cherokee Rose" of "The Walking Dead."
+Step 3: The answer should be the name of the company.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 13 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in "The Walking Dead" episode "Cherokee Rose."
+2. The actor is also known for his work in advertisements.
+3. The actor is associated with a company specializing in home delivery of medical products.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 14 -----------------------------------
+...................................assistant...................................
+Step 1: Identify the episode mentioned in the question - "Cherokee Rose" episode of "The Walking Dead."
+Step 2: Determine which character continues to search for Sophia Peletier in that episode - Daryl Dixon.
+Step 3: Find out which actor portrays Daryl Dixon.
+Step 4: Identify the company known for its advertisements featuring the actor.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 15 -----------------------------------
+...................................assistant...................................
+- The question asks about an actor who is famous for his work in a company's advertisements.
+- The context mentions that the actor appears in "The Walking Dead" episode "Cherokee Rose."
+- The context also mentions that the actor's character continues to search for Sophia Peletier.
+- The context further mentions that the actor's name is Norman Reedus.
+- The context does not directly state the name of the company whose advertisements the actor is famous for.
+- The additional context [5] mentions that Wilford Brimley appeared in television advertisements for Liberty Medical, a company specializing in home delivery of medical products.
+- It is important to note that the question asks about the actor in "The Walking Dead," not Wilford Brimley.
+
+Answer: None of the sources provide the required information.
+----------------------------------- CHOICE 16 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in "The Walking Dead" episode called Cherokee Rose.
+2. The answer should identify the company for which the actor is famous for his work in advertisements.
+3. Based on the context, the actor is Wilford Brimley.
+4. According to source [5], Wilford Brimley appeared in television advertisements for Liberty Medical.
+5. Therefore, the answer is Liberty Medical.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 17 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in the Cherokee Rose episode of "The Walking Dead."
+2. The answer states that the actor is famous for his work in a company's advertisements.
+3. The company is known for home delivery of medical products, including diabetes supplies.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 18 -----------------------------------
+...................................assistant...................................
+1. The question asks about the actor who continues to search for Sophia Peletier in the episode "Cherokee Rose" of "The Walking Dead."
+2. The actor is also known for his work in advertisements.
+3. The correct answer will be the name of the company for which the actor has done advertisements.
+
+Answer: Liberty Medical
+----------------------------------- CHOICE 19 -----------------------------------
+...................................assistant...................................
+1. The question is asking about the actor who continues to search for Sophia Peletier in the "Cherokee Rose" episode of "The Walking Dead."
+2. The actor is also known for his work in advertisements.
+3. The answer is the name of the company whose advertisements the actor is famous for.
+
+Answer: Liberty Medical
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Liberty Medical
+................................... ground truth ...................................
+Prada

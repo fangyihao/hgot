@@ -66,7 +66,12 @@ def google_request_v2(serpapi_key, query, k):
         if 'snippet_highlighted_words' in res['answer_box'].keys():
             phrases.append(", ".join(res['answer_box']["snippet_highlighted_words"]))
         psg["long_text"] += ", ".join(phrases)
-        psg["prob"] = 0.5
+        
+        ### Major updates - August 30, 2023
+        #psg["prob"] = 0.5
+        psg["score"] = 1
+        ###
+        
         topk.append(psg)
         
     if 'organic_results' in res.keys():
@@ -74,7 +79,14 @@ def google_request_v2(serpapi_key, query, k):
             if 'snippet' in organic_result.keys() and 'title' in organic_result.keys() :
                 psg = {}
                 psg["long_text"] = organic_result['title'] + " | " + organic_result['snippet'] 
-                psg["prob"] = 0.5
+                
+                ### Major updates - August 30, 2023
+                if 'rich_snippet' in organic_result.keys() and 'top' in organic_result['rich_snippet'].keys() and 'extensions' in organic_result['rich_snippet']['top'].keys():
+                    psg["long_text"] += (" " + (", ".join(organic_result['rich_snippet']['top']['extensions'])))
+                #psg["prob"] = 0.5
+                psg["score"] = 1/float(organic_result['position'])
+                ###
+                
                 topk.append(psg)
 
     return topk[:k]
