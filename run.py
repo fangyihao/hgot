@@ -32,6 +32,10 @@ import time
 import openai
 from dsp.modules.cache_utils import CacheMemory, NotebookCacheMemory, cache_turn_on
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 seed = 42
 language_model='gpt-3.5-turbo'
 #language_model='gpt-4'
@@ -43,8 +47,6 @@ random.seed(seed)
 
 root_path = '.'
 os.environ["DSP_NOTEBOOK_CACHEDIR"] = os.path.join(root_path, 'cache')
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "3a2eca67ae9c64320babfd5eb1d87ccc331c55e6bc647ad0786d5dc28b2f3c7d"
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 openai_key = os.getenv('OPENAI_API_KEY')  # or replace with your API key (optional)
@@ -1306,7 +1308,7 @@ def main(preprocess = False):
         preprocess_n_analyze()
     
     #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "dsp+knn+nli-rr", "got", "got+demos", "got+demos+cx", "got+demos+cx+nli-rr-e1", "got+demos+cx+nli-rr-e3"]:
-    for method in ["got+demos"]:
+    for method in ["got+demos+cx"]:
         #for dataset in ["open-squad-hard","open-squad-medium", "open-squad-easy", "hotpotqa-hard","hotpotqa-medium","hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy"]:
         for dataset in ["queensqa-medium"]:
         
