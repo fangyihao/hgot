@@ -1001,7 +1001,7 @@ class GoT_QA:
             else:
                 context = dsp.retrieve(question, k=3)
                 
-                print("context:",context)
+                #print("context:",context)
                 
                 if self.annotator is not None:
                     #self.annotator.iloc[len(self.annotator)-1, 1]=context
@@ -1308,7 +1308,7 @@ def main(preprocess = False):
         preprocess_n_analyze()
     
     #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "dsp+knn+nli-rr", "got", "got+demos", "got+demos+cx", "got+demos+cx+nli-rr-e1", "got+demos+cx+nli-rr-e3"]:
-    for method in ["got+demos+cx"]:
+    for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got", "got+demos+cx"]:
         #for dataset in ["open-squad-hard","open-squad-medium", "open-squad-easy", "hotpotqa-hard","hotpotqa-medium","hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy"]:
         for dataset in ["queensqa-medium"]:
         

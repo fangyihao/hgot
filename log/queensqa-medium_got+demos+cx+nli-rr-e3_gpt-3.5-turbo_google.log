@@ -1,0 +1,123 @@
+##########Is the query "what would be the best lululemon item to give to my girlfriend" accurately addressed by the response "Our Holiday Gift Guide and Gift Ideas collections are great places to start for finding the perfect gift for your girlfriend. Check out https://shop.lululemon.com/story/holiday-gift-guide and https://shop.lululemon.com/c/gift-ideas/_/N-8mq for some great ideas. You can also check out our Women’s Bestsellers collection at https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td for some of our most popular items." ? Kindly answer with either "Yes" or "No".##########
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
+context: []
+=================================== PLAN ===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Sketch a plan to answer the following question with the provided context. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+
+Context:
+${sources that may contain relevant content}
+
+Plan:
+Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}
+
+Dependencies: ${interdependencies among multiple steps}
+
+---
+
+Question: Is the query “where is the lululemon headquarters” accurately addressed by the response “The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact” ? Kindly answer with either "Yes" or "No".
+
+Context:
+[1] «Solved Lululemon Athletica Inc, one of Canada's most | Question: Lululemon Athletica Inc, one of Canada's most valuable companies, with headquarters in Vancouver, is beginning to stand out among its peers in the ...»
+[2] «MIE 480 Lululemon case Flashcards | Study with Quizlet and memorize flashcards containing terms like The actual production of Lululemon's high-quality clothing for yoga and related sports ...»
+[3] «Solved 6. Case study: Clothing retailer Lululemon, whose | Case study: Clothing retailer Lululemon, whose headquarters are in Vancouver, removed almost 20 per cent of its women's black yoga pants from stores after ...»
+
+Plan:
+Step 1: Where is the lululemon headquarters located? Step 2: Could you search https://shop.lululemon.com/contact
+
+Dependencies: None
+
+---
+
+Question: Is the query “does lululemon believe in God” accurately addressed by the response “Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership.” ? Kindly answer with either "Yes" or "No".
+
+Context:
+[1] «Branding Case Study: Lululemon Athletica | by Linzi Hawkin | But Lululemon have such a clear vision that it becomes the focus of their brand. We choose to buy something from them because we believe what ...»
+[2] «privacy policy us | Your privacy is important to us. Our privacy policy is where you'll find the nitty gritty.»
+[3] «What's next for Lululemon's tech ambitions? | What's next for Lululemon's tech ambitions? A year ago, the retailer acquired Mirror. But patents reveal that the at-home fitness technology is ...»
+
+Plan:
+Step 1: Does lululemon believe in God? Step 2: Could you search https://shop.lululemon.com/story/sustainability Step 3: Could you search https://shop.lululemon.com/story/like-new Step 4: Could you search https://shop.lululemon.com/membership
+
+Dependencies: None
+
+---
+
+Question: Is the query "what would be the best lululemon item to give to my girlfriend" accurately addressed by the response "Our Holiday Gift Guide and Gift Ideas collections are great places to start for finding the perfect gift for your girlfriend. Check out https://shop.lululemon.com/story/holiday-gift-guide and https://shop.lululemon.com/c/gift-ideas/_/N-8mq for some great ideas. You can also check out our Women’s Bestsellers collection at https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td for some of our most popular items." ? Kindly answer with either "Yes" or "No".
+
+Context:
+
+
+Plan:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Step 1: What would be the best lululemon item to give to my girlfriend? Step 2: Could you search https://shop.lululemon.com/story/holiday-gift-guide Step 3: Could you search https://shop.lululemon.com/c/gift-ideas/_/N-8mq Step 4: Could you search https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td
+
+Dependencies: None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Highlight interdependencies among the steps below if any. Higher number steps can depend on lower number steps, while the reverse is not possible.
+
+---
+
+Follow the following format.
+
+Plan:
+Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}
+
+Dependencies: ${interdependencies among multiple steps}
+
+---
+
+Plan:
+Step 1: Where is the lululemon headquarters located? Step 2: Could you search https://shop.lululemon.com/contact
+
+Dependencies: None
+
+---
+
+Plan:
+Step 1: Does lululemon believe in God? Step 2: Could you search https://shop.lululemon.com/story/sustainability Step 3: Could you search https://shop.lululemon.com/story/like-new Step 4: Could you search https://shop.lululemon.com/membership
+
+Dependencies: None
+
+---
+
+Plan:
+Step 1: What would be the best lululemon item to give to my girlfriend? Step 2: Could you search https://shop.lululemon.com/story/holiday-gift-guide Step 3: Could you search https://shop.lululemon.com/c/gift-ideas/_/N-8mq Step 4: Could you search https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td
+
+Dependencies:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+None
+=================================== SEARCH ===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Express the dependencies in formal language by giving the descriptions below.
+
+---
+
+Follow the following format.
+
+Descriptions: ${descriptions of dependencies}
+Dependencies: ${e.g. If Step 2 depends on Step 1, then write Step 1 -> Step 2; If Step 2 and Step 3 depend on Step 1, then write Step 1 -> (Step 2 and Step 3); If Step 3 depends on Step 1 and Step 2, then write (Step 1 and Step 2) -> Step 3}
+
+---
+
+Descriptions: None
+Dependencies:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Step 1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------- NLI Passage, Claim, and Entailment -----------------------------------
