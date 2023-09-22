@@ -1,0 +1,1397 @@
+##########Is the query "My entire order is missing. What do I do" accurately addressed by the response "Please check the status of your order or return here: https://shop.lululemon.com/help/track-order. If you need further assistance, please contact our Customer Service team." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "My entire order is missing. What do I do" accurately addressed by the response "Please check the status of your order or return here: https://shop.lululemon.com/help/track-order. If you need further assistance, please contact our Customer Service team." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.8173727989196777
+##########Is the query "Hey, you sent me the wrong order" accurately addressed by the response "I apologize for the inconvenience. To track your order or return it, please visit https://shop.lululemon.com/help/track-order If you would like to return it, please visit https://shop.lululemon.com/help/returns. If you need further assistance, please contact the Guest Education Centre (GEC) at 1.877.263.9300 or visit https://shop.lululemon.com/contact. for more information." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Hey, you sent me the wrong order" accurately addressed by the response "I apologize for the inconvenience. To track your order or return it, please visit https://shop.lululemon.com/help/track-order If you would like to return it, please visit https://shop.lululemon.com/help/returns. If you need further assistance, please contact the Guest Education Centre (GEC) at 1.877.263.9300 or visit https://shop.lululemon.com/contact. for more information." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.5400440692901611
+##########Is the query "Can you help me place an order" accurately addressed by the response "You can place an order online and pick it up in-store. Here is the link with detailed instructions: https://shop.lululemon.com/story/buy-online-pick-up-in-store You can also find more information about services and hours at this link: https://shop.lululemon.com/story/services. If you have any other questions, you can contact us at 1.877.263.9300 or via Live Chat, Apple Messages, phone or email at this link: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can you help me place an order" accurately addressed by the response "You can place an order online and pick it up in-store. Here is the link with detailed instructions: https://shop.lululemon.com/story/buy-online-pick-up-in-store You can also find more information about services and hours at this link: https://shop.lululemon.com/story/services. If you have any other questions, you can contact us at 1.877.263.9300 or via Live Chat, Apple Messages, phone or email at this link: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.7284555435180664
+##########Is the query "how do i get the sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective Program and how to join here: https://shop.lululemon.com/about/sweat-collective You can also find answers to frequently asked questions about the program here: https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i get the sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective Program and how to join here: https://shop.lululemon.com/about/sweat-collective You can also find answers to frequently asked questions about the program here: https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.6056406497955322
+##########Is the query "how can i check my giftcard balance" accurately addressed by the response "You can check your gift card balance by downloading the lululemon app and adding your gift card to your profile. You can also redeem your gift card in store by scanning the barcode. For more information, please visit https://shop.lululemon.com/help/redeem-gift-card" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how can i check my giftcard balance" accurately addressed by the response "You can check your gift card balance by downloading the lululemon app and adding your gift card to your profile. You can also redeem your gift card in store by scanning the barcode. For more information, please visit https://shop.lululemon.com/help/redeem-gift-card" ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.8546879291534424
+##########Is the query "Can you help me find a Lululemon store that offers hemming services for pants" accurately addressed by the response "You can find a lululemon store that offers hemming services for pants by using our store locator here: https://shop.lululemon.com/story/services. Additionally, you can find more information about in-store services such as hemming, returns & exchanges, and lululemon Studio Mirror at our stores in Eugene, OR (https://shop.lululemon.com/stores/us/eugene/oakway-center.) and Milwaukee, WI (https://shop.lululemon.com/stores/us/milwaukee/thirdward)." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can you help me find a Lululemon store that offers hemming services for pants" accurately addressed by the response "You can find a lululemon store that offers hemming services for pants by using our store locator here: https://shop.lululemon.com/story/services. Additionally, you can find more information about in-store services such as hemming, returns & exchanges, and lululemon Studio Mirror at our stores in Eugene, OR (https://shop.lululemon.com/stores/us/eugene/oakway-center.) and Milwaukee, WI (https://shop.lululemon.com/stores/us/milwaukee/thirdward)." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.5058221817016602
+##########Is the query "Do you have a sizing guide that I can follow" accurately addressed by the response "Yes, we do have a sizing guide. Please refer to our Fit Guide and Size Charts here: https://shop.lululemon.com/help/size-guide/mens. For lettered sizes, use the waist and hip measurements as a guide to pick the right size for you. For numbered sizes, our pants fit like your favorite chinos. If you’re a 32 in the pants you have at home, you’ll likely be a 32 in our pants. Bodies come in all shapes and sizes. Normally we select bottom sizes based off our waist size." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Do you have a sizing guide that I can follow" accurately addressed by the response "Yes, we do have a sizing guide. Please refer to our Fit Guide and Size Charts here: https://shop.lululemon.com/help/size-guide/mens. For lettered sizes, use the waist and hip measurements as a guide to pick the right size for you. For numbered sizes, our pants fit like your favorite chinos. If you’re a 32 in the pants you have at home, you’ll likely be a 32 in our pants. Bodies come in all shapes and sizes. Normally we select bottom sizes based off our waist size." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.6837575435638428
+##########Is the query "If I purchase something online, can I return it in store" accurately addressed by the response "Yes, you can return an item purchased online to a lululemon store. According to our Returns page (https://shop.lululemon.com/help/returns), if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! You can also track your order or return here (https://shop.lululemon.com/help/track-order.). If you have any other questions, please reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can find more information on our Contact Us page (https://shop.lululemon.com/contact)." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "If I purchase something online, can I return it in store" accurately addressed by the response "Yes, you can return an item purchased online to a lululemon store. According to our Returns page (https://shop.lululemon.com/help/returns), if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! You can also track your order or return here (https://shop.lululemon.com/help/track-order.). If you have any other questions, please reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can find more information on our Contact Us page (https://shop.lululemon.com/contact)." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.5678269863128662
+##########Is the query "i want to work at lululemon" accurately addressed by the response "You can learn more about the different ways to become a part of the lululemon collective by visiting https://shop.lululemon.com/story/our-programs. This page includes information about the Ambassador Program and the Sweat Collective Program." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "i want to work at lululemon" accurately addressed by the response "You can learn more about the different ways to become a part of the lululemon collective by visiting https://shop.lululemon.com/story/our-programs. This page includes information about the Ambassador Program and the Sweat Collective Program." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.4985074996948242
+##########Is the query "What are Lululemon's shipping options and delivery times" accurately addressed by the response "Lululemon offers free shipping and free returns on all orders. You can also pick up your order in-store. For more information, please visit https://shop.lululemon.com/story/buy-online-pick-up-in-store. You can also track your order or return at https://shop.lululemon.com/help/track-order.. For more information about store services and hours, please visit https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "What are Lululemon's shipping options and delivery times" accurately addressed by the response "Lululemon offers free shipping and free returns on all orders. You can also pick up your order in-store. For more information, please visit https://shop.lululemon.com/story/buy-online-pick-up-in-store. You can also track your order or return at https://shop.lululemon.com/help/track-order.. For more information about store services and hours, please visit https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.5051686763763428
+##########Is the query "What payment methods are accepted on the Lululemon website" accurately addressed by the response "You can use Afterpay or Klarna as your payment method at checkout when shopping online, in-app or in-store. Free shipping is available. For more information, please visit https://shop.lululemon.com/story/installment-payments-buy-now-pay-later.. If you have any other questions, please reach out to gec@lululemon.com. or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free)." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "What payment methods are accepted on the Lululemon website" accurately addressed by the response "You can use Afterpay or Klarna as your payment method at checkout when shopping online, in-app or in-store. Free shipping is available. For more information, please visit https://shop.lululemon.com/story/installment-payments-buy-now-pay-later.. If you have any other questions, please reach out to gec@lululemon.com. or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free)." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.7963676452636719
+##########Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.1 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 1.1 seconds after 3 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+2.7488298416137695
+##########Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.2 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 1.5 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 2.7 seconds after 3 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+5.334089994430542
+##########Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.9 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.2 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 1.7 seconds after 3 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.2 seconds after 4 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 3.5 seconds after 5 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+7.459148168563843
+##########Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.5 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.1 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.8 seconds after 3 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 5.2 seconds after 4 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+7.370805025100708
+##########Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.5 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.4 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+1.7051753997802734
+##########Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 1.6 seconds after 2 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.0 seconds after 3 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 6.4 seconds after 4 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+9.857099771499634
+##########Is the query "what is the price of a tennis skirt for women in black color" accurately addressed by the response "The Side-Pleat High-Rise Tennis Skirt is available in black for $88 USD. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-skirts/Side-Pleat-HR-Tennis-Skirt/_/prod10980171" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "what is the price of a tennis skirt for women in black color" accurately addressed by the response "The Side-Pleat High-Rise Tennis Skirt is available in black for $88 USD. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-skirts/Side-Pleat-HR-Tennis-Skirt/_/prod10980171" ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7fbd16b2d3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "what is the price of a tennis skirt for women in black color" accurately addressed by the response "The Side-Pleat High-Rise Tennis Skirt is available in black for $88 USD. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-skirts/Side-Pleat-HR-Tennis-Skirt/_/prod10980171" ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+1.2598791122436523
+################################### RESULT ###################################
+................................... EM ...................................
+0.7777777777777778
+................................... F1 ...................................
+0.7777777777777778
+................................... elapsed time ...................................
+2.379926602045695

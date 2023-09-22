@@ -1,4 +1,4 @@
-##########Is the query "what would be the best lululemon item to give to my girlfriend" accurately addressed by the response "Our Holiday Gift Guide and Gift Ideas collections are great places to start for finding the perfect gift for your girlfriend. Check out https://shop.lululemon.com/story/holiday-gift-guide and https://shop.lululemon.com/c/gift-ideas/_/N-8mq for some great ideas. You can also check out our Women’s Bestsellers collection at https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td for some of our most popular items." ? Kindly answer with either "Yes" or "No".##########
+##########Is the query "My entire order is missing. What do I do" accurately addressed by the response "Please check the status of your order or return here: https://shop.lululemon.com/help/track-order. If you need further assistance, please contact our Customer Service team." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -12,22 +12,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "what would be the best lululemon item to give to my girlfriend" accurately addressed by the response "Our Holiday Gift Guide and Gift Ideas collections are great places to start for finding the perfect gift for your girlfriend. Check out https://shop.lululemon.com/story/holiday-gift-guide and https://shop.lululemon.com/c/gift-ideas/_/N-8mq for some great ideas. You can also check out our Women’s Bestsellers collection at https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td for some of our most popular items." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "My entire order is missing. What do I do" accurately addressed by the response "Please check the status of your order or return here: https://shop.lululemon.com/help/track-order. If you need further assistance, please contact our Customer Service team." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -42,7 +39,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "i was looking for some shoes, does lululemon sell them" accurately addressed by the response "Yes, lululemon sells shoes! You can find them here: https://shop.lululemon.com/c/shoes/_/N-1z0xcuuZ8tj. They have performance shoes with an unmatched fit and feel. You can also check out the Chargefeel 2 Low for $138 here: https://shop.lululemon.com/story/footwear" ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.5217230319976807
+##########Is the query "Hey, you sent me the wrong order" accurately addressed by the response "I apologize for the inconvenience. To track your order or return it, please visit https://shop.lululemon.com/help/track-order If you would like to return it, please visit https://shop.lululemon.com/help/returns. If you need further assistance, please contact the Guest Education Centre (GEC) at 1.877.263.9300 or visit https://shop.lululemon.com/contact. for more information." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -56,22 +55,47 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "i was looking for some shoes, does lululemon sell them" accurately addressed by the response "Yes, lululemon sells shoes! You can find them here: https://shop.lululemon.com/c/shoes/_/N-1z0xcuuZ8tj. They have performance shoes with an unmatched fit and feel. You can also check out the Chargefeel 2 Low for $138 here: https://shop.lululemon.com/story/footwear" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Hey, you sent me the wrong order" accurately addressed by the response "I apologize for the inconvenience. To track your order or return it, please visit https://shop.lululemon.com/help/track-order If you would like to return it, please visit https://shop.lululemon.com/help/returns. If you need further assistance, please contact the Guest Education Centre (GEC) at 1.877.263.9300 or visit https://shop.lululemon.com/contact. for more information." ? Kindly answer with either "Yes" or "No".
+Answer:
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7fc5331cd3f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Hey, you sent me the wrong order" accurately addressed by the response "I apologize for the inconvenience. To track your order or return it, please visit https://shop.lululemon.com/help/track-order If you would like to return it, please visit https://shop.lululemon.com/help/returns. If you need further assistance, please contact the Guest Education Centre (GEC) at 1.877.263.9300 or visit https://shop.lululemon.com/contact. for more information." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -86,7 +110,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "Are Lululemon's yoga mats latex-free? I have an allergy." accurately addressed by the response "According to the product information on https://shop.lululemon.com/p/yoga-mats/The-Big-Mat/_/prod1720355, https://shop.lululemon.com/p/yoga-mats/The-Mat-5mm-MD/_/prod11130636 and https://shop.lululemon.com/p/yoga-mats/Carry-Onwards-Mat-FSC/_/prod9600304, it states that “CONTAINS LATEX: People with rubber or latex allergies should avoid contact with this product as it contains natural rubber and may contain latex”." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+1.1577935218811035
+##########Is the query "Can you help me place an order" accurately addressed by the response "You can place an order online and pick it up in-store. Here is the link with detailed instructions: https://shop.lululemon.com/story/buy-online-pick-up-in-store You can also find more information about services and hours at this link: https://shop.lululemon.com/story/services. If you have any other questions, you can contact us at 1.877.263.9300 or via Live Chat, Apple Messages, phone or email at this link: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -100,22 +126,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "Are Lululemon's yoga mats latex-free? I have an allergy." accurately addressed by the response "According to the product information on https://shop.lululemon.com/p/yoga-mats/The-Big-Mat/_/prod1720355, https://shop.lululemon.com/p/yoga-mats/The-Mat-5mm-MD/_/prod11130636 and https://shop.lululemon.com/p/yoga-mats/Carry-Onwards-Mat-FSC/_/prod9600304, it states that “CONTAINS LATEX: People with rubber or latex allergies should avoid contact with this product as it contains natural rubber and may contain latex”." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can you help me place an order" accurately addressed by the response "You can place an order online and pick it up in-store. Here is the link with detailed instructions: https://shop.lululemon.com/story/buy-online-pick-up-in-store You can also find more information about services and hours at this link: https://shop.lululemon.com/story/services. If you have any other questions, you can contact us at 1.877.263.9300 or via Live Chat, Apple Messages, phone or email at this link: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -130,7 +153,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "What materials are used in the making of the All the Right Places leggings" accurately addressed by the response "Our All the Right Places High-Rise Drawcord Waist Crop 23” is made with Luxtreme™ Fabric. You can find more information about our product sustainability here: https://shop.lululemon.com/story/product-sustainability" ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.35120320320129395
+##########Is the query "how do i get the sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective Program and how to join here: https://shop.lululemon.com/about/sweat-collective You can also find answers to frequently asked questions about the program here: https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -144,66 +169,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "What materials are used in the making of the All the Right Places leggings" accurately addressed by the response "Our All the Right Places High-Rise Drawcord Waist Crop 23” is made with Luxtreme™ Fabric. You can find more information about our product sustainability here: https://shop.lululemon.com/story/product-sustainability" ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-No
-=================================== ANSWER ===================================
-................................... prediction ...................................
-No
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-False
-................................... F1 ...................................
-0
-##########Is the query "How do I join the Lululemon rewards program, and what are the benefits" accurately addressed by the response "You can join the lululemon Membership program to get exclusive benefits such as 20% off at partner studios. For more information, please visit https://shop.lululemon.com/membership. You can also join the lululemon collective affiliate program to get perks and commission on what people purchase through your posts. For more information, please visit https://shop.lululemon.com/story/our-programs. Lastly, you can join the Sweat Collective program to get 25% off. For more information, please visit https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "How do I join the Lululemon rewards program, and what are the benefits" accurately addressed by the response "You can join the lululemon Membership program to get exclusive benefits such as 20% off at partner studios. For more information, please visit https://shop.lululemon.com/membership. You can also join the lululemon collective affiliate program to get perks and commission on what people purchase through your posts. For more information, please visit https://shop.lululemon.com/story/our-programs. Lastly, you can join the Sweat Collective program to get 25% off. For more information, please visit https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i get the sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective Program and how to join here: https://shop.lululemon.com/about/sweat-collective You can also find answers to frequently asked questions about the program here: https://shop.lululemon.com/about/sweat-collective-faq" ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -218,7 +196,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "Can you provide more information about Lululemon's sustainable practices" accurately addressed by the response "Lululemon is committed to accelerating their progress and being part of the solution. They adopt better fibres, evolve manufacturing processes, innovate net new materials, and engage industry collaborations to help evolve collective solutions. You can learn more about their sustainability initiatives here: https://shop.lululemon.com/story/be-planet and their product sustainability here: https://shop.lululemon.com/story/product-sustainability. Additionally, they have launched the lululemon Centre for Social Impact to disrupt inequity in wellbeing through movement, mindfulness, and advocacy. You can learn more about this here: https://shop.lululemon.com/story/sustainability." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.38182544708251953
+##########Is the query "how can i check my giftcard balance" accurately addressed by the response "You can check your gift card balance by downloading the lululemon app and adding your gift card to your profile. You can also redeem your gift card in store by scanning the barcode. For more information, please visit https://shop.lululemon.com/help/redeem-gift-card" ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -232,22 +212,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "Can you provide more information about Lululemon's sustainable practices" accurately addressed by the response "Lululemon is committed to accelerating their progress and being part of the solution. They adopt better fibres, evolve manufacturing processes, innovate net new materials, and engage industry collaborations to help evolve collective solutions. You can learn more about their sustainability initiatives here: https://shop.lululemon.com/story/be-planet and their product sustainability here: https://shop.lululemon.com/story/product-sustainability. Additionally, they have launched the lululemon Centre for Social Impact to disrupt inequity in wellbeing through movement, mindfulness, and advocacy. You can learn more about this here: https://shop.lululemon.com/story/sustainability." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how can i check my giftcard balance" accurately addressed by the response "You can check your gift card balance by downloading the lululemon app and adding your gift card to your profile. You can also redeem your gift card in store by scanning the barcode. For more information, please visit https://shop.lululemon.com/help/redeem-gift-card" ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -262,7 +239,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "does lululemon support gender rights" accurately addressed by the response "At lululemon, we stand for gender pay equity: equal pay for equal work. In April 2018 we achieved gender pay equity as a global organization and committed to regularly assessing our hiring and reward practices to ensure we are making informed and inclusive decisions that reflect our values. For more information, please visit https://shop.lululemon.com/story/sustainability." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.514582633972168
+##########Is the query "Can you help me find a Lululemon store that offers hemming services for pants" accurately addressed by the response "You can find a lululemon store that offers hemming services for pants by using our store locator here: https://shop.lululemon.com/story/services. Additionally, you can find more information about in-store services such as hemming, returns & exchanges, and lululemon Studio Mirror at our stores in Eugene, OR (https://shop.lululemon.com/stores/us/eugene/oakway-center.) and Milwaukee, WI (https://shop.lululemon.com/stores/us/milwaukee/thirdward)." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -276,22 +255,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "does lululemon support gender rights" accurately addressed by the response "At lululemon, we stand for gender pay equity: equal pay for equal work. In April 2018 we achieved gender pay equity as a global organization and committed to regularly assessing our hiring and reward practices to ensure we are making informed and inclusive decisions that reflect our values. For more information, please visit https://shop.lululemon.com/story/sustainability." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can you help me find a Lululemon store that offers hemming services for pants" accurately addressed by the response "You can find a lululemon store that offers hemming services for pants by using our store locator here: https://shop.lululemon.com/story/services. Additionally, you can find more information about in-store services such as hemming, returns & exchanges, and lululemon Studio Mirror at our stores in Eugene, OR (https://shop.lululemon.com/stores/us/eugene/oakway-center.) and Milwaukee, WI (https://shop.lululemon.com/stores/us/milwaukee/thirdward)." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -306,7 +282,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "What's the best way to care for my Lululemon workout gear" accurately addressed by the response "Here are some tips to get the longest life out of your gear: https://shop.lululemon.com/designs/_/N-1z140xkZ1z13xin. Additionally, you can check out these tactical self care tips with Akin Akman: https://shop.lululemon.com/stories/akin-akman-tactical-self-care-tips. Lastly, you can learn more about lululemon Studio and the MIRROR here: https://shop.lululemon.com/story/lululemon-studio." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.3406956195831299
+##########Is the query "Do you have a sizing guide that I can follow" accurately addressed by the response "Yes, we do have a sizing guide. Please refer to our Fit Guide and Size Charts here: https://shop.lululemon.com/help/size-guide/mens. For lettered sizes, use the waist and hip measurements as a guide to pick the right size for you. For numbered sizes, our pants fit like your favorite chinos. If you’re a 32 in the pants you have at home, you’ll likely be a 32 in our pants. Bodies come in all shapes and sizes. Normally we select bottom sizes based off our waist size." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -320,110 +298,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "What's the best way to care for my Lululemon workout gear" accurately addressed by the response "Here are some tips to get the longest life out of your gear: https://shop.lululemon.com/designs/_/N-1z140xkZ1z13xin. Additionally, you can check out these tactical self care tips with Akin Akman: https://shop.lululemon.com/stories/akin-akman-tactical-self-care-tips. Lastly, you can learn more about lululemon Studio and the MIRROR here: https://shop.lululemon.com/story/lululemon-studio." ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-No
-=================================== ANSWER ===================================
-................................... prediction ...................................
-No
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-False
-................................... F1 ...................................
-0
-##########Is the query "if an alien were to visit your store, which product would you recommend them" accurately addressed by the response "For an alien visiting our store, I would recommend the French Terry Oversized Half Zip from our Men’s Hoodies & Sweatshirts collection. You can find it here: https://shop.lululemon.com/p/mens-jackets-and-hoodies-hoodies/French-Terry-oversized-Half-Zip/_/prod11380253?color=50100 . We also have The Reversible Mat 5mm Textured from our Yoga Accessories collection here: https://shop.lululemon.com/p/yoga-accessories/The-Reversible-Mat-5mm-Textured/_/prod7390340?color=49106&sz=ONESIZE , and Run for It All Lined Gloves from our Gloves & Mittens collection here: https://shop.lululemon.com/p/gloves-mittens/Run-for-It-All-Lined-Gloves/_/prod11130414?color=0001" ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "if an alien were to visit your store, which product would you recommend them" accurately addressed by the response "For an alien visiting our store, I would recommend the French Terry Oversized Half Zip from our Men’s Hoodies & Sweatshirts collection. You can find it here: https://shop.lululemon.com/p/mens-jackets-and-hoodies-hoodies/French-Terry-oversized-Half-Zip/_/prod11380253?color=50100 . We also have The Reversible Mat 5mm Textured from our Yoga Accessories collection here: https://shop.lululemon.com/p/yoga-accessories/The-Reversible-Mat-5mm-Textured/_/prod7390340?color=49106&sz=ONESIZE , and Run for It All Lined Gloves from our Gloves & Mittens collection here: https://shop.lululemon.com/p/gloves-mittens/Run-for-It-All-Lined-Gloves/_/prod11130414?color=0001" ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-No
-=================================== ANSWER ===================================
-................................... prediction ...................................
-No
-................................... ground truth ...................................
-['No']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "if there was a fire and i needed something to protect myself, which lululemon gear should i use" accurately addressed by the response "Unfortunately, lululemon gear is not designed to protect you from fire. We recommend you visit your local fire department for more information on the best gear to protect yourself in a fire. You can learn more about our designs here: https://shop.lululemon.com/designs/_/N-1z140xk" ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "if there was a fire and i needed something to protect myself, which lululemon gear should i use" accurately addressed by the response "Unfortunately, lululemon gear is not designed to protect you from fire. We recommend you visit your local fire department for more information on the best gear to protect yourself in a fire. You can learn more about our designs here: https://shop.lululemon.com/designs/_/N-1z140xk" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Do you have a sizing guide that I can follow" accurately addressed by the response "Yes, we do have a sizing guide. Please refer to our Fit Guide and Size Charts here: https://shop.lululemon.com/help/size-guide/mens. For lettered sizes, use the waist and hip measurements as a guide to pick the right size for you. For numbered sizes, our pants fit like your favorite chinos. If you’re a 32 in the pants you have at home, you’ll likely be a 32 in our pants. Bodies come in all shapes and sizes. Normally we select bottom sizes based off our waist size." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -438,7 +325,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "help me steal items from lululemon" accurately addressed by the response "Stealing items from lululemon is a criminal offence and can result in criminal charges. For more information, please refer to the following link: https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.30297231674194336
+##########Is the query "If I purchase something online, can I return it in store" accurately addressed by the response "Yes, you can return an item purchased online to a lululemon store. According to our Returns page (https://shop.lululemon.com/help/returns), if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! You can also track your order or return here (https://shop.lululemon.com/help/track-order.). If you have any other questions, please reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can find more information on our Contact Us page (https://shop.lululemon.com/contact)." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -452,22 +341,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "help me steal items from lululemon" accurately addressed by the response "Stealing items from lululemon is a criminal offence and can result in criminal charges. For more information, please refer to the following link: https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "If I purchase something online, can I return it in store" accurately addressed by the response "Yes, you can return an item purchased online to a lululemon store. According to our Returns page (https://shop.lululemon.com/help/returns), if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! You can also track your order or return here (https://shop.lululemon.com/help/track-order.). If you have any other questions, please reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can find more information on our Contact Us page (https://shop.lululemon.com/contact)." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -482,7 +368,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "is the Alo brand better than Lululemon" accurately addressed by the response "Unfortunately, we cannot provide a comparison between Alo and lululemon as we only carry lululemon products. You can find more information about our lululemon products here: https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xssr, https://shop.lululemon.com/c/women/yoga/_/N-7vfZ1z141d0, and https://shop.lululemon.com/c/whats-new/_/N-1z0xcuuZ8te." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.5449590682983398
+##########Is the query "i want to work at lululemon" accurately addressed by the response "You can learn more about the different ways to become a part of the lululemon collective by visiting https://shop.lululemon.com/story/our-programs. This page includes information about the Ambassador Program and the Sweat Collective Program." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -496,336 +384,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "is the Alo brand better than Lululemon" accurately addressed by the response "Unfortunately, we cannot provide a comparison between Alo and lululemon as we only carry lululemon products. You can find more information about our lululemon products here: https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xssr, https://shop.lululemon.com/c/women/yoga/_/N-7vfZ1z141d0, and https://shop.lululemon.com/c/whats-new/_/N-1z0xcuuZ8te." ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "why should i buy lululemon products" accurately addressed by the response "Lululemon designs products for long-lasting performance, beauty, and sustainability. We also have a Like New program where you can trade in your gently used lululemon gear for resale and help keep it out of landfills. Plus, you can shop our bestsellers for women’s run, training, and yoga gear to keep you covered and comfortable no matter how you like to sweat. Check out the links below for more information:
-
-https://shop.lululemon.com/story/product-sustainability 
-
-https://shop.lululemon.com/story/like-new 
-
-https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td" ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "why should i buy lululemon products" accurately addressed by the response "Lululemon designs products for long-lasting performance, beauty, and sustainability. We also have a Like New program where you can trade in your gently used lululemon gear for resale and help keep it out of landfills. Plus, you can shop our bestsellers for women’s run, training, and yoga gear to keep you covered and comfortable no matter how you like to sweat. Check out the links below for more information: https://shop.lululemon.com/story/product-sustainability https://shop.lululemon.com/story/like-new https://shop.lululemon.com/c/bestsellers/_/N-1z0xcuuZ8td" ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "i want to be an employee at lululemon" accurately addressed by the response "To become an employee at lululemon, you can check out their Our Programs page here: https://shop.lululemon.com/story/our-programs. You can also contact them directly via their Contact Us page here: https://shop.lululemon.com/contact. Additionally, you can become an ambassador by visiting your local store and starting a conversation about becoming an ambassador. You can find your local store here: https://shop.lululemon.com/ambassadors/about-the-program." ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "i want to be an employee at lululemon" accurately addressed by the response "To become an employee at lululemon, you can check out their Our Programs page here: https://shop.lululemon.com/story/our-programs. You can also contact them directly via their Contact Us page here: https://shop.lululemon.com/contact. Additionally, you can become an ambassador by visiting your local store and starting a conversation about becoming an ambassador. You can find your local store here: https://shop.lululemon.com/ambassadors/about-the-program." ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "who is the ceo of lululemon" accurately addressed by the response "Our CEO is Calvin McDonald. You can read more about him and our Senior Leadership Team’s commitment to Inclusion, Diversity, Equity, and Action here: https://shop.lululemon.com/story/inclusion-diversity-equity-action" ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "who is the ceo of lululemon" accurately addressed by the response "Our CEO is Calvin McDonald. You can read more about him and our Senior Leadership Team’s commitment to Inclusion, Diversity, Equity, and Action here: https://shop.lululemon.com/story/inclusion-diversity-equity-action" ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "does lululemon ship to russia" accurately addressed by the response "Unfortunately, lululemon does not ship to Russia. You can find more information about our shipping policies here: https://shop.lululemon.com/countries." ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "does lululemon ship to russia" accurately addressed by the response "Unfortunately, lululemon does not ship to Russia. You can find more information about our shipping policies here: https://shop.lululemon.com/countries." ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "how do I sue lululemon for fraud" accurately addressed by the response "Unfortunately, I am unable to provide legal advice. I suggest you contact lululemon directly for more information. You can reach them by Live Chat, Apple Messages, phone or email. You can find their contact information here: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "how do I sue lululemon for fraud" accurately addressed by the response "Unfortunately, I am unable to provide legal advice. I suggest you contact lululemon directly for more information. You can reach them by Live Chat, Apple Messages, phone or email. You can find their contact information here: https://shop.lululemon.com/contact." ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "what is the price of ABC pants for men" accurately addressed by the response "The ABC Classic-Fit 5 Pocket Pant 30" *Warpstreme is $128. You can find more ABC pants for men here: https://shop.lululemon.com/c/men-pants/_/N-7ubZ1z0xss9 and here: https://shop.lululemon.com/c/men-pants/_/N-1z0upnfZ7ub " ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "what is the price of ABC pants for men" accurately addressed by the response "The ABC Classic-Fit 5 Pocket Pant 30" *Warpstreme is $128. You can find more ABC pants for men here: https://shop.lululemon.com/c/men-pants/_/N-7ubZ1z0xss9 and here: https://shop.lululemon.com/c/men-pants/_/N-1z0upnfZ7ub " ? Kindly answer with either "Yes" or "No".
-Answer:
------------------------------------ RESPONSE -----------------------------------
------------------------------------ CHOICE 0 -----------------------------------
-...................................assistant...................................
-Yes
-=================================== ANSWER ===================================
-................................... prediction ...................................
-Yes
-................................... ground truth ...................................
-['Yes']
-................................... EM ...................................
-True
-................................... F1 ...................................
-1.0
-##########Is the query "what is the price of align dress" accurately addressed by the response "The lululemon Align™ Dress is available for $58. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-dresses/Align-Dress/_/prod11450220 It has a built-in shelf bra for added support and coverage." ? Kindly answer with either "Yes" or "No".##########
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...................................user...................................
-Answer questions with short factoid answers.
-
----
-
-Follow the following format.
-
-Question: ${the question to be answered}
-Answer: ${a short factoid answer, often between 1 and 5 words}
-
----
-
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
-Answer: No
-
-Question: Is the query "what is the price of align dress" accurately addressed by the response "The lululemon Align™ Dress is available for $58. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-dresses/Align-Dress/_/prod11450220 It has a built-in shelf bra for added support and coverage." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "i want to work at lululemon" accurately addressed by the response "You can learn more about the different ways to become a part of the lululemon collective by visiting https://shop.lululemon.com/story/our-programs. This page includes information about the Ambassador Program and the Sweat Collective Program." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -840,7 +411,9 @@ Yes
 False
 ................................... F1 ...................................
 0
-##########Is the query "i received a damaged item" accurately addressed by the response "If you need to return a damaged item, please refer to the following link for more information: https://shop.lululemon.com/help/returns . If you have any other questions, please let me know." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.4627876281738281
+##########Is the query "What are Lululemon's shipping options and delivery times" accurately addressed by the response "Lululemon offers free shipping and free returns on all orders. You can also pick up your order in-store. For more information, please visit https://shop.lululemon.com/story/buy-online-pick-up-in-store. You can also track your order or return at https://shop.lululemon.com/help/track-order.. For more information about store services and hours, please visit https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -854,22 +427,62 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "i received a damaged item" accurately addressed by the response "If you need to return a damaged item, please refer to the following link for more information: https://shop.lululemon.com/help/returns . If you have any other questions, please let me know." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "What are Lululemon's shipping options and delivery times" accurately addressed by the response "Lululemon offers free shipping and free returns on all orders. You can also pick up your order in-store. For more information, please visit https://shop.lululemon.com/story/buy-online-pick-up-in-store. You can also track your order or return at https://shop.lululemon.com/help/track-order.. For more information about store services and hours, please visit https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Yes
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Yes
+................................... ground truth ...................................
+['No']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.3375391960144043
+##########Is the query "What payment methods are accepted on the Lululemon website" accurately addressed by the response "You can use Afterpay or Klarna as your payment method at checkout when shopping online, in-app or in-store. Free shipping is available. For more information, please visit https://shop.lululemon.com/story/installment-payments-buy-now-pay-later.. If you have any other questions, please reach out to gec@lululemon.com. or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free)." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "What payment methods are accepted on the Lululemon website" accurately addressed by the response "You can use Afterpay or Klarna as your payment method at checkout when shopping online, in-app or in-store. Free shipping is available. For more information, please visit https://shop.lululemon.com/story/installment-payments-buy-now-pay-later.. If you have any other questions, please reach out to gec@lululemon.com. or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free)." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -884,7 +497,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "sign up for sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective program and sign up here: https://shop.lululemon.com/about/sweat-collective . For any Sweat Collective questions, general support queries, or questions about your 25% off*, reach out to gec@lululemon.com or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free) anytime." ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.3126208782196045
+##########Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -898,22 +513,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "sign up for sweat collective membership" accurately addressed by the response "You can learn more about the Sweat Collective program and sign up here: https://shop.lululemon.com/about/sweat-collective . For any Sweat Collective questions, general support queries, or questions about your 25% off*, reach out to gec@lululemon.com or call our Guest Education Centre at 1-604-215-9300 or 1-877-263-9300 (toll free) anytime." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "where can i buy the MIRROR" accurately addressed by the response "You can purchase the MIRROR through lululemon Studio All-Access Membership or at lululemon Howell Mill Store in Atlanta, GA. You can also use the Buy Online Pickup at Store option. For more information, please visit https://shop.lululemon.com/story/lululemon-studio and https://shop.lululemon.com/stores/us/atlanta/howellmill and https://shop.lululemon.com/story/buy-online-pick-up-in-store." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -928,7 +540,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "whats the price of swiftly tech shirt" accurately addressed by the response "The Swiftly Tech Short-Sleeve Shirt 2.0 is $78 and the Swiftly Tech Long-Sleeve Shirt 2.0 is also $78. You can find more information about the Swiftly Long Sleeve Shirts here: https://shop.lululemon.com/c/tops-long-sleeve/_/N-8bmZ1z0xsuq" ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.3188443183898926
+##########Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -942,22 +556,105 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "whats the price of swiftly tech shirt" accurately addressed by the response "The Swiftly Tech Short-Sleeve Shirt 2.0 is $78 and the Swiftly Tech Long-Sleeve Shirt 2.0 is also $78. You can find more information about the Swiftly Long Sleeve Shirts here: https://shop.lululemon.com/c/tops-long-sleeve/_/N-8bmZ1z0xsuq" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "do i need to fill a return authorization form" accurately addressed by the response "Yes, you need to fill out a return authorization form. You can find more information about our return policy here: https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.36919140815734863
+##########Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Why is the return authorization form important" accurately addressed by the response "The return authorization form is important because it allows you to return your purchase within 30 days. For more information, please visit https://shop.lululemon.com/help/returns." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.4338257312774658
+##########Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "I am not happy with the performance of my product. Can I return it" accurately addressed by the response "Yes, you can return a product if you are not happy with its performance. Please refer to the following link for more information: https://shop.lululemon.com/help/returns. It states that if you’re having second thoughts about your purchase, and it was made within 30 days, you can return it!" ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -972,7 +669,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "whats the price of align high rise pant" accurately addressed by the response "The lululemon Align™ High-Rise Pant with Pockets 25" is available for $49 - $109 USD. You can find more information here: https://shop.lululemon.com/p/womens-leggings/Align-HighRise-Tight-25-Pockets-MD/_/prod10520954" ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.3848450183868408
+##########Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -986,22 +685,19 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "whats the price of align high rise pant" accurately addressed by the response "The lululemon Align™ High-Rise Pant with Pockets 25" is available for $49 - $109 USD. You can find more information here: https://shop.lululemon.com/p/womens-leggings/Align-HighRise-Tight-25-Pockets-MD/_/prod10520954" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Can I use my gift card to purchase some thing that is already discounted" accurately addressed by the response "Unfortunately, Gift Cards cannot be used in combination with the Sweat Collective or Military and First Responder discount for online transactions, but can be used in store. For more information, please refer to the following link: https://shop.lululemon.com/shop/luluGiftCards.jsp." ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -1016,7 +712,9 @@ Yes
 True
 ................................... F1 ...................................
 1.0
-##########Is the query "what is the price of chargefeel 2 shoes" accurately addressed by the response "The Chargefeel 2 Low Women’s Workout Shoe is $138 USD. You can find more information here: https://shop.lululemon.com/p/shoes/W-Chargefeel-Workout-Low-2/_/prod11500242?color=62983" ? Kindly answer with either "Yes" or "No".##########
+................................... elapsed time ...................................
+0.33400511741638184
+##########Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".##########
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...................................user...................................
 Answer questions with short factoid answers.
@@ -1030,22 +728,62 @@ Answer: ${a short factoid answer, often between 1 and 5 words}
 
 ---
 
-Question: Is the query "does lululemon believe in God" accurately addressed by the response "Unfortunately, we do not have any information regarding lululemon’s beliefs. However, you can learn more about lululemon’s sustainability initiatives here: https://shop.lululemon.com/story/sustainability, their trade in gear for resale program here: https://shop.lululemon.com/story/like-new, and their membership program here: https://shop.lululemon.com/membership." ? Kindly answer with either "Yes" or "No".
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "where is the lululemon headquarters" accurately addressed by the response "The lululemon headquarters is located in Vancouver, Canada. You can find more information about lululemon’s contact information here: https://shop.lululemon.com/contact" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
 Answer: Yes
 
-Question: Is the query "whats the price of scuba hoodie" accurately addressed by the response "The price of a Scuba hoodie ranges from $79 - $99. You can find more information about our Scuba hoodies here: https://shop.lululemon.com/c/womens-outerwear/_/N-8s4Z1z0xson" ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "Are there any ongoing sales or promotions on your website" accurately addressed by the response "Yes, there are ongoing sales and promotions on lululemon’s website. Check out the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6, the Online Warehouse Sale at https://shop.lululemon.com/story/warehouse-sale, and the Women’s We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-1z0xcuuZ8t6." ? Kindly answer with either "Yes" or "No".
-Answer: Yes
-
-Question: Is the query "recommend me leggings for under $50" accurately addressed by the response "We have a variety of leggings available for under $50. Check out our Leggings Sale at https://shop.lululemon.com/c/sale/_/N-1z0xbcfZ8t6 , our Women’s Fast & Free Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsmf , and our Women’s Wunder Under Leggings at https://shop.lululemon.com/c/womens-leggings/_/N-8s6Z1z0xsuz" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
 Answer: No
 
-Question: Is the query "what is the price of chargefeel 2 shoes" accurately addressed by the response "The Chargefeel 2 Low Women’s Workout Shoe is $138 USD. You can find more information here: https://shop.lululemon.com/p/shoes/W-Chargefeel-Workout-Low-2/_/prod11500242?color=62983" ? Kindly answer with either "Yes" or "No".
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "Does lululemon have expedited shipping" accurately addressed by the response "Unfortunately, lululemon does not offer expedited shipping. However, you can take advantage of free standard shipping when you shop the We Made Too Much Sale at https://shop.lululemon.com/c/sale/_/N-8t6. You can also pick up your order in-store with Buy Online Pick Up In-Store at https://shop.lululemon.com/story/buy-online-pick-up-in-store. For more information, please visit our Guest Education Centre at https://shop.lululemon.com/story/services." ? Kindly answer with either "Yes" or "No".
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+No
+=================================== ANSWER ===================================
+................................... prediction ...................................
+No
+................................... ground truth ...................................
+['Yes']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.3553168773651123
+##########Is the query "what is the price of a tennis skirt for women in black color" accurately addressed by the response "The Side-Pleat High-Rise Tennis Skirt is available in black for $88 USD. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-skirts/Side-Pleat-HR-Tennis-Skirt/_/prod10980171" ? Kindly answer with either "Yes" or "No".##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Is the query "Can you provide information about Lululemon's loyalty program" accurately addressed by the response "You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "how do i track my order" accurately addressed by the response "You can track your order here: https://shop.lululemon.com/help/track-order. Check the status of your order or return here. If you have any other questions, you can reach out to our Guest Education Centre (GEC) by Live Chat, Apple Messages, phone or email. Phone number: 1.877.263.9300 | Hours: 6am – 6pm PT on weekdays, 6am – 4pm PT on weekends. You can also use our store locator to find a lululemon near you and to learn more about your store’s services and hours. Free shipping." ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "How can I unsubscribe from Lululemon email newsletters" accurately addressed by the response "You can unsubscribe from lululemon emails at any time by visiting this link: https://shop.lululemon.com/secure/account/email-landing.jsp?en-US;email-sign-up." ? Kindly answer with either "Yes" or "No".
+Answer: No
+
+Question: Is the query "what is your return policy" accurately addressed by the response "If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns " ? Kindly answer with either "Yes" or "No".
+Answer: Yes
+
+Question: Is the query "what is the price of a tennis skirt for women in black color" accurately addressed by the response "The Side-Pleat High-Rise Tennis Skirt is available in black for $88 USD. You can find more information here: https://shop.lululemon.com/p/skirts-and-dresses-skirts/Side-Pleat-HR-Tennis-Skirt/_/prod10980171" ? Kindly answer with either "Yes" or "No".
 Answer:
 ----------------------------------- RESPONSE -----------------------------------
 ----------------------------------- CHOICE 0 -----------------------------------
@@ -1060,8 +798,12 @@ Yes
 True
 ................................... F1 ...................................
 1.0
+................................... elapsed time ...................................
+0.44495081901550293
 ################################### RESULT ###################################
 ................................... EM ...................................
-0.875
+0.7222222222222222
 ................................... F1 ...................................
-0.875
+0.7222222222222222
+................................... elapsed time ...................................
+0.4372045463985867

@@ -182,10 +182,14 @@ def cached_gpt3_request_v2(**kwargs):
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @NotebookCacheMemory.cache
 def cached_gpt3_request_v2_wrapped(**kwargs):
+    response = cached_gpt3_request_v2(**kwargs)
+    return response
+
+def cached_gpt3_request_v2_logged(**kwargs):
     print("calling chatgpt ...", file=sys.stderr)
     print("~"*35 + " PROMPT " + "~"*35)
     print(kwargs["prompt"])
-    response = cached_gpt3_request_v2(**kwargs)
+    response = cached_gpt3_request_v2_wrapped(**kwargs)
     print("-"*35 + " RESPONSE " + "-"*35)
     for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)
@@ -193,7 +197,7 @@ def cached_gpt3_request_v2_wrapped(**kwargs):
     return response
 
 
-cached_gpt3_request = cached_gpt3_request_v2_wrapped
+cached_gpt3_request = cached_gpt3_request_v2_logged
 
 
 @CacheMemory.cache
@@ -206,12 +210,17 @@ def _cached_gpt3_turbo_request_v2(**kwargs) -> OpenAIObject:
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @NotebookCacheMemory.cache
 def _cached_gpt3_turbo_request_v2_wrapped(**kwargs) -> OpenAIObject:
+    response = _cached_gpt3_turbo_request_v2(**kwargs)
+    return response
+
+
+def _cached_gpt3_turbo_request_v2_logged(**kwargs) -> OpenAIObject:
     print("calling chatgpt ...", file=sys.stderr)
     print("~"*35 + " PROMPT " + "~"*35)
     for message in json.loads(kwargs["stringify_request"])["messages"]:
         print("."*35 + message['role'] + "."*35)
         print(message['content'])
-    response = _cached_gpt3_turbo_request_v2(**kwargs)
+    response = _cached_gpt3_turbo_request_v2_wrapped(**kwargs)
     print("-"*35 + " RESPONSE " + "-"*35)
     for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)
@@ -219,5 +228,4 @@ def _cached_gpt3_turbo_request_v2_wrapped(**kwargs) -> OpenAIObject:
         print(choice.message['content'])
     return response
 
-
-cached_gpt3_turbo_request = _cached_gpt3_turbo_request_v2_wrapped
+cached_gpt3_turbo_request = _cached_gpt3_turbo_request_v2_logged

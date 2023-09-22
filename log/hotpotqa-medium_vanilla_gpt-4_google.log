@@ -1,0 +1,2529 @@
+##########What does the organization associated with Carl Wieland believe about anything other than the young earth view? ##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What does the organization associated with Carl Wieland believe about anything other than the young earth view?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+It's incorrect
+=================================== ANSWER ===================================
+................................... prediction ...................................
+It's incorrect
+................................... ground truth ...................................
+['a compromise on biblical inerrancy']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+1.1195366382598877
+##########How many chapters does Yōko Shōji's most famous manga have?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: How many chapters does Yōko Shōji's most famous manga have?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+52 chapters
+=================================== ANSWER ===================================
+................................... prediction ...................................
+52 chapters
+................................... ground truth ...................................
+['24']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+1.1863253116607666
+##########Where is the origin of Tie Domi who was a player for the Maple Leafs?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Where is the origin of Tie Domi who was a player for the Maple Leafs?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Windsor, Ontario, Canada
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Windsor, Ontario, Canada
+................................... ground truth ...................................
+['Albanian origin']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+2.1520845890045166
+##########The Cinematic Orchestra was signed to the record label based in what city?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: The Cinematic Orchestra was signed to the record label based in what city?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+London
+=================================== ANSWER ===================================
+................................... prediction ...................................
+London
+................................... ground truth ...................................
+['London']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.6049861907958984
+##########Boggle is a word game originally distributed by a toy and game manufacturer that published more than how many games?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Boggle is a word game originally distributed by a toy and game manufacturer that published more than how many games?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+800 games
+=================================== ANSWER ===================================
+................................... prediction ...................................
+800 games
+................................... ground truth ...................................
+['1,800']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.6326704025268555
+##########What genre does Orkworld and John Wick have in common?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What genre does Orkworld and John Wick have in common?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Role-playing games
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Role-playing games
+................................... ground truth ...................................
+['role-playing']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.6666666666666666
+................................... elapsed time ...................................
+0.587822675704956
+##########Jesús Dautt is a Mexican professional footballer who is on loan from a club founded on what date?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Jesús Dautt is a Mexican professional footballer who is on loan from a club founded on what date?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+6 June 1927
+=================================== ANSWER ===================================
+................................... prediction ...................................
+6 June 1927
+................................... ground truth ...................................
+['28 June 1945']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.3333333333333333
+................................... elapsed time ...................................
+1.5544369220733643
+##########What is the main industry of this town with a population of around 2,600 as of 2010 that has Mountain Valley High School attendees as residents?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What is the main industry of this town with a population of around 2,600 as of 2010 that has Mountain Valley High School attendees as residents?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Paper manufacturing
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Paper manufacturing
+................................... ground truth ...................................
+['papermaking industry']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.5077047348022461
+##########Between two scientists Ernst Messerschmid and Philippe Perrin, who is older?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Between two scientists Ernst Messerschmid and Philippe Perrin, who is older?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Ernst Messerschmid
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Ernst Messerschmid
+................................... ground truth ...................................
+['Ernst Willi Messerschmid']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.8
+................................... elapsed time ...................................
+1.1179397106170654
+##########In what year year was the believed subject of the Lenny Kravitz song "Lady" born?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: In what year year was the believed subject of the Lenny Kravitz song "Lady" born?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+1969
+=================================== ANSWER ===================================
+................................... prediction ...................................
+1969
+................................... ground truth ...................................
+['1967']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.5584568977355957
+##########Who wrote the book that inspired the name of the CD/DVD "Here at the End of All Things"?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who wrote the book that inspired the name of the CD/DVD "Here at the End of All Things"?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+J.R.R. Tolkien
+=================================== ANSWER ===================================
+................................... prediction ...................................
+J.R.R. Tolkien
+................................... ground truth ...................................
+['J. R. R. Tolkien']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.3333333333333333
+................................... elapsed time ...................................
+1.0694830417633057
+##########What do the Church of St. Mary of the Spring and Hagia Irene have in common?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What do the Church of St. Mary of the Spring and Hagia Irene have in common?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Both are Byzantine churches in Istanbul.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Both are Byzantine churches in Istanbul.
+................................... ground truth ...................................
+['Greek Eastern Orthodox church']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.9656670093536377
+##########Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Robert Florey
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Robert Florey
+................................... ground truth ...................................
+['Robert Florey']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+2.429550886154175
+##########What midfielder for West Bromwich Albion is Michael John Standing an agent for?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What midfielder for West Bromwich Albion is Michael John Standing an agent for?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Jake Livermore
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Jake Livermore
+................................... ground truth ...................................
+['Gareth Barry']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.7830648422241211
+##########What is the name of the independent candidate in Maine's 2010 gubernatorial race who finished ahead of Libby Mitchell?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What is the name of the independent candidate in Maine's 2010 gubernatorial race who finished ahead of Libby Mitchell?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Eliot Cutler
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Eliot Cutler
+................................... ground truth ...................................
+['Eliot Cutler']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+1.295217514038086
+##########What is the birthday of the man who played Lex Luthor in Superman IV: The Quest for Peace?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What is the birthday of the man who played Lex Luthor in Superman IV: The Quest for Peace?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+October 10, 1933
+=================================== ANSWER ===================================
+................................... prediction ...................................
+October 10, 1933
+................................... ground truth ...................................
+['January 30, 1930']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.9254226684570312
+##########Who played a more important role in the church George Albert Smith or Wong Jing?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who played a more important role in the church George Albert Smith or Wong Jing?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+George Albert Smith
+=================================== ANSWER ===================================
+................................... prediction ...................................
+George Albert Smith
+................................... ground truth ...................................
+['George Albert Smith']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+0.8988666534423828
+##########Which terrorist group was the cause of the battle in which Mark E. Michell won an award for his actions?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Which terrorist group was the cause of the battle in which Mark E. Michell won an award for his actions?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Taliban
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Taliban
+................................... ground truth ...................................
+['al-Qaeda']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+1.0497195720672607
+##########Where was the film set in which the daughter of Shashi Kapoor, along side Sarat Pujari and Navni Parihar, set?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Where was the film set in which the daughter of Shashi Kapoor, along side Sarat Pujari and Navni Parihar, set?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Odisha, India
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Odisha, India
+................................... ground truth ...................................
+['Orissa']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.8672020435333252
+##########Georges-Henri Bousquet translated the work of a historian who is of what heritage?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Georges-Henri Bousquet translated the work of a historian who is of what heritage?
+Answer:
+Backing off 0.6 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Georges-Henri Bousquet translated the work of a historian who is of what heritage?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Arab
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Arab
+................................... ground truth ...................................
+['North African Arab']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.5
+................................... elapsed time ...................................
+1.322786569595337
+##########Who has a wider scope of profession, Pete Dexter or Elie Wiesel?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who has a wider scope of profession, Pete Dexter or Elie Wiesel?
+Answer:
+Backing off 0.0 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who has a wider scope of profession, Pete Dexter or Elie Wiesel?
+Answer:
+Backing off 0.6 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who has a wider scope of profession, Pete Dexter or Elie Wiesel?
+Answer:
+Backing off 0.9 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who has a wider scope of profession, Pete Dexter or Elie Wiesel?
+Answer:
+Backing off 5.9 seconds after 4 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who has a wider scope of profession, Pete Dexter or Elie Wiesel?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Pete Dexter
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Pete Dexter
+................................... ground truth ...................................
+['Eliezer "Elie" Wiesel KBE']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+8.53534746170044
+##########Wim Jonk manages Cruyff Football together with the footballer who is also currently manager of which team?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Wim Jonk manages Cruyff Football together with the footballer who is also currently manager of which team?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+FC Barcelona
+=================================== ANSWER ===================================
+................................... prediction ...................................
+FC Barcelona
+................................... ground truth ...................................
+['Tel Aviv']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.5999348163604736
+##########What part of Australia is Alice River and Rupertswood in?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What part of Australia is Alice River and Rupertswood in?
+Answer:
+Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What part of Australia is Alice River and Rupertswood in?
+Answer:
+Backing off 1.8 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What part of Australia is Alice River and Rupertswood in?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Queensland
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Queensland
+................................... ground truth ...................................
+['Victoria']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+3.2785284519195557
+##########Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?
+Answer:
+Backing off 0.1 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?
+Answer:
+Backing off 0.8 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?
+Answer:
+Backing off 0.1 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?
+Answer:
+Backing off 1.7 seconds after 4 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Why is Serena Williams more accomplished than Mariaan de Swardt in her tennis career?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+She has won more Grand Slam titles.
+=================================== ANSWER ===================================
+................................... prediction ...................................
+She has won more Grand Slam titles.
+................................... ground truth ...................................
+['the world No. 1 for the first time']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+4.27659273147583
+##########Giovanna d'Arco is an opera that was created by the composer of what nationality?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Giovanna d'Arco is an opera that was created by the composer of what nationality?
+Answer:
+Backing off 0.5 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Giovanna d'Arco is an opera that was created by the composer of what nationality?
+Answer:
+Backing off 0.1 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Giovanna d'Arco is an opera that was created by the composer of what nationality?
+Answer:
+Backing off 0.8 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Giovanna d'Arco is an opera that was created by the composer of what nationality?
+Answer:
+Backing off 5.2 seconds after 4 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Giovanna d'Arco is an opera that was created by the composer of what nationality?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Italian
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Italian
+................................... ground truth ...................................
+['Italian']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+7.502674102783203
+##########What was the rank of the leader of the army defeated by West Saxon forces?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What was the rank of the leader of the army defeated by West Saxon forces?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+King
+=================================== ANSWER ===================================
+................................... prediction ...................................
+King
+................................... ground truth ...................................
+['commanders of the Great Army']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+0.4078691005706787
+##########Who had a perfect game against The Ignitor's team in 1998?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who had a perfect game against The Ignitor's team in 1998?
+Answer:
+Backing off 0.5 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who had a perfect game against The Ignitor's team in 1998?
+Answer:
+Backing off 0.4 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who had a perfect game against The Ignitor's team in 1998?
+Answer:
+Backing off 2.4 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Who had a perfect game against The Ignitor's team in 1998?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+David Wells
+=================================== ANSWER ===================================
+................................... prediction ...................................
+David Wells
+................................... ground truth ...................................
+['David Wells']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+4.219204664230347
+##########What publisher published Anthony Doerr's Pulitzer Prize fiction novel?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What publisher published Anthony Doerr's Pulitzer Prize fiction novel?
+Answer:
+Backing off 0.8 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What publisher published Anthony Doerr's Pulitzer Prize fiction novel?
+Answer:
+Backing off 0.0 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What publisher published Anthony Doerr's Pulitzer Prize fiction novel?
+Answer:
+Backing off 3.2 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What publisher published Anthony Doerr's Pulitzer Prize fiction novel?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Scribner
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Scribner
+................................... ground truth ...................................
+['Scribner']
+................................... EM ...................................
+True
+................................... F1 ...................................
+1.0
+................................... elapsed time ...................................
+5.050028085708618
+##########What award did the actor in Tales from the Crypt win?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What award did the actor in Tales from the Crypt win?
+Answer:
+Backing off 0.7 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What award did the actor in Tales from the Crypt win?
+Answer:
+Backing off 0.7 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: What award did the actor in Tales from the Crypt win?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Primetime Emmy Award
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Primetime Emmy Award
+................................... ground truth ...................................
+['BAFTA TV Award Best Actor']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0.25
+................................... elapsed time ...................................
+2.842531442642212
+##########Is the school where Aaron Parrett currently teaches English Literature public or private?##########
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Is the school where Aaron Parrett currently teaches English Literature public or private?
+Answer:
+Backing off 0.2 seconds after 1 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Is the school where Aaron Parrett currently teaches English Literature public or private?
+Answer:
+Backing off 1.9 seconds after 2 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Is the school where Aaron Parrett currently teaches English Literature public or private?
+Answer:
+Backing off 1.3 seconds after 3 tries calling function <function GPT3.request at 0x7f03c0bc13f0> with kwargs {}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROMPT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...................................user...................................
+Answer questions with short factoid answers.
+
+---
+
+Follow the following format.
+
+Question: ${the question to be answered}
+Answer: ${a short factoid answer, often between 1 and 5 words}
+
+---
+
+Question: Jonathan Freeman has given voice acting duties to the role-playing games developed and published by which company?
+Answer: Square Enix
+
+Question: What are four stores that can be found in the mall near the 1-485/South Boulevard station?
+Answer: Sears, Belk, JCPenney, and Dillard's
+
+Question: What company issued the 2 Chainz album that includes the song "It's a Vibe"?
+Answer: Def Jam Recordings
+
+Question: American novelist, Mark Powell, is the author of the the novel "The Dark Corner", and serves as what for the private four-year co-education liberal arts college, Lincoln Memorial University?
+Answer: fiction workshop leader
+
+Question: HMS Aetna was one of the Royal Navy bomb vessels that were involved in the attack on what historical American coastal pentagonal bastion fort, that was first built in 1798?
+Answer: Fort McHenry
+
+Question: The Auden Group or the Auden Generation is a group of British and Irish writers active in the 1930s that included who, which was an Irish poet and playwright?
+Answer: Louis MacNeice
+
+Question: What is the date that the series who was presented by an Italian celebrity chef and media personality aired?
+Answer: 13 September 2013
+
+Question: Is the school where Aaron Parrett currently teaches English Literature public or private?
+Answer:
+----------------------------------- RESPONSE -----------------------------------
+----------------------------------- CHOICE 0 -----------------------------------
+...................................assistant...................................
+Public
+=================================== ANSWER ===================================
+................................... prediction ...................................
+Public
+................................... ground truth ...................................
+['private']
+................................... EM ...................................
+False
+................................... F1 ...................................
+0
+................................... elapsed time ...................................
+4.223570823669434
+################################### RESULT ###################################
+................................... EM ...................................
+0.23333333333333334
+................................... F1 ...................................
+0.32944444444444443
+................................... elapsed time ...................................
+2.08550755182902
