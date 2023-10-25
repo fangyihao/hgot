@@ -1,0 +1,12 @@
+Question,Plan Context,Plan,Dependencies,Rewrite Context,Rewrite,Rationale Context,Rationale,Answer
+"Is the query ""Can you provide information about Lululemon's loyalty program"" accurately addressed by the response ""You can find information about lululemon’s loyalty program at https://shop.lululemon.com/membership. This includes full lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions. You can also find information about lululemon’s Ambassador Program at https://shop.lululemon.com/story/our-programs and lululemon collective at https://shop.lululemon.com/about/sweat-collective."" ? Kindly answer with either ""Yes"" or ""No"".",[],"Step 1: Can you provide information about Lululemon's loyalty program?
+Step 2: Can you find information about lululemon’s loyalty program?
+Step 3: Could you briefly talk about https://shop.lululemon.com/membership
+Step 4: Can you provide information about lululemon Membership Terms and Conditions and lululemon Studio Terms and Conditions?
+Step 5: Can you find information about lululemon’s Ambassador Program?
+Step 6: Could you briefly talk about https://shop.lululemon.com/story/our-programs
+Step 7: Can you find information about lululemon collective?
+Step 8: Could you briefly talk about https://shop.lululemon.com/about/sweat-collective",None,,,,,
+"Is the query ""what is your return policy"" accurately addressed by the response ""If you’re having second thoughts about your purchase, and it was made within 30 days, you can return it! For more information, please visit https://shop.lululemon.com/help/returns "" ? Kindly answer with either ""Yes"" or ""No"".",[],"Step 1: what is Lululemon’s return policy?
+Step 2: Can you return a Lululemon product, if you’re having second thoughts about your purchase, and it was made within 30 days?
+Step 3: Could you briefly talk about https://shop.lululemon.com/help/returns",None,,,,,

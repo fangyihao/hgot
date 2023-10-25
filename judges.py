@@ -4,7 +4,6 @@ Created on Aug. 10, 2023
 @author: Yihao Fang
 '''
 import time
-from nli import _run_nli
 from dsp.primitives.predict import Completions
 from dsp import Example
 import dsp
@@ -15,13 +14,16 @@ import re
 from nltk import sent_tokenize
 import numpy as np
 from ordered_set import OrderedSet
+import string
+#import spacy
+#nlp = spacy.load('en_core_web_sm')
 def nli_reranker(query, passages, retrieval_weight=0.5, nli_weight=0.5):
-
+    _nli = dsp.settings.nli
     passages_scores = []
     
     for i, passage in enumerate(passages):
         start = time.time()
-        entail = _run_nli(passage.long_text, query)
+        entail = _nli(passage.long_text, query)
         end  = time.time()
         
         print("-"*35 + (" NLI RERANKING %d "%i) + "-"*35)
@@ -44,7 +46,7 @@ def nli_reranker(query, passages, retrieval_weight=0.5, nli_weight=0.5):
     return passages_scores
 
 
-def nli_electoral_college(example: Example, completions: Completions):
+def nli_electoral_college(example: Example, completions: Completions, ci = False):
     prediction_field = completions.template.fields[-1].output_variable
     rationale_field = completions.template.fields[-2].output_variable
     template = completions.template
@@ -75,23 +77,28 @@ def nli_electoral_college(example: Example, completions: Completions):
             
 
     def evaluate_rationale(rationale, context):
-        
+        _nli = dsp.settings.nli
         # Preprocess
         q2p_dict = {}
+        
+        #doc = nlp(rationale)
+        #sents = [sent.text.strip() for sent in doc.sents]
         sents = sent_tokenize(rationale)
+        sents = [sent for sent in sents if sent not in string.punctuation]
         citation_frequency = np.array([0] * len(context))
         for sent in sents:
             cite_indexes = OrderedSet([int(r[1:])-1 for r in re.findall(r"\[\d+", sent)])
             sent = re.sub(r"\[\d+", "", re.sub(r" \[\d+", "", sent)).replace(" |", "").replace("]", "")
             
             for i, passage in enumerate(context):
-                if _run_nli(passage, sent) == 1:
+                if _nli(passage, sent) == 1:
                     cite_indexes.add(i)
             
-            q2p_dict[sent] = [context[cite_index] for cite_index in cite_indexes]
+            q2p_dict[sent] = [context[cite_index] for cite_index in cite_indexes if cite_index < len(context)]
             
             for cite_index in cite_indexes:
-                citation_frequency[cite_index]+=1
+                if cite_index < len(citation_frequency):
+                    citation_frequency[cite_index]+=1
  
         stats = {}
         stats["citation_recall"] = citation_recall(q2p_dict)
@@ -116,12 +123,19 @@ def nli_electoral_college(example: Example, completions: Completions):
 
     topk = weighted_topk(evaluated_predictions)
     prediction, _ = topk[0]
+    
+    if ci: 
+        _, scores = np.split(np.array(topk), 2, axis = 1)
+        scores = np.reshape(scores, (-1,)).astype(np.float32, copy=False)
+        ci_score = scores[0] / np.sum(scores)
 
     citation_frequency = np.sum(np.array([stats["citation_frequency"] for _, stats in evaluated_predictions]),axis=0)
     
     
     normalized_citation_frequency = citation_frequency/np.sum(citation_frequency) if np.sum(citation_frequency) > 0 else citation_frequency
 
+    if ci:
+        normalized_citation_frequency *= ci_score
     
     completion = normalized_to_original[prediction]
 

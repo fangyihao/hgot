@@ -3,8 +3,8 @@ Created on Sep. 6, 2023
 
 @author: Yihao Fang
 '''
-from nli import _run_nli
 import copy
+import dsp
 from dsp.utils.metrics import EM, F1, nF1
 from dsp.utils.metrics import HotPotF1 as HPF1
 import numpy as np
@@ -81,7 +81,7 @@ class QReCCnF1(Metric):
         print("."*35 + " nF1 " + "."*35)
         return super().average()
 
-class QueensEM(Metric):
+class WysdomEM(Metric):
     def evaluate(self, prediction, answer):
         print("."*35 + " EM " + "."*35)
         em = EM(prediction, answer)
@@ -91,7 +91,7 @@ class QueensEM(Metric):
         print("."*35 + " EM " + "."*35)
         return super().average()
     
-class QueensF1(Metric):
+class WysdomF1(Metric):
     def evaluate(self, prediction, answer):
         print("."*35 + " F1 " + "."*35)
         f1 = F1(prediction, answer)
@@ -112,7 +112,7 @@ class ElapsedTime(Metric):
 
 
 def citation_recall(q2p_dict):
-    
+    _nli = dsp.settings.nli
     entail = 0
     
     for question in q2p_dict:
@@ -129,7 +129,7 @@ def citation_recall(q2p_dict):
 
         # If not directly rejected by citation format error, calculate the recall score
         if joint_entail == -1: 
-            joint_entail = _run_nli(joint_passage, question)
+            joint_entail = _nli(joint_passage, question)
             
         entail += joint_entail
 
@@ -140,7 +140,7 @@ def citation_recall(q2p_dict):
 
 
 def citation_precision(q2p_dict):
-    
+    _nli = dsp.settings.nli
     entail_prec = 0
     total_citations = 0
     for question in q2p_dict:
@@ -159,7 +159,7 @@ def citation_precision(q2p_dict):
 
         # If not directly rejected by citation format error, calculate the recall score
         if joint_entail == -1: 
-            joint_entail = _run_nli(joint_passage, question)
+            joint_entail = _nli(joint_passage, question)
             
             
         # calculate the precision score if applicable
@@ -168,14 +168,14 @@ def citation_precision(q2p_dict):
             # Precision check: did the model cite any unnecessary documents?
             for passage in passages:
                 # condition A
-                nli_result = _run_nli(passage, question)
+                nli_result = _nli(passage, question)
 
                 # condition B
                 if not nli_result:
                     subset_exclude = copy.deepcopy(passages)
                     subset_exclude.remove(passage)
                     joint_passage_exclude = '\n'.join(subset_exclude)
-                    nli_result = _run_nli(joint_passage_exclude, question)
+                    nli_result = _nli(joint_passage_exclude, question)
                     if nli_result:
                         flag = 0
                     else:

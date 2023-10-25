@@ -4,6 +4,7 @@ Created on Sep. 6, 2023
 @author: Yihao Fang
 '''
 import torch
+import dsp
 import os
 from transformers import (
     AutoModelForSeq2SeqLM,
@@ -30,16 +31,11 @@ autoais_tokenizer = None
 
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
-def _run_nli(passage, claim):
+def _t5_nli(passage, claim):
     """
     Run inference for assessing AIS between a premise and hypothesis.
     Adapted from https://github.com/google-research-datasets/Attributed-QA/blob/main/evaluation.py
     """
-    print("."*35 + " passage " + "."*35)
-    print(passage)
-    print("."*35 + " claim " + "."*35)
-    print(claim)
-    
     global autoais_model
     global autoais_tokenizer
     if autoais_model is None:
@@ -54,12 +50,21 @@ def _run_nli(passage, claim):
     result = autoais_tokenizer.decode(outputs[0], skip_special_tokens=True)
     inference = 1 if result == "1" else 0
     
-    print("."*35 + " entailment " + "."*35)
+    return inference
+
+def _t5_nli_logged(passage, claim):
+    print("."*35 + " passage " + "."*35)
+    print(passage)
+    print("."*35 + " claim " + "."*35)
+    print(claim)
+    inference = _t5_nli(passage, claim)
+    print("."*35 + " entailment (T5) " + "."*35)
     print("True" if inference == 1 else "False")
     
     return inference
 
-def _run_nli_batch(passages, claims):
+
+def _t5_nli_batch(passages, claims):
     global autoais_model
     global autoais_tokenizer
     if autoais_model is None:
@@ -87,24 +92,62 @@ def _run_nli_batch(passages, claims):
     inferences = [(1 if result == "1" else 0) for result in results]
     return inferences
 
+
+Premise = dsp.Type(prefix="Premise:", desc="${the premise}")
+Hypothesis = dsp.Type(prefix="Hypothesis:", desc="${the hypothesis}")
+Rationale = dsp.Type(
+            prefix="Rationale: Let's think step by step.",
+            desc="${a step-by-step deduction that identifies the correct response, which will be provided below}")
+Answer = dsp.Type(prefix="Answer:", desc='${a response of either "Yes" or "No"}', format=dsp.format_answers)
+
+nli_template = dsp.Template(instructions='Determine if the premise entails the hypothesis. Please respond with "Yes" or "No".', premise=Premise(), hypothesis=Hypothesis(), rationale=Rationale(), answer=Answer())
+
+gpt3_5_lm = dsp.GPT3(model='gpt-3.5-turbo', api_key=os.getenv('OPENAI_API_KEY'), model_type="chat")
+
+@functools.lru_cache(maxsize=None if cache_turn_on else 0)
+@CacheMemory.cache
+def _gpt_nli(passage, claim):
+    old_lm = dsp.settings.lm
+    
+    dsp.settings.configure(lm=gpt3_5_lm)
+    
+    example = dsp.Example(premise=passage, hypothesis=claim, demos=[])
+    example, completions = dsp.generate(nli_template, n=20, temperature=0.7)(example, stage="nli")
+    completions = dsp.majority(completions)
+    inference = 1 if completions.answer == "Yes" else 0
+    
+    dsp.settings.configure(lm=old_lm)
+    
+    return inference
+
+def _gpt_nli_logged(passage, claim):
+    print("."*35 + " passage " + "."*35)
+    print(passage)
+    print("."*35 + " claim " + "."*35)
+    print(claim)
+    inference = _gpt_nli(passage, claim)
+    print("."*35 + " entailment (GPT) " + "."*35)
+    print("True" if inference == 1 else "False")
+    return inference
+
 if __name__=='__main__':
     passage = "David is a god."
     claim = "David is a man."
     start = time.time()
-    print(_run_nli(passage, claim))
+    print(_t5_nli(passage, claim))
     end  = time.time()
     print("Time:", end - start)
     
     passage = "David is really a man."
     claim = "David is really a man."
     start = time.time()
-    print(_run_nli(passage, claim))
+    print(_t5_nli(passage, claim))
     end  = time.time()
     print("Time:", end - start)
     
     passages = ["David is a god.", "David is really a man."]
     claims = ["David is a man.", "David is really a man."]
     start = time.time()
-    print(_run_nli_batch(passages, claims))
+    print(_t5_nli_batch(passages, claims))
     end  = time.time()
     print("Time:", end - start)

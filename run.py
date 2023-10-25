@@ -16,7 +16,8 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 import numpy as np
 import sys
-from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, QueensEM, QueensF1, ElapsedTime
+from nli import _t5_nli_logged, _gpt_nli_logged
+from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, WysdomEM, WysdomF1, ElapsedTime
 from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA
 import random
 from judges import nli_electoral_college
@@ -29,8 +30,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 seed = 42
-#language_model='gpt-3.5-turbo'
-language_model='gpt-4'
+language_model='gpt-3.5-turbo'
+#language_model='gpt-4'
 retrieval_model='google'
 
 
@@ -117,7 +118,7 @@ def select_medium_questions(df):
     return medium_df
 
 def sample_n_save_data_by_difficulty(dataset, difficulty, train_df, dev_df, test_df):
-    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "queensqa": "QueensQA"}
+    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "wysdomqa": "WysdomQA"}
     
     if difficulty == "hard":
         train_df, dev_df, test_df = select_hard_questions(train_df), select_hard_questions(dev_df), select_hard_questions(test_df)
@@ -200,8 +201,8 @@ def preprocess_data(dataset):
         for difficulty in ["hard", "medium", "easy"]:
             sample_n_save_data_by_difficulty(dataset, difficulty, train_df, dev_df, test_df)
             
-    elif dataset == "queensqa":
-        train_dev_test_df = pd.read_csv("data/QueensQA/QueensQA.csv")
+    elif dataset == "wysdomqa":
+        train_dev_test_df = pd.read_csv("data/WysdomQA/WysdomQA.csv")
         train_dev_test_df['Question'] = train_dev_test_df.apply(lambda x: 'Is the query "' + x['Question'].rstrip('?') + '" accurately addressed by the response "' + x['Generative Answer'] + '" ? Kindly answer with either "Yes" or "No".', axis=1)
         train_dev_test_df['Answer'] = train_dev_test_df['Correct Answer']
         train_dev_test_df.drop('Generative Answer', axis=1, inplace=True)
@@ -213,13 +214,13 @@ def preprocess_data(dataset):
         dev_df = dev_test_df.sample(frac = 0.0/0.82, random_state=seed)
         test_df = dev_test_df.drop(dev_df.index)
         
-        train_df.to_csv("data/QueensQA/train.csv", index=False)
-        dev_df.to_csv("data/QueensQA/dev.csv", index=False)
-        test_df.to_csv("data/QueensQA/test.csv", index=False)
+        train_df.to_csv("data/WysdomQA/train.csv", index=False)
+        dev_df.to_csv("data/WysdomQA/dev.csv", index=False)
+        test_df.to_csv("data/WysdomQA/test.csv", index=False)
         
-        train_df.to_csv("data/QueensQA/train_medium.csv", index=False)
-        dev_df.to_csv("data/QueensQA/dev_medium.csv", index=False)
-        test_df.to_csv("data/QueensQA/test_medium.csv", index=False)
+        train_df.to_csv("data/WysdomQA/train_medium.csv", index=False)
+        dev_df.to_csv("data/WysdomQA/dev_medium.csv", index=False)
+        test_df.to_csv("data/WysdomQA/test_medium.csv", index=False)
     else:
         raise NotImplementedError()
 
@@ -272,21 +273,21 @@ def load_data(dataset):
         train_df = pd.read_csv("data/QReCC/train_easy.csv")
         dev_df = pd.read_csv("data/QReCC/dev_easy.csv")
         test_df = pd.read_csv("data/QReCC/test_easy.csv")
-    elif dataset == "queensqa":    
-        train_df = pd.read_csv("data/QueensQA/train.csv")
-        dev_df = pd.read_csv("data/QueensQA/dev.csv")
-        test_df = pd.read_csv("data/QueensQA/test.csv")
-    elif dataset == "queensqa-medium":    
-        train_df = pd.read_csv("data/QueensQA/train_medium.csv")
-        dev_df = pd.read_csv("data/QueensQA/dev_medium.csv")
-        test_df = pd.read_csv("data/QueensQA/test_medium.csv")
+    elif dataset == "wysdomqa":    
+        train_df = pd.read_csv("data/WysdomQA/train.csv")
+        dev_df = pd.read_csv("data/WysdomQA/dev.csv")
+        test_df = pd.read_csv("data/WysdomQA/test.csv")
+    elif dataset == "wysdomqa-medium":    
+        train_df = pd.read_csv("data/WysdomQA/train_medium.csv")
+        dev_df = pd.read_csv("data/WysdomQA/dev_medium.csv")
+        test_df = pd.read_csv("data/WysdomQA/test_medium.csv")
     else:
         raise NotImplementedError()
     return [train_df, dev_df, test_df]
 
 
 def analyze_data(df_dict):
-    dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC", "queensqa":"QueensQA"}
+    dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC", "wysdomqa":"WysdomQA"}
     
     for dataset in dataset_dict:
         train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
@@ -351,47 +352,88 @@ def analyze_data(df_dict):
 
 
 
-def retrieve_demos(dataset):
+def retrieve_demos(dataset, segments=["plan", "rewrite", "rationale"]):
+    demos = {}
     if dataset == "open-squad-hard":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_hard_augmented.csv",keep_default_na=False))[:2]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_hard_augmented.csv",keep_default_na=False))[1:2]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_hard_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_hard_augmented.csv",keep_default_na=False), segment="rewrite")[1:2]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_hard_augmented.csv",keep_default_na=False), segment="rationale")[:2]
     elif dataset == "open-squad-medium":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_medium_augmented.csv",keep_default_na=False))[:2]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_medium_augmented.csv",keep_default_na=False))[0:1]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_medium_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_medium_augmented.csv",keep_default_na=False), segment="rewrite")[0:1]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_medium_augmented.csv",keep_default_na=False), segment="rationale")[:2]
     elif dataset == "open-squad-easy":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_easy_augmented.csv",keep_default_na=False))[:2]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_easy_augmented.csv",keep_default_na=False))[0:1]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_easy_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_easy_augmented.csv",keep_default_na=False))[0:1]
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/Open-SQuAD/train_easy_augmented.csv",keep_default_na=False), segment="rationale")[:2]
     elif dataset == "hotpotqa-hard":
-        #plan_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_hard_augmented.csv",keep_default_na=False))[:2]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_hard_augmented.csv",keep_default_na=False))[0:1]
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[:2]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            #demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_hard_augmented.csv",keep_default_na=False), segment="plan")[:2]
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_hard_augmented.csv",keep_default_na=False))[0:1]
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rationale")[5:7]
     elif dataset == "hotpotqa-medium":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_medium_augmented.csv",keep_default_na=False))[:2]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_medium_augmented.csv",keep_default_na=False))[5:6] 
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_medium_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_medium_augmented.csv",keep_default_na=False))[5:6] 
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_medium_augmented.csv",keep_default_na=False), segment="rationale")[:2]
     elif dataset == "hotpotqa-easy":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_easy_augmented.csv",keep_default_na=False))[3:5]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_easy_augmented.csv",keep_default_na=False))[5:6] 
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_easy_augmented.csv",keep_default_na=False), segment="plan")[3:5]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_easy_augmented.csv",keep_default_na=False))[5:6] 
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/HotPotQA/train_easy_augmented.csv",keep_default_na=False), segment="rationale")[3:5]
     elif dataset == "qrecc-hard":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_hard_augmented.csv",keep_default_na=False))[2:4]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_hard_augmented.csv",keep_default_na=False))[5:6]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_hard_augmented.csv",keep_default_na=False), segment="plan")[2:4]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_hard_augmented.csv",keep_default_na=False))[5:6]
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_hard_augmented.csv",keep_default_na=False), segment="rationale")[2:4]
     elif dataset == "qrecc-medium":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_medium_augmented.csv",keep_default_na=False))[3:5]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_medium_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_medium_augmented.csv",keep_default_na=False), segment="plan")[3:5]
+        if "rewrite" in segments:
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_medium_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_medium_augmented.csv",keep_default_na=False), segment="rationale")[3:5]
     elif dataset == "qrecc-easy":    
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_easy_augmented.csv",keep_default_na=False))[:2]
-        #rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_easy_augmented.csv",keep_default_na=False))[5:6]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
-    elif dataset == "queensqa-medium":
-        plan_demos = df_to_dsp_augmented(pd.read_csv("data/QueensQA/train_medium_augmented.csv",keep_default_na=False))[:2]
-        rewrite_demos = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False))[4:5]
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_easy_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            # demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_easy_augmented.csv",keep_default_na=False))[5:6]
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/QReCC/train_easy_augmented.csv",keep_default_na=False), segment="rationale")[:2]
+    elif dataset == "wysdomqa-medium":
+        if "plan" in segments:
+            demos["plan"] = df_to_dsp_augmented(pd.read_csv("data/WysdomQA/train_medium_augmented.csv",keep_default_na=False), segment="plan")[:2]
+        if "rewrite" in segments:
+            demos["rewrite"] = df_to_dsp_augmented(pd.read_csv("data/seed_augmented.csv",keep_default_na=False), segment="rewrite")[4:5]
+        if "rationale" in segments:
+            demos["rationale"] = df_to_dsp_augmented(pd.read_csv("data/WysdomQA/train_medium_augmented.csv",keep_default_na=False), segment="rationale")[:2]
     else:
         raise NotImplementedError()
-    return plan_demos, rewrite_demos
+    return demos
 
 def evaluate(method, dataset):
     
@@ -401,9 +443,7 @@ def evaluate(method, dataset):
 
     
     train, dev, test = load_data(dataset)
-    #if "gpt-4" in language_model:
-    #    train, dev, test = train.sample(frac=0.1, random_state=seed), dev.sample(frac=0.1, random_state=seed), test.sample(frac=0.1, random_state=seed)
-    
+
     train, dev, test = df_to_dsp(train), df_to_dsp(dev), df_to_dsp(test)
     
 
@@ -419,11 +459,23 @@ def evaluate(method, dataset):
     elif method == "dsp+sample":
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.sample)
+    elif method == "dsp+sample+t5-nli-ec":
+        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(electoral_college=nli_electoral_college)
+        method_func = DSP_QA(dsp.sample)
+    elif method == "dsp+sample+gpt-nli-ec":
+        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(electoral_college=nli_electoral_college)
+        method_func = DSP_QA(dsp.sample)
     elif method == "dsp+knn":
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.knn(train))
-    elif method == "dsp+knn+nli-ec":
-        #dsp.settings.configure(reranker=partial(nli_reranker, retrieval_weight=0.5, nli_weight=0.5))
+    elif method == "dsp+knn+t5-nli-ec":
+        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(electoral_college=nli_electoral_college)
+        method_func = DSP_QA(dsp.knn(train))
+    elif method == "dsp+knn+gpt-nli-ec":
+        dsp.settings.configure(nli=_gpt_nli_logged)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.knn(train))
     elif method == "got":
@@ -431,36 +483,46 @@ def evaluate(method, dataset):
         method_func = GoT_QA(demos=None, p_context=False)
     elif method == "got+demos":
         dsp.settings.configure(electoral_college=None)
-        method_func = GoT_QA(p_context=False)
-        plan_demos, rewrite_demos = retrieve_demos(dataset)
-        train += (plan_demos + rewrite_demos)
-        method_func.PLAN_DEMOS = len(plan_demos)
-        method_func.REWRITE_DEMOS = len(rewrite_demos)
-    elif method == "got+demos+nli-ec":
-        #dsp.settings.configure(reranker=partial(nli_reranker, retrieval_weight=0.5, nli_weight=0.5))
+        method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=False)
+    elif method == "got+demos+t5-nli-ec":
+        dsp.settings.configure(nli=_t5_nli_logged)
         dsp.settings.configure(electoral_college=nli_electoral_college)
-        method_func = GoT_QA(p_context=False)
-        plan_demos, rewrite_demos = retrieve_demos(dataset)
-        train += (plan_demos + rewrite_demos)
-        method_func.PLAN_DEMOS = len(plan_demos)
-        method_func.REWRITE_DEMOS = len(rewrite_demos)
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
+    elif method == "got+demos+t5-nli-ec+ci":
+        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
+    elif method == "got+demos+gpt-nli-ec":
+        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(electoral_college=nli_electoral_college)
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
+    elif method == "got+demos+gpt-nli-ec+ci":
+        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
     elif method == "got+demos+cx":
         dsp.settings.configure(electoral_college=None)
-        method_func = GoT_QA(p_context=True)
-        plan_demos, rewrite_demos = retrieve_demos(dataset)
-        train += (plan_demos + rewrite_demos)
-        method_func.PLAN_DEMOS = len(plan_demos)
-        method_func.REWRITE_DEMOS = len(rewrite_demos)
-    elif method == "got+demos+cx+nli-ec":
-        #dsp.settings.configure(reranker=partial(nli_reranker, retrieval_weight=0.5, nli_weight=0.5))
+        method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=True)
+    elif method == "got+demos+cx+t5-nli-ec":
+        dsp.settings.configure(nli=_t5_nli_logged)
         dsp.settings.configure(electoral_college=nli_electoral_college)
-        method_func = GoT_QA(p_context=True)
-        plan_demos, rewrite_demos = retrieve_demos(dataset)
-        train += (plan_demos + rewrite_demos)
-        method_func.PLAN_DEMOS = len(plan_demos)
-        method_func.REWRITE_DEMOS = len(rewrite_demos)
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
+    elif method == "got+demos+cx+t5-nli-ec+ci":
+        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
+    elif method == "got+demos+cx+gpt-nli-ec":
+        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(electoral_college=nli_electoral_college)
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
+    elif method == "got+demos+cx+gpt-nli-ec+ci":
+        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
     else:
         raise NotImplementedError()
+    
+    #dsp.settings.configure(reranker=partial(nli_reranker, retrieval_weight=0.5, nli_weight=0.5))
 
     if "open-squad" in dataset:
         metrics = [OpenSQuADEM(), OpenSQuADF1(), ElapsedTime()]
@@ -468,8 +530,8 @@ def evaluate(method, dataset):
         metrics = [HotPotEM(), HotPotF1(), ElapsedTime()]
     elif "qrecc" in dataset:
         metrics = [QReCCF1(), QReCCnF1(), ElapsedTime()]
-    elif "queensqa" in dataset:
-        metrics = [QueensEM(), QueensF1(), ElapsedTime()]
+    elif "wysdomqa" in dataset:
+        metrics = [WysdomEM(), WysdomF1(), ElapsedTime()]
     else:
         raise NotImplementedError()
 
@@ -503,26 +565,25 @@ def evaluate(method, dataset):
     log_file.close()
     
 def preprocess_n_analyze():
-    [preprocess_data(dataset) for dataset in ["open-squad", "hotpotqa", "qrecc", "queensqa"]]
+    [preprocess_data(dataset) for dataset in ["open-squad", "hotpotqa", "qrecc", "wysdomqa"]]
     
     df_dict = {}
     df_dict["open-squad"] = load_data("open-squad")
     df_dict["hotpotqa"] = load_data("hotpotqa")
     df_dict["qrecc"] = load_data("qrecc")
-    df_dict["queensqa"] = load_data("queensqa")
+    df_dict["wysdomqa"] = load_data("wysdomqa")
     analyze_data(df_dict)
     
-def main(preprocess = False):    
+def main(preprocess = False):
     if preprocess:
         preprocess_n_analyze()
     
-    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "dsp+knn+nli-ec", "got", "got+demos", "got+demos+cx", "got+demos+cx+nli-ec"]:
-    #for method in ["got+demos+cx+nli-ec", "dsp+knn+nli-ec"]:
-    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got"]:
-    for method in ["got+demos+nli-ec"]:
+    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got", "got+demos", "got+demos+t5-nli-ec", "got+demos+cx", "got+demos+cx+t5-nli-ec"]:
+    for method in ["got+demos+t5-nli-ec+ci"]:
+    #for method in ["dsp+sample+gpt-nli-ec", "dsp+knn+gpt-nli-ec", "got+demos+gpt-nli-ec"]:
         #for dataset in ["open-squad-hard","open-squad-medium", "open-squad-easy", "hotpotqa-hard","hotpotqa-medium","hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy"]:
-        #for dataset in ["queensqa-medium"]:
-        for dataset in ["hotpotqa-medium"]:
+        #for dataset in ["wysdomqa-medium"]:
+        for dataset in ["hotpotqa-hard"]:
             evaluate(method, dataset)
     
 def annotate():
@@ -530,10 +591,12 @@ def annotate():
     log_file = open("log/annotate.log","w")
     sys.stdout = log_file
     
-    method_func = GoT_QA()
-    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "queensqa": "QueensQA"}
-    #for dataset in ["open-squad-hard", "open-squad-medium", "open-squad-easy", "hotpotqa-hard", "hotpotqa-medium", "hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy", "queensqa-medium"]:
-    for dataset in ["queensqa-medium"]:
+    dsp.settings.configure(electoral_college=nli_electoral_college)
+    method_func = GoT_QA(p_context=True)
+    #method_func = GoT_QA()
+    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "wysdomqa": "WysdomQA"}
+    #for dataset in ["open-squad-hard", "open-squad-medium", "open-squad-easy", "hotpotqa-hard", "hotpotqa-medium", "hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy", "wysdomqa-medium"]:
+    for dataset in ["hotpotqa-medium"]:
         folder_key, category = dataset.rsplit('-', 1)
         
         save_path = "data/%s/train_%s_augmented.csv"%(dataset_dict[folder_key], category)
@@ -602,14 +665,14 @@ if __name__=='__main__':
     main()
     #main(True)
     #main_test()
-    #preprocess_data("queensqa")
+    #preprocess_data("wysdomqa")
     #annotate()
     '''
     df_dict = {}
     df_dict["open-squad"] = load_data("open-squad")
     df_dict["hotpotqa"] = load_data("hotpotqa")
     df_dict["qrecc"] = load_data("qrecc")
-    df_dict["queensqa"] = load_data("queensqa")
+    df_dict["wysdomqa"] = load_data("wysdomqa")
     analyze_data(df_dict)
     '''
     

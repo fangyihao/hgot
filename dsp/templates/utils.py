@@ -13,6 +13,18 @@ def passages2text(passages: Union[str, list, tuple]) -> str:
 
     return "\n".join([f"[{idx+1}] «{txt}»" for idx, txt in enumerate(passages)])
 
+def hints2text(hints: Union[str, list, tuple]) -> str:
+    """Formats the given one or more hints into a single structured string."""
+    if isinstance(hints, str):
+        return hints
+
+    assert type(hints) in [list, tuple]
+
+    if len(hints) == 1:
+        return f"{hints[0]}"
+
+    return "\n".join([f"{txt}" for txt in hints])
+
 
 def format_answers(answers: Union[str, list]) -> Optional[str]:
     """Parses the given answers and returns the appropriate answer string.
