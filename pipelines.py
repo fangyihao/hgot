@@ -19,9 +19,13 @@ from dsp.utils import deduplicate
 from utils import df_to_dsp_augmented
 import pandas as pd
 from nltk import word_tokenize
+from sklearn.metrics.pairwise import cosine_similarity
 seed = 42
 np.random.seed(seed)
 random.seed(seed)
+
+from sentence_transformers import SentenceTransformer
+bert = SentenceTransformer('bert-base-nli-mean-tokens')
 
 def retry_with_exponential_backoff(
     func,
@@ -501,30 +505,7 @@ class GoT_QA:
             instructions="Highlight interdependencies among the steps below if any. Higher number steps can depend on lower number steps, while the reverse is not possible.",
             plan = Plan(), dependencies = Dependencies()
         )
-    
-    @dsp.transformation
-    def QA_predict(self, example: dsp.Example, sc=True, stage='qa', hints = False):
-        if self.demos and "rationale" in self.demos:
-            example.demos = self.demos["rationale"]
         
-        qa_template = self.qa_template_with_CoT_n_hints if stage == 'qa' and hints else self.qa_template_with_CoT
-        
-        if sc:
-            example, completions = dsp.generate(qa_template, n=20, temperature=0.7)(example, stage=stage)
-            if dsp.settings.electoral_college:
-                completions, citation_frequency = dsp.settings.electoral_college(example, completions)
-            else:
-                completions = dsp.majority(completions)
-        else:
-            example, completions = dsp.generate(qa_template)(example, stage=stage)
-            
-        if self.annotator is not None and stage=='qa':
-            self.annotator._set_value(len(self.annotator)-1, 'Rationale Context', copy.deepcopy(example.context))
-            self.annotator._set_value(len(self.annotator)-1, 'Rationale', completions.rationale)
-            self.annotator._set_value(len(self.annotator)-1, 'Answer', completions.answer)
-
-        return example.copy(answer=completions.answer, rationale = completions.rationale) if not sc or not dsp.settings.electoral_college else example.copy(answer=completions.answer, rationale = completions.rationale, citation_frequency = citation_frequency)
-    
     def find_step_question(self, step):
         mo = re.match(self.NODE_PATTERN, step)
         if mo:
@@ -533,10 +514,9 @@ class GoT_QA:
             return step
         
     def find_steps(self, plan):
-
         plan = re.sub(r"\s(([Ss]tep [0-9]+):)", "\n\\1", plan)
         return plan.split('\n')
-        
+    
     def format_dependencies(self, dependencies):
         dependencies = dependencies.split(';')
         formatted = []
@@ -554,21 +534,67 @@ class GoT_QA:
                 formatted.append(mo.group(3) + " -> " + mo.group(4))
         return formatted
     
-    def assess_hint_quality(self, hint_answer):
-        bad_keywords=["not available","not specified","not provided","unavailable","not at hand","absent","not on hand","inaccessible","not up for grabs","out of reach","currently unattainable","not obtainable","unspecified","not detailed","not mentioned","not designated","not identified","not indicated","not set out","not defined","not listed","not supplied","unprovided","not given","absent","not furnished","not delivered","omitted","lacking","not included","not presented", "does not provide","fails to offer","doesn't supply","lacks provision of","omits giving","withholds","denies provision","doesn't present","does not make available","is devoid of providing","neglects to give"]
-        quality = True # good quality
-        for keyword in bad_keywords:
-            if keyword in hint_answer.lower():
-                quality = False
-        return quality
     @dsp.transformation
-    def multistep_search(self, example: dsp.Example, k=3) -> dsp.Example:
+    def predict(self, example: dsp.Example, sc=True, stage='qa', hints = False):
+        default_demos = example.demos
+        if self.demos and "rationale" in self.demos:
+            example.demos = self.demos["rationale"]
+        
+        qa_template = self.qa_template_with_CoT_n_hints if stage == 'qa' and hints else self.qa_template_with_CoT
+        
+        if sc:
+            example, completions = dsp.generate(qa_template, n=20, temperature=0.7)(example, stage=stage)
+            if dsp.settings.electoral_college:
+                completions = dsp.settings.electoral_college(example, completions)
+            else:
+                completions = dsp.majority(completions)
+        else:
+            example, completions = dsp.generate(qa_template)(example, stage=stage)
+            
+        if self.annotator is not None and stage=='qa':
+            self.annotator._set_value(len(self.annotator)-1, 'Rationale Context', copy.deepcopy(example.context))
+            self.annotator._set_value(len(self.annotator)-1, 'Rationale', completions.rationale)
+            self.annotator._set_value(len(self.annotator)-1, 'Answer', completions.answer)
+
+        if dsp.settings.electoral_college:
+            # TODO: optimize weights using derivative-free optimization
+            def rerank(passages, scores, citation_frequency, confidence, weights = [0.3, 0.6, 0.1]):
+                assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
+                
+                scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence if confidence else 0] * len(passages)), axis=1), weights))
+
+                passages, scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(passages, scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
+                passages = list(np.reshape(passages, (-1,)).astype(str, copy=False))
+                scores = list(np.reshape(scores, (-1,)).astype(np.float32, copy=False))
+                return passages, scores
+            
+            example.context, example.context_scores = rerank(example.context, example.context_scores, completions.citation_frequency, completions.confidence)
+            confidence = completions.confidence
+        else:
+            confidence = None
+            
+        print("-"*35 + " ANSWER " + "-"*35)
+        print(completions.answer)    
+        print("-"*35 + " CONFIDENCE " + "-"*35)
+        print(confidence)
+        return example.copy(answer=completions.answer, rationale = completions.rationale, confidence = confidence, demos = default_demos)
+
+    
+    @dsp.transformation
+    def search(self, example: dsp.Example, depth, k=3) -> dsp.Example:
+            
+        
+        
+        def assess_hint_quality(hint_answer):
+            bad_keywords=["not available","not specified","not provided","unavailable","not at hand","absent","not on hand","inaccessible","not up for grabs","out of reach","currently unattainable","not obtainable","unspecified","not detailed","not mentioned","not designated","not identified","not indicated","not set out","not defined","not listed","not supplied","unprovided","not given","absent","not furnished","not delivered","omitted","lacking","not included","not presented", "does not provide","fails to offer","doesn't supply","lacks provision of","omits giving","withholds","denies provision","doesn't present","does not make available","is devoid of providing","neglects to give"]
+            quality = True # good quality
+            for keyword in bad_keywords:
+                if keyword in hint_answer.lower():
+                    quality = False
+            return quality
         
         if self.retrieve_ensemble_n:
-            
             def retrieve_ensemble(query: str, k: int, return_dict:bool = False) -> list[str]:
-                #psgs = dsp.retrieve(query, k=k*3)
-                #return psgs[:k]
                 assert self.retrieve_ensemble_n >= 1
                 
                 if self.retrieve_ensemble_n > 1:
@@ -576,17 +602,6 @@ class GoT_QA:
                     return dsp.retrieveEnsemble([query]+paraphrases, k=k, return_dict=return_dict)
                 elif self.retrieve_ensemble_n == 1:
                     return dsp.retrieveEnsemble([query], k=k, return_dict=return_dict)
-
-        if dsp.settings.electoral_college:
-            
-            def rerank(passages, scores, citation_frequency, citation_weight = 0.7):
-                assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
-                for i, passage in enumerate(passages): 
-                    scores[i] = (1-citation_weight)*scores[i] + citation_weight*citation_frequency[i]
-                passages, scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(passages, scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
-                passages = list(np.reshape(passages, (-1,)).astype(str, copy=False))
-                scores = list(np.reshape(scores, (-1,)).astype(np.float32, copy=False))
-                return passages, scores
 
         steps = self.find_steps(example.plan)
 
@@ -620,13 +635,11 @@ class GoT_QA:
             except NetworkXNoCycle:
                 no_cycle_found = True
         
-        #num_func = lambda n: re.match(r'step ([0-9]+)',n).group(1)
         rev_G = G.reverse(copy=True)
         answers = OrderedDict()
         passages = OrderedDict()
         scores = OrderedDict()
-        #while len(answers) < len(G.nodes):
-            #for u in G.nodes:
+        confidences = OrderedDict()
         for u in nx.topological_sort(G):
             if G.in_degree(u) == 0:
                 print("~"*35 + u.capitalize() + "~"*35)
@@ -637,13 +650,11 @@ class GoT_QA:
                     passages_w_scores = dsp.retrieve(self.find_step_question(questions[u]), k=k, return_dict = True)
                 passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                     
-                completions = self.QA_predict(dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u]), stage='sub_qa')
-                answers[u] = completions.answer
-                rationale = completions.rationale
-                if dsp.settings.electoral_college:
-                    passages[u], scores[u] = rerank(passages[u], scores[u], completions.citation_frequency)
-                #example.context.extend(passages[u])
-                #example.context.extend([questions[u] + " | " + answers[u]])
+                sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u])    
+                #completions = self.predict(sub_example, stage='sub_qa')
+                completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
+                answers[u], passages[u], scores[u], confidences[u] = completions.answer, completions.context, completions.context_scores, completions.confidence
+
             else:
                 all_rev_neighbors = True
                 rewrite_context = []
@@ -660,7 +671,7 @@ class GoT_QA:
                         if self.annotator._get_value(len(self.annotator)-1, 'Rewrite Context') is None:
                             self.annotator._set_value(len(self.annotator)-1, 'Rewrite Context', ' '.join(rewrite_context))
                     
-                    if self.demos:
+                    if self.demos and "rewrite" in self.demos:
                         _, completions = dsp.generate(self.rewrite_template)(dsp.Example(rewrite_context=' '.join(rewrite_context), demos=self.demos["rewrite"]), stage='rewrite')
                     else:
                         _, completions = dsp.generate(self.rewrite_template)(dsp.Example(rewrite_context=' '.join(rewrite_context), demos=example.demos), stage='rewrite')
@@ -680,50 +691,74 @@ class GoT_QA:
                         passages_w_scores = dsp.retrieve(self.find_step_question(rewrite), k=k, return_dict = True)
                     passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                         
-                    completions = self.QA_predict(dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u]), stage='sub_qa')
-                    answers[u] = completions.answer
-                    rationale = completions.rationale
-                    if dsp.settings.electoral_college:
-                        passages[u], scores[u] = rerank(passages[u], scores[u], completions.citation_frequency)
-                    #example.context.extend(passages[u])
-                    #example.context.extend([questions[u] + " | " + answers[u]])
+                    sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u])
+                    #completions = self.predict(sub_example, stage='sub_qa')
+                    completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
+                    answers[u], passages[u], scores[u], confidences[u] = completions.answer, completions.context, completions.context_scores, completions.confidence 
+
         assert len(answers) == len(G.nodes)     
         
         # verbose
         retrieval_history=dict([(self.find_step_question(questions[u]), passages[u]) for u in questions])
         retrieval_history[example.question] = copy.deepcopy(example.context)
         
+        # TODO: optimize weights using derivative-free optimization
+        weights = [0.8] + [1]*(len(questions))
+        repeats = [len(example.context)]
         for u in questions:
             example.context.extend(passages[u])
             example.context_scores.extend(scores[u])
+            repeats.append(len(passages[u]))
+        weights = np.concatenate([[weight]*repeat for weight, repeat in zip(weights, repeats)])
+        example.context_scores = list(np.multiply(example.context_scores, weights))
             
         print("-"*35 + " PASSAGES WITH SCORES " + "-"*35)
         for passage, score in zip(example.context, example.context_scores):
             print(passage + " SCORE: " + str(score))
-            
-        example.context, example.context_scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(example.context, example.context_scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
-        example.context = list(np.reshape(example.context, (-1,)).astype(str, copy=False))
-        example.context_scores = list(np.reshape(example.context_scores, (-1,)).astype(np.float32, copy=False))
-        example.context = example.context[:int(len(example.context)*0.6)]
-        example.context_scores = example.context_scores[:int(len(example.context_scores)*0.6)]
+        
+        def topk(X, Y, k):
+            assert(len(X)==len(Y) and len(X)>0 and k<=len(X))
+            X_type = type(X[0])
+            Y_type = type(Y[0])
+            X, Y = np.split(np.array([[x, y] for x, y in sorted(zip(X, Y), key=lambda item: item[1], reverse=True)]), 2, axis=1)
+            X = list(np.reshape(X, (-1,)).astype(X_type, copy=False))
+            Y = list(np.reshape(Y, (-1,)).astype(Y_type, copy=False))
+            return X[:k], Y[:k]
+        #example.context, example.context_scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(example.context, example.context_scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
+        #example.context = list(np.reshape(example.context, (-1,)).astype(str, copy=False))
+        #example.context_scores = list(np.reshape(example.context_scores, (-1,)).astype(np.float32, copy=False))
+        #example.context = example.context[:int(len(example.context)*0.6)]
+        #example.context_scores = example.context_scores[:int(len(example.context_scores)*0.6)]
+        
+        # Miller, G. A. (1956). "The magical number seven, plus or minus two: Some limits on our capacity for processing information". Psychological Review. 63 (2): 81–97.
+        clip = 7
+        example.context, example.context_scores = topk(example.context, example.context_scores, clip)
+        # The passing percentage is set to 60% aligning to most of the academic grading systems
+        # passing_percentage = 0.6
+        # example.context, example.context_scores = topk(example.context, example.context_scores, min([int(len(example.context)*passing_percentage), clip]))
         
         hints = []
         print("-"*35 + " STEPS WITH ANSWERS " + "-"*35)
         for u in questions:
-            print(questions[u] + " ANSWER: " + answers[u])
-            if self.assess_hint_quality(answers[u]):
-                hints.append(self.find_step_question(questions[u]) + " ANSWER: " + answers[u])
+            print(questions[u] + " ANSWER: " + answers[u] + " CONFIDENCE: " + str(confidences[u]))
+            if assess_hint_quality(answers[u]):
+                hints.append(self.find_step_question(questions[u]) + " ANSWER: " + answers[u] + " CONFIDENCE: " + str(confidences[u]))
                 
         if len(hints) == 0:
             hints.append('Refer to "Context".')
 
         return example.copy(hints=hints, retrieval_history=retrieval_history)
     
-    def extract_plan(self, plan):
-        return re.sub(r"(.+)Context:.+", r"\1", plan, flags=re.DOTALL)
     
     @dsp.transformation
     def plan(self, example: dsp.Example, self_reflect=True, shortlist=False) -> dsp.Example:
+        def extract_plan(plan):
+            return re.sub(r"(.+)Context:.+", r"\1", plan, flags=re.DOTALL)
+    
+        default_demos = example.demos
+        if self.demos and "plan" in self.demos:
+            example.demos = self.demos["plan"]    
+        
         if self.p_context == True:
             template = self.plan_template
         else:
@@ -742,7 +777,7 @@ class GoT_QA:
         else:
             example, completions = dsp.generate(template)(example, stage='plan')
 
-        plan = self.extract_plan(completions.plan)
+        plan = extract_plan(completions.plan)
         if self_reflect:
             _, completions = dsp.generate(self.reflection_template)(dsp.Example(plan=plan, demos=example.demos), stage='plan')
         
@@ -752,36 +787,54 @@ class GoT_QA:
             self.annotator._set_value(len(self.annotator)-1, 'Plan', plan)
             self.annotator._set_value(len(self.annotator)-1, 'Dependencies', completions.dependencies)    
         
-        return example.copy(plan = plan, dependencies = completions.dependencies)
+        return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos)
+    
+    
+    @dsp.transformation
+    def predict_plan_search_predict(self, example: dsp.Example, depth=0, stage = 'qa'):
+        print("="*35 + " PREDICT (%d-0) "%(depth) + "="*35)
+        example_0 = self.predict(example, stage=stage)
+        
+        example_1 = dsp.Example(question=example_0.question, demos=example_0.demos, context=example_0.context, context_scores = example_0.context_scores)
+        print("="*35 + " PLAN (%d) "%(depth) + "="*35)
+        example_1 = self.plan(example_1)
+        
+        def proceed(question, plan, sim_thr = 0.7):
+            steps = self.find_steps(plan)
+            if len(steps) == 1:
+                sents = [
+                    question,
+                    self.find_step_question(steps[0])
+                ]
+                sent_embeddings = bert.encode(sents)
+                sim = np.squeeze(cosine_similarity([sent_embeddings[0]], [sent_embeddings[1]]))
+                print("-"*35 + " SIMILARITY " + "-"*35)
+                print(sim)
+                return sim < sim_thr
+            elif len(steps) > 1:
+                return True
+            else: 
+                return False
+            
+        if proceed(example_1.question, example_1.plan) and depth < 2:
+            example = example_1
+            print("="*35 + " SEARCH (%d) "%(depth+1) + "="*35)
+            example = self.search(example, depth+1)
+            print("="*35 + " PREDICT (%d-1) "%(depth) + "="*35)
+            example = self.predict(example, stage=stage)
+        else:
+            example = example_0
+        return example
+    
     
     def __call__(self, train, question):
-        if not self.demos and self.p_context == False:
-            x = dsp.Example(question=question, demos=dsp.sample(train, k=7))
-        elif self.demos:
-            demos = self.demos["plan"]
-            if self.p_context == False:
-                x = dsp.Example(question=question, demos=demos)
-            else:
-                passages_w_scores = dsp.retrieve(question, k=3, return_dict = True)
-                x = dsp.Example(question=question, demos=demos, context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
-        else:
-            raise NotImplementedError()
-        print("="*35 + " PLAN " + "="*35)
-        x = self.plan(x)
+        passages_w_scores = dsp.retrieve(question, k=3,  return_dict = True)
+        example = dsp.Example(question=question, demos=dsp.sample(train, k=7), context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
         
-        if self.p_context == False:
-            passages_w_scores = dsp.retrieve(question, k=3,  return_dict = True)
-            x.context = passages_w_scores["text"]
-            x.context_scores = passages_w_scores["score"]
-            
-        if self.demos:
-            demos = dsp.sample(train, k=7)
-            x.demos=demos
-        print("="*35 + " SEARCH " + "="*35)
-        x = self.multistep_search(x)
-        print("="*35 + " PREDICT " + "="*35)
-        x = self.QA_predict(x, stage='qa')
-        return {"answer":x.answer}
+        example = self.predict_plan_search_predict(example)
+        
+        return {"answer":example.answer, "confidence": example.confidence}
+    
     
     def annotate(self, train, save_path):
         self.annotator = pd.DataFrame(columns=['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer'])

@@ -16,16 +16,23 @@ import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
 import numpy as np
 import sys
-from nli import _t5_nli_logged, _gpt_nli_logged
 from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, WysdomEM, WysdomF1, ElapsedTime
 from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA
 import random
 from judges import nli_electoral_college
 import matplotlib.ticker as ticker
 from functools import partial
-
 from utils import df_to_dsp, df_to_dsp_augmented
 from dotenv import load_dotenv
+
+sys.setrecursionlimit(10000000)
+
+verbose = False
+if verbose:
+    from nli import _t5_nli_logged as _t5_nli
+    from nli import _gpt_nli_logged as _gpt_nli
+else:
+    from nli import _t5_nli, _gpt_nli
 
 load_dotenv()
 
@@ -33,6 +40,7 @@ seed = 42
 language_model='gpt-3.5-turbo'
 #language_model='gpt-4'
 retrieval_model='google'
+
 
 
 np.random.seed(seed)
@@ -54,9 +62,9 @@ else:
     rm = dsp.ColBERTv2(url=colbert_server)
 
 if language_model=='text-davinci-002':
-    lm = dsp.GPT3(model=language_model, api_key=openai_key)
+    lm = dsp.GPT(model=language_model, api_key=openai_key)
 else:
-    lm = dsp.GPT3(model=language_model, api_key=openai_key, model_type="chat")
+    lm = dsp.GPT(model=language_model, api_key=openai_key, model_type="chat")
 
 
 
@@ -460,22 +468,22 @@ def evaluate(method, dataset):
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.sample)
     elif method == "dsp+sample+t5-nli-ec":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.sample)
     elif method == "dsp+sample+gpt-nli-ec":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.sample)
     elif method == "dsp+knn":
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.knn(train))
     elif method == "dsp+knn+t5-nli-ec":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.knn(train))
     elif method == "dsp+knn+gpt-nli-ec":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.knn(train))
     elif method == "got":
@@ -485,38 +493,38 @@ def evaluate(method, dataset):
         dsp.settings.configure(electoral_college=None)
         method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=False)
     elif method == "got+demos+t5-nli-ec":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
     elif method == "got+demos+t5-nli-ec+ci":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
     elif method == "got+demos+gpt-nli-ec":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
     elif method == "got+demos+gpt-nli-ec+ci":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
     elif method == "got+demos+cx":
         dsp.settings.configure(electoral_college=None)
         method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=True)
     elif method == "got+demos+cx+t5-nli-ec":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
     elif method == "got+demos+cx+t5-nli-ec+ci":
-        dsp.settings.configure(nli=_t5_nli_logged)
+        dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
     elif method == "got+demos+cx+gpt-nli-ec":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
     elif method == "got+demos+cx+gpt-nli-ec+ci":
-        dsp.settings.configure(nli=_gpt_nli_logged)
+        dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
     else:
@@ -546,6 +554,8 @@ def evaluate(method, dataset):
         print(prediction["answer"])
         print("."*35 + " ground truth " + "."*35)
         print(example.answer)
+        print("."*35 + " confidence " + "."*35)
+        print(prediction["confidence"])
 
         for metric in metrics:
             if isinstance(metric, ElapsedTime):

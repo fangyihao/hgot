@@ -76,7 +76,7 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
             
             
 
-    def evaluate_rationale(rationale, context):
+    def evaluate_rationale(rationale, context, recall_weight=0.5):
         _nli = dsp.settings.nli
         # Preprocess
         q2p_dict = {}
@@ -105,7 +105,7 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
         stats["citation_precision"] = citation_precision(q2p_dict)
         stats["citation_frequency"] = citation_frequency
         
-        stats["weight"] = 0.5 * stats["citation_recall"] + 0.5 * stats["citation_precision"]
+        stats["weight"] = recall_weight * stats["citation_recall"] + (1-recall_weight) * stats["citation_precision"]
         return stats
 
     evaluated_predictions = [(prediction, evaluate_rationale(rationale, example.context)) for prediction, rationale in zip(predictions, rationales) if prediction]
@@ -127,15 +127,19 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
     if ci: 
         _, scores = np.split(np.array(topk), 2, axis = 1)
         scores = np.reshape(scores, (-1,)).astype(np.float32, copy=False)
-        ci_score = scores[0] / np.sum(scores)
-
+        if np.sum(scores) == 0:
+            ci_score = None
+        else:
+            ci_score = scores[0] / np.sum(scores)
+    else:
+        ci_score = None
+        
     citation_frequency = np.sum(np.array([stats["citation_frequency"] for _, stats in evaluated_predictions]),axis=0)
-    
     
     normalized_citation_frequency = citation_frequency/np.sum(citation_frequency) if np.sum(citation_frequency) > 0 else citation_frequency
 
-    if ci:
-        normalized_citation_frequency *= ci_score
+    #if ci and ci_score is not None:
+    #    normalized_citation_frequency *= ci_score
     
     completion = normalized_to_original[prediction]
 
@@ -143,4 +147,4 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
         {**dsp.settings.lm.history[-1], "topk": topk, "completions": [completion]}
     )
     
-    return Completions([completion], template=template,), normalized_citation_frequency
+    return Completions([completion.copy(citation_frequency = normalized_citation_frequency, confidence = ci_score)], template=template,)

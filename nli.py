@@ -102,7 +102,7 @@ Answer = dsp.Type(prefix="Answer:", desc='${a response of either "Yes" or "No"}'
 
 nli_template = dsp.Template(instructions='Determine if the premise entails the hypothesis. Please respond with "Yes" or "No".', premise=Premise(), hypothesis=Hypothesis(), rationale=Rationale(), answer=Answer())
 
-gpt3_5_lm = dsp.GPT3(model='gpt-3.5-turbo', api_key=os.getenv('OPENAI_API_KEY'), model_type="chat")
+gpt3_5_lm = dsp.GPT(model='gpt-3.5-turbo', api_key=os.getenv('OPENAI_API_KEY'), model_type="chat")
 
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
