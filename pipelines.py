@@ -20,6 +20,13 @@ from utils import df_to_dsp_augmented
 import pandas as pd
 from nltk import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
+
+from langchain.agents import load_tools
+from langchain.agents import initialize_agent
+from langchain.agents import AgentType
+from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
+
 seed = 42
 np.random.seed(seed)
 random.seed(seed)
@@ -129,6 +136,20 @@ def paraphrase(passage, n, temperature=0.9, language_model='gpt-3.5-turbo'):
     end = time.time()
     return paraphrases
 
+
+class ReAct:
+    def __init__(self):
+        llm = OpenAI(temperature=0)
+        tools = load_tools(["serpapi", "llm-math"], llm=llm)
+        chat_model = ChatOpenAI(temperature=0, model="gpt-3.5-turbo")
+        self.agent = initialize_agent(
+            tools, chat_model, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=True
+        )
+    def __call__(self, train, question):
+        answer=self.agent.run(
+            question
+        )
+        return {"answer":answer}
 
 class Vanilla_LM_QA:
     def __init__(self):
@@ -409,13 +430,14 @@ class DSP_QA(Multihop_QA):
 
 class GoT_QA:
 
-    def __init__(self, demos = None, p_context: bool = True, retrieve_ensemble_n = None):
+    def __init__(self, demos = None, p_context: bool = True, retrieve_ensemble_n = None, depth = 3):
         self.EDGE_PATTERN = r'\s*([Ss]tep [0-9]+)\s*->\s*([Ss]tep [0-9]+)\s*'
         self.NODE_PATTERN = r'\s*([Ss]tep [0-9]+):\s*(.*)'
         
         self.demos = demos
         self.p_context = p_context
         self.retrieve_ensemble_n = retrieve_ensemble_n
+        self.depth = depth
         self.annotator = None
 
         Question = dsp.Type(prefix="Question:", desc="${the question to be answered}")
@@ -454,7 +476,12 @@ class GoT_QA:
             prefix="Plan:\n",
             desc="Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}"
         )
-        
+        '''
+        Plan = dsp.Type(
+            prefix="Plan:\n",
+            desc="Step 1: ${a more generic search question} Step 2: ${a more specific search question} ... Step n: ${a more specific search question}"
+        )
+        '''
         Dependencies = dsp.Type(
             prefix="Dependencies: ",
             desc="${interdependencies among multiple steps}"
@@ -462,14 +489,24 @@ class GoT_QA:
         
         self.plan_template = dsp.Template(
             instructions="Sketch a plan to answer the following question with the provided context. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.",
-            question=Question(), context=Context(), plan = Plan(), dependencies = Dependencies()
+            context=Context(), question=Question(), plan = Plan(), dependencies = Dependencies()
         )
         
-        self.plan_wo_cx_template = dsp.Template(
+        self.plan_template_wo_cx = dsp.Template(
             instructions="Sketch a plan to answer the following question. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.",
             question=Question(), plan = Plan(), dependencies = Dependencies()
         )
+        '''
+        self.plan_template = dsp.Template(
+            instructions="Sketch a plan to answer the following question with the provided context. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Step 1 serves as a more generic question. Subsequent steps are more specific questions. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.",
+            context=Context(), question=Question(), plan = Plan(), dependencies = Dependencies()
+        )
         
+        self.plan_template_wo_cx = dsp.Template(
+            instructions="Sketch a plan to answer the following question. List only the essential steps which can be answered by search engines. Express each step as a standalone search question. Step 1 serves as a more generic question. Subsequent steps are more specific questions. Highlight interdependencies if any. Higher number steps can depend on lower number steps, while the reverse is not possible.",
+            question=Question(), plan = Plan(), dependencies = Dependencies()
+        )
+        '''
         Rewrite_Context = dsp.Type(
             prefix="Context:\n",
             desc="${previous questions and answers}"
@@ -560,8 +597,10 @@ class GoT_QA:
             # TODO: optimize weights using derivative-free optimization
             def rerank(passages, scores, citation_frequency, confidence, weights = [0.3, 0.6, 0.1]):
                 assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
-                
-                scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence if confidence else 0] * len(passages)), axis=1), weights))
+                if confidence is not None:
+                    scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence] * len(passages)), axis=1), weights))
+                else:
+                    scores = list(np.matmul(np.stack((scores, citation_frequency), axis=1), [weights[0], sum(weights[1:])]))
 
                 passages, scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(passages, scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
                 passages = list(np.reshape(passages, (-1,)).astype(str, copy=False))
@@ -577,13 +616,16 @@ class GoT_QA:
         print(completions.answer)    
         print("-"*35 + " CONFIDENCE " + "-"*35)
         print(confidence)
+        
+        print("-"*35 + " PASSAGES WITH SCORES " + "-"*35)
+        for passage, score in zip(example.context, example.context_scores):
+            print(passage + " SCORE: " + str(score))
+        
         return example.copy(answer=completions.answer, rationale = completions.rationale, confidence = confidence, demos = default_demos)
 
     
     @dsp.transformation
     def search(self, example: dsp.Example, depth, k=3) -> dsp.Example:
-            
-        
         
         def assess_hint_quality(hint_answer):
             bad_keywords=["not available","not specified","not provided","unavailable","not at hand","absent","not on hand","inaccessible","not up for grabs","out of reach","currently unattainable","not obtainable","unspecified","not detailed","not mentioned","not designated","not identified","not indicated","not set out","not defined","not listed","not supplied","unprovided","not given","absent","not furnished","not delivered","omitted","lacking","not included","not presented", "does not provide","fails to offer","doesn't supply","lacks provision of","omits giving","withholds","denies provision","doesn't present","does not make available","is devoid of providing","neglects to give"]
@@ -703,7 +745,8 @@ class GoT_QA:
         retrieval_history[example.question] = copy.deepcopy(example.context)
         
         # TODO: optimize weights using derivative-free optimization
-        weights = [0.8] + [1]*(len(questions))
+        # weights = [0.8] + [1]*(len(questions))
+        weights = [0.9] + [1]*(len(questions))
         repeats = [len(example.context)]
         for u in questions:
             example.context.extend(passages[u])
@@ -717,7 +760,7 @@ class GoT_QA:
             print(passage + " SCORE: " + str(score))
         
         def topk(X, Y, k):
-            assert(len(X)==len(Y) and len(X)>0 and k<=len(X))
+            assert(len(X)==len(Y) and len(X)>0)
             X_type = type(X[0])
             Y_type = type(Y[0])
             X, Y = np.split(np.array([[x, y] for x, y in sorted(zip(X, Y), key=lambda item: item[1], reverse=True)]), 2, axis=1)
@@ -756,13 +799,28 @@ class GoT_QA:
             return re.sub(r"(.+)Context:.+", r"\1", plan, flags=re.DOTALL)
     
         default_demos = example.demos
+        default_context = example.context
+        default_context_scores = example.context_scores
+        
         if self.demos and "plan" in self.demos:
             example.demos = self.demos["plan"]    
         
         if self.p_context == True:
-            template = self.plan_template
+            filtered_context = []
+            filtered_context_scores = []
+            for passage, score in zip(example.context, example.context_scores):
+                #if score > 0.7:
+                if score > 0.9:
+                    filtered_context.append(passage)
+                    filtered_context_scores.append(score)
+            if len(filtered_context) > 0:
+                example.context = filtered_context
+                example.context_scores = filtered_context_scores
+                template = self.plan_template
+            else:
+                template = self.plan_template_wo_cx
         else:
-            template = self.plan_wo_cx_template
+            template = self.plan_template_wo_cx
         
         # shortlist is currently an experimental feature
         if shortlist:
@@ -787,7 +845,7 @@ class GoT_QA:
             self.annotator._set_value(len(self.annotator)-1, 'Plan', plan)
             self.annotator._set_value(len(self.annotator)-1, 'Dependencies', completions.dependencies)    
         
-        return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos)
+        return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos, context = default_context, context_scores=default_context_scores)
     
     
     @dsp.transformation
@@ -816,7 +874,7 @@ class GoT_QA:
             else: 
                 return False
             
-        if proceed(example_1.question, example_1.plan) and depth < 2:
+        if proceed(example_1.question, example_1.plan) and depth < self.depth - 1:
             example = example_1
             print("="*35 + " SEARCH (%d) "%(depth+1) + "="*35)
             example = self.search(example, depth+1)

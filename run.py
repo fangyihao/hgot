@@ -17,7 +17,7 @@ from nltk.tokenize import word_tokenize
 import numpy as np
 import sys
 from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, WysdomEM, WysdomF1, ElapsedTime
-from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA
+from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA, ReAct
 import random
 from judges import nli_electoral_college
 import matplotlib.ticker as ticker
@@ -113,7 +113,7 @@ def select_easy_questions(df):
     len_threshold = df["Question Length"].quantile([0.02]).values[0]
     easy_df = df[df["Question Length"] <= len_threshold]
     
-    easy_df = easy_df.sample(n=round(len(df)*0.02*0.2), random_state=seed)
+    #easy_df = easy_df.sample(n=round(len(df)*0.02*0.2), random_state=seed)
     return easy_df
 
 def select_medium_questions(df):
@@ -122,7 +122,7 @@ def select_medium_questions(df):
     medium_df = df[(df["Question Length"] > len_lower_threshold) & (df["Question Length"] <= len_upper_threshold)]
     medium_df = medium_df.sample(frac=(0.02/0.96), random_state=seed)
     
-    medium_df = medium_df.sample(n=round(len(df)*0.02*0.2), random_state=seed)
+    #medium_df = medium_df.sample(n=round(len(df)*0.02*0.2), random_state=seed)
     return medium_df
 
 def sample_n_save_data_by_difficulty(dataset, difficulty, train_df, dev_df, test_df):
@@ -464,6 +464,9 @@ def evaluate(method, dataset):
     elif method == "multihop":
         dsp.settings.configure(electoral_college=None)
         method_func = Multihop_QA()
+    elif method == "react":
+        dsp.settings.configure(electoral_college=None)
+        method_func = ReAct()
     elif method == "dsp+sample":
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.sample)
@@ -486,44 +489,52 @@ def evaluate(method, dataset):
         dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = DSP_QA(dsp.knn(train))
-    elif method == "got":
+    elif method == "got-3":
         dsp.settings.configure(electoral_college=None)
         method_func = GoT_QA(demos=None, p_context=False)
-    elif method == "got+demos":
+    elif method == "got-3+demos":
         dsp.settings.configure(electoral_college=None)
         method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=False)
-    elif method == "got+demos+t5-nli-ec":
+    elif method == "got-3+demos+t5-nli-ec":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
-    elif method == "got+demos+t5-nli-ec+ci":
+    elif method == "got-3+demos+t5-nli-ec+ci":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
-    elif method == "got+demos+gpt-nli-ec":
+    elif method == "got-3+demos+gpt-nli-ec":
         dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
-    elif method == "got+demos+gpt-nli-ec+ci":
+    elif method == "got-3+demos+gpt-nli-ec+ci":
         dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=False)
-    elif method == "got+demos+cx":
+    elif method == "got-3+demos+cx":
         dsp.settings.configure(electoral_college=None)
         method_func = GoT_QA(demos=retrieve_demos(dataset, segments=["plan", "rewrite"]), p_context=True)
-    elif method == "got+demos+cx+t5-nli-ec":
+    elif method == "got-3+demos+cx+t5-nli-ec":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
-    elif method == "got+demos+cx+t5-nli-ec+ci":
+    elif method == "got-3+demos+cx+t5-nli-ec+ci":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
-    elif method == "got+demos+cx+gpt-nli-ec":
+    elif method == "got-2+demos+cx+t5-nli-ec+ci":
+        dsp.settings.configure(nli=_t5_nli)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True, depth=2)
+    elif method == "got-4+demos+cx+t5-nli-ec+ci":
+        dsp.settings.configure(nli=_t5_nli)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
+        method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True, depth=4)
+    elif method == "got-3+demos+cx+gpt-nli-ec":
         dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=nli_electoral_college)
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
-    elif method == "got+demos+cx+gpt-nli-ec+ci":
+    elif method == "got-3+demos+cx+gpt-nli-ec+ci":
         dsp.settings.configure(nli=_gpt_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demos=retrieve_demos(dataset), p_context=True)
@@ -554,8 +565,9 @@ def evaluate(method, dataset):
         print(prediction["answer"])
         print("."*35 + " ground truth " + "."*35)
         print(example.answer)
-        print("."*35 + " confidence " + "."*35)
-        print(prediction["confidence"])
+        if "confidence" in prediction:
+            print("."*35 + " confidence " + "."*35)
+            print(prediction["confidence"])
 
         for metric in metrics:
             if isinstance(metric, ElapsedTime):
@@ -588,9 +600,10 @@ def main(preprocess = False):
     if preprocess:
         preprocess_n_analyze()
     
-    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got", "got+demos", "got+demos+t5-nli-ec", "got+demos+cx", "got+demos+cx+t5-nli-ec"]:
-    for method in ["got+demos+t5-nli-ec+ci"]:
-    #for method in ["dsp+sample+gpt-nli-ec", "dsp+knn+gpt-nli-ec", "got+demos+gpt-nli-ec"]:
+    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got-3", "got-3+demos", "got-3+demos+t5-nli-ec", "got-3+demos+t5-nli-ec+ci", "got-3+demos+cx", "got-3+demos+cx+t5-nli-ec", "got-3+demos+cx+t5-nli-ec+ci"]:
+    #for method in ["retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn", "got-3", "got-3+demos"]:
+    for method in ["got-3+demos+cx+t5-nli-ec+ci", "got-2+demos+cx+t5-nli-ec+ci", "got-4+demos+cx+t5-nli-ec+ci"]:
+    #for method in ["dsp+sample+gpt-nli-ec", "dsp+knn+gpt-nli-ec", "got-3+demos+gpt-nli-ec"]:
         #for dataset in ["open-squad-hard","open-squad-medium", "open-squad-easy", "hotpotqa-hard","hotpotqa-medium","hotpotqa-easy", "qrecc-hard", "qrecc-medium", "qrecc-easy"]:
         #for dataset in ["wysdomqa-medium"]:
         for dataset in ["hotpotqa-hard"]:
