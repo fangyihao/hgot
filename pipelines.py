@@ -3,6 +3,7 @@ Created on Sep. 7, 2023
 
 @author: Yihao Fang
 '''
+import sys
 import dsp
 import re
 import openai
@@ -26,6 +27,7 @@ from langchain.agents import initialize_agent
 from langchain.agents import AgentType
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
+from functools import partial
 
 seed = 42
 np.random.seed(seed)
@@ -33,6 +35,9 @@ random.seed(seed)
 
 from sentence_transformers import SentenceTransformer
 bert = SentenceTransformer('bert-base-nli-mean-tokens')
+
+import spacy
+nlp = spacy.load("en_core_sci_lg")
 
 def retry_with_exponential_backoff(
     func,
@@ -430,30 +435,81 @@ class DSP_QA(Multihop_QA):
 
 class GoT_QA:
 
-    def __init__(self, demos = None, p_context: bool = True, retrieve_ensemble_n = None, depth = 3):
+    def __init__(self, demo_flags = None, p_context: bool = True, retrieve_ensemble_n = None, depth = 3, **kwargs):
         self.EDGE_PATTERN = r'\s*([Ss]tep [0-9]+)\s*->\s*([Ss]tep [0-9]+)\s*'
         self.NODE_PATTERN = r'\s*([Ss]tep [0-9]+):\s*(.*)'
         
-        self.demos = demos
+        self.demo_flags = demo_flags
         self.p_context = p_context
         self.retrieve_ensemble_n = retrieve_ensemble_n
         self.depth = depth
         self.annotator = None
+        
+        if "demos" in kwargs:
+            self.demos = kwargs["demos"]
+        else:
+            self.demos = None
+        
+        if "demo_sel_func" in kwargs:
+            self.demo_sel_func = kwargs["demo_sel_func"]
+        else:
+            self.demo_sel_func = dsp.sample
+        
+        if "annot_selector" in kwargs:
+            self.annot_selector = kwargs["annot_selector"]
+        else:
+            self.annot_selector = None
+            
+        if "annot_dump" in kwargs:
+            self.annot_dump = kwargs["annot_dump"]
+        else:
+            self.annot_dump = None
+            
+        if "annot_log" in kwargs:
+            self.annot_log = kwargs["annot_log"]
+        else:
+            self.annot_log = None
+        
+        if "annot_step" in kwargs:
+            self.annot_step = kwargs["annot_step"]
+        else:
+            self.annot_step = 50
+        
+        if "B" in kwargs:
+            self.B = kwargs["B"]
+        else:
+            self.B = [0.9,0.7,0.9]
+            
+        if dsp.settings.electoral_college:
+            self.W = kwargs["W"]
 
         Question = dsp.Type(prefix="Question:", desc="${the question to be answered}")
         Answer = dsp.Type(prefix="Answer:", desc="${a short factoid answer, often between 1 and 5 words}", format=dsp.format_answers)
         
         qa_template = dsp.Template(instructions="Answer questions with short factoid answers.", question=Question(), answer=Answer())
     
+        '''
         Context = dsp.Type(
             prefix="Context:\n",
             desc="${sources that may contain relevant content}",
             format=dsp.passages2text
         )
+        '''
+        Context = dsp.Type(
+            prefix="Context:\n",
+            desc="${sources that may contain relevant content. e.g., [1] Passage 1. [2] Passage 2. [3] Passage 3.}",
+            format=dsp.passages2text
+        )
         
+        '''
         Rationale = dsp.Type(
             prefix="Rationale: Let's think step by step.",
             desc="${a step-by-step deduction that identifies the correct response, which will be provided below%s}"%("" if not dsp.settings.electoral_college else """. Every statement in the "Rationale" section should be attributable to the passages provided in the "Context" section. """)
+        )
+        '''
+        Rationale = dsp.Type(
+            prefix="Rationale: Let's think step by step.",
+            desc="""${a step-by-step deduction that identifies the correct response, which will be provided below. Every statement in the "Rationale" section should be attributable to the passages provided in the "Context" section. e.g., ...[1][2].}"""
         )
         
         self.qa_template_with_CoT = dsp.Template(
@@ -471,7 +527,7 @@ class GoT_QA:
             instructions=qa_template.instructions,
             hints = Hints(), context=Context(), question=Question(), rationale=Rationale(), answer=Answer()
         )
-        
+        '''
         Plan = dsp.Type(
             prefix="Plan:\n",
             desc="Step 1: ${a standalone search question} Step 2: ${a standalone search question} ... Step n: ${a standalone search question}"
@@ -479,12 +535,23 @@ class GoT_QA:
         '''
         Plan = dsp.Type(
             prefix="Plan:\n",
+            desc="Step 1: ${a standalone search question. e.g., ...?} Step 2: ${a standalone search question. e.g., ...?} ... Step n: ${a standalone search question. e.g., ...?}"
+        )
+        '''
+        Plan = dsp.Type(
+            prefix="Plan:\n",
             desc="Step 1: ${a more generic search question} Step 2: ${a more specific search question} ... Step n: ${a more specific search question}"
         )
+        '''
         '''
         Dependencies = dsp.Type(
             prefix="Dependencies: ",
             desc="${interdependencies among multiple steps}"
+        )
+        '''
+        Dependencies = dsp.Type(
+            prefix="Dependencies: ",
+            desc="${interdependencies among multiple steps. e.g., Step ... depends on Step ... .}"
         )
         
         self.plan_template = dsp.Template(
@@ -526,12 +593,16 @@ class GoT_QA:
             prefix="Descriptions: ",
             desc="${descriptions of dependencies}"
         )
-        
+        '''
         Dependencies_2 = dsp.Type(
             prefix="Dependencies: ",
             desc="${e.g. If Step 2 depends on Step 1, then write Step 1 -> Step 2; If Step 2 and Step 3 depend on Step 1, then write Step 1 -> (Step 2 and Step 3); If Step 3 depends on Step 1 and Step 2, then write (Step 1 and Step 2) -> Step 3}"
         )
-        
+        '''
+        Dependencies_2 = dsp.Type(
+            prefix="Dependencies: ",
+            desc="${e.g., If Step 2 depends on Step 1, then write Step 1 -> Step 2; If Step 2 and Step 3 depend on Step 1, then write Step 1 -> (Step 2 and Step 3); If Step 3 depends on Step 1 and Step 2, then write (Step 1 and Step 2) -> Step 3}"
+        )
         
         self.formalization_template = dsp.Template(
             instructions="Express the dependencies in formal language by giving the descriptions below.",
@@ -575,7 +646,7 @@ class GoT_QA:
     def predict(self, example: dsp.Example, sc=True, stage='qa', hints = False):
         default_demos = example.demos
         if self.demos and "rationale" in self.demos:
-            example.demos = self.demos["rationale"]
+            example.demos = self.interpret_demos(self.demos["rationale"], example)
         
         qa_template = self.qa_template_with_CoT_n_hints if stage == 'qa' and hints else self.qa_template_with_CoT
         
@@ -595,19 +666,19 @@ class GoT_QA:
 
         if dsp.settings.electoral_college:
             # TODO: optimize weights using derivative-free optimization
-            def rerank(passages, scores, citation_frequency, confidence, weights = [0.3, 0.6, 0.1]):
+            def rerank(passages, scores, citation_frequency, confidence, W = [0.3, 0.6, 0.1]):
                 assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
                 if confidence is not None:
-                    scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence] * len(passages)), axis=1), weights))
+                    scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence] * len(passages)), axis=1), W))
                 else:
-                    scores = list(np.matmul(np.stack((scores, citation_frequency), axis=1), [weights[0], sum(weights[1:])]))
+                    scores = list(np.matmul(np.stack((scores, citation_frequency), axis=1), [W[0], sum(W[1:])]))
 
                 passages, scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(passages, scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
                 passages = list(np.reshape(passages, (-1,)).astype(str, copy=False))
                 scores = list(np.reshape(scores, (-1,)).astype(np.float32, copy=False))
                 return passages, scores
             
-            example.context, example.context_scores = rerank(example.context, example.context_scores, completions.citation_frequency, completions.confidence)
+            example.context, example.context_scores = rerank(example.context, example.context_scores, completions.citation_frequency, completions.confidence, W=self.W)
             confidence = completions.confidence
         else:
             confidence = None
@@ -616,7 +687,9 @@ class GoT_QA:
         print(completions.answer)    
         print("-"*35 + " CONFIDENCE " + "-"*35)
         print(confidence)
-        
+        if dsp.settings.electoral_college:
+            print("-"*35 + " CITATION FREQUENCY " + "-"*35)
+            print(completions.citation_frequency)
         print("-"*35 + " PASSAGES WITH SCORES " + "-"*35)
         for passage, score in zip(example.context, example.context_scores):
             print(passage + " SCORE: " + str(score))
@@ -641,9 +714,9 @@ class GoT_QA:
                 
                 if self.retrieve_ensemble_n > 1:
                     paraphrases = paraphrase(query, self.retrieve_ensemble_n-1)
-                    return dsp.retrieveEnsemble([query]+paraphrases, k=k, return_dict=return_dict)
+                    return self.retrieve_ensemble([query]+paraphrases, k=k, return_dict=return_dict)
                 elif self.retrieve_ensemble_n == 1:
-                    return dsp.retrieveEnsemble([query], k=k, return_dict=return_dict)
+                    return self.retrieve_ensemble([query], k=k, return_dict=return_dict)
 
         steps = self.find_steps(example.plan)
 
@@ -652,6 +725,23 @@ class GoT_QA:
         example = example.copy(dependencies=completions.dependencies)
 
         dependencies = self.format_dependencies(example.dependencies)
+        
+        if self.annotator is not None:
+            if self.annotator._get_value(len(self.annotator)-1, 'Dependencies') is None:
+                annot_dependencies = []
+                for dependency in dependencies:
+                    mo = re.match(self.EDGE_PATTERN, dependency)
+                    if mo:
+                        u = mo.group(1)
+                        v = mo.group(2)
+                        annot_dependencies.append("%s depends on %s."%(v, u))
+                if len(annot_dependencies) == 0:
+                    annot_dependencies = "None"
+                else:
+                    annot_dependencies = " ".join(annot_dependencies)
+                self.annotator._set_value(len(self.annotator)-1, 'Dependencies', annot_dependencies)
+        
+        
         G = nx.DiGraph()
         
         questions = {}
@@ -689,7 +779,7 @@ class GoT_QA:
                 if self.retrieve_ensemble_n:
                     passages_w_scores = retrieve_ensemble(self.find_step_question(questions[u]), k=k, return_dict = True)
                 else:
-                    passages_w_scores = dsp.retrieve(self.find_step_question(questions[u]), k=k, return_dict = True)
+                    passages_w_scores = self.retrieve(self.find_step_question(questions[u]), k=k, return_dict = True)
                 passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                     
                 sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u])    
@@ -714,7 +804,7 @@ class GoT_QA:
                             self.annotator._set_value(len(self.annotator)-1, 'Rewrite Context', ' '.join(rewrite_context))
                     
                     if self.demos and "rewrite" in self.demos:
-                        _, completions = dsp.generate(self.rewrite_template)(dsp.Example(rewrite_context=' '.join(rewrite_context), demos=self.demos["rewrite"]), stage='rewrite')
+                        _, completions = dsp.generate(self.rewrite_template)(dsp.Example(rewrite_context=' '.join(rewrite_context), demos=self.interpret_demos(self.demos["rewrite"], example)), stage='rewrite')
                     else:
                         _, completions = dsp.generate(self.rewrite_template)(dsp.Example(rewrite_context=' '.join(rewrite_context), demos=example.demos), stage='rewrite')
                     rewrite = completions.rewrite
@@ -730,7 +820,7 @@ class GoT_QA:
                     if self.retrieve_ensemble_n:
                         passages_w_scores = retrieve_ensemble(self.find_step_question(rewrite), k=k, return_dict = True)
                     else:
-                        passages_w_scores = dsp.retrieve(self.find_step_question(rewrite), k=k, return_dict = True)
+                        passages_w_scores = self.retrieve(self.find_step_question(rewrite), k=k, return_dict = True)
                     passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                         
                     sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u])
@@ -746,7 +836,7 @@ class GoT_QA:
         
         # TODO: optimize weights using derivative-free optimization
         # weights = [0.8] + [1]*(len(questions))
-        weights = [0.9] + [1]*(len(questions))
+        weights = [self.B[2]] + [1]*(len(questions))
         repeats = [len(example.context)]
         for u in questions:
             example.context.extend(passages[u])
@@ -760,6 +850,9 @@ class GoT_QA:
             print(passage + " SCORE: " + str(score))
         
         def topk(X, Y, k):
+            if len(X) == 0 and len(Y) == 0:
+                return X, Y
+            
             assert(len(X)==len(Y) and len(X)>0)
             X_type = type(X[0])
             Y_type = type(Y[0])
@@ -803,14 +896,14 @@ class GoT_QA:
         default_context_scores = example.context_scores
         
         if self.demos and "plan" in self.demos:
-            example.demos = self.demos["plan"]    
+            example.demos = self.interpret_demos(self.demos["plan"], example)
         
         if self.p_context == True:
             filtered_context = []
             filtered_context_scores = []
             for passage, score in zip(example.context, example.context_scores):
                 #if score > 0.7:
-                if score > 0.9:
+                if score > self.B[0]:
                     filtered_context.append(passage)
                     filtered_context_scores.append(score)
             if len(filtered_context) > 0:
@@ -841,9 +934,12 @@ class GoT_QA:
         
         if self.annotator is not None:
             if self.p_context == True:
-                self.annotator._set_value(len(self.annotator)-1, 'Plan Context', copy.deepcopy(example.context))
-            self.annotator._set_value(len(self.annotator)-1, 'Plan', plan)
-            self.annotator._set_value(len(self.annotator)-1, 'Dependencies', completions.dependencies)    
+                if self.annotator._get_value(len(self.annotator)-1, 'Plan Context') is None:
+                    self.annotator._set_value(len(self.annotator)-1, 'Plan Context', copy.deepcopy(example.context))
+            if self.annotator._get_value(len(self.annotator)-1, 'Plan') is None:
+                self.annotator._set_value(len(self.annotator)-1, 'Plan', plan)
+            #if self.annotator._get_value(len(self.annotator)-1, 'Dependencies') is None:
+            #    self.annotator._set_value(len(self.annotator)-1, 'Dependencies', completions.dependencies)    
         
         return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos, context = default_context, context_scores=default_context_scores)
     
@@ -857,7 +953,7 @@ class GoT_QA:
         print("="*35 + " PLAN (%d) "%(depth) + "="*35)
         example_1 = self.plan(example_1)
         
-        def proceed(question, plan, sim_thr = 0.7):
+        def proceed(question, plan, sim_thr = self.B[1]):
             steps = self.find_steps(plan)
             if len(steps) == 1:
                 sents = [
@@ -884,16 +980,203 @@ class GoT_QA:
             example = example_0
         return example
     
+    def interpret_demos(self, demos, example):
+        if isinstance(demos, list):
+            return demos
+        else:
+            return demos(example)
     
-    def __call__(self, train, question):
-        passages_w_scores = dsp.retrieve(question, k=3,  return_dict = True)
-        example = dsp.Example(question=question, demos=dsp.sample(train, k=7), context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
+    def retrieve(self, query:str, k:int, return_dict:bool=False)->list[str]:
+        passages = dsp.retrieve(query, k, return_dict)
+        if len(passages['text']) == 0: 
+            doc = nlp(query)
+            keyword_query = ", ".join([str(ent) for ent in doc.ents])
+            passages = dsp.retrieve(keyword_query, k, return_dict)
+        return passages
+    
+    def retrieve_ensemble(self, queries:list[str], k:int, by_prob:bool=False, return_dict:bool=False)->list[str]:
+        passages = dsp.retrieveEnsemble(queries=queries, k=k, by_prob=by_prob, return_dict=return_dict)
+        if len(passages['text']) == 0: 
+            keyword_queries = []
+            for query in queries:
+                doc = nlp(query)
+                keyword_queries.append(", ".join([str(ent) for ent in doc.ents]))
+            passages = dsp.retrieveEnsemble(queries=keyword_queries, k=k, by_prob=by_prob, return_dict=return_dict)
+        return passages
+    
+    def start(self, train, question):
+        passages_w_scores = self.retrieve(question, k=3,  return_dict = True)
+        
+        if (self.demos is None or "default" not in self.demos):
+            if self.demos is None:
+                self.demos = {}
+            if "sample" in self.demo_sel_func.__name__:
+                self.demos["default"] = self.demo_sel_func(train, k = 7)
+            elif "knn" in self.demo_sel_func.__name__:
+                self.demos["default"] = partial(self.demo_sel_func(train), k = 7)
+            else:
+                raise NotImplementedError()
+        
+        example = dsp.Example(question=question, demos=None, context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
+        
+        example.demos = self.interpret_demos(self.demos["default"], example)
         
         example = self.predict_plan_search_predict(example)
         
         return {"answer":example.answer, "confidence": example.confidence}
     
+    def __call__(self, train, question):
+        self.annotate(train)
+        return self.start(train, question)
     
+    def annotate(self, train):
+        MAX_PRI_PLAN_DEMOS = 2
+        MAX_PRI_REWRITE_DEMOS = 2
+        MAX_PRI_RATIONALE_DEMOS = 2
+        
+        MIN_CAND_PLAN_DEMOS = 32
+        MIN_CAND_REWRITE_DEMOS = 16
+        MIN_CAND_RATIONALE_DEMOS = 32
+        
+        if (self.demo_flags is not None 
+            and ("plan" in self.demo_flags 
+                 and self.demos is not None and "plan" in self.demos #and len(self.demos["plan"]) > 0
+                 or "plan" not in self.demo_flags) 
+            and ("rewrite" in self.demo_flags 
+                 and self.demos is not None and "rewrite" in self.demos #and len(self.demos["rewrite"]) > 0
+                 or "rewrite" not in self.demo_flags)
+            and ("rationale" in self.demo_flags 
+                 and self.demos is not None and "rationale" in self.demos #and len(self.demos["rationale"]) > 0
+                 or "rationale" not in self.demo_flags)
+            or self.demo_flags is None):
+            return
+        
+        if self.annot_log:
+            default_stdout = sys.stdout
+            log_file = open(self.annot_log,"w")
+            sys.stdout = log_file
+        
+        default_electoral_college = dsp.settings.electoral_college
+        dsp.settings.configure(electoral_college=None)
+        default_depth = self.depth
+        self.depth = 2
+        default_B = self.B
+        self.B = copy.deepcopy(self.B)
+        self.B[0] = 0
+        
+        shuffled_train = [example.copy() for example in train]
+        random.shuffle(shuffled_train)
+        train, test = train[:len(shuffled_train)//10], train[len(shuffled_train)//10:]
+        test = dsp.sample(test, k=len(test))
+        
+        annot_columns = ['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer', 'GT Answer']
+        _annotator = pd.DataFrame(columns=annot_columns)
+        self.demos=None
+        self.annotator = pd.DataFrame(columns=annot_columns)
+        annot_examples = None
+        for i, example in enumerate(test):
+            print("#"*10 + example.question + "#"*10)
+            self.annotator.loc[len(self.annotator)] = [example.question,None, None, None, None, None, None, None, None, example.answer]
+            self.start(train, example.question)
+            
+            if ((i % self.annot_step) == self.annot_step - 1) or i == len(test) - 1:
+                
+                #self.annotator["Dependencies"] = ["None" if "no interdependencies" in dependencies else dependencies for dependencies in self.annotator["Dependencies"].values]
+                self.annotator["Dependencies"] = ["None" if dependencies is None else dependencies for dependencies in self.annotator["Dependencies"].values]
+                
+                self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.[\n\s]", r"\3 \1. ", rationale) for rationale in self.annotator["Rationale"].values]
+                self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.$", r"\3 \1.", rationale) for rationale in self.annotator["Rationale"].values]
+                self.annotator["Rationale"] = [rationale.replace('\n', ' ') for rationale in self.annotator["Rationale"].values]
+                
+                self.annotator["Pass"] = [self.annot_selector(prediction, answer) for prediction, answer in zip(self.annotator['Answer'].values, self.annotator['GT Answer'].values)]
+                
+                #self.annotator["Pass"] &= [all([step.endswith('?') and re.search(r"[Ii]s the query.+accurately addressed by the response.+", step, flags=re.DOTALL) is None for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
+                self.annotator["Pass"] &= [all([step.endswith('?') for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
+                
+                mean_step_lens = pd.Series([np.mean([len(step) for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values])
+                
+                # IQR
+                Q1 = np.percentile(mean_step_lens, 25, method='midpoint')
+                Q3 = np.percentile(mean_step_lens, 75, method='midpoint')
+                IQR = Q3 - Q1
+                self.annotator["Pass"] &= [np.mean([len(step) for step in self.find_steps(plan)]) < Q3 + 1.5*IQR for plan in self.annotator['Plan'].values]
+                
+                self.annotator["Pass"] &= [re.match(r"None|((\s*([Ss]tep [0-9]+) depends on ([Ss]tep [0-9]+)\.\s*)+)", dependencies) is not None for dependencies in self.annotator['Dependencies'].values]
+                
+                self.annotator["Pass"] &= ['\n' not in rationale and re.match(r"^([^\[\.]+(\[[0-9]+\])*\.)+$", rationale) is not None and re.search(r"\[[0-9]+\]", rationale) is not None for rationale in self.annotator['Rationale'].values]
+                
+                if self.annot_dump:
+                    self.annotator.to_csv(self.annot_dump+"_%d-%d"%(i//self.annot_step*self.annot_step, i), index=False)
+                
+                self.annotator = self.annotator[self.annotator["Pass"]==True]
+                self.annotator.drop("Pass", axis=1, inplace=True)
+                
+                if len(self.annotator.index) > 0:
+                    _annotator = pd.concat([_annotator, self.annotator], ignore_index=True)
+                    if self.annot_dump:
+                        _annotator.to_csv(self.annot_dump, index=False)
+                    self.annotator = pd.DataFrame(columns=annot_columns)
+                    
+                    plan_demos = df_to_dsp_augmented(_annotator, segment="plan")
+                    rewrite_demos = df_to_dsp_augmented(_annotator, segment="rewrite")
+                    rationale_demos = df_to_dsp_augmented(_annotator, segment="rationale")
+                    
+                    if len(plan_demos) >= MIN_CAND_PLAN_DEMOS and len(rewrite_demos) >= MIN_CAND_REWRITE_DEMOS and len(rationale_demos) >= MIN_CAND_RATIONALE_DEMOS:
+                        annot_examples = i + 1
+                        break
+                    
+                    self.demos = {}
+                    if len(plan_demos) > 0:
+                        self.demos["plan"] = plan_demos[:MAX_PRI_PLAN_DEMOS]
+                    if len(rewrite_demos) > 0:
+                        self.demos["rewrite"] = rewrite_demos[:MAX_PRI_REWRITE_DEMOS]
+                    if len(rationale_demos) > 0:
+                        self.demos["rationale"] = rationale_demos[:MAX_PRI_RATIONALE_DEMOS]
+                    
+        print("="*35 + " ANNOTATION: EXAMPLES USED " + "="*35)
+        if annot_examples:
+            print(annot_examples)
+        else:
+            print(len(test))
+            
+        self.annotator = None
+                
+        self.demos = {}
+        if self.demo_flags is not None and "plan" in self.demo_flags:
+            #self.demos["plan"] = df_to_dsp_augmented(_annotator, segment="plan")[:MAX_PLAN_DEMOS]
+            if "sample" in self.demo_sel_func.__name__:
+                self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = MAX_PRI_PLAN_DEMOS)
+            elif "knn" in self.demo_sel_func.__name__:
+                self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = MAX_PRI_PLAN_DEMOS)
+            else:
+                raise NotImplementedError()
+        if self.demo_flags is not None and "rewrite" in self.demo_flags:
+            #self.demos["rewrite"] = df_to_dsp_augmented(_annotator, segment="rewrite")[:MAX_REWRITE_DEMOS]
+            if "sample" in self.demo_sel_func.__name__:
+                self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = MAX_PRI_REWRITE_DEMOS)
+            elif "knn" in self.demo_sel_func.__name__:
+                self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = MAX_PRI_REWRITE_DEMOS)
+            else:
+                raise NotImplementedError()
+        if self.demo_flags is not None and "rationale" in self.demo_flags:
+            #self.demos["rationale"] = df_to_dsp_augmented(_annotator, segment="rationale")[:MAX_RATIONALE_DEMOS]
+            if "sample" in self.demo_sel_func.__name__:
+                self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = MAX_PRI_RATIONALE_DEMOS)
+            elif "knn" in self.demo_sel_func.__name__:
+                self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = MAX_PRI_RATIONALE_DEMOS)
+            else:
+                raise NotImplementedError()
+        if self.annot_dump:
+            _annotator.to_csv(self.annot_dump, index=False)
+        
+        dsp.settings.configure(electoral_college=default_electoral_college)
+        self.depth = default_depth
+        self.B = default_B
+        
+        if self.annot_log:
+            sys.stdout = default_stdout
+            log_file.close()
+    '''
     def annotate(self, train, save_path):
         self.annotator = pd.DataFrame(columns=['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer'])
         train, test = train[:len(train)//2], train[len(train)//2:]
@@ -906,9 +1189,10 @@ class GoT_QA:
         self.PLAN_DEMOS = len(plan_demos)
         self.REWRITE_DEMOS = len(rewrite_demos)
         
-        test = dsp.sample(test, k=5)
+        test = dsp.sample(test, k=10)
         for example in test:
             self.annotator.loc[len(self.annotator)] = [example.question,None, None, None, None, None, None, None, None]
             self.__call__(train, example.question)
         self.annotator.to_csv(save_path, index=False)
         self.annotator = None
+    '''

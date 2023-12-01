@@ -7,25 +7,32 @@ from dsp.utils.utils import print_message
 
 
 def EM(prediction, answers_list):
-    assert type(answers_list) == list
-
+    #assert type(answers_list) == list
+    if not isinstance(answers_list, list):
+        answers_list = [answers_list]
     return max(em_score(prediction, ans) for ans in answers_list)
 
 
 def F1(prediction, answers_list):
-    assert type(answers_list) == list
+    #assert type(answers_list) == list
+    if not isinstance(answers_list, list):
+        answers_list = [answers_list]
 
     return max(f1_score(prediction, ans) for ans in answers_list)
 
 
 def HotPotF1(prediction, answers_list):
-    assert type(answers_list) == list
+    #assert type(answers_list) == list
+    if not isinstance(answers_list, list):
+        answers_list = [answers_list]
 
     return max(hotpot_f1_score(prediction, ans) for ans in answers_list)
 
 
 def nF1(history, prediction, answers_list, return_recall=False):
-    assert type(answers_list) == list
+    #assert type(answers_list) == list
+    if not isinstance(answers_list, list):
+        answers_list = [answers_list]
 
     return max(novel_f1_score(history, prediction, ans, return_recall=return_recall) for ans in answers_list)
 

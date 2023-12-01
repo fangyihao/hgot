@@ -46,7 +46,7 @@ def nli_reranker(query, passages, retrieval_weight=0.5, nli_weight=0.5):
     return passages_scores
 
 
-def nli_electoral_college(example: Example, completions: Completions, ci = False):
+def nli_electoral_college(example: Example, completions: Completions, ci = False, W=[0.2, 0.4, 0.4]):
     prediction_field = completions.template.fields[-1].output_variable
     rationale_field = completions.template.fields[-2].output_variable
     template = completions.template
@@ -76,10 +76,10 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
             
             
 
-    def evaluate_rationale(rationale, context, recall_weight=0.5):
+    def evaluate_rationale(rationale, context):
         _nli = dsp.settings.nli
         # Preprocess
-        q2p_dict = {}
+        s2p_dict = {}
         
         #doc = nlp(rationale)
         #sents = [sent.text.strip() for sent in doc.sents]
@@ -90,22 +90,22 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
             cite_indexes = OrderedSet([int(r[1:])-1 for r in re.findall(r"\[\d+", sent)])
             sent = re.sub(r"\[\d+", "", re.sub(r" \[\d+", "", sent)).replace(" |", "").replace("]", "")
             
+            s2p_dict[sent] = [context[cite_index] for cite_index in cite_indexes if cite_index < len(context)]
+            
             for i, passage in enumerate(context):
                 if _nli(passage, sent) == 1:
                     cite_indexes.add(i)
-            
-            q2p_dict[sent] = [context[cite_index] for cite_index in cite_indexes if cite_index < len(context)]
             
             for cite_index in cite_indexes:
                 if cite_index < len(citation_frequency):
                     citation_frequency[cite_index]+=1
  
         stats = {}
-        stats["citation_recall"] = citation_recall(q2p_dict)
-        stats["citation_precision"] = citation_precision(q2p_dict)
-        stats["citation_frequency"] = citation_frequency
+        stats["citation_recall"] = citation_recall(s2p_dict)
+        stats["citation_precision"] = citation_precision(s2p_dict)
         
-        stats["weight"] = recall_weight * stats["citation_recall"] + (1-recall_weight) * stats["citation_precision"]
+        stats["weight"] = np.matmul([1, stats["citation_recall"], stats["citation_precision"]], W)
+        stats["citation_frequency"] = citation_frequency * stats["weight"]
         return stats
 
     evaluated_predictions = [(prediction, evaluate_rationale(rationale, example.context)) for prediction, rationale in zip(predictions, rationales) if prediction]
@@ -127,6 +127,7 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
     if ci: 
         _, scores = np.split(np.array(topk), 2, axis = 1)
         scores = np.reshape(scores, (-1,)).astype(np.float32, copy=False)
+        
         if np.sum(scores) == 0:
             ci_score = 0
         else:
@@ -135,7 +136,7 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
         ci_score = None
         
     citation_frequency = np.sum(np.array([stats["citation_frequency"] for _, stats in evaluated_predictions]),axis=0)
-    
+
     #normalized_citation_frequency = citation_frequency/np.sum(citation_frequency) if np.sum(citation_frequency) > 0 else citation_frequency
     normalized_citation_frequency = citation_frequency/np.max(citation_frequency) if np.max(citation_frequency) > 0 else citation_frequency
 
