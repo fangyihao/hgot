@@ -40,9 +40,10 @@ def llm(prompt, stop=["\n"]):
 '''
 
 from react import wikienv, wrappers
+import requests
 env = wikienv.WikiEnv()
-env = wrappers.HotPotQAWrapper(env, split="dev")
-env = wrappers.LoggingWrapper(env)
+env = wrappers.HotPotQAWrapper(env)
+#env = wrappers.LoggingWrapper(env)
 
 def step(env, action):
     attempts = 0
@@ -55,7 +56,7 @@ def step(env, action):
 import json
 import sys
 
-folder = './prompts/'
+folder = 'react/prompts/'
 prompt_file = 'prompts_naive.json'
 with open(folder + prompt_file, 'r') as f:
     prompt_dict = json.load(f)
@@ -69,10 +70,10 @@ Here are some examples.
 """
 webthink_prompt = instruction + webthink_examples
 
-def webthink(idx=None, prompt=webthink_prompt, to_print=True):
-    question = env.reset(idx=idx)
+def webthink(question=None, prompt=webthink_prompt, to_print=True):
+    question = env.reset(question=question)
     if to_print:
-        print(idx, question)
+        print(question)
     prompt += question + "\n"
     n_calls, n_badcalls = 0, 0
     for i in range(1, 8):
@@ -103,16 +104,15 @@ def webthink(idx=None, prompt=webthink_prompt, to_print=True):
 
 import random
 import time
-idxs = list(range(7405))
-random.Random(233).shuffle(idxs)
 
-rs = []
+
+
 infos = []
-old_time = time.time()
-for i in idxs[:5]:
-    r, info = webthink(i, to_print=True)
-    rs.append(info['em'])
-    infos.append(info)
-    print(sum(rs), len(rs), sum(rs) / len(rs), (time.time() - old_time) / len(rs))
-    print('-----------')
-    print()
+
+#r, info = webthink(question="What actor had his final performance in the film based on a dytopian novel by David Eggers called The Circle?", gt_answer="Bill Paxton", to_print=True)
+r, info = webthink(question="What actor had his final performance in the film based on a dytopian novel by David Eggers called The Circle?", to_print=True)
+
+#rs.append(info['em'])
+infos.append(info)
+print('-----------')
+print()

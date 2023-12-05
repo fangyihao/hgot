@@ -2,7 +2,7 @@ import functools
 from typing import Optional, Union, Any
 import requests
 
-from dsp.modules.cache_utils import CacheMemory, NotebookCacheMemory
+from dsp.modules.cache_utils import CacheMemory, NotebookCacheMemory, cache_turn_on
 from dsp.utils import dotdict
 
 import urllib.request, json 
@@ -30,7 +30,7 @@ class Google:
 
         return [dotdict(psg) for psg in topk]
 
-
+@functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
 def google_request_v2(serpapi_key, query, k):
     assert (
@@ -91,14 +91,14 @@ def google_request_v2(serpapi_key, query, k):
 
     return topk[:k]
 
-
+'''
 @functools.lru_cache(maxsize=None)
 @NotebookCacheMemory.cache
 def google_request_v2_wrapped(*args, **kwargs):
     return google_request_v2(*args, **kwargs)
+'''
 
-
-google_request = google_request_v2_wrapped
+google_request = google_request_v2
 
 
 

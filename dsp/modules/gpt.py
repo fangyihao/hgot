@@ -173,23 +173,23 @@ class GPT(LM):
 
         return completions
 
-
+@functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
 def cached_gpt_request_v2(**kwargs):
     return openai.Completion.create(**kwargs)
 
-
+'''
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @NotebookCacheMemory.cache
 def cached_gpt_request_v2_wrapped(**kwargs):
     response = cached_gpt_request_v2(**kwargs)
     return response
-
+'''
 def cached_gpt_request_v2_logged(**kwargs):
     print("calling chatgpt ...", file=sys.stderr)
     print("~"*35 + " PROMPT " + "~"*35)
     print(kwargs["prompt"])
-    response = cached_gpt_request_v2_wrapped(**kwargs)
+    response = cached_gpt_request_v2(**kwargs)
     print("-"*35 + " RESPONSE " + "-"*35)
     for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)
@@ -199,20 +199,20 @@ def cached_gpt_request_v2_logged(**kwargs):
 
 cached_gpt_request = cached_gpt_request_v2_logged
 
-
+@functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
 def _cached_gpt_turbo_request_v2(**kwargs) -> OpenAIObject:
     if "stringify_request" in kwargs:
         kwargs = json.loads(kwargs["stringify_request"])
     return cast(OpenAIObject, openai.ChatCompletion.create(**kwargs))
 
-
+'''
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @NotebookCacheMemory.cache
 def _cached_gpt_turbo_request_v2_wrapped(**kwargs) -> OpenAIObject:
     response = _cached_gpt_turbo_request_v2(**kwargs)
     return response
-
+'''
 
 def _cached_gpt_turbo_request_v2_logged(**kwargs) -> OpenAIObject:
     print("calling chatgpt ...", file=sys.stderr)
@@ -220,7 +220,7 @@ def _cached_gpt_turbo_request_v2_logged(**kwargs) -> OpenAIObject:
     for message in json.loads(kwargs["stringify_request"])["messages"]:
         print("."*35 + message['role'] + "."*35)
         print(message['content'])
-    response = _cached_gpt_turbo_request_v2_wrapped(**kwargs)
+    response = _cached_gpt_turbo_request_v2(**kwargs)
     print("-"*35 + " RESPONSE " + "-"*35)
     for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)

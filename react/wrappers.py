@@ -78,23 +78,25 @@ def f1_score(prediction, ground_truth):
   return f1, precision, recall
   
 class HotPotQAWrapper(gym.Wrapper):
-  def __init__(self, env, split):
+  def __init__(self, env):
     super().__init__(env)
-    data_file = f"{DATA_DIR}/{HOTPOTQA_SPLIT_FILE[split]}"
-    self.data = json.load(open(data_file))
-    self.data = [(d['question'], d['answer']) for d in self.data]
-    self.data_idx = 0
-    self.split = split
+    #data_file = f"{DATA_DIR}/{HOTPOTQA_SPLIT_FILE[split]}"
+    #self.data = json.load(open(data_file))
+    #self.data = [(d['question'], d['answer']) for d in self.data]
+    
+    #self.split = split
 
-  def reset(self, seed=None, return_info=False, options=None, idx=None):
+  def reset(self, seed=None, return_info=False, options=None, question=None):
+    self.question = question
+    #self.gt_answer = gt_answer
     self.env.reset(seed=seed, return_info=return_info, options=options)
     try:
       self.env.step('')
     except:
       pass
     self.env.reset(seed=seed, return_info=return_info, options=options)
-    self.data_idx = int(np.random.randint(len(self.data))) if idx is None else idx
-    observation = f"Question: {self.data[self.data_idx][0]}"
+    #self.data_idx = int(np.random.randint(len(self.data))) if idx is None else idx
+    observation = f"Question: {self.question}"
     info = self._get_info()
     return (observation, info) if return_info else observation
 
@@ -102,35 +104,38 @@ class HotPotQAWrapper(gym.Wrapper):
     return {
       "steps": self.steps, 
       "answer": self.answer,
-      "question": self.data[self.data_idx][0], 
-      "hotpot_split": self.split
+      "question": self.question, 
+      #"hotpot_split": self.split
     }
-
+  '''
   def get_reward(self, info):
     if info['answer'] is not None:
-      pred = normalize_answer(self.data[self.data_idx][1])
-      gt = normalize_answer(info['answer'])
+      gt = normalize_answer(self.gt_answer)
+      pred = normalize_answer(info['answer'])
       score = (pred == gt)
       return int(score)
     return 0
   
   def get_metrics(self, info):
     if info['answer'] is not None:
-      pred = normalize_answer(self.data[self.data_idx][1])
-      gt = normalize_answer(info['answer'])
+      gt = normalize_answer(self.gt_answer)
+      pred = normalize_answer(info['answer'])
       em = (pred == gt)
       f1 = f1_score(pred, gt)[0]
       return {'reward': em, 'em': em, 'f1': f1}
     return {'reward': 0, 'em': 0, 'f1': 0}
-
+  '''
   def step(self, action):
     # TODO: first step obs does not have question. 
     obs, _, done, info = self.env.step(action)
-    reward = self.get_reward(info)
+    #reward = self.get_reward(info)
+    reward = 0
     if done:
-      obs = f"Episode finished, reward = {reward}\n"
-      info.update({"gt_answer": self.data[self.data_idx][1], "question_idx": self.data_idx})
-      info.update(self.get_metrics(info))
+      #obs = f"Episode finished, reward = {reward}\n"
+      obs = f"Episode finished\n"
+      info.update({"question": self.question})
+      #info.update({"gt_answer": self.gt_answer, "question": self.question})
+      #info.update(self.get_metrics(info))
     return obs, reward, done, info
   
   def __len__(self):

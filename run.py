@@ -4,7 +4,24 @@ Created on Jun. 1, 2023
 @author: Yihao Fang
 '''
 import os
+root_path = '.'
+os.environ["DSP_CACHEDIR"] = os.path.join(root_path, 'cache')
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+
+import random
+import numpy as np
 import dsp
+seed = 42
+np.random.seed(seed)
+random.seed(seed)
+dsp.settings.branch_idx=seed
+
+import sys
+sys.setrecursionlimit(10000000)
+
+from dotenv import load_dotenv
+load_dotenv()
+
 from dsp.utils.metrics import EM, F1
 #from dsp.evaluation.utils import evaluate
 import gzip
@@ -16,18 +33,12 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
-import numpy as np
-import sys
 from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, FELMF1, FELMBalAcc, FELMMetric, WysdomEM, WysdomF1, ElapsedTime
 from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA, ReAct
-import random
 from judges import nli_electoral_college
 import matplotlib.ticker as ticker
 from functools import partial
 from utils import df_to_dsp, df_to_dsp_augmented
-from dotenv import load_dotenv
-
-sys.setrecursionlimit(10000000)
 
 verbose = False
 if verbose:
@@ -36,46 +47,6 @@ if verbose:
 else:
     from nli import _t5_nli, _gpt_nli
 
-load_dotenv()
-
-
-#language_model='gpt-3.5-turbo'
-language_model='gpt-3.5-turbo-1106'
-#language_model='gpt-4'
-#language_model='gpt-4-1106-preview'
-retrieval_model='google'
-
-seed = 42
-np.random.seed(seed)
-random.seed(seed)
-dsp.settings.branch_idx=seed
-
-root_path = '.'
-os.environ["DSP_NOTEBOOK_CACHEDIR"] = os.path.join(root_path, 'cache')
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
-
-openai_key = os.getenv('OPENAI_API_KEY')  # or replace with your API key (optional)
-serpapi_key = os.getenv('SERPAPI_API_KEY')  # or replace with your API key (optional)
-
-
-if retrieval_model=='google':
-    rm = dsp.Google(serpapi_key)
-else:
-    #colbert_server = 'http://ec2-44-228-128-229.us-west-2.compute.amazonaws.com:8893/api/search'
-    colbert_server = 'http://192.168.3.200:8893/api/search'
-    rm = dsp.ColBERTv2(url=colbert_server)
-
-if language_model=='text-davinci-002':
-    lm = dsp.GPT(model=language_model, api_key=openai_key)
-else:
-    lm = dsp.GPT(model=language_model, api_key=openai_key, model_type="chat")
-
-
-
-dsp.settings.configure(lm=lm, rm=rm)
-dsp.settings.configure(vectorizer=dsp.SentenceTransformersVectorizer())
-dsp.settings.configure(electoral_college=None)
-dsp.settings.lm.kwargs["max_tokens"] = 300
 
 def load_jsonl(filename, q_attr_name, seg_attr_name, lbl_attr_name, dm_attr_name):
     df_list = []
@@ -533,7 +504,54 @@ def retrieve_demos(dataset, segments=["plan", "rewrite", "rationale"]):
         raise NotImplementedError()
     return demos
 
+
+def init_langauge_model(language_model='gpt-3.5-turbo-1106'):
+    
+    #language_model='gpt-3.5-turbo'
+    #language_model='gpt-3.5-turbo-1106'
+    #language_model='gpt-4'
+    #language_model='gpt-4-1106-preview'
+    
+    openai_key = os.getenv('OPENAI_API_KEY')  # or replace with your API key (optional)
+    
+    if language_model=='text-davinci-002':
+        lm = dsp.GPT(model=language_model, api_key=openai_key)
+    else:
+        lm = dsp.GPT(model=language_model, api_key=openai_key, model_type="chat")
+    
+    dsp.settings.configure(lm=lm)
+    dsp.settings.configure(vectorizer=dsp.SentenceTransformersVectorizer())
+    dsp.settings.lm.kwargs["max_tokens"] = 300
+    
+
+def init_retrieval_model(retrieval_model='google'):
+    
+    serpapi_key = os.getenv('SERPAPI_API_KEY')  # or replace with your API key (optional)
+    
+    if retrieval_model=='google':
+        rm = dsp.Google(serpapi_key)
+    else:
+        #colbert_server = 'http://ec2-44-228-128-229.us-west-2.compute.amazonaws.com:8893/api/search'
+        colbert_server = 'http://192.168.3.200:8893/api/search'
+        rm = dsp.ColBERTv2(url=colbert_server)
+    
+    dsp.settings.configure(rm=rm)
+
+
 def evaluate(method, dataset):
+    
+    if method == "react":
+        language_model='text-davinci-002'
+    else:
+        language_model='gpt-3.5-turbo-1106'
+    retrieval_model='google'
+
+    init_langauge_model(language_model=language_model)
+    init_retrieval_model(retrieval_model=retrieval_model)
+    
+    if method == "react":
+        dsp.settings.lm.kwargs["max_tokens"] = 100
+        dsp.settings.lm.kwargs["stop"] = ("\n",)
     
     default_stdout = sys.stdout
     log_file = open("log/%s_%s_%s_%s.log"%(dataset, method, language_model, retrieval_model),"w")
@@ -769,10 +787,11 @@ def main(preprocess = False):
     #for method in ["got-3+demos-sa+cx+t5-nli-ec+ci+[0.35,0.6,0.05]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.1,0.6,0.3]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.1,0.5,0.4]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.1,0.4,0.5]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.05,0.6,0.35]", "dsp+sample", "dsp+knn", "got-3+demos+cx+t5-nli-ec+ci+[0.1,0.6,0.3]"]:
     #for method in ["got-3+demos-sa+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.1,0.6,0.3]", "got-3+demos+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos+cx+t5-nli-ec+ci+[0.1,0.6,0.3]"]:
     #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.5,0.3]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.2,0.5,0.3]", "got-3+demos+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos+cx+t5-nli-ec+ci+[0.2,0.5,0.3]"]:
-    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
+    #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
+    for method in ["react"]:
         #for dataset in ["open-squad-long","open-squad-medium", "open-squad-short", "hotpotqa-long","hotpotqa-medium","hotpotqa-short", "qrecc-long", "qrecc-medium", "qrecc-short"]:
-        for dataset in ["felm-medium"]:
-        #for dataset in ["hotpotqa-short"]:
+        #for dataset in ["felm-medium"]:
+        for dataset in ["hotpotqa-short"]:
             evaluate(method, dataset)
 '''    
 def annotate():
@@ -798,6 +817,11 @@ def annotate():
     log_file.close()
 '''    
 def main_test():
+    language_model='gpt-3.5-turbo-1106'
+    retrieval_model='google'
+    
+    init_langauge_model(language_model=language_model)
+    init_retrieval_model(retrieval_model=retrieval_model)
     
     dataset = "hotpotqa-short"
     
@@ -807,7 +831,7 @@ def main_test():
     
     train, dev, test = load_data(dataset)
     train, dev, test = df_to_dsp(train), df_to_dsp(dev), df_to_dsp(test)
-   
+
     W = [0.3,0.6,0.1]
     dsp.settings.configure(nli=_t5_nli)
     dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
