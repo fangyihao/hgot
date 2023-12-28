@@ -94,6 +94,18 @@ class QReCCnF1(Metric):
         return super().average()
     def __str__(self):
         return "nF1"
+    
+class FEVEREM(Metric):
+    def evaluate(self, prediction, answer):
+        print("."*35 + " EM " + "."*35)
+        em = EM(prediction, answer)
+        self.result.append(em)
+        print(em)
+    def average(self):
+        print("."*35 + " EM " + "."*35)
+        return super().average()
+    def __str__(self):
+        return "EM"
 
 class FELMMetric(Metric):
     def consolidate(self, result):
@@ -131,10 +143,16 @@ class FELMMetric(Metric):
         
     def evaluate(self, prediction, answer):
         split_pred=[True] * len(answer)
+        '''
         if 'ALL_CORRECT' not in prediction:
             prediction=[int(x) for x in re.findall(r'\d+',prediction) if int(x)<=len(answer)]
             for _ in prediction:
                 split_pred[_-1]=False
+        '''
+        
+        prediction=[(int(x[0]), x[1].lower()=='true') for x in re.findall(r'(\d+)\. ([Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee])',prediction) if int(x[0])<=len(answer)]
+        for k, v in prediction:
+                split_pred[k-1]=v
         
         result = []
         for i in range(len(answer)):

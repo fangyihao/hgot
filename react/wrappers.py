@@ -77,7 +77,7 @@ def f1_score(prediction, ground_truth):
   f1 = (2 * precision * recall) / (precision + recall)
   return f1, precision, recall
   
-class HotPotQAWrapper(gym.Wrapper):
+class QAWrapper(gym.Wrapper):
   def __init__(self, env):
     super().__init__(env)
     #data_file = f"{DATA_DIR}/{HOTPOTQA_SPLIT_FILE[split]}"
@@ -86,7 +86,7 @@ class HotPotQAWrapper(gym.Wrapper):
     
     #self.split = split
 
-  def reset(self, seed=None, return_info=False, options=None, question=None):
+  def reset(self, seed=None, return_info=False, options=None, question=None, q_prefix = "Question:"):
     self.question = question
     #self.gt_answer = gt_answer
     self.env.reset(seed=seed, return_info=return_info, options=options)
@@ -96,7 +96,7 @@ class HotPotQAWrapper(gym.Wrapper):
       pass
     self.env.reset(seed=seed, return_info=return_info, options=options)
     #self.data_idx = int(np.random.randint(len(self.data))) if idx is None else idx
-    observation = f"Question: {self.question}"
+    observation = f"{q_prefix} {self.question}"
     info = self._get_info()
     return (observation, info) if return_info else observation
 
@@ -140,7 +140,7 @@ class HotPotQAWrapper(gym.Wrapper):
   
   def __len__(self):
     return len(self.data)
-
+'''
 class FeverWrapper(gym.Wrapper):
   def __init__(self, env, split):
     super().__init__(env)
@@ -200,7 +200,7 @@ class FeverWrapper(gym.Wrapper):
     
   def __len__(self):
     return len(self.data)
-  
+'''  
   
 class LoggingWrapper(gym.Wrapper):
   def __init__(self, env, folder="trajs", file_id=None):

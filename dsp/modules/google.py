@@ -8,7 +8,15 @@ from dsp.utils import dotdict
 import urllib.request, json 
 from serpapi import GoogleSearch
 import sys
+import backoff
 
+def backoff_hdlr(details):
+    """Handler from https://pypi.org/project/backoff/"""
+    print(
+        "Backing off {wait:0.1f} seconds after {tries} tries "
+        "calling function {target} with kwargs "
+        "{kwargs}".format(**details)
+    )
 
 class Google:
     """Wrapper for the ColBERTv2 Retrieval."""
@@ -30,8 +38,15 @@ class Google:
 
         return [dotdict(psg) for psg in topk]
 
+
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
+@backoff.on_exception(
+    backoff.expo,
+    (json.decoder.JSONDecodeError),
+    max_time=1000,
+    on_backoff=backoff_hdlr,
+)
 def google_request_v2(serpapi_key, query, k):
     assert (
         k <= 100
@@ -51,7 +66,6 @@ def google_request_v2(serpapi_key, query, k):
     search = GoogleSearch(params)
     res = search.get_dict()
 
-    
     topk = []
 
     if 'answer_box' in res.keys() and 'title' in res['answer_box'].keys() and \

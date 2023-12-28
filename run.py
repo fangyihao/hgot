@@ -33,7 +33,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from nltk.tokenize import word_tokenize
-from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, FELMF1, FELMBalAcc, FELMMetric, WysdomEM, WysdomF1, ElapsedTime
+from metrics import OpenSQuADEM, OpenSQuADF1, HotPotEM, HotPotF1, QReCCF1, QReCCnF1, FEVEREM, FELMF1, FELMBalAcc, FELMMetric, WysdomEM, WysdomF1, ElapsedTime
 from pipelines import Vanilla_LM_QA, Retrieve_then_Read_SC_QA, Multihop_QA, DSP_QA, GoT_QA, ReAct
 from judges import nli_electoral_college
 import matplotlib.ticker as ticker
@@ -48,13 +48,21 @@ else:
     from nli import _t5_nli, _gpt_nli
 
 
-def load_jsonl(filename, q_attr_name, seg_attr_name, lbl_attr_name, dm_attr_name):
+#def load_jsonl(filename, q_attr_name, seg_attr_name, lbl_attr_name, dm_attr_name):
+def load_jsonl(filename, attrs):
     df_list = []
     with open(filename, 'r') as f:
         for jl in f:
             r = json.loads(jl)
-            df_list.append((r[q_attr_name], r[seg_attr_name], r[lbl_attr_name], r[dm_attr_name]))
-    df = pd.DataFrame(df_list, columns =['Question', 'Segments', 'Labels', 'Domain'])
+            t = []
+            for key in attrs:
+                t.append(r[key])
+            t = tuple(t)
+            df_list.append(t)
+    columns = []
+    for key in attrs:
+        columns.append(attrs[key])
+    df = pd.DataFrame(df_list, columns = columns)
     return df
 
 def load_json_gzip(filename, q_attr_name, a_attr_name):
@@ -116,7 +124,7 @@ def select_medium_questions(df, proportion):
     return medium_df
 
 def sample_n_save_data_by_sent_len(dataset, sent_len, train_df, dev_df, test_df, proportion = 0.02, transform={"train":lambda x: x, "dev":lambda x: x, "test":lambda x: x}):
-    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "felm": "FELM", "wysdomqa": "WysdomQA"}
+    dataset_dict = {"open-squad": "Open-SQuAD", "hotpotqa": "HotPotQA", "qrecc": "QReCC", "fever": "FEVER", "felm": "FELM", "wysdomqa": "WysdomQA"}
     
     if sent_len == "long":
         train_df, dev_df, test_df = select_long_questions(train_df, proportion = proportion), select_long_questions(dev_df, proportion = proportion), select_long_questions(test_df, proportion = proportion)
@@ -201,50 +209,69 @@ def preprocess_data(dataset):
         for sent_len in ["long", "medium", "short"]:
             sample_n_save_data_by_sent_len(dataset, sent_len, train_df, dev_df, test_df)
     
+    elif dataset == "fever":
+        train_df = load_jsonl("data/FEVER/train.jsonl", attrs={'claim':'Question', 'label':'Answer'})
+        dev_df = load_jsonl("data/FEVER/paper_dev.jsonl", attrs={'claim':'Question', 'label':'Answer'})
+        test_df = load_jsonl("data/FEVER/paper_test.jsonl", attrs={'claim':'Question', 'label':'Answer'})
+        
+        train_df['Question'] = train_df.apply(lambda x: x['Question'] + ' Kindly answer with "SUPPORTS", "REFUTES", or "NOT ENOUGH INFO".', axis=1)
+        dev_df['Question'] = dev_df.apply(lambda x: x['Question'] + ' Kindly answer with "SUPPORTS", "REFUTES", or "NOT ENOUGH INFO".', axis=1)
+        test_df['Question'] = test_df.apply(lambda x: x['Question'] + ' Kindly answer with "SUPPORTS", "REFUTES", or "NOT ENOUGH INFO".', axis=1)
+        
+        train_df.to_csv("data/FEVER/train.csv", index=False)
+        dev_df.to_csv("data/FEVER/dev.csv", index=False)
+        test_df.to_csv("data/FEVER/test.csv", index=False)
+        
+        for sent_len in ["long", "medium", "short"]:
+            sample_n_save_data_by_sent_len(dataset, sent_len, train_df, dev_df, test_df, proportion=0.015)
+        
     elif dataset == "felm":
-        train_dev_test_df = load_jsonl("data/FELM/all.jsonl", q_attr_name = 'prompt', seg_attr_name = 'segmented_response', lbl_attr_name = 'labels', dm_attr_name = 'domain')
+        train_dev_test_df = load_jsonl("data/FELM/all.jsonl", attrs = {'prompt':'Question', 'segmented_response':'Segments', 'labels':'Labels', 'domain':'Domain'})
         train_dev_test_df['Question'] = train_dev_test_df.apply(
             lambda x: 'Is the query "' + x['Question'].rstrip('?') 
             + '" accurately addressed by the response (which has been split into a list of text segments) "' 
             + ' '.join(['%d. %s'%(i+1, segment) for i, segment in enumerate(x['Segments'])])
-            + '" ? List the IDs of the segments with errors (separated by commas). If all the segments are correct, output "ALL_CORRECT".', axis=1)
-            #+ '" ? List the IDs of the segments with errors if any (separated by commas).', axis=1)
+            #+ '" ? List the IDs of the segments with errors (separated by commas). If all the segments are correct, output "ALL_CORRECT".', axis=1)
+            + '" ? Generate an answer detailing the accuracy of each individual segment, e.g., 1. True; 2. False; ...', axis=1)
             
-        train_dev_test_df['Answer'] = train_dev_test_df.apply(lambda x: "ALL_CORRECT" if all(x['Labels']) else ",".join([str(i+1) for i, label in enumerate(x['Labels']) if not label]), axis=1)
-        #train_dev_test_df['Answer'] = train_dev_test_df['Labels']
+            
+        train_dev_test_df['_Answer'] = train_dev_test_df.apply(lambda x: "ALL_CORRECT" if all(x['Labels']) else ",".join([str(i+1) for i, label in enumerate(x['Labels']) if not label]), axis=1)
+        train_dev_test_df['Answer'] = train_dev_test_df.apply(lambda x: "; ".join(["%d. %s"%(i+1,str(label)) for i, label in enumerate(x['Labels'])]), axis=1)
+        
         
         # transform to a balanced dataset
         def transform(df, granularity="segment"):
             if granularity=="response":
-                cor_len = len(df[df['Answer'] == "ALL_CORRECT"].index)
-                incor_len = len(df[df['Answer'] != "ALL_CORRECT"].index)
+                cor_len = len(df[df['_Answer'] == "ALL_CORRECT"].index)
+                incor_len = len(df[df['_Answer'] != "ALL_CORRECT"].index)
                 if cor_len > incor_len:
-                    df = df.drop(df[df['Answer'] == "ALL_CORRECT"].sample(n=cor_len-incor_len).index)
+                    df = df.drop(df[df['_Answer'] == "ALL_CORRECT"].sample(n=cor_len-incor_len).index)
                 else:
-                    df = df.drop(df[df['Answer'] != "ALL_CORRECT"].sample(n=incor_len-cor_len).index)
+                    df = df.drop(df[df['_Answer'] != "ALL_CORRECT"].sample(n=incor_len-cor_len).index)
                 return df
             elif granularity=="segment":
-                cor_len = len(df[df['Answer'] == "ALL_CORRECT"].index)
-                incor_len = len(df[df['Answer'] != "ALL_CORRECT"].index)
-                sum_cor_t_count = np.sum([np.sum(np.array(labels).astype(int)) for labels in df[df['Answer'] == "ALL_CORRECT"]['Labels'].values])
-                sum_cor_n_count = np.sum([np.sum(np.logical_not(labels).astype(int)) for labels in df[df['Answer'] == "ALL_CORRECT"]['Labels'].values])
-                sum_incor_t_count = np.sum([np.sum(np.array(labels).astype(int)) for labels in df[df['Answer'] != "ALL_CORRECT"]['Labels'].values])
-                sum_incor_n_count = np.sum([np.sum(np.logical_not(labels).astype(int)) for labels in df[df['Answer'] != "ALL_CORRECT"]['Labels'].values])
+                cor_len = len(df[df['_Answer'] == "ALL_CORRECT"].index)
+                incor_len = len(df[df['_Answer'] != "ALL_CORRECT"].index)
+                sum_cor_t_count = np.sum([np.sum(np.array(labels).astype(int)) for labels in df[df['_Answer'] == "ALL_CORRECT"]['Labels'].values])
+                sum_cor_n_count = np.sum([np.sum(np.logical_not(labels).astype(int)) for labels in df[df['_Answer'] == "ALL_CORRECT"]['Labels'].values])
+                sum_incor_t_count = np.sum([np.sum(np.array(labels).astype(int)) for labels in df[df['_Answer'] != "ALL_CORRECT"]['Labels'].values])
+                sum_incor_n_count = np.sum([np.sum(np.logical_not(labels).astype(int)) for labels in df[df['_Answer'] != "ALL_CORRECT"]['Labels'].values])
                 
                 if (sum_cor_t_count + sum_incor_t_count) > (sum_cor_n_count + sum_incor_n_count):
                     mean_cor_t_count = sum_cor_t_count / cor_len
                     cor_drop_count = int(((sum_cor_t_count + sum_incor_t_count) - (sum_cor_n_count + sum_incor_n_count))/mean_cor_t_count)
                     cor_drop_count = min(cor_drop_count, cor_len-1)
-                    df = df.drop(df[df['Answer'] == "ALL_CORRECT"].sample(n=cor_drop_count).index)
+                    df = df.drop(df[df['_Answer'] == "ALL_CORRECT"].sample(n=cor_drop_count).index)
                 else:
                     mean_incor_n_count = sum_incor_n_count / incor_len
                     mean_incor_t_count = sum_incor_t_count / incor_len
                     incor_drop_count = int(((sum_cor_n_count + sum_incor_n_count)-(sum_cor_t_count + sum_incor_t_count))/(mean_incor_n_count - mean_incor_t_count))
                     incor_drop_count = min(incor_drop_count, incor_len-1)
-                    df = df.drop(df[df['Answer'] != "ALL_CORRECT"].sample(n=incor_drop_count).index)
+                    df = df.drop(df[df['_Answer'] != "ALL_CORRECT"].sample(n=incor_drop_count).index)
                 return df
             else:
                 raise NotImplementedError()
+        
         
         train_df = train_dev_test_df.sample(frac = 0.4, random_state=seed)
         dev_test_df = train_dev_test_df.drop(train_df.index)
@@ -330,7 +357,27 @@ def load_data(dataset):
         train_df = pd.read_csv("data/QReCC/train_short.csv")
         dev_df = pd.read_csv("data/QReCC/dev_short.csv")
         test_df = pd.read_csv("data/QReCC/test_short.csv")
-    elif dataset == "felm-long":    
+    elif dataset == "fever":
+        train_df = pd.read_csv("data/FEVER/train.csv")
+        dev_df = pd.read_csv("data/FEVER/dev.csv")
+        test_df = pd.read_csv("data/FEVER/test.csv")
+    elif dataset == "fever-long":
+        train_df = pd.read_csv("data/FEVER/train_long.csv")
+        dev_df = pd.read_csv("data/FEVER/dev_long.csv")
+        test_df = pd.read_csv("data/FEVER/test_long.csv")
+    elif dataset == "fever-medium":    
+        train_df = pd.read_csv("data/FEVER/train_medium.csv")
+        dev_df = pd.read_csv("data/FEVER/dev_medium.csv")
+        test_df = pd.read_csv("data/FEVER/test_medium.csv")
+    elif dataset == "fever-short":    
+        train_df = pd.read_csv("data/FEVER/train_short.csv")
+        dev_df = pd.read_csv("data/FEVER/dev_short.csv")
+        test_df = pd.read_csv("data/FEVER/test_short.csv")
+    elif dataset == "felm":
+        train_df = pd.read_csv("data/FELM/train.csv")
+        dev_df = pd.read_csv("data/FELM/dev.csv")
+        test_df = pd.read_csv("data/FELM/test.csv")
+    elif dataset == "felm-long":
         train_df = pd.read_csv("data/FELM/train_long.csv")
         dev_df = pd.read_csv("data/FELM/dev_long.csv")
         test_df = pd.read_csv("data/FELM/test_long.csv")
@@ -356,7 +403,7 @@ def load_data(dataset):
 
 
 def analyze_data(df_dict):
-    dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC", "felm":"FELM", "wysdomqa":"WysdomQA"}
+    dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC", "fever":"FEVER", "felm":"FELM", "wysdomqa":"WysdomQA"}
     
     for dataset in dataset_dict:
         train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
@@ -571,7 +618,10 @@ def evaluate(method, dataset):
             return EM
         elif "qrecc" in dataset:
             return lambda prediction, answer: F1(prediction,answer) > 0.7
+        elif "fever" in dataset:
+            return EM
         elif "felm" in dataset:
+            '''
             def felm_annot_selector(prediction, answer):
                 threshold = 0.5
                 felm_metric = FELMMetric()
@@ -586,11 +636,38 @@ def evaluate(method, dataset):
                 else:
                     return False
             return felm_annot_selector
+            '''
+            return EM
         elif "wysdomqa" in dataset:
             return EM
         else:
             raise NotImplementedError()
-    
+        
+    def _annot_max_pri_rationale_demos():
+        if "fever" in dataset:
+            return 3
+        else:
+            return 2
+        
+    def _annot_min_cand_rationale_demos():
+        if "fever" in dataset:
+            return 64
+        else:
+            return 32
+        
+    def _annot_step():
+        if "fever" in dataset:
+            return 300
+        else:
+            return 50
+        
+    def _annot_balance():
+        if "fever" in dataset:
+            return True
+        else:
+            return False
+        
+        
     if method == "vanilla":
         dsp.settings.configure(electoral_college=None)
         method_func = Vanilla_LM_QA()
@@ -602,7 +679,21 @@ def evaluate(method, dataset):
         method_func = Multihop_QA()
     elif method == "react":
         dsp.settings.configure(electoral_college=None)
-        method_func = ReAct()
+        params = {}
+        if "fever" in dataset:
+            folder = 'react/prompts/'
+            prompt_file = 'fever.json'
+            with open(folder + prompt_file, 'r') as f:
+                prompt_dict = json.load(f)
+            prompt = prompt_dict['webthink_simple3']
+            
+            q_prefix = "Claim:"
+            
+            params["prompt"] = prompt
+            params["q_prefix"] = q_prefix
+            params["q_transform"] = lambda x: x.replace(' Kindly answer with "SUPPORTS", "REFUTES", or "NOT ENOUGH INFO".', '')
+        
+        method_func = ReAct(**params)
     elif method == "dsp+sample":
         dsp.settings.configure(electoral_college=None)
         method_func = DSP_QA(dsp.sample)
@@ -663,12 +754,12 @@ def evaluate(method, dataset):
         W = eval(method.split('+')[-1])
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
-        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log)
+        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance())
     elif method.startswith("got-3+demos-sa-knn+cx+t5-nli-ec+ci"):
         W = eval(method.split('+')[-1])
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
-        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, demo_sel_func=dsp.knn)
+        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance(), demo_sel_func=dsp.knn)
     elif method == "got-2+demos+cx+t5-nli-ec+ci+[0.3,0.6,0.1]":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
@@ -714,6 +805,8 @@ def evaluate(method, dataset):
         metrics = [HotPotEM(), HotPotF1(), ElapsedTime()]
     elif "qrecc" in dataset:
         metrics = [QReCCF1(), QReCCnF1(), ElapsedTime()]
+    elif "fever" in dataset:
+        metrics = [FEVEREM(), ElapsedTime()]
     elif "felm" in dataset:
         metrics = [FELMF1(), FELMBalAcc(), ElapsedTime()]
     elif "wysdomqa" in dataset:
@@ -767,12 +860,13 @@ def evaluate(method, dataset):
     log_file.close()
     
 def preprocess_n_analyze():
-    [preprocess_data(dataset) for dataset in ["open-squad", "hotpotqa", "qrecc", "felm", "wysdomqa"]]
+    [preprocess_data(dataset) for dataset in ["open-squad", "hotpotqa", "qrecc", "fever", "felm", "wysdomqa"]]
     
     df_dict = {}
     df_dict["open-squad"] = load_data("open-squad")
     df_dict["hotpotqa"] = load_data("hotpotqa")
     df_dict["qrecc"] = load_data("qrecc")
+    df_dict["fever"] = load_data("fever")
     df_dict["felm"] = load_data("felm")
     df_dict["wysdomqa"] = load_data("wysdomqa")
     analyze_data(df_dict)
@@ -788,10 +882,11 @@ def main(preprocess = False):
     #for method in ["got-3+demos-sa+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.1,0.6,0.3]", "got-3+demos+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos+cx+t5-nli-ec+ci+[0.1,0.6,0.3]"]:
     #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.5,0.3]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos-sa+cx+t5-nli-ec+ci+[0.2,0.5,0.3]", "got-3+demos+cx+t5-nli-ec+ci+[0.2,0.6,0.2]", "got-3+demos+cx+t5-nli-ec+ci+[0.2,0.5,0.3]"]:
     #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
-    for method in ["react"]:
-        #for dataset in ["open-squad-long","open-squad-medium", "open-squad-short", "hotpotqa-long","hotpotqa-medium","hotpotqa-short", "qrecc-long", "qrecc-medium", "qrecc-short"]:
-        #for dataset in ["felm-medium"]:
-        for dataset in ["hotpotqa-short"]:
+    #for method in ["got-3+demos-sa+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
+    #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn"]:   
+    for method in ["dsp+knn"]:    
+        #for dataset in ["open-squad-long","open-squad-medium", "open-squad-short", "hotpotqa-long","hotpotqa-medium","hotpotqa-short", "qrecc-long", "qrecc-medium", "qrecc-short", "fever-long", "fever-medium", "fever-short"]:
+        for dataset in ["fever-long", "fever-medium", "fever-short"]:    
             evaluate(method, dataset)
 '''    
 def annotate():
@@ -867,7 +962,7 @@ if __name__=='__main__':
     main()
     #main(True)
     #main_test()
-    #preprocess_data("felm")
+    #preprocess_data("fever")
     #annotate()
     '''
     df_dict = {}

@@ -137,8 +137,9 @@ def nli_electoral_college(example: Example, completions: Completions, ci = False
         
     citation_frequency = np.sum(np.array([stats["citation_frequency"] for _, stats in evaluated_predictions]),axis=0)
 
+    
     #normalized_citation_frequency = citation_frequency/np.sum(citation_frequency) if np.sum(citation_frequency) > 0 else citation_frequency
-    normalized_citation_frequency = citation_frequency/np.max(citation_frequency) if np.max(citation_frequency) > 0 else citation_frequency
+    normalized_citation_frequency = citation_frequency/np.max(citation_frequency) if len(citation_frequency) > 0 and np.max(citation_frequency) > 0 else citation_frequency
 
     #if ci and ci_score is not None:
     #    normalized_citation_frequency *= ci_score

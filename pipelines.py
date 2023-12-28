@@ -17,11 +17,10 @@ from networkx.exception import NetworkXNoCycle
 from collections import OrderedDict
 from dsp.modules.cache_utils import CacheMemory, cache_turn_on
 from dsp.utils import deduplicate
-from utils import df_to_dsp_augmented
+from utils import df_to_dsp_augmented, sample_balancedly, transform_balancedly
 import pandas as pd
 from nltk import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
-
 #from langchain.agents import load_tools
 #from langchain.agents import initialize_agent
 #from langchain.agents import AgentType
@@ -162,23 +161,29 @@ class ReAct:
 '''
 
 class ReAct:
-    def __init__(self):
+    def __init__(self, prompt = None, q_prefix = "Question:", q_transform = lambda x: x):
         self.env = wikienv.WikiEnv()
-        self.env = wrappers.HotPotQAWrapper(self.env)
+        self.env = wrappers.QAWrapper(self.env)
         
-        folder = 'react/prompts/'
-        prompt_file = 'prompts_naive.json'
-        with open(folder + prompt_file, 'r') as f:
-            prompt_dict = json.load(f)
-        
-        webthink_examples = prompt_dict['webthink_simple6']
-        instruction = """Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: 
-        (1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.
-        (2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.
-        (3) Finish[answer], which returns the answer and finishes the task.
-        Here are some examples.
-        """
-        self.webthink_prompt = instruction + webthink_examples
+        if prompt is None:
+            folder = 'react/prompts/'
+            prompt_file = 'prompts_naive.json'
+            with open(folder + prompt_file, 'r') as f:
+                prompt_dict = json.load(f)
+            
+            webthink_examples = prompt_dict['webthink_simple6']
+            instruction = """Solve a question answering task with interleaving Thought, Action, Observation steps. Thought can reason about the current situation, and Action can be three types: 
+            (1) Search[entity], which searches the exact entity on Wikipedia and returns the first paragraph if it exists. If not, it will return some similar entities to search.
+            (2) Lookup[keyword], which returns the next sentence containing keyword in the current passage.
+            (3) Finish[answer], which returns the answer and finishes the task.
+            Here are some examples.
+            """
+            self.webthink_prompt = instruction + webthink_examples
+        else:
+            self.webthink_prompt = prompt
+            
+        self.q_prefix = q_prefix
+        self.q_transform = q_transform
     
     def generate(self, prompt, stop=("\n",)):
         '''
@@ -208,7 +213,8 @@ class ReAct:
                 attempts += 1
     
     def webthink(self, question=None, prompt=None, to_print=True):
-        question = self.env.reset(question=question)
+        question = self.env.reset(question=question, q_prefix = self.q_prefix)
+        question = self.q_transform(question)
         if to_print:
             print(question)
         prompt += question + "\n"
@@ -542,7 +548,7 @@ class GoT_QA:
         if "demo_sel_func" in kwargs:
             self.demo_sel_func = kwargs["demo_sel_func"]
         else:
-            self.demo_sel_func = dsp.sample
+            self.demo_sel_func = sample_balancedly #dsp.sample
         
         if "annot_selector" in kwargs:
             self.annot_selector = kwargs["annot_selector"]
@@ -563,6 +569,41 @@ class GoT_QA:
             self.annot_step = kwargs["annot_step"]
         else:
             self.annot_step = 50
+            
+        if "annot_max_pri_plan_demos" in kwargs:
+            self.MAX_PRI_PLAN_DEMOS = kwargs["annot_max_pri_plan_demos"]
+        else:
+            self.MAX_PRI_PLAN_DEMOS = 2
+        
+        if "annot_max_pri_rewrite_demos" in kwargs:
+            self.MAX_PRI_REWRITE_DEMOS = kwargs["annot_max_pri_rewrite_demos"]
+        else:
+            self.MAX_PRI_REWRITE_DEMOS = 2
+        
+        if "annot_max_pri_rationale_demos" in kwargs:
+            self.MAX_PRI_RATIONALE_DEMOS = kwargs["annot_max_pri_rationale_demos"]
+        else:
+            self.MAX_PRI_RATIONALE_DEMOS = 2
+        
+        if "annot_min_cand_plan_demos" in kwargs:
+            self.MIN_CAND_PLAN_DEMOS = kwargs["annot_min_cand_plan_demos"]
+        else:
+            self.MIN_CAND_PLAN_DEMOS = 32
+        
+        if "annot_min_cand_rewrite_demos" in kwargs:
+            self.MIN_CAND_REWRITE_DEMOS = kwargs["annot_min_cand_rewrite_demos"]
+        else:
+            self.MIN_CAND_REWRITE_DEMOS = 16
+        
+        if "annot_min_cand_rationale_demos" in kwargs:
+            self.MIN_CAND_RATIONALE_DEMOS = kwargs["annot_min_cand_rationale_demos"]
+        else:
+            self.MIN_CAND_RATIONALE_DEMOS = 32
+        
+        if "annot_balance" in kwargs:
+            self.annot_balance = kwargs["annot_balance"]
+        else:
+            self.annot_balance = False
         
         if "B" in kwargs:
             self.B = kwargs["B"]
@@ -757,6 +798,9 @@ class GoT_QA:
             # TODO: optimize weights using derivative-free optimization
             def rerank(passages, scores, citation_frequency, confidence, W = [0.3, 0.6, 0.1]):
                 assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
+                if len(passages) == 0:
+                    return passages, scores
+                
                 if confidence is not None:
                     scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence] * len(passages)), axis=1), W))
                 else:
@@ -1119,13 +1163,6 @@ class GoT_QA:
         return self.start(train, question)
     
     def annotate(self, train):
-        MAX_PRI_PLAN_DEMOS = 2
-        MAX_PRI_REWRITE_DEMOS = 2
-        MAX_PRI_RATIONALE_DEMOS = 2
-        
-        MIN_CAND_PLAN_DEMOS = 32
-        MIN_CAND_REWRITE_DEMOS = 16
-        MIN_CAND_RATIONALE_DEMOS = 32
         
         if (self.demo_flags is not None 
             and ("plan" in self.demo_flags 
@@ -1155,7 +1192,7 @@ class GoT_QA:
         
         shuffled_train = [example.copy() for example in train]
         random.shuffle(shuffled_train)
-        train, test = train[:len(shuffled_train)//10], train[len(shuffled_train)//10:]
+        train, test = shuffled_train[:len(shuffled_train)//10], shuffled_train[len(shuffled_train)//10:]
         test = dsp.sample(test, k=len(test))
         
         annot_columns = ['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer', 'GT Answer']
@@ -1201,6 +1238,9 @@ class GoT_QA:
                 self.annotator.drop("Pass", axis=1, inplace=True)
                 
                 if len(self.annotator.index) > 0:
+                    if self.annot_balance:
+                        self.annotator = transform_balancedly(self.annotator)
+                    
                     _annotator = pd.concat([_annotator, self.annotator], ignore_index=True)
                     if self.annot_dump:
                         _annotator.to_csv(self.annot_dump, index=False)
@@ -1210,17 +1250,17 @@ class GoT_QA:
                     rewrite_demos = df_to_dsp_augmented(_annotator, segment="rewrite")
                     rationale_demos = df_to_dsp_augmented(_annotator, segment="rationale")
                     
-                    if len(plan_demos) >= MIN_CAND_PLAN_DEMOS and len(rewrite_demos) >= MIN_CAND_REWRITE_DEMOS and len(rationale_demos) >= MIN_CAND_RATIONALE_DEMOS:
+                    if len(plan_demos) >= self.MIN_CAND_PLAN_DEMOS and len(rewrite_demos) >= self.MIN_CAND_REWRITE_DEMOS and len(rationale_demos) >= self.MIN_CAND_RATIONALE_DEMOS:
                         annot_examples = i + 1
                         break
                     
                     self.demos = {}
                     if len(plan_demos) > 0:
-                        self.demos["plan"] = plan_demos[:MAX_PRI_PLAN_DEMOS]
+                        self.demos["plan"] = dsp.sample(plan_demos, k=self.MAX_PRI_PLAN_DEMOS) #plan_demos[:self.MAX_PRI_PLAN_DEMOS]
                     if len(rewrite_demos) > 0:
-                        self.demos["rewrite"] = rewrite_demos[:MAX_PRI_REWRITE_DEMOS]
+                        self.demos["rewrite"] = dsp.sample(rewrite_demos, k=self.MAX_PRI_REWRITE_DEMOS) #rewrite_demos[:self.MAX_PRI_REWRITE_DEMOS]
                     if len(rationale_demos) > 0:
-                        self.demos["rationale"] = rationale_demos[:MAX_PRI_RATIONALE_DEMOS]
+                        self.demos["rationale"] = sample_balancedly(rationale_demos, k=self.MAX_PRI_RATIONALE_DEMOS) #rationale_demos[:self.MAX_PRI_RATIONALE_DEMOS]
                     
         print("="*35 + " ANNOTATION: EXAMPLES USED " + "="*35)
         if annot_examples:
@@ -1234,25 +1274,25 @@ class GoT_QA:
         if self.demo_flags is not None and "plan" in self.demo_flags:
             #self.demos["plan"] = df_to_dsp_augmented(_annotator, segment="plan")[:MAX_PLAN_DEMOS]
             if "sample" in self.demo_sel_func.__name__:
-                self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = MAX_PRI_PLAN_DEMOS)
+                self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = self.MAX_PRI_PLAN_DEMOS)
             elif "knn" in self.demo_sel_func.__name__:
-                self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = MAX_PRI_PLAN_DEMOS)
+                self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = self.MAX_PRI_PLAN_DEMOS)
             else:
                 raise NotImplementedError()
         if self.demo_flags is not None and "rewrite" in self.demo_flags:
             #self.demos["rewrite"] = df_to_dsp_augmented(_annotator, segment="rewrite")[:MAX_REWRITE_DEMOS]
             if "sample" in self.demo_sel_func.__name__:
-                self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = MAX_PRI_REWRITE_DEMOS)
+                self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = self.MAX_PRI_REWRITE_DEMOS)
             elif "knn" in self.demo_sel_func.__name__:
-                self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = MAX_PRI_REWRITE_DEMOS)
+                self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = self.MAX_PRI_REWRITE_DEMOS)
             else:
                 raise NotImplementedError()
         if self.demo_flags is not None and "rationale" in self.demo_flags:
             #self.demos["rationale"] = df_to_dsp_augmented(_annotator, segment="rationale")[:MAX_RATIONALE_DEMOS]
             if "sample" in self.demo_sel_func.__name__:
-                self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = MAX_PRI_RATIONALE_DEMOS)
+                self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = self.MAX_PRI_RATIONALE_DEMOS)
             elif "knn" in self.demo_sel_func.__name__:
-                self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = MAX_PRI_RATIONALE_DEMOS)
+                self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = self.MAX_PRI_RATIONALE_DEMOS)
             else:
                 raise NotImplementedError()
         if self.annot_dump:
