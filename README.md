@@ -18,3 +18,14 @@ QReCC:
 ```
 curl -o data/QReCC/qrecc_data.zip https://github.com/apple/ml-qrecc/blob/main/dataset/qrecc_data.zip
 ```
+## Citation
+If you use our source code in a research paper, please cite our work as follows:
+
+```
+@article{fang2024hgot,
+  title={HGOT: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation},
+  author={Fang, Yihao and Thomas, Stephen W and Zhu, Xiaodan},
+  journal={arXiv preprint arXiv:2402.09390},
+  year={2024}
+}
+```
