@@ -1191,9 +1191,10 @@ class GoT_QA:
         self.B[0] = 0
         
         shuffled_train = [example.copy() for example in train]
-        random.shuffle(shuffled_train)
+        rng = random.Random(dsp.settings.branch_idx)
+        rng.shuffle(shuffled_train)
         train, test = shuffled_train[:len(shuffled_train)//10], shuffled_train[len(shuffled_train)//10:]
-        test = dsp.sample(test, k=len(test))
+        #test = dsp.sample(test, k=len(test))
         
         annot_columns = ['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer', 'GT Answer']
         _annotator = pd.DataFrame(columns=annot_columns)

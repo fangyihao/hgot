@@ -1,0 +1,153 @@
+Question,GT Answer,"fever-medium_got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]_gpt-3.5-turbo-1106_google"
+"Nawaz Sharif is the 20th President of Pakistan. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Ekta Kapoor worked on an Indian soap opera that premiered in 2000. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Samsung entered the electronics industry in the 1960's. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Planet Hollywood Las Vegas is operated by all entities except an American gaming corporation. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Dawood Ibrahim is a crook. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"James Brolin appeared on talk shows. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Laura Robson is a volleyball player. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"James Brolin appeared on The Young and The Restless and General Hospital. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Amancio Ortega is a businessman. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The Block (album) has only an unofficial single. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Woodrow Wilson formed the belief system Wilsonianism. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Jiang Wen was born on January 5, 1963. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Chris Bosh plays in the National Basketball Association as a professional basketball player. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Pythagoras was an Ionian Greek chemist. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Touch My Body was released in 2008. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The Indiana Pacers were established solely for membership into the NBA. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"A staging area is a location where, before use, equipment are assembled . Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Watchmen is a film about superheroes. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Kareem Abdul-Jabbar is ranked in rebounds. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Sweet Home Alabama is a short film that was written in reply to Neil Young's song Alabama. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"There were 3,090,953 Mormon members in the mid 20th century. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Ekta Kapoor worked on a statue in downtown Chicago. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Volkswagen Group designs the world's cheapest passenger and commercial vehicles. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Azithromycin is viewed under many trade names worldwide. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Antigua and Barbuda was named in honor of Tim Burton. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Kevin Bacon acted in The Woodsman when he was 93 years old. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Fidaa opted away from using a Dravidian language. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Pierce County, Washington is the location of the lowest mountain in Washington. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"John Goodman starred in Cloverfield. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Olympic medal designs are chosen every Olympics. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Nymphomaniac (film) is not part of a trilogy. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"The Silver Surfer appears in American sitcoms. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Bonobos have an estimated divorce rate of less than 50,000. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"The Quiet was directed by Steven Spielberg. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The Airbus A380 entered commercial service on October 25, 2017. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"There is a show called The Office (US). Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Pocahontas helped as a translator for an English settlement. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Doxycycline may cause diarrhea in children. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"John S. McCain Jr. graduated from Berkeley. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Two and a Half Men featured Charlie Sheen. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Harry Fraud worked at a recording studio. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Ann Biderman is a novel writer. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The United States dollar is printed. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Bonobos live south of the statue. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"Fiji Hindi has been subject to gestures by Magahi and other Bihari languages. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Netscape Navigator was a program. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Tyler Perry is a son. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Google Search cannot show movie showtimes. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The Colbert Report has not been taped. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Skopje was rarely contested between the Byzantines and the Bulgarian Empire. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"Josh Hutcherson wasn't in two different films within two years. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Shannon Lee is a German. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Corsica is independent of France. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Of Mughal emperors, Babur was the first. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Robert Zemeckis has made movies for children. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"House of Balloons is reviewed by The Weeknd. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Raja Hindustani was directed solely by Mariah Carey. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"The Maze Runner had a budget in the millions. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Rob McElhenney plays the violin. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The SpongeBob SquarePants Movie was directed by Donald Trump. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Lorelai Gilmore's father is unshown on the show, and his name remains unknown. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The Challenge XXX: Dirty 30 is a season of the year. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Psych (season 2) originally aired on the USA Network's Thursday night lineup. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Other A$AP Mob members have had their music videos directed by ASAP Rocky. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"The Nobel Prize in Chemistry was awarded to a person from the Kingdom of the Netherlands. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Georgians arose from a place that was a kingdom in Azerbaijan. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"FC Bayern Munich was founded by only one football player. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Hinduism has a cosmological view of the universe. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Sacre-Coeur, Paris is an embodiment of conservative ethical order. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],NOT ENOUGH INFO
+"Heath Ledger won an award. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The Bengal tiger has a coat. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Jeb Bush was raised in Houston. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Maria Theresa was Emperor Charles VI's daughter. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Chinatown is an American film starring Jack Nicholson. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The Latvian Soviet Socialist Republic is only known as Lauren. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"There is a software called Adobe Photoshop. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Adidas designs things that you can wear. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The Icelandic Coast Guard is also known as Althjodhaflutningaverkamannasambandsins. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Tenacious D did not achieve Billboard chart status after its release. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Maria Theresa's father was born in 1740. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Zoe Saldana's birthday is a national holiday. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The English Wikipedia is the Portuguese-language edition of Wikipedia. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Adobe Photoshop is a private company. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Google Search is the product of an American multinational manufacturing company. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Punch-Drunk Love's producers were Revolution Studios and New Line Cinema. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Sierra Morena is only an idiom. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Half Girlfriend's principal photography began in June of 2016. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The X-Files starred David Duchovny. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"With Singapore Airlines, the Airbus A380 entered commercial service. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Superhuman abilities may come about from human enhancement by cybernetic implants. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],REFUTES
+"The United States dollar is used in territory owned by the United Kingdom. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Samsung entered the shipbuilding industries in the 1970's. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Kareem Abdul-Jabbar is ranked 3rd all-time in blocks and rebounds. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Telephone consists of only verse-refrain. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Eurotas (river) is the main river of Laconia. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Antigua's residents are all immigrants. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The Selma to Montgomery marches were part of a broader voting rights movement underway in Tuscaloosa. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"Agent Raghav – Crime Branch is a serial. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"Syco was established by a British person. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"James Brolin is an actor. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"San Francisco Bay Area is home to approximately 10 million people. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Trouble with the Curve is a television show. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Balibo (film) starts in the year 1971. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Uganda was not ruled by the British. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Robinson Crusoe on Mars was distributed by Paramount Pictures in 2007. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Zac Efron was born in 1785. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Cleopatre is related to a work. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Sarah Hyland was in a movie called Chicago. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"One True Thing was made in Switzerland. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Google Search shows home listings. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],NOT ENOUGH INFO
+"Toy Story 2 was produced by DreamWorks. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Chris Mullin only played with the Indiana Pacers from 1991 until 1992. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Phoenix, Arizona is a swamp. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"The Invisible Man was a romantic film. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Two and a Half Men originally aired on CBS. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Exotic Birds opened for a Canadian music duo. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Species distribution can be understood through factors such as available resources. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"The Quiet was released in 2005. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],REFUTES
+"Keith Stanfield was born in New York. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Key & Peele has yet to be nominated for a Writers Guild Award. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"A U.S. state is Phoenix, Arizona. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"The Brat Pack is a type of name given to a group. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Unison (Celine Dion album) was originally released by Columbia Records. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Personality is affected by the development of personal storage of information. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],NOT ENOUGH INFO
+"The Challenge XXX: Dirty 30 is a season of a show on Syfy. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"The Ukrainian Soviet Socialist Republic became Ukraine before the founding of the United Nations. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Chinatown is an American automobile. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"The New England Patriots owns the record for least Super Bowls reached. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Jonah Hill is an actor. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"UNICEF UK is a National Committee. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Scandinavia does not contain Greenland. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],SUPPORTS
+"A staging area is a location where, before use, vehicles are assembled. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Stomp the Yard stars a cat. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],NOT ENOUGH INFO
+"Port of Spain is the capital of an island. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Norman Bates is a character exclusively from film. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"In 2014, Sledgehammer was performed live for the first time. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Wolfgang Amadeus Mozart was not born in Salzburg. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"House of Balloons is a mixtape. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"Kareena Kapoor garnered positive reviews. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Zac Efron's middle names are Emma and Suzanne. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"NXT Tag Team Championship is an athletic competition. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Gaius Julius Caesar was the uncle of a dictator. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Zoey Deutch died on November 10, 1994. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+"Mandy Moore had a career in country music for 11 years. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Legendary Entertainment is the owner of Wanda Cinemas. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Celebrity Rehab with Dr. Drew is a statue commemorating the arts in California. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Brown University's main campus is located in the third richest city in New England. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],REFUTES
+"Temple Mount is related to an Abrahamic religion. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['SUPPORTS'],SUPPORTS
+"The television series Fringe is available on DVD. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['NOT ENOUGH INFO'],SUPPORTS
+"Raja Hindustani is only an American movie. Kindly answer with ""SUPPORTS"", ""REFUTES"", or ""NOT ENOUGH INFO"".",['REFUTES'],REFUTES
+EM,,0.54
+elapsed time,,783.0721056318283

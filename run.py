@@ -403,9 +403,25 @@ def load_data(dataset):
 
 
 def analyze_data(df_dict):
-    dataset_dict = {"open-squad":"Open-SQuAD", "hotpotqa":"HotPotQA", "qrecc":"QReCC", "fever":"FEVER", "felm":"FELM", "wysdomqa":"WysdomQA"}
+    title_dict = {"open-squad":"Open-SQuAD", "open-squad-long":"Open-SQuAD (Long)", "open-squad-medium":"Open-SQuAD (Medium)", "open-squad-short":"Open-SQuAD (Short)",
+                  "hotpotqa":"HotPotQA", "hotpotqa-long":"HotPotQA (Long)", "hotpotqa-medium":"HotPotQA (Medium)", "hotpotqa-short":"HotPotQA (Short)",
+                  "qrecc":"QReCC", "qrecc-long":"QReCC (Long)", "qrecc-medium":"QReCC (Medium)", "qrecc-short":"QReCC (Short)",
+                  "fever":"FEVER", "fever-long":"FEVER (Long)", "fever-medium":"FEVER (Medium)", "fever-short":"FEVER (Short)",
+                  "felm":"FELM", "felm-long":"FELM (Long)", "felm-medium":"FELM (Medium)", "felm-short":"FELM (Short)",
+                  "wysdomqa":"WysdomQA", "wysdomqa-long":"WysdomQA (Long)", "wysdomqa-medium":"WysdomQA (Medium)", "wysdomqa-short":"WysdomQA (Short)"}
     
-    for dataset in dataset_dict:
+    stats_df = pd.DataFrame(columns=['Dataset', 'Subset', '# of Instances', 'Maximum', 'Minimum', 'Median', 'Mean', 'Standard Deviation'])
+    for dataset in df_dict:
+        train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
+        dev_len_df = pd.DataFrame(sent_len(df_dict[dataset][1]["Question"].values), columns=["Dev"])
+        test_len_df = pd.DataFrame(sent_len(df_dict[dataset][2]["Question"].values), columns=["Test"])
+        
+        stats_df.loc[len(stats_df)] = [title_dict[dataset],"Train", len(train_len_df["Train"].values), train_len_df["Train"].max(), train_len_df["Train"].min(), train_len_df["Train"].median(), train_len_df["Train"].mean(), train_len_df["Train"].std()]
+        stats_df.loc[len(stats_df)] = [title_dict[dataset],"Dev", len(dev_len_df["Dev"].values), dev_len_df["Dev"].max(), dev_len_df["Dev"].min(), dev_len_df["Dev"].median(), dev_len_df["Dev"].mean(), dev_len_df["Dev"].std()]
+        stats_df.loc[len(stats_df)] = [title_dict[dataset],"Test", len(test_len_df["Test"].values), test_len_df["Test"].max(), test_len_df["Test"].min(), test_len_df["Test"].median(), test_len_df["Test"].mean(), test_len_df["Test"].std()]
+    stats_df.to_csv("log/question_length.csv", index=False)
+    
+    for dataset in df_dict:
         train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
         dev_len_df = pd.DataFrame(sent_len(df_dict[dataset][1]["Question"].values), columns=["Dev"])
         test_len_df = pd.DataFrame(sent_len(df_dict[dataset][2]["Question"].values), columns=["Test"])
@@ -416,8 +432,9 @@ def analyze_data(df_dict):
         
         ax.legend_.set_title('') # remove the legend title (the name of the hue column)
         ax.margins(x=0.01) # less spacing
-        #ax.set_title(dataset_dict[dataset])
+        #ax.set_title(title_dict[dataset])
         ax.set_xlabel("Sentence Length")
+        ax.set_yscale('log')
         plt.tight_layout()
         plt.draw()
         #plt.show()
@@ -426,10 +443,9 @@ def analyze_data(df_dict):
         plt.close() 
     
     
-    #fig = plt.figure(figsize=(6,2))
-    fig, axes = plt.subplots(nrows=1,ncols=3, figsize=(5,2))
+    fig, axes = plt.subplots(nrows=1,ncols=len(df_dict), figsize=(5/3*len(df_dict),2))
     
-    for i, dataset in enumerate(dataset_dict):
+    for i, dataset in enumerate(df_dict):
         train_len_df = pd.DataFrame(sent_len(df_dict[dataset][0]["Question"].values), columns=["Train"])
         dev_len_df = pd.DataFrame(sent_len(df_dict[dataset][1]["Question"].values), columns=["Dev"])
         test_len_df = pd.DataFrame(sent_len(df_dict[dataset][2]["Question"].values), columns=["Test"])
@@ -442,7 +458,7 @@ def analyze_data(df_dict):
         
         
         ax.margins(x=0.01) # less spacing
-        ax.set_title("SQuAD" if dataset == "open-squad" else dataset_dict[dataset])
+        ax.set_title(title_dict[dataset])
         ax.set_xlabel("Sentence Length")
         #plt.yscale('log')
         ax.set_yscale('log')
@@ -450,7 +466,7 @@ def analyze_data(df_dict):
         #formatter = ticker.FuncFormatter(lambda x, pos: "%.0fK"%(x/1000) if x > 0 else "0")
         #ax.yaxis.set_major_formatter(formatter)
         
-        if i < len(dataset_dict) - 1:
+        if i < len(df_dict) - 1:
             ax.get_legend().remove()
         else:
             handles = ax.get_legend().legendHandles
@@ -646,12 +662,32 @@ def evaluate(method, dataset):
     def _annot_max_pri_rationale_demos():
         if "fever" in dataset:
             return 3
+        elif "hotpotqa" in dataset:
+            if "long" in dataset:
+                return 2
+            else:
+                return 3
+        elif "open-squad" in dataset:
+            if "medium" in dataset:
+                return 3
+            else:
+                return 2
         else:
             return 2
         
     def _annot_min_cand_rationale_demos():
         if "fever" in dataset:
             return 64
+        elif "hotpotqa" in dataset:
+            if "long" in dataset:
+                return 32
+            else:
+                return 128
+        elif "open-squad" in dataset:
+            if "medium" in dataset:
+                return 128
+            else:
+                return 32
         else:
             return 32
         
@@ -751,15 +787,17 @@ def evaluate(method, dataset):
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
         method_func = GoT_QA(demo_flags="plan+rewrite+rationale", demos=retrieve_demos(dataset), p_context=True, W=W)
     elif method.startswith("got-3+demos-sa+cx+t5-nli-ec+ci"):
-        W = eval(method.split('+')[-1])
+        W_R = eval(method.split('+')[-1])
+        W_T = eval(method.split('+')[-2])
         dsp.settings.configure(nli=_t5_nli)
-        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
-        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance())
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True, W=W_T))
+        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W_R, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance())
     elif method.startswith("got-3+demos-sa-knn+cx+t5-nli-ec+ci"):
-        W = eval(method.split('+')[-1])
+        W_R = eval(method.split('+')[-1])
+        W_T = eval(method.split('+')[-2])
         dsp.settings.configure(nli=_t5_nli)
-        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
-        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance(), demo_sel_func=dsp.knn)
+        dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True, W=W_T))
+        method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W_R, annot_step=_annot_step(), annot_selector=_annot_selector(), annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=_annot_max_pri_rationale_demos(), annot_min_cand_rationale_demos=_annot_min_cand_rationale_demos(), annot_balance=_annot_balance(), demo_sel_func=dsp.knn)
     elif method == "got-2+demos+cx+t5-nli-ec+ci+[0.3,0.6,0.1]":
         dsp.settings.configure(nli=_t5_nli)
         dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
@@ -884,9 +922,84 @@ def main(preprocess = False):
     #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
     #for method in ["got-3+demos-sa+cx+t5-nli-ec+ci+[0.3,0.6,0.1]"]:
     #for method in ["vanilla", "retrieve_then_read_sc", "multihop", "dsp+sample", "dsp+knn"]:   
-    for method in ["dsp+knn"]:    
+    #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.35,0.55,0.1]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.55,0.15]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.25,0.6,0.15]"]:   
+    #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.5,0.2]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.45,0.25]"]:  
+    #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.54,0.16]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.56,0.14]"]:  
+    #for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.6,0.1]", "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.5,0.2]"]:  
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.6,0.1]", 
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.55,0.15]", 
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.5,0.2]", 
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.45,0.25]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.4,0.3]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.25,0.6,0.15]", 
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.25,0.55,0.2]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.25,0.5,0.25]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.25,0.45,0.3]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.2,0.6,0.2]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.2,0.55,0.25]",
+                   "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.2,0.5,0.3]"]:  
+    '''
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.2,0.55,0.25]",
+               "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[1.0,0.0,0.0]"]:      
+    '''
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.15,0.6,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.2,0.55,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.2,0.55,0.25]"]:    
+    '''
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.3,0.6,0.1]",
+               "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.3,0.6,0.1]",
+               "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.6,0.1]"]:
+    '''
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.3,0.6,0.1]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.2,0.55,0.25]"]:    
+    '''
+    '''
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[1.0,0.0,0.0]",]:
+    '''
+    
+    for method in ["got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.15,0.55,0.3]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.2,0.55,0.25]",
+            "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.2,0.55,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.2,0.55,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.2,0.55,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.2,0.55,0.25]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.3,0.6,0.1]",
+            "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.6,0.1]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.6,0.1]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.3,0.6,0.1]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.3,0.6,0.1]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[0.3,0.5,0.2]",
+            "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[0.3,0.5,0.2]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.1,0.45,0.45]+[1.0,0.0,0.0]",
+            "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.2,0.4,0.4]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.4,0.3,0.3]+[1.0,0.0,0.0]",
+           "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[1.0,0.0,0.0]+[1.0,0.0,0.0]"]:
+
         #for dataset in ["open-squad-long","open-squad-medium", "open-squad-short", "hotpotqa-long","hotpotqa-medium","hotpotqa-short", "qrecc-long", "qrecc-medium", "qrecc-short", "fever-long", "fever-medium", "fever-short"]:
-        for dataset in ["fever-long", "fever-medium", "fever-short"]:    
+        for dataset in ["hotpotqa-medium"]:   
+        #for dataset in ["hotpotqa-long"]:   
+        #for dataset in ["open-squad-long","open-squad-medium", "open-squad-short", "hotpotqa-long","hotpotqa-short", "qrecc-long", "qrecc-medium", "qrecc-short", "fever-long", "fever-medium", "fever-short"]: 
             evaluate(method, dataset)
 '''    
 def annotate():
@@ -966,10 +1079,22 @@ if __name__=='__main__':
     #annotate()
     '''
     df_dict = {}
+    df_dict["fever"] = load_data("fever")
     df_dict["open-squad"] = load_data("open-squad")
     df_dict["hotpotqa"] = load_data("hotpotqa")
-    df_dict["qrecc"] = load_data("qrecc")
-    df_dict["wysdomqa"] = load_data("wysdomqa")
+    
+    df_dict["fever-long"] = load_data("fever-long")
+    df_dict["fever-medium"] = load_data("fever-medium")
+    df_dict["fever-short"] = load_data("fever-short")
+    df_dict["open-squad-long"] = load_data("open-squad-long")
+    df_dict["open-squad-medium"] = load_data("open-squad-medium")
+    df_dict["open-squad-short"] = load_data("open-squad-short")
+    df_dict["hotpotqa-long"] = load_data("hotpotqa-long")
+    df_dict["hotpotqa-medium"] = load_data("hotpotqa-medium")
+    df_dict["hotpotqa-short"] = load_data("hotpotqa-short")
+    
+    #df_dict["qrecc"] = load_data("qrecc")
+    #df_dict["wysdomqa"] = load_data("wysdomqa")
     analyze_data(df_dict)
     '''
     
