@@ -1034,7 +1034,7 @@ def main_test():
     dataset = "hotpotqa-short"
     
     default_stdout = sys.stdout
-    log_file = open("log/bak/%s_%s_%s_%s.log"%(dataset, "test", language_model, retrieval_model),"w")
+    log_file = open("log/temp/%s_%s_%s_%s.log"%(dataset, "test", language_model, retrieval_model),"w")
     sys.stdout = log_file
     
     train, dev, test = load_data(dataset)
@@ -1043,7 +1043,7 @@ def main_test():
     W = [0.3,0.6,0.1]
     dsp.settings.configure(nli=_t5_nli)
     dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True))
-    method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_selector=EM, annot_dump="log/bak/%s_%s_%s_%s.csv"%(dataset, "test", language_model, retrieval_model))
+    method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W, annot_selector=EM, annot_dump="log/temp/%s_%s_%s_%s.csv"%(dataset, "test", language_model, retrieval_model))
 
     #question = 'Who held the record for the longest service in the Australian Parliament for a woman, and was surpassed by  a former Australian politician who was the 29th Speaker of the House of Representatives?'
     #question = 'This American crime film set in South Los Angeles was written and directed by the same director and writer of screenwriter of "Street Kings", "End of Watch", "Sabotage", "Fury" and what other film?'

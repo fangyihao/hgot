@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Messenger</title>
+<script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+<style>
+div.chat * {
+	transition: all .5s;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+div.chat {
+	margin: 0;
+	cursor: default;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Chrome/Safari/Opera */
+	-khtml-user-select: none; /* Konqueror */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE/Edge */
+	user-select: none;
+}
+
+div.chat span.spinner {
+	-moz-animation: loading-bar 30s 1;
+	-webkit-animation: loading-bar 30s 1;
+	animation: loading-bar 30s 1;
+	display: block;
+	height: 2px;
+	background-color: #D33C23;
+	transition: width 0.2s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 4
+}
+
+div.chat .messages {
+	display: block;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: relative;
+	height: 90%;
+	width: 100%;
+	padding: 2% 3%;
+	border-bottom: 0px solid #ecf0f1;
+}
+
+div.chat ::-webkit-scrollbar {
+	width: 3px;
+	height: 1px;
+	transition: all .5s;
+	z-index: 10;
+}
+
+div.chat ::-webkit-scrollbar-track {
+	/*background-color: white;*/
+}
+
+div.chat ::-webkit-scrollbar-thumb {
+	background-color: #bec4c8;
+	border-radius: 3px;
+}
+
+div.chat .message {
+	display: block;
+	width: 98%;
+	padding: 0.5%;
+}
+
+div.chat .message p {
+	margin: 0;
+	white-space: pre-wrap;
+	user-select: text;
+}
+
+div.chat .myMessage, div.chat .fromThem {
+	max-width: 90%;
+	word-wrap: break-word;
+	margin-bottom: 20px;
+}
+
+div.chat .message:hover .myMessage {
+	-webkit-transform: translateX(-130px);
+	transform: translateX(-130px);
+}
+
+div.chat .message:hover .fromThem {
+	-webkit-transform: translateX(130px);
+	transform: translateX(130px);
+}
+
+div.chat .message:hover date {
+	opacity: 1;
+}
+
+div.chat .myMessage, .fromThem {
+	position: relative;
+	padding: 10px 20px;
+	border-radius: 25px;
+	clear: both;
+	font: 400 15px 'Open Sans', sans-serif;
+}
+
+div.chat .myMessage {
+	background: #FCEDEB;
+	color: black;
+	float: right;
+	clear: both;
+	border-bottom-right-radius: 20px 0px\9;
+}
+/*
+div.chat .myMessage:before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	bottom: -2px;
+	right: -8px;
+	height: 19px;
+	border-right: 20px solid #00e34d;
+	border-bottom-left-radius: 16px 14px;
+	-webkit-transform: translate(0, -2px);
+	transform: translate(0, -2px);
+	border-bottom-left-radius: 15px 0px\9;
+	transform: translate(-1px, -2px) \9;
+}
+
+div.chat .myMessage:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	bottom: -2px;
+	right: -42px;
+	width: 12px;
+	height: 20px;
+	background: white;
+	border-bottom-left-radius: 10px;
+	-webkit-transform: translate(-30px, -2px);
+	transform: translate(-30px, -2px);
+}
+*/
+div.chat .fromThem {
+	background: #F3F3F3;
+	color: black;
+	float: left;
+	clear: both;
+	border-bottom-left-radius: 30px 0px\9;
+}
+/*
+div.chat .fromThem:before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	bottom: -2px;
+	left: -7px;
+	height: 19px;
+	border-left: 20px solid #E5E5EA;
+	border-bottom-right-radius: 16px 14px;
+	-webkit-transform: translate(0, -2px);
+	transform: translate(0, -2px);
+	border-bottom-right-radius: 15px 0px\9;
+	transform: translate(-1px, -2px) \9;
+}
+
+div.chat .fromThem:after {
+	content: "";
+	position: absolute;
+	z-index: 3;
+	bottom: -2px;
+	left: 4px;
+	width: 26px;
+	height: 20px;
+	background: white;
+	border-bottom-right-radius: 10px;
+	-webkit-transform: translate(-30px, -2px);
+	transform: translate(-30px, -2px);
+}
+*/
+div.chat date {
+	position: absolute;
+	top: 10px;
+	font-size: 14px;
+	white-space: nowrap;
+	vertical-align: middle;
+	color: #8b8b90;
+	opacity: 0;
+	z-index: 4;
+}
+
+div.chat .myMessage date {
+	left: 105%;
+}
+
+div.chat .fromThem date {
+	right: 105%;
+}
+
+div.chat input {
+	font: 400 13px 'Open Sans', sans-serif;
+	border: 0;
+	padding: 0 15px;
+	height: 10%;
+	outline: 0;
+}
+
+div.chat input[type=button] {
+	width: 10%;
+	background: rgba(255,255,255,0.3);
+	color: #D33C23;
+	font-weight: 700;
+	text-align: center;
+	float: right;
+}
+
+div.chat input[type=text] {
+	width: 82%;
+	float: left;
+	background: rgba(255,255,255,0.8);
+}
+
+div.chat textarea {
+	font: 400 13px 'Open Sans', sans-serif;
+	border: 0;
+	padding: 0 15px;
+	height: 10%;
+	outline: 0;
+	width: 90%;
+	float: left;
+	background: rgba(255,255,255,0.8);
+}
+/*
+div.chat .myMessage, div.chat .fromThem {
+	font-size: 12px;
+}
+*/
+div.chat .message:hover .myMessage {
+	transform: translateY(18px);
+	-webkit-transform: translateY(18px);
+}
+
+div.chat .message:hover .fromThem {
+	transform: translateY(18px);
+	-webkit-transform: translateY(18px);
+}
+
+div.chat .myMessage date {
+	top: -20px;
+	left: auto;
+	right: 0;
+	font-size: 12px;
+}
+
+div.chat .fromThem date {
+	top: -20px;
+	left: 0;
+	right: auto;
+	font-size: 12px;
+}
+/*
+div.chat .myMessage, div.chat .fromThem {
+	max-width: 90%;
+}
+*/
+@-moz-keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  90% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  90% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  90% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.border {
+	position: relative;
+	top: 1%;
+	right: 0%;
+	left: 0%;
+	bottom: 1%;
+	overflow: hidden;
+}
+
+
+#got_viewer {
+      width: 100%;
+      height: 350px;
+      border: 1px solid #ccc;
+      margin: 10px auto;
+	  position: relative;
+    }
+
+#rationale_viewer {
+      width: 100%;
+      height: 120px;
+      border: 1px solid #ccc;
+      margin: 10px auto;
+	  position: relative;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  overflow: auto;
+    }
+	
+</style>
+</head>
+<body style="">
+
+	<div class="border">
+		<div class="chat">
+			<span id="spinner"></span>
+			<div class="messages" id="message_viewer" style="height: 400px;overflow:auto;border: 1px solid #ccc;"></div>
+			
+			<div id="rationale_viewer"></div>
+			<div id="got_viewer"></div>
+			
+			<textarea id="typer" placeholder="Your message" style="height: 45px;border: 1px solid #ccc;"></textarea>
+			<input id="sender" type="button" value="Send">
+		</div>
+	</div>
+
+	<dialog id="got_popup" style="width:80%">
+		  <div class="question"></div>
+		  <div class="rationale"></div>
+		  <div class="context"></div>
+		  <div class="answer"></div>
+		  <div class="confidence"></div>
+		  <br>
+		  <button class="close">Close</button>
+	</dialog>
+	
+	<script>
+		function scrollDown() {
+			var message_viewer = document.getElementById("message_viewer");
+			message_viewer.scrollTop = message_viewer.scrollHeight;
+		}
+
+		document.getElementById("typer").onkeypress = function(event) {
+			if (event.which == 13) {
+				event.preventDefault();
+				document.getElementById("sender").click();
+			}
+		};
+
+		document.getElementById("sender").onclick = async (event) => {
+			event.preventDefault();
+			sendAndReceive();
+		};
+
+		function getCurrentDate() {
+			var d = new Date();
+			var clock = d.getHours() + ":" + d.getMinutes() + ":"
+					+ d.getSeconds();
+			var month = d.getMonth() + 1;
+			var day = d.getDate();
+			var currentDate = (('' + day).length < 2 ? '0' : '') + day + '.'
+					+ (('' + month).length < 2 ? '0' : '') + month + '.'
+					+ d.getFullYear() + '&nbsp;&nbsp;' + clock;
+			return currentDate;
+		}
+		
+		function format_context(context) {
+			
+			var context_innerHTML = '<table border="0" style="width:100%">';
+			for (let i = 0; i < context.length; i++) {
+			    context_innerHTML += '<tr><td style="vertical-align:top">[' + (i+1) + ']</td><td>' + context[i] + '</td></tr>';
+			}
+			context_innerHTML += '</table>';
+			return context_innerHTML;
+		}
+		
+		const sendAndReceive = async () => {
+		//function sendAndReceive() {
+			var typer = document.getElementById("typer");
+			var question = typer.value;
+			if (question) {
+
+				var message_viewer = document.getElementById("message_viewer");
+				message_viewer.innerHTML += '<div class="message"><div class="myMessage"><p>'
+						+ question
+						+ '</p><date>'
+						+ getCurrentDate()
+						+ '</date></div></div>';
+				typer.value = '';
+				scrollDown();
+				//var xmlhttp = new XMLHttpRequest();
+				//var url = "/api/rest/v1/chat";
+
+				document.getElementById("spinner").classList.add("spinner");
+				//const response = await fetch('/api/rest/v1/chat/'+encodeURIComponent(question)+'&text');
+				const response = await fetch('/api/rest/v1/chat', {
+				  method: "POST",
+				  body: JSON.stringify({ "role": "user", "content": question }),
+				  headers: {
+				      			'Accept': 'application/json',
+				      		  	'Content-Type': 'application/json',
+				      		}
+				});
+			  	const resp_json = await response.json();  
+				const answer = resp_json['answer']
+				const graph_of_thoughts = resp_json['graph_of_thoughts']
+				const confidence = resp_json['confidence']
+				const rationale = resp_json['rationale']
+				const context = resp_json['context']
+				
+			  	document.getElementById("spinner").classList.remove("spinner");
+			  	
+			  	var message_viewer = document.getElementById("message_viewer");
+				message_viewer.innerHTML += '<div class="message"><div class="fromThem"><p>'
+						+ answer
+						+ '</p><date>'
+						+ getCurrentDate() + ', Confidence: ' + confidence
+						+ '</date></div></div>';
+				scrollDown();
+			  	
+				
+				
+				var rationale_viewer = document.getElementById("rationale_viewer");
+				rationale_viewer.innerHTML = '<p>'
+						+ rationale
+						+ '</p>'						
+						+ format_context(context);
+				
+				
+				var cy = cytoscape({
+			      container: document.getElementById('got_viewer'),
+			      elements: graph_of_thoughts.nodes.concat(graph_of_thoughts.edges),
+			      style: [
+			        {
+			          selector: 'node',
+			          style: {
+			            'background-color': '#F3F3F3',
+			            'label': 'data(label)',
+			            'width': '200px',
+			            'height': '40px',
+			            'text-valign': 'center',
+			            'color': '#000',
+			            'font-size': '14px'
+			          }
+			        },
+			        {
+			          selector: 'edge',
+			          style: {
+			            'line-color': '#D33C23',
+			            'target-arrow-color': '#D33C23',
+			            'target-arrow-shape': 'triangle',
+			            'curve-style': 'bezier',
+			            'width': 2
+			          }
+			        }
+			      ],
+			      layout: {
+			        name: 'preset'  // Use the positions provided in each node's 'position'
+					//name: 'breadthfirst'
+			      }
+			    });
+
+			    // Example: Add simple interactivity.
+			    cy.on('tap', 'node', function(evt){
+			      var node = evt.target;
+				  
+				  const modal = document.getElementById("got_popup");
+
+				  /* Select buttons from modal and bind click behavior */
+				  modal.querySelector("button.close").addEventListener("click", () => {
+				    /* Call close method on modal to dismiss */
+				    modal.close();
+				  });
+				  
+				  modal.querySelector("div.question").innerHTML=node.data('label');
+				  modal.querySelector("div.rationale").innerHTML='<span><b>Rationale:</b></span><span>'+node.data('rationale')+'</span>';
+				  modal.querySelector("div.context").innerHTML=format_context(node.data('context'));
+				  modal.querySelector("div.answer").innerHTML='<span><b>Answer:</b></span><span>'+node.data('answer')+'</span>';
+				  modal.querySelector("div.confidence").innerHTML='<span><b>Confidence:</b></span><span>'+node.data('confidence')+'</span>';
+				  
+				  modal.showModal();
+				  
+			      //alert(node.data('label') + node.data('context'));
+			    });
+			}
+		}
+		
+		
+	</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-bak/
+temp/
 acl_2024_r?/
 fever-medium_got-3+demos-sa-knn+cx+t5-nli-ec+ci+\[0.3,0.35,0.35\]+\[0.95,0.0,0.05\]_gpt-3.5-turbo-1106_google_annot.log
 fever-medium_got-3+demos-sa-knn+cx+t5-nli-ec+ci+\[0.4,0.3,0.3\]+\[0.8,0.1,0.1\]_gpt-3.5-turbo-1106_google_annot.log
