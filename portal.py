@@ -83,7 +83,8 @@ def warmup():
             #print("."*35 + " ground truth " + "."*35)
             #print(test[0].answer)
         except:
-            print("Erroneous question: ", question, file=sys.stderr)
+            raise
+            #print("Erroneous question: ", question, file=sys.stderr)
             
     sys.stdout = default_stdout
     log_file.close()
@@ -166,6 +167,7 @@ def create_chat():
         nodes.append({
             'data': {'id': node, 
                      'label': node, 
+                     'question': nx.get_node_attributes(G, "question")[node] if node in nx.get_node_attributes(G, "question") else '',
                      'rationale': nx.get_node_attributes(G, "rationale")[node] if node in nx.get_node_attributes(G, "rationale") else '',
                      'context': nx.get_node_attributes(G, "context")[node] if node in nx.get_node_attributes(G, "context") else '',
                      'answer': nx.get_node_attributes(G, "answer")[node] if node in nx.get_node_attributes(G, "answer") else '',

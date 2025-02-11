@@ -463,7 +463,7 @@ div.chat .myMessage, div.chat .fromThem {
 			          selector: 'node',
 			          style: {
 			            'background-color': '#F3F3F3',
-			            'label': 'data(label)',
+			            'label': 'data(question)',
 			            'width': '200px',
 			            'height': '40px',
 			            'text-valign': 'center',
@@ -500,7 +500,7 @@ div.chat .myMessage, div.chat .fromThem {
 				    modal.close();
 				  });
 				  
-				  modal.querySelector("div.question").innerHTML=node.data('label');
+				  modal.querySelector("div.question").innerHTML=node.data('question');
 				  modal.querySelector("div.rationale").innerHTML='<span><b>Rationale:</b></span><span>'+node.data('rationale')+'</span>';
 				  modal.querySelector("div.context").innerHTML=format_context(node.data('context'));
 				  modal.querySelector("div.answer").innerHTML='<span><b>Answer:</b></span><span>'+node.data('answer')+'</span>';

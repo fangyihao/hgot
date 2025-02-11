@@ -831,21 +831,12 @@ class GoT_QA:
         return example.copy(answer=completions.answer, rationale = completions.rationale, confidence = confidence, demos = default_demos, graph_of_thoughts = default_graph_of_thoughts)
 
     
-    def evolve_graph_of_thoughts(self, original_thoughts, additional_thoughts, depth, root_of_additional_thoughts):
-        u = f"L{depth}:"+root_of_additional_thoughts
-        additional_thoughts = nx.relabel_nodes(additional_thoughts, lambda x: f"L{depth+1}:"+x, copy=True)
-        #print(original_thoughts.nodes, file=sys.stderr)
-        #print(additional_thoughts.nodes, file=sys.stderr)
-        #TODO: networkx.exception.NetworkXError: ('The node sets of the graphs are not disjoint.', 'Use appropriate rename=(G1prefix,G2prefix,...,GNprefix)or use disjoint_union(G1,G2,...,GN).')
-        graph_of_thoughts = nx.compose(original_thoughts, additional_thoughts)
-        for v in additional_thoughts.nodes:
-            graph_of_thoughts.add_edge(u, v)
-        return graph_of_thoughts
+
     
     @dsp.transformation
     def search(self, example: dsp.Example, depth, k=3) -> dsp.Example:
-        graph_of_thoughts = example.graph_of_thoughts
-        root_question = example.question
+        root_graph = example.graph_of_thoughts
+        
         
         def assess_hint_quality(hint_answer):
             bad_keywords=["not available","not specified","not provided","unavailable","not at hand","absent","not on hand","inaccessible","not up for grabs","out of reach","currently unattainable","not obtainable","unspecified","not detailed","not mentioned","not designated","not identified","not indicated","not set out","not defined","not listed","not supplied","unprovided","not given","absent","not furnished","not delivered","omitted","lacking","not included","not presented", "does not provide","fails to offer","doesn't supply","lacks provision of","omits giving","withholds","denies provision","doesn't present","does not make available","is devoid of providing","neglects to give"]
@@ -891,7 +882,7 @@ class GoT_QA:
         
         G = nx.DiGraph()
         
-        questions = {}
+        questions = OrderedDict()
         for step in steps:
             mo = re.match(self.NODE_PATTERN, step)
             if mo:
@@ -914,14 +905,14 @@ class GoT_QA:
             except NetworkXNoCycle:
                 no_cycle_found = True
         
-        additional_thoughts = nx.relabel_nodes(G, lambda x: self.find_step_question(questions[x]), copy=True)
-        graph_of_thoughts = self.evolve_graph_of_thoughts(graph_of_thoughts, additional_thoughts, depth, root_question)
         
         rev_G = G.reverse(copy=True)
         answers = OrderedDict()
         passages = OrderedDict()
         scores = OrderedDict()
         confidences = OrderedDict()
+        sub_Gs = OrderedDict()
+        sub_G_uuids = OrderedDict()
         for u in nx.topological_sort(G):
             if G.in_degree(u) == 0:
                 print("~"*35 + u.capitalize() + "~"*35)
@@ -932,11 +923,11 @@ class GoT_QA:
                     passages_w_scores = self.retrieve(self.find_step_question(questions[u]), k=k, return_dict = True)
                 passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                     
-                sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u], graph_of_thoughts = graph_of_thoughts)    
+                sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u])    
                 #completions = self.predict(sub_example, stage='sub_qa')
                 #print(sub_example.question, file=sys.stderr)
                 completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
-                answers[u], passages[u], scores[u], confidences[u], graph_of_thoughts = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
+                answers[u], passages[u], scores[u], confidences[u], sub_Gs[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
 
             else:
                 all_rev_neighbors = True
@@ -974,13 +965,26 @@ class GoT_QA:
                         passages_w_scores = self.retrieve(self.find_step_question(rewrite), k=k, return_dict = True)
                     passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
                         
-                    sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u], graph_of_thoughts = graph_of_thoughts)
+                    sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u])
                     #completions = self.predict(sub_example, stage='sub_qa')
                     #print(sub_example.question, file=sys.stderr)
                     completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
-                    answers[u], passages[u], scores[u], confidences[u], graph_of_thoughts = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
+                    answers[u], passages[u], scores[u], confidences[u], sub_Gs[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
 
-        assert len(answers) == len(G.nodes)     
+        assert len(answers) == len(G.nodes)
+        
+        
+        # evolve graph of thoughts
+        import uuid
+        for u in questions:
+            sub_G_uuids[u] = str(uuid.uuid4())
+            sub_Gs[u] = nx.relabel_nodes(sub_Gs[u], lambda x: f"{x} {sub_G_uuids[u]}", copy=True)
+        sub_G_dependencies = nx.relabel_nodes(G, lambda x: f"L{depth+1}:{self.find_step_question(questions[x])} {sub_G_uuids[x]}", copy=True)
+        graph_of_thoughts = nx.compose_all([root_graph, sub_G_dependencies] + list(sub_Gs.values()))
+        for v in sub_G_dependencies.nodes:
+            for u in root_graph.nodes:
+                graph_of_thoughts.add_edge(u, v)
+        
         
         # verbose
         retrieval_history=dict([(self.find_step_question(questions[u]), passages[u]) for u in questions])
@@ -1100,10 +1104,15 @@ class GoT_QA:
     
     @dsp.transformation
     def predict_plan_search_predict(self, example: dsp.Example, depth=0, stage = 'qa'):
+        
+        graph_of_thoughts = nx.DiGraph()
+        graph_of_thoughts.add_node(f"L{depth+1}:{example.question}")
+        example = example.copy(graph_of_thoughts = graph_of_thoughts)
+        
         print("="*35 + " PREDICT (%d-0) "%(depth) + "="*35)
         example_0 = self.predict(example, stage=stage)
         
-        attrs = {f'L{depth+1}:'+example_0.question: {"context": copy.deepcopy(example_0.context), "rationale": example_0.rationale, "answer":example_0.answer, "confidence":example_0.confidence}}
+        attrs = {f'L{depth+1}:{example_0.question}': {"question": f'L{depth+1}:{example_0.question}', "context": copy.deepcopy(example_0.context), "rationale": example_0.rationale, "answer":example_0.answer, "confidence":example_0.confidence}}
         nx.set_node_attributes(example_0.graph_of_thoughts, attrs)
         
         
@@ -1163,10 +1172,6 @@ class GoT_QA:
         return passages
     
     def start(self, train, question):
-        depth=0
-        graph_of_thoughts = nx.DiGraph()
-        graph_of_thoughts.add_node(f"L{depth+1}:"+question)
-        
         passages_w_scores = self.retrieve(question, k=3,  return_dict = True)
         
         if (self.demos is None or "default" not in self.demos):
@@ -1179,11 +1184,11 @@ class GoT_QA:
             else:
                 raise NotImplementedError()
         
-        example = dsp.Example(question=question, demos=None, context=passages_w_scores["text"], context_scores = passages_w_scores["score"], graph_of_thoughts = graph_of_thoughts)
+        example = dsp.Example(question=question, demos=None, context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
         
         example.demos = self.interpret_demos(self.demos["default"], example)
         
-        example = self.predict_plan_search_predict(example, depth=depth)
+        example = self.predict_plan_search_predict(example, depth=0)
         
         return {"answer":example.answer, "confidence": example.confidence, "rationale": example.rationale, "context": example.context, "graph_of_thoughts": example.graph_of_thoughts}
     
