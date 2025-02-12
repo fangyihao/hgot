@@ -22,10 +22,27 @@ curl -o data/QReCC/qrecc_data.zip https://github.com/apple/ml-qrecc/blob/main/da
 If you use our source code in a research paper, please cite our work as follows:
 
 ```
-@article{fang2024hgot,
-  title={HGOT: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation},
-  author={Fang, Yihao and Thomas, Stephen W and Zhu, Xiaodan},
-  journal={arXiv preprint arXiv:2402.09390},
-  year={2024}
+@inproceedings{fang-etal-2024-hgot,
+    title = "{HGOT}: Hierarchical Graph of Thoughts for Retrieval-Augmented In-Context Learning in Factuality Evaluation",
+    author = "Fang, Yihao  and
+      Thomas, Stephen  and
+      Zhu, Xiaodan",
+    editor = "Ovalle, Anaelia  and
+      Chang, Kai-Wei  and
+      Cao, Yang Trista  and
+      Mehrabi, Ninareh  and
+      Zhao, Jieyu  and
+      Galstyan, Aram  and
+      Dhamala, Jwala  and
+      Kumar, Anoop  and
+      Gupta, Rahul",
+    booktitle = "Proceedings of the 4th Workshop on Trustworthy Natural Language Processing (TrustNLP 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.trustnlp-1.12/",
+    doi = "10.18653/v1/2024.trustnlp-1.12",
+    pages = "118--144"
 }
 ```
