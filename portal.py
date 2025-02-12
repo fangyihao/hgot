@@ -169,7 +169,8 @@ def create_chat():
                      'label': node, 
                      'question': nx.get_node_attributes(G, "question")[node] if node in nx.get_node_attributes(G, "question") else '',
                      'rationale': nx.get_node_attributes(G, "rationale")[node] if node in nx.get_node_attributes(G, "rationale") else '',
-                     'context': nx.get_node_attributes(G, "context")[node] if node in nx.get_node_attributes(G, "context") else '',
+                     'context': nx.get_node_attributes(G, "context")[node] if node in nx.get_node_attributes(G, "context") else [],
+                     'context_links': nx.get_node_attributes(G, "context_links")[node] if node in nx.get_node_attributes(G, "context_links") else [],
                      'answer': nx.get_node_attributes(G, "answer")[node] if node in nx.get_node_attributes(G, "answer") else '',
                      'confidence': f"{nx.get_node_attributes(G, 'confidence')[node]*100}%" if node in nx.get_node_attributes(G, 'confidence') else ''},
             'position': {'x': x * scale, 'y': (1 - y) * scale}

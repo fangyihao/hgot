@@ -19,7 +19,7 @@ def backoff_hdlr(details):
     )
 
 class Google:
-    """Wrapper for the ColBERTv2 Retrieval."""
+    """Wrapper for the Google Retrieval."""
 
     def __init__(
         self,
@@ -85,7 +85,7 @@ def google_request_v2(serpapi_key, query, k):
         #psg["prob"] = 0.5
         psg["score"] = 1
         ###
-        
+        psg["link"] = res['answer_box']['link']
         topk.append(psg)
         
     if 'organic_results' in res.keys():
@@ -100,9 +100,9 @@ def google_request_v2(serpapi_key, query, k):
                 #psg["prob"] = 0.5
                 psg["score"] = 1/float(organic_result['position'])
                 ###
-                
+                psg["link"] = organic_result['link']
                 topk.append(psg)
-
+    print(topk, file=sys.stderr)
     return topk[:k]
 
 '''

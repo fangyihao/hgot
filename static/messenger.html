@@ -322,16 +322,33 @@ div.chat .myMessage, div.chat .fromThem {
       border: 1px solid #ccc;
       margin: 10px auto;
 	  position: relative;
+	  padding: 0px;
+    }
+	
+#got_viewer_body {
+      width: 100%;
+      height: 330px;
+      margin: 0px auto;
+	  position: relative;
+	  padding: 0px;
     }
 
-#rationale_viewer {
+#reference_viewer {
       width: 100%;
-      height: 120px;
+      height: 130px;
       border: 1px solid #ccc;
       margin: 10px auto;
 	  position: relative;
+	  padding: 0px;
+    }
+#reference_viewer_body {
+      width: 100%;
+      height: 110px;
+	  position: relative;
 	  padding-left: 2%;
 	  padding-right: 2%;
+	  padding-top:5px;
+	  padding-bottom:5px;
 	  overflow: auto;
     }
 	
@@ -342,10 +359,16 @@ div.chat .myMessage, div.chat .fromThem {
 	<div class="border">
 		<div class="chat">
 			<span id="spinner"></span>
-			<div class="messages" id="message_viewer" style="height: 400px;overflow:auto;border: 1px solid #ccc;"></div>
+			<div class="messages" id="message_viewer" style="height: 390px;overflow:auto;border: 1px solid #ccc;"></div>
 			
-			<div id="rationale_viewer"></div>
-			<div id="got_viewer"></div>
+			<div id="reference_viewer">
+				<p style="margin: 0px;padding-left: 5px; background-color:#FCEDEB;color:black;"><b>References</b></p>
+				<div id="reference_viewer_body"></div>
+			</div>
+			<div id="got_viewer">
+				<p style="margin: 0px;padding-left: 5px; background-color:#FCEDEB;color:black;"><b>Thoughts</b></p>
+				<div id="got_viewer_body"></div>
+			</div>
 			
 			<textarea id="typer" placeholder="Your message" style="height: 45px;border: 1px solid #ccc;"></textarea>
 			<input id="sender" type="button" value="Send">
@@ -392,14 +415,30 @@ div.chat .myMessage, div.chat .fromThem {
 			return currentDate;
 		}
 		
-		function format_context(context) {
+		function format_context(context, context_links) {
 			
 			var context_innerHTML = '<table border="0" style="width:100%">';
 			for (let i = 0; i < context.length; i++) {
-			    context_innerHTML += '<tr><td style="vertical-align:top">[' + (i+1) + ']</td><td>' + context[i] + '</td></tr>';
+			    context_innerHTML += '<tr><td style="vertical-align:top">[' + (i+1) + ']</td><td><a target="_blank" href="'+context_links[i]+'">' + context[i] + '</a></td></tr>';
 			}
 			context_innerHTML += '</table>';
 			return context_innerHTML;
+		}
+		
+		function format_answer(answer) {
+			const punctuation = '.,\/#!$%\^&\*;:=\-_`~';
+		    let arr = answer.split('');
+		    if (punctuation.includes(arr[arr.length - 1])) {
+		        arr.pop();
+		    }
+		    return arr.join('');
+		}
+		
+		function format_rationale(rationale, context_links) {
+			for (let i = 0; i < context_links.length; i++) {
+				rationale = rationale.replace('['+String(i+1)+']', '<a style="vertical-align: super;font-size: smaller;" target="_blank" href="'+context_links[i]+'">['+String(i+1)+']</a>');
+			}
+			return rationale;
 		}
 		
 		const sendAndReceive = async () => {
@@ -435,12 +474,13 @@ div.chat .myMessage, div.chat .fromThem {
 				const confidence = resp_json['confidence']
 				const rationale = resp_json['rationale']
 				const context = resp_json['context']
+				const context_links = resp_json['context_links']
 				
 			  	document.getElementById("spinner").classList.remove("spinner");
 			  	
 			  	var message_viewer = document.getElementById("message_viewer");
-				message_viewer.innerHTML += '<div class="message"><div class="fromThem"><p>'
-						+ answer
+				message_viewer.innerHTML += '<div class="message"><div class="fromThem"><p><b>'
+						+ format_answer(answer) + ':</b> ' + format_rationale(rationale, context_links)
 						+ '</p><date>'
 						+ getCurrentDate() + ', Confidence: ' + confidence
 						+ '</date></div></div>';
@@ -448,15 +488,14 @@ div.chat .myMessage, div.chat .fromThem {
 			  	
 				
 				
-				var rationale_viewer = document.getElementById("rationale_viewer");
-				rationale_viewer.innerHTML = '<p>'
-						+ rationale
-						+ '</p>'						
-						+ format_context(context);
+				var reference_viewer = document.getElementById("reference_viewer_body");
+				reference_viewer.innerHTML = '<div>'						
+						+ format_context(context, context_links)
+						+ '</div>';
 				
 				
 				var cy = cytoscape({
-			      container: document.getElementById('got_viewer'),
+			      container: document.getElementById('got_viewer_body'),
 			      elements: graph_of_thoughts.nodes.concat(graph_of_thoughts.edges),
 			      style: [
 			        {
@@ -501,10 +540,10 @@ div.chat .myMessage, div.chat .fromThem {
 				  });
 				  
 				  modal.querySelector("div.question").innerHTML=node.data('question');
-				  modal.querySelector("div.rationale").innerHTML='<span><b>Rationale:</b></span><span>'+node.data('rationale')+'</span>';
-				  modal.querySelector("div.context").innerHTML=format_context(node.data('context'));
-				  modal.querySelector("div.answer").innerHTML='<span><b>Answer:</b></span><span>'+node.data('answer')+'</span>';
-				  modal.querySelector("div.confidence").innerHTML='<span><b>Confidence:</b></span><span>'+node.data('confidence')+'</span>';
+				  modal.querySelector("div.rationale").innerHTML='<span><b>Rationale: </b></span><span>'+format_rationale(node.data('rationale'), node.data('context_links'))+'</span>';
+				  modal.querySelector("div.context").innerHTML=format_context(node.data('context'), node.data('context_links'));
+				  modal.querySelector("div.answer").innerHTML='<span><b>Answer: </b></span><span>'+node.data('answer')+'</span>';
+				  modal.querySelector("div.confidence").innerHTML='<span><b>Confidence: </b></span><span>'+node.data('confidence')+'</span>';
 				  
 				  modal.showModal();
 				  

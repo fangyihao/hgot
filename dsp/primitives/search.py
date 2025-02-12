@@ -15,12 +15,12 @@ def retrieve(query: str, k: int, return_dict: bool = False) -> list[str]:
         if not return_dict:
             results = [passages[idx].long_text for idx in passages_cs_scores_sorted]
         else:
-            results = {"text":[passages[idx].long_text for idx in passages_cs_scores_sorted], "score":[passages[idx].score for idx in passages_cs_scores_sorted]}
+            results = {"text":[passages[idx].long_text for idx in passages_cs_scores_sorted], "score":[passages[idx].score for idx in passages_cs_scores_sorted], "link":[passages[idx].link for idx in passages_cs_scores_sorted]}
     else:
         if not return_dict:
             results = [psg.long_text for psg in passages]
         else:
-            results = {"text":[psg.long_text for psg in passages], "score":[psg.score for psg in passages]}
+            results = {"text":[psg.long_text for psg in passages], "score":[psg.score for psg in passages], "link":[psg.link for psg in passages]}
     return results
 
 
@@ -35,16 +35,15 @@ def retrieveRerankEnsemble(queries: list[str], k: int, return_dict: bool = False
         passages_cs_scores = dsp.settings.reranker(query, retrieved_passages)
         for idx in np.argsort(passages_cs_scores)[::-1]:
             psg = retrieved_passages[idx]
-            passages[psg.long_text] = passages.get(psg.long_text, []) + [
-                passages_cs_scores[idx]
-            ]
+            #passages[psg.long_text] = passages.get(psg.long_text, []) + [passages_cs_scores[idx]]
+            passages[psg.long_text] = ((passages[psg.long_text][0] if psg.long_text in passages else []) + [passages_cs_scores[idx]], psg.link)
 
-    passages = [(np.average(score), text) for text, score in passages.items()]
+    passages = [(np.average(score), text, link) for text, (score, link) in passages.items()]
+    results = sorted(passages, reverse=True)[:k]
     if not return_dict:
-        return [text for _, text in sorted(passages, reverse=True)[:k]]
+        return [text for _, text, _ in results]
     else:
-        results = sorted(passages, reverse=True)[:k]
-        return {"text":[text for _, text in results], "score":[score for score, _ in results]}
+        return {"text":[text for _, text, _ in results], "score":[score for score, _, _ in results], "link":[link for _, _, link in results]}
 
 
 def retrieveEnsemble(queries: list[str], k: int, by_prob: bool = False, return_dict: bool = False) -> list[str]:
@@ -61,13 +60,16 @@ def retrieveEnsemble(queries: list[str], k: int, by_prob: bool = False, return_d
     for q in queries:
         for psg in dsp.settings.rm(q, k=k * 3):
             if by_prob:
-                passages[psg.long_text] = passages.get(psg.long_text, 0.0) + psg.prob
+                #passages[psg.long_text] = ((passages[psg.long_text][0] if psg.long_text in passages else 0.0) + psg.prob, psg.link)
+                score = psg.prob
             else:
-                passages[psg.long_text] = passages.get(psg.long_text, 0.0) + psg.score
+                #passages[psg.long_text] = ((passages[psg.long_text][0] if psg.long_text in passages else 0.0) + psg.score, psg.link)
+                score = psg.score
+            passages[psg.long_text] = ((passages[psg.long_text][0] if psg.long_text in passages else []) + [score], psg.link)
 
-    passages = [(score, text) for text, score in passages.items()]
+    passages = [(np.average(score), text, link) for text, (score, link) in passages.items()]
     results = sorted(passages, reverse=True)[:k]
     if not return_dict:
-        return [text for _, text in results]
+        return [text for _, text, _ in results]
     else:
-        return {"text":[text for _, text in results], "score":[score for score, _ in results]}
+        return {"text":[text for _, text, _ in results], "score":[score for score, _, _ in results], "link":[link for _, _, link in results]}

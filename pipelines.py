@@ -797,22 +797,23 @@ class GoT_QA:
 
         if dsp.settings.electoral_college:
             # TODO: optimize weights using derivative-free optimization
-            def rerank(passages, scores, citation_frequency, confidence, W = [0.3, 0.6, 0.1]):
-                assert (len(passages) == len(scores) and len(passages) == len(citation_frequency))
+            def rerank(passages, scores, links, citation_frequency, confidence, W = [0.3, 0.6, 0.1]):
+                assert (len(passages) == len(scores) and len(passages) == len(citation_frequency) and len(passages) == len(links))
                 if len(passages) == 0:
-                    return passages, scores
+                    return passages, scores, links
                 
                 if confidence is not None:
                     scores = list(np.matmul(np.stack((scores, citation_frequency, [confidence] * len(passages)), axis=1), W))
                 else:
                     scores = list(np.matmul(np.stack((scores, citation_frequency), axis=1), [W[0], sum(W[1:])]))
 
-                passages, scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(passages, scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
+                passages, scores, links = np.split(np.array([[passage, score, link] for passage, score, link in sorted(zip(passages, scores, links), key=lambda item: item[1], reverse=True)]), 3, axis=1)
                 passages = list(np.reshape(passages, (-1,)).astype(str, copy=False))
                 scores = list(np.reshape(scores, (-1,)).astype(np.float32, copy=False))
-                return passages, scores
+                links = list(np.reshape(links, (-1,)).astype(str, copy=False))
+                return passages, scores, links
             
-            example.context, example.context_scores = rerank(example.context, example.context_scores, completions.citation_frequency, completions.confidence, W=self.W)
+            example.context, example.context_scores, example.context_links = rerank(example.context, example.context_scores, example.context_links, completions.citation_frequency, completions.confidence, W=self.W)
             confidence = completions.confidence
         else:
             confidence = None
@@ -831,7 +832,6 @@ class GoT_QA:
         return example.copy(answer=completions.answer, rationale = completions.rationale, confidence = confidence, demos = default_demos, graph_of_thoughts = default_graph_of_thoughts)
 
     
-
     
     @dsp.transformation
     def search(self, example: dsp.Example, depth, k=3) -> dsp.Example:
@@ -909,6 +909,7 @@ class GoT_QA:
         rev_G = G.reverse(copy=True)
         answers = OrderedDict()
         passages = OrderedDict()
+        links = OrderedDict()
         scores = OrderedDict()
         confidences = OrderedDict()
         sub_Gs = OrderedDict()
@@ -921,13 +922,13 @@ class GoT_QA:
                     passages_w_scores = retrieve_ensemble(self.find_step_question(questions[u]), k=k, return_dict = True)
                 else:
                     passages_w_scores = self.retrieve(self.find_step_question(questions[u]), k=k, return_dict = True)
-                passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
+                passages[u], scores[u], links[u] = passages_w_scores["text"], passages_w_scores["score"], passages_w_scores["link"]
                     
-                sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u])    
+                sub_example = dsp.Example(question=self.find_step_question(questions[u]), demos=example.demos, context=passages[u], context_scores=scores[u], context_links=links[u])    
                 #completions = self.predict(sub_example, stage='sub_qa')
                 #print(sub_example.question, file=sys.stderr)
                 completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
-                answers[u], passages[u], scores[u], confidences[u], sub_Gs[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
+                answers[u], passages[u], scores[u], confidences[u], sub_Gs[u], links[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts, completions.context_links
 
             else:
                 all_rev_neighbors = True
@@ -963,13 +964,13 @@ class GoT_QA:
                         passages_w_scores = retrieve_ensemble(self.find_step_question(rewrite), k=k, return_dict = True)
                     else:
                         passages_w_scores = self.retrieve(self.find_step_question(rewrite), k=k, return_dict = True)
-                    passages[u], scores[u] = passages_w_scores["text"], passages_w_scores["score"]
+                    passages[u], scores[u], links[u] = passages_w_scores["text"], passages_w_scores["score"], passages_w_scores["link"]
                         
-                    sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u])
+                    sub_example = dsp.Example(question=self.find_step_question(rewrite), demos=example.demos, context=passages[u], context_scores=scores[u], context_links=links[u])
                     #completions = self.predict(sub_example, stage='sub_qa')
                     #print(sub_example.question, file=sys.stderr)
                     completions = self.predict_plan_search_predict(sub_example, depth=depth, stage='sub_qa')
-                    answers[u], passages[u], scores[u], confidences[u], sub_Gs[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts
+                    answers[u], passages[u], scores[u], confidences[u], sub_Gs[u], links[u] = completions.answer, completions.context, completions.context_scores, completions.confidence, completions.graph_of_thoughts, completions.context_links
 
         assert len(answers) == len(G.nodes)
         
@@ -997,6 +998,7 @@ class GoT_QA:
         for u in questions:
             example.context.extend(passages[u])
             example.context_scores.extend(scores[u])
+            example.context_links.extend(links[u])
             repeats.append(len(passages[u]))
         weights = np.concatenate([[weight]*repeat for weight, repeat in zip(weights, repeats)])
         example.context_scores = list(np.multiply(example.context_scores, weights))
@@ -1005,17 +1007,19 @@ class GoT_QA:
         for passage, score in zip(example.context, example.context_scores):
             print(passage + " SCORE: " + str(score))
         
-        def topk(X, Y, k):
-            if len(X) == 0 and len(Y) == 0:
-                return X, Y
+        def topk(X, Y, Z, k):
+            if len(X) == 0 and len(Y) == 0 and len(Z) == 0:
+                return X, Y, Z
             
-            assert(len(X)==len(Y) and len(X)>0)
+            assert(len(X)==len(Y) and len(X)==len(Z) and len(X)>0)
             X_type = type(X[0])
             Y_type = type(Y[0])
-            X, Y = np.split(np.array([[x, y] for x, y in sorted(zip(X, Y), key=lambda item: item[1], reverse=True)]), 2, axis=1)
+            Z_type = type(Z[0])
+            X, Y, Z = np.split(np.array([[x, y, z] for x, y, z in sorted(zip(X, Y, Z), key=lambda item: item[1], reverse=True)]), 3, axis=1)
             X = list(np.reshape(X, (-1,)).astype(X_type, copy=False))
             Y = list(np.reshape(Y, (-1,)).astype(Y_type, copy=False))
-            return X[:k], Y[:k]
+            Z = list(np.reshape(Z, (-1,)).astype(Z_type, copy=False))
+            return X[:k], Y[:k], Z[:k]
         #example.context, example.context_scores = np.split(np.array([[passage, score] for passage, score in sorted(zip(example.context, example.context_scores), key=lambda item: item[1], reverse=True)]), 2, axis=1)
         #example.context = list(np.reshape(example.context, (-1,)).astype(str, copy=False))
         #example.context_scores = list(np.reshape(example.context_scores, (-1,)).astype(np.float32, copy=False))
@@ -1024,7 +1028,7 @@ class GoT_QA:
         
         # Miller, G. A. (1956). "The magical number seven, plus or minus two: Some limits on our capacity for processing information". Psychological Review. 63 (2): 81–97.
         clip = 7
-        example.context, example.context_scores = topk(example.context, example.context_scores, clip)
+        example.context, example.context_scores, example.context_links = topk(example.context, example.context_scores, example.context_links, clip)
         # The passing percentage is set to 60% aligning to most of the academic grading systems
         # passing_percentage = 0.6
         # example.context, example.context_scores = topk(example.context, example.context_scores, min([int(len(example.context)*passing_percentage), clip]))
@@ -1052,6 +1056,7 @@ class GoT_QA:
         default_demos = example.demos
         default_context = example.context
         default_context_scores = example.context_scores
+        default_context_links = example.context_links
         
         if self.demos and "plan" in self.demos:
             example.demos = self.interpret_demos(self.demos["plan"], example)
@@ -1099,7 +1104,7 @@ class GoT_QA:
             #if self.annotator._get_value(len(self.annotator)-1, 'Dependencies') is None:
             #    self.annotator._set_value(len(self.annotator)-1, 'Dependencies', completions.dependencies)    
         
-        return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos, context = default_context, context_scores=default_context_scores, graph_of_thoughts = default_graph_of_thoughts)
+        return example.copy(plan = plan, dependencies = completions.dependencies, demos = default_demos, context = default_context, context_scores=default_context_scores, graph_of_thoughts = default_graph_of_thoughts, context_links = default_context_links)
     
     
     @dsp.transformation
@@ -1112,11 +1117,11 @@ class GoT_QA:
         print("="*35 + " PREDICT (%d-0) "%(depth) + "="*35)
         example_0 = self.predict(example, stage=stage)
         
-        attrs = {f'L{depth+1}:{example_0.question}': {"question": f'L{depth+1}:{example_0.question}', "context": copy.deepcopy(example_0.context), "rationale": example_0.rationale, "answer":example_0.answer, "confidence":example_0.confidence}}
+        attrs = {f'L{depth+1}:{example_0.question}': {"question": f'L{depth+1}:{example_0.question}', "context": copy.deepcopy(example_0.context), "context_links": copy.deepcopy(example_0.context_links), "rationale": example_0.rationale, "answer":example_0.answer, "confidence":example_0.confidence}}
         nx.set_node_attributes(example_0.graph_of_thoughts, attrs)
         
         
-        example_1 = dsp.Example(question=example_0.question, demos=example_0.demos, context=example_0.context, context_scores = example_0.context_scores, graph_of_thoughts = example_0.graph_of_thoughts)
+        example_1 = dsp.Example(question=example_0.question, demos=example_0.demos, context=example_0.context, context_scores = example_0.context_scores, graph_of_thoughts = example_0.graph_of_thoughts, context_links=example_0.context_links)
         print("="*35 + " PLAN (%d) "%(depth) + "="*35)
         example_1 = self.plan(example_1)
         
@@ -1184,13 +1189,13 @@ class GoT_QA:
             else:
                 raise NotImplementedError()
         
-        example = dsp.Example(question=question, demos=None, context=passages_w_scores["text"], context_scores = passages_w_scores["score"])
+        example = dsp.Example(question=question, demos=None, context=passages_w_scores["text"], context_scores = passages_w_scores["score"], context_links = passages_w_scores["link"])
         
         example.demos = self.interpret_demos(self.demos["default"], example)
         
         example = self.predict_plan_search_predict(example, depth=0)
         
-        return {"answer":example.answer, "confidence": example.confidence, "rationale": example.rationale, "context": example.context, "graph_of_thoughts": example.graph_of_thoughts}
+        return {"answer":example.answer, "confidence": example.confidence, "rationale": example.rationale, "context": example.context, "graph_of_thoughts": example.graph_of_thoughts, "context_links": example.context_links}
     
     def __call__(self, train, question):
         self.annotate(train)
