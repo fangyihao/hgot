@@ -1002,7 +1002,28 @@ class GoT_QA:
             repeats.append(len(passages[u]))
         weights = np.concatenate([[weight]*repeat for weight, repeat in zip(weights, repeats)])
         example.context_scores = list(np.multiply(example.context_scores, weights))
+        
+        
+        def deduplicate(X, Y, Z):
+            if len(X) == 0 and len(Y) == 0 and len(Z) == 0:
+                return X, Y, Z
             
+            assert(len(X)==len(Y) and len(X)==len(Z) and len(X)>0)
+            X_type = type(X[0])
+            Y_type = type(Y[0])
+            Z_type = type(Z[0])
+            d = OrderedDict()
+            for x, y, z in zip(X, Y, Z):
+                d[x] = (d[x][0] + [y], z) if x in d else ([y], z)
+            X, Y, Z = np.split(np.array([[x, np.average(y), z] for x, (y, z) in d.items()]), 3, axis=1)
+            X = list(np.reshape(X, (-1,)).astype(X_type, copy=False))
+            Y = list(np.reshape(Y, (-1,)).astype(Y_type, copy=False))
+            Z = list(np.reshape(Z, (-1,)).astype(Z_type, copy=False))
+            return X, Y, Z
+           
+        example.context, example.context_scores, example.context_links = deduplicate(example.context, example.context_scores, example.context_links)
+        
+        
         print("-"*35 + " PASSAGES WITH SCORES " + "-"*35)
         for passage, score in zip(example.context, example.context_scores):
             print(passage + " SCORE: " + str(score))

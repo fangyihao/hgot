@@ -102,7 +102,7 @@ def google_request_v2(serpapi_key, query, k):
                 ###
                 psg["link"] = organic_result['link']
                 topk.append(psg)
-    print(topk, file=sys.stderr)
+    #print(topk, file=sys.stderr)
     return topk[:k]
 
 '''
