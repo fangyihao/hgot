@@ -8,6 +8,7 @@ import numpy as np
 import random
 from dsp.primitives.demonstrate import Example
 from pandas import DataFrame
+import os
 def _eval(s):
     if isinstance(s, list):
         return s
@@ -74,4 +75,4 @@ def sample_balancedly(demos:list[Example], k):
 def transform_balancedly(df:DataFrame):
     grouped = df.groupby(['Answer'], as_index=False)
     return grouped.apply(lambda x: x.sample(n=int(grouped['Answer'].count().min().iloc[0]))).reset_index(drop=True).sample(frac=1).reset_index(drop=True)
-    
+

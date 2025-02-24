@@ -9,7 +9,7 @@ from dsp import Example
 import dsp
 from collections import Counter
 from dsp.utils import normalize_text
-from metrics import citation_recall, citation_precision
+from metric import citation_recall, citation_precision
 import re
 from nltk import sent_tokenize
 import numpy as np

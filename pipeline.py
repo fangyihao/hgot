@@ -17,7 +17,7 @@ from networkx.exception import NetworkXNoCycle
 from collections import OrderedDict
 from dsp.modules.cache_utils import CacheMemory, cache_turn_on
 from dsp.utils import deduplicate
-from utils import df_to_dsp_augmented, sample_balancedly, transform_balancedly
+from util import df_to_dsp_augmented, sample_balancedly, transform_balancedly
 import pandas as pd
 from nltk import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity

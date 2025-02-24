@@ -6,3 +6,6 @@ from .sentence_vectorizer import *
 from .cohere import *
 from .sbert import *
 from .google import Google
+from .llama import *
+from .qwen import *
+from .deepseek import *

@@ -23,7 +23,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from functools import partial
-from pipelines import GoT_QA
+from pipeline import GoT_QA
 
 verbose = False
 if verbose:
@@ -33,21 +33,27 @@ else:
     from nli import _t5_nli, _gpt_nli
 
 from dsp.utils.metrics import EM, F1
-from utils import df_to_dsp, df_to_dsp_augmented
-from judges import nli_electoral_college
-from run import init_langauge_model
-from run import init_retrieval_model
-from run import load_data
+from util import df_to_dsp, df_to_dsp_augmented
+from judge import nli_electoral_college
+from model import init_langauge_model, init_retrieval_model
+from data import load_data
 
 from flask import Flask, render_template, jsonify, request
 import networkx as nx
 import pandas as pd
+import json
 
-language_model='gpt-3.5-turbo-1106'
-retrieval_model='google'
+with open("config/config.json","r") as f:
+    config = json.load(f)
+
+#language_model='gpt-3.5-turbo-1106'
+#retrieval_model='google'
+language_model = config["lm"]
+retrieval_model = config["rm"]
 
 init_langauge_model(language_model=language_model)
 init_retrieval_model(retrieval_model=retrieval_model)
+dsp.settings.configure(vectorizer=dsp.SentenceTransformersVectorizer())
 
 dataset = "hotpotqa-short"
 method = "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.6,0.1]"

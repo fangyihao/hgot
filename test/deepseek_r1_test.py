@@ -33,4 +33,4 @@ response: ChatResponse = chat(model='deepseek-r1:70b', messages=[
 ])
 print(response['message']['content'])
 # or access fields directly from the response object
-print(response.message.content)
+#print(response.message.content)
