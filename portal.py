@@ -38,7 +38,8 @@ from judge import nli_electoral_college
 from model import init_langauge_model, init_retrieval_model
 from data import load_data
 
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, session
+from flask_session import Session
 import networkx as nx
 import pandas as pd
 import json
@@ -152,14 +153,29 @@ def hierarchy_pos(G, root, width=1.0, vert_gap=0.2, vert_loc=1.0, xcenter=0.5, d
     return pos
 
 
-app = Flask(__name__, template_folder='static', static_url_path='', static_folder='static')
+app = Flask(__name__, template_folder='template', static_url_path='', static_folder='static')
+app.config["SESSION_PERMANENT"] = False
+app.config["SESSION_TYPE"] = "filesystem"
+Session(app)
+
+@app.route('/', methods=['GET'])
+def index():
+    session["messages"] = None
+    return render_template('messenger.html')
 
 @app.route('/api/rest/v1/chat', methods=['POST'])
 def create_chat():
+    if not session.get("messages"):
+        session["messages"] = []
     req_json = request.get_json()
     question = req_json['content']
+    session["messages"].append(question)
+    question = ' '.join(session["messages"])
+    
+    print(session["messages"], file=sys.stderr)
     #logger.info('%s - QUESTION: %s'%(request.remote_addr, question))
     answer = chat(question)
+    session["messages"].append(answer['answer'])
     #logger.info('%s - ANSWER: %s'%(request.remote_addr, answer))
     answer['confidence'] = f"{answer['confidence']*100}%"
     
