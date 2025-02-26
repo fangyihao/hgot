@@ -39,6 +39,8 @@ The evaluation results for ChatGPT-3.5 and the Google retrieval model are presen
 
 HGOT includes a basic web-based user interface for inspection purposes. To launch it, execute the command `python3 portal.py` and access `127.0.0.1:9080` via a web browser.
 
+![](doc/image/recording.gif)
+
 #### Language Model Configuration
 Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o, gpt-4o-mini, o1, o1-mini, o3-mini), Llama models (e.g., llama3.3:70b), Qwen models (e.g., qwen2.5:7b, qwen2.5:14b, qwen2.5:32b, qwen2.5:72b), and DeepSeek-R1 models (e.g., deepseek-r1:7b, deepseek-r1:8b, deepseek-r1:14b, deepseek-r1:32b, deepseek-r1:70b, deepseek-r1:671b).
 
