@@ -171,8 +171,6 @@ def create_chat():
     question = req_json['content']
     session["messages"].append(question)
     question = ' '.join(session["messages"])
-    
-    print(session["messages"], file=sys.stderr)
     #logger.info('%s - QUESTION: %s'%(request.remote_addr, question))
     answer = chat(question)
     session["messages"].append(answer['answer'])
