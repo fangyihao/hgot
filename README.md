@@ -32,7 +32,7 @@ Kindly navigate to config/config.json to configure the language model you requir
 {
 	"lm":"gpt-3.5-turbo-1106",
 	"rm":"google"
-}}
+}
 ```
 
 ## Web-based User Interface
