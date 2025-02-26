@@ -3,9 +3,9 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 
 ![](doc/image/methodology.png)
 
-![](doc/image/results-chatgpt3.5-google.png)
+## Evaluation
 
-## Dataset Download
+#### Dataset Download
 
 Open-SQuAD: 
 ```
@@ -25,13 +25,23 @@ QReCC:
 curl -o data/QReCC/qrecc_data.zip https://github.com/apple/ml-qrecc/blob/main/dataset/qrecc_data.zip
 ```
 
+#### Command for Evaluation
+
+Execute `python3 evaluation.py` to assess HGOT across multiple datasets and language models.
+
+#### Experimental Results
+
+The evaluation results for ChatGPT-3.5 and the Google retrieval model are presented below:
+
+![](doc/image/results-chatgpt3.5-google.png)
+
 ## Language Model Configuration
 
 Kindly navigate to config/config.json to configure the language model you require. Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o, gpt-4o-mini, o1, o1-mini, o3-mini), Llama models (e.g., llama3.3:70b), Qwen models (e.g., qwen2.5:7b, qwen2.5:14b, qwen2.5:32b, qwen2.5:72b), and DeepSeek-R1 models (e.g., deepseek-r1:7b, deepseek-r1:8b, deepseek-r1:14b, deepseek-r1:32b, deepseek-r1:70b, deepseek-r1:671b).
 ```
 {
-	"lm":"gpt-3.5-turbo-1106",
-	"rm":"google"
+    "lm":"gpt-3.5-turbo-1106",
+    "rm":"google"
 }
 ```
 
