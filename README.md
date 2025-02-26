@@ -35,9 +35,14 @@ The evaluation results for ChatGPT-3.5 and the Google retrieval model are presen
 
 ![](doc/image/results-chatgpt3.5-google.png)
 
-## Language Model Configuration
+## Web-based User Interface
 
-Kindly navigate to config/config.json to configure the language model you require. Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o, gpt-4o-mini, o1, o1-mini, o3-mini), Llama models (e.g., llama3.3:70b), Qwen models (e.g., qwen2.5:7b, qwen2.5:14b, qwen2.5:32b, qwen2.5:72b), and DeepSeek-R1 models (e.g., deepseek-r1:7b, deepseek-r1:8b, deepseek-r1:14b, deepseek-r1:32b, deepseek-r1:70b, deepseek-r1:671b).
+HGOT includes a basic web-based user interface for inspection purposes. To launch it, execute the command `python3 portal.py` and access `127.0.0.1:9080` via a web browser.
+
+#### Language Model Configuration
+Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o, gpt-4o-mini, o1, o1-mini, o3-mini), Llama models (e.g., llama3.3:70b), Qwen models (e.g., qwen2.5:7b, qwen2.5:14b, qwen2.5:32b, qwen2.5:72b), and DeepSeek-R1 models (e.g., deepseek-r1:7b, deepseek-r1:8b, deepseek-r1:14b, deepseek-r1:32b, deepseek-r1:70b, deepseek-r1:671b).
+
+To configure the language model for the web-based user interface, go to `config/config.json`. 
 ```
 {
     "lm":"gpt-3.5-turbo-1106",
@@ -45,9 +50,7 @@ Kindly navigate to config/config.json to configure the language model you requir
 }
 ```
 
-## Web-based User Interface
 
-HGOT includes a basic web-based user interface for inspection purposes. To launch it, execute the command `python3 portal.py` and access `127.0.0.1:9080` via a web browser.
 
 ## Citation
 If you use our source code in a research paper, please cite our work as follows:
