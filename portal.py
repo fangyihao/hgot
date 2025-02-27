@@ -51,8 +51,9 @@ with open("config/config.json","r") as f:
 #retrieval_model='google'
 language_model = config["lm"]
 retrieval_model = config["rm"]
+max_tokens = config["lm_max_tokens"]
 
-init_langauge_model(language_model=language_model)
+init_langauge_model(language_model=language_model, max_tokens=max_tokens)
 init_retrieval_model(retrieval_model=retrieval_model)
 dsp.settings.configure(vectorizer=dsp.SentenceTransformersVectorizer())
 

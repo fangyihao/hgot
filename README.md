@@ -7,22 +7,40 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 
 #### Dataset Download
 
+FEVER:
+```
+curl -o data/FEVER/train.jsonl https://fever.ai/download/fever/train.jsonl
+curl -o data/FEVER/paper_dev.jsonl https://fever.ai/download/fever/paper_dev.jsonl
+curl -o data/FEVER/paper_test.jsonl https://fever.ai/download/fever/paper_test.jsonl
+python3 -c "from data import preprocess_data; preprocess_data('fever')"
+```
+
 Open-SQuAD: 
 ```
 curl -o data/Open-SQuAD/biencoder-squad1-train.json.gz https://dl.fbaipublicfiles.com/dpr/data/retriever/biencoder-squad1-train.json.gz
 curl -o data/Open-SQuAD/biencoder-squad1-dev.json.gz https://dl.fbaipublicfiles.com/dpr/data/retriever/biencoder-squad1-dev.json.gz
 curl -o data/Open-SQuAD/squad1-test.qa.csv https://dl.fbaipublicfiles.com/dpr/data/retriever/squad1-test.qa.csv
+python3 -c "from data import preprocess_data; preprocess_data('open-squad')"
 ```
 
 HotPotQA: 
 ```
 curl -o data/HotPotQA/hotpot_train_v1.1.json http://curtis.ml.cmu.edu/datasets/hotpot/hotpot_train_v1.1.json
 curl -o data/HotPotQA/hotpot_dev_fullwiki_v1.json http://curtis.ml.cmu.edu/datasets/hotpot/hotpot_dev_fullwiki_v1.json
+python3 -c "from data import preprocess_data; preprocess_data('hotpotqa')"
 ```
 
-QReCC:
+QReCC: (Optional)
 ```
 curl -o data/QReCC/qrecc_data.zip https://github.com/apple/ml-qrecc/blob/main/dataset/qrecc_data.zip
+unzip data/QReCC/qrecc_data.zip -d data/QReCC/
+python3 -c "from data import preprocess_data; preprocess_data('qrecc')"
+```
+
+FELM: (Optional)
+```
+curl -o data/FELM/all.jsonl https://huggingface.co/datasets/hkust-nlp/felm/blob/main/all.jsonl
+python3 -c "from data import preprocess_data; preprocess_data('felm')"
 ```
 
 #### Command for Evaluation
@@ -47,8 +65,9 @@ Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gp
 To configure the language model for the web-based user interface, navigate to `config/config.json` and update the "lm" value with one of the supported language models listed above.
 ```
 {
-    "lm":"gpt-3.5-turbo-1106",
-    "rm":"google"
+	"rm":"google",
+	"lm":"gpt-3.5-turbo-1106",
+	"lm_max_tokens":300
 }
 ```
 

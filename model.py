@@ -5,7 +5,7 @@ Created on Feb 21, 2025
 '''
 import dsp
 import os
-def init_langauge_model(language_model='gpt-3.5-turbo-1106'):
+def init_langauge_model(language_model='gpt-3.5-turbo-1106', max_tokens=300):
     
     if language_model=='text-davinci-002':
         openai_key = os.getenv('OPENAI_API_KEY')
@@ -27,7 +27,7 @@ def init_langauge_model(language_model='gpt-3.5-turbo-1106'):
         raise NotImplementedError()
         
     dsp.settings.configure(lm=lm)
-    dsp.settings.lm.kwargs["max_tokens"] = 300
+    dsp.settings.lm.kwargs["max_tokens"] = max_tokens
     
 
 def init_retrieval_model(retrieval_model='google'):

@@ -1,4 +1,5 @@
 {
+	"rm":"google",
 	"lm":"gpt-3.5-turbo-1106",
-	"rm":"google"
+	"lm_max_tokens":300
 }
