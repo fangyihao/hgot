@@ -3,6 +3,22 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 
 ![](doc/image/methodology.png)
 
+
+## Features
+
+**Planner (Reasoner):** Breaks down complex queries into manageable sub-questions (sub-goals) and identifies their interdependencies.
+
+**Thought Quality:** HGOT selects the best answer using a voting mechanism that assesses thought quality with citation recall and precision metrics.
+
+**Retrieval Quality:** Provides a scoring mechanism for evaluating retrieved passages based on citation frequency and quality, self-consistency confidence, and retrieval module ranking.
+
+**Evaluation Tool:** An experimental framework that evaluates HGOT using various LLMs (e.g., ChatGPT, Llama, Qwen, and DeepSeek-R1 models), multiple retrieval models (e.g., Google and ColBERT), and a range of datasets (e.g., FEVER, Open-SQuAD, HotPotQA), with an emphasis on sampling from the extremes of the distribution.
+
+**Web-based Inspection Tool:** Inspects LLM generation, self-consistency confidence, latency, retrieval quality, citation quality, and the Planner (Reasoner)’s ability to deduce the hierarchical graph of thoughts.
+(We thank McMaster University for supporting the development of this feature in collaboration with the WiSeR research group: https://wiser.cas.mcmaster.ca/.)
+
+
+
 ## Evaluation
 
 #### Dataset Download
