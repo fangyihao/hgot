@@ -12,9 +12,9 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 
 **Retrieval Quality:** Provides a scoring mechanism for evaluating retrieved passages based on citation frequency and quality, self-consistency confidence, and retrieval module ranking.
 
-**Evaluation Tool:** An extensible framework that evaluates HGOT using various LLMs (e.g., ChatGPT, Llama, Qwen, and DeepSeek-R1 models), multiple retrieval models (e.g., Google and ColBERT), and a range of datasets (e.g., FEVER, Open-SQuAD, HotPotQA), with an emphasis on sampling from the extremes of the distribution.
+**Evaluation Platform:** An extensible framework that evaluates HGOT's performance across multiple metrics (e.g., Exact Match and F1), using various LLMs (e.g., ChatGPT, Llama, Qwen, and DeepSeek-R1 models), diverse retrieval models (e.g., Google and ColBERT), and a range of datasets (e.g., FEVER, Open-SQuAD, HotPotQA), with an emphasis on sampling from the extremes of the distribution.
 
-**Web-based Inspection Tool:** Inspects LLM generation, self-consistency confidence, latency, retrieval quality, citation quality, and the Planner (Reasoner)’s ability to deduce the hierarchical graph of thoughts.
+**Web-based Inspection Panel:** Inspects LLM generation, confidence, latency, retrieval quality, citation quality, and the Planner (Reasoner)’s ability to deduce the hierarchical graph of thoughts.
 (We thank McMaster University for supporting the development of this feature in collaboration with the WiSeR research group: https://wiser.cas.mcmaster.ca/.)
 
 
@@ -69,7 +69,7 @@ The evaluation results for ChatGPT-3.5 and the Google retrieval model are presen
 
 ![](doc/image/results-chatgpt3.5-google.png)
 
-## Web-based User Interface
+## Web-based Inspection Panel
 
 HGOT includes a basic web-based user interface for inspection purposes. To launch it, execute the command `python3 portal.py` and access `127.0.0.1:9080` via a web browser.
 
