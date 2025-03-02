@@ -20,6 +20,7 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 
 
 ## Evaluation Platform
+HGOT provides a ready-to-use evaluation platform for testing its performance on custom datasets across various application domains. To test this platform, start by downloading the FEVER, Open-SQuAD, and HotPotQA datasets, then run a designated Python script. The evaluation results on these datasets are also presented below.
 
 #### Dataset Download
 
