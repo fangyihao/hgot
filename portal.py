@@ -5,7 +5,8 @@ Created on Jan 15, 2025
 '''
 import os
 root_path = '.'
-os.environ["DSP_CACHEDIR"] = os.path.join('../', 'hgot_cache')
+# os.environ["DSP_CACHEDIR"] = os.path.join('../', 'hgot_cache')
+os.environ["DSP_CACHEDIR"] = os.path.join('./', 'cache')
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import random
@@ -49,9 +50,10 @@ with open("config/config.json","r") as f:
 
 #language_model='gpt-3.5-turbo-1106'
 #retrieval_model='google'
-language_model = config["lm"]
-retrieval_model = config["rm"]
-max_tokens = config["lm_max_tokens"]
+language_model = config["portal_lm"]
+retrieval_model = config["portal_rm"]
+max_tokens = config["portal_lm_max_tokens"]
+annot_input = config.get("portal_demos", None)
 
 init_langauge_model(language_model=language_model, max_tokens=max_tokens)
 init_retrieval_model(retrieval_model=retrieval_model)
@@ -63,18 +65,18 @@ method = "got-3+demos-sa-knn+cx+t5-nli-ec+ci+[0.3,0.35,0.35]+[0.3,0.6,0.1]"
 train, dev, test = load_data(dataset)
 train, dev, test = df_to_dsp(train), df_to_dsp(dev), df_to_dsp(test)
 
-annot_dump = "log/temp/%s_%s_%s_%s_annot.csv"%(dataset, method, language_model, retrieval_model)
-annot_log = "log/temp/%s_%s_%s_%s_annot.log"%(dataset, method, language_model, retrieval_model)
+annot_dump = "log/portal/%s_%s_%s_%s_annot.csv"%(dataset, method, language_model, retrieval_model)
+annot_log = "log/portal/%s_%s_%s_%s_annot.log"%(dataset, method, language_model, retrieval_model)
 
 W_R = eval(method.split('+')[-1])
 W_T = eval(method.split('+')[-2])
 dsp.settings.configure(nli=_t5_nli)
 dsp.settings.configure(electoral_college=partial(nli_electoral_college, ci=True, W=W_T))
-method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W_R, B=[0.9,0.7,0.9], annot_step=50, annot_selector=EM, annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=3, annot_min_cand_rationale_demos=128, annot_balance=False, demo_sel_func=dsp.knn)
+method_func = GoT_QA(demo_flags="plan+rewrite+rationale", p_context=True, W=W_R, B=[0.9,0.7,0.9], annot_step=50, annot_selector=EM, annot_input=annot_input, annot_dump=annot_dump, annot_log=annot_log, annot_max_pri_rationale_demos=3, annot_min_cand_rationale_demos=128, annot_balance=False, demo_sel_func=dsp.knn)
 
 def warmup():
     default_stdout = sys.stdout
-    log_file = open("log/temp/%s_%s_%s_%s.log"%(dataset, method, language_model, retrieval_model),"w")
+    log_file = open("log/portal/%s_%s_%s_%s.log"%(dataset, method, language_model, retrieval_model),"w")
     sys.stdout = log_file
     
     df = pd.read_csv("data/MIRA/warmup.csv")
@@ -103,7 +105,7 @@ warmup()
 def chat(question):
     
     default_stdout = sys.stdout
-    log_file = open("log/temp/%s_%s_%s_%s.log"%(dataset, method, language_model, retrieval_model),"w")
+    log_file = open("log/portal/%s_%s_%s_%s.log"%(dataset, method, language_model, retrieval_model),"w")
     sys.stdout = log_file
     
     #question = test[0].question

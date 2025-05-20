@@ -79,12 +79,13 @@ HGOT includes a basic web-based user interface for inspection purposes. To launc
 #### Language Model Configuration
 Currently, HGOT supports various models, including OpenAI's GPT series (e.g., gpt-3.5-turbo, gpt-4, gpt-4-turbo, gpt-4o, gpt-4o-mini, o1, o1-mini, o3-mini), Llama models (e.g., llama3.3:70b), Qwen models (e.g., qwen2.5:7b, qwen2.5:14b, qwen2.5:32b, qwen2.5:72b), and DeepSeek-R1 models (e.g., deepseek-r1:7b, deepseek-r1:8b, deepseek-r1:14b, deepseek-r1:32b, deepseek-r1:70b, deepseek-r1:671b).
 
-To configure the language model for the web-based user interface, navigate to `config/config.json` and update the "lm" value with one of the supported language models listed above.
+To configure the language model for the web-based user interface, navigate to `config/config.json` and update the "portal_lm" value with one of the supported language models listed above.
 ```
 {
-	"rm":"google",
-	"lm":"gpt-3.5-turbo-1106",
-	"lm_max_tokens":300
+	"portal_rm":"google",
+	"portal_lm":"qwen2.5:14b",
+	"portal_lm_max_tokens":2048,
+	"portal_demos":"data/HotPotQA/train_short_augmented.csv"
 }
 ```
 

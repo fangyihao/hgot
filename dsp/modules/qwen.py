@@ -16,7 +16,8 @@ import sys
 
 from ollama import chat
 from ollama import ChatResponse
-
+from openai import OpenAI
+from collections import namedtuple
 def backoff_hdlr(details):
     """Handler from https://pypi.org/project/backoff/"""
     print(
@@ -38,7 +39,7 @@ class Qwen(LM):
     def __init__(
         self,
         model: str = "qwen2.5:72b",
-        api_provider: Literal["ollama", "huggingface"] = "ollama",
+        api_provider: Literal["ollama", "huggingface", "chatnet"] = "chatnet",
         model_type: Literal["chat", "reasoner"] = "chat",
         **kwargs,
     ):
@@ -88,7 +89,7 @@ class Qwen(LM):
 
     def _get_choice_text(self, choice: dict[str, Any]) -> str:
         if self.model_type == "chat":
-            return choice["message"]["content"]
+            return choice.message.content
         else:
             raise NotImplementedError()
 
@@ -107,7 +108,7 @@ class Qwen(LM):
         """
 
         response = self.request(prompt, **kwargs)
-        choices = response["choices"]
+        choices = response.choices
 
         completions = [self._get_choice_text(c) for c in choices]
 
@@ -119,15 +120,25 @@ class Qwen(LM):
 def _cached_qwen_request(**kwargs):
     if "stringify_request" in kwargs:
         kwargs = json.loads(kwargs["stringify_request"])
-    response = {}
-    choices = []
-    for _ in range(kwargs["n"]):
-        if kwargs["api_provider"] == "ollama":
+    
+    if kwargs["api_provider"] == "ollama":
+        RespStruct = namedtuple('RespStruct', 'choices')
+        choices = []
+        for _ in range(kwargs["n"]):
             choice: ChatResponse = chat(model=kwargs["model"], messages=kwargs["messages"])
-        else:
-            raise NotImplementedError()
-        choices.append(choice)
-    response["choices"] = choices
+            choices.append(choice)
+        response = RespStruct(choices=choices)
+    elif kwargs["api_provider"] == "chatnet":
+        openai_api_key = "EMPTY"
+        openai_api_base = "http://localhost:8000/v1"
+        client = OpenAI(
+            api_key=openai_api_key,
+            base_url=openai_api_base,
+        )
+        response = client.chat.completions.create(model=kwargs["model"], n=kwargs["n"], messages=kwargs["messages"])
+    else:
+        raise NotImplementedError()
+        
     return response
 
 
@@ -139,10 +150,10 @@ def _cached_qwen_request_logged(**kwargs):
         print(message['content'])
     response = _cached_qwen_request(**kwargs)
     print("-"*35 + " RESPONSE " + "-"*35)
-    for i, choice in enumerate(response["choices"]):
+    for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)
-        print("."*35 + choice['message']['role'] + "."*35)
-        print(choice['message']['content'])
+        print("."*35 + choice.message.role + "."*35)
+        print(choice.message.content)
     return response
 
 cached_qwen_request = _cached_qwen_request_logged

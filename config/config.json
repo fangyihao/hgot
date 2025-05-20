@@ -1,5 +1,6 @@
 {
-	"rm":"google",
-	"lm":"gpt-3.5-turbo-1106",
-	"lm_max_tokens":300
+	"portal_rm":"google",
+	"portal_lm":"qwen2.5:14b",
+	"portal_lm_max_tokens":2816,
+	"portal_demos":"data/HotPotQA/train_short_augmented.csv"
 }

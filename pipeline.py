@@ -48,7 +48,7 @@ def retry_with_exponential_backoff(
     exponential_base: float = 2,
     jitter: bool = True,
     max_retries: int = 10,
-    errors: tuple = (openai.error.RateLimitError, openai.error.Timeout, openai.error.APIConnectionError, openai.error.APIError,),
+    errors: tuple = (openai.RateLimitError, openai.Timeout, openai.APIConnectionError, openai.APIError,),
 ):
     """Retry a function with exponential backoff."""
 
@@ -554,6 +554,11 @@ class GoT_QA:
             self.annot_selector = kwargs["annot_selector"]
         else:
             self.annot_selector = None
+            
+        if "annot_input" in kwargs:
+            self.annot_input = kwargs["annot_input"]
+        else:
+            self.annot_input = None
             
         if "annot_dump" in kwargs:
             self.annot_dump = kwargs["annot_dump"]
@@ -1237,135 +1242,168 @@ class GoT_QA:
             or self.demo_flags is None):
             return
         
-        if self.annot_log:
-            default_stdout = sys.stdout
-            log_file = open(self.annot_log,"w")
-            sys.stdout = log_file
-        
-        default_electoral_college = dsp.settings.electoral_college
-        dsp.settings.configure(electoral_college=None)
-        default_depth = self.depth
-        self.depth = 2
-        default_B = self.B
-        self.B = copy.deepcopy(self.B)
-        self.B[0] = 0
-        
-        shuffled_train = [example.copy() for example in train]
-        rng = random.Random(dsp.settings.branch_idx)
-        rng.shuffle(shuffled_train)
-        train, test = shuffled_train[:len(shuffled_train)//10], shuffled_train[len(shuffled_train)//10:]
-        #test = dsp.sample(test, k=len(test))
-        
-        annot_columns = ['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer', 'GT Answer']
-        _annotator = pd.DataFrame(columns=annot_columns)
-        self.demos=None
-        self.annotator = pd.DataFrame(columns=annot_columns)
-        annot_examples = None
-        for i, example in enumerate(test):
-            print("#"*10 + example.question + "#"*10)
-            self.annotator.loc[len(self.annotator)] = [example.question,None, None, None, None, None, None, None, None, example.answer]
-            self.start(train, example.question)
-            
-            if ((i % self.annot_step) == self.annot_step - 1) or i == len(test) - 1:
+        if self.annot_input:
+            _annotator = pd.read_csv(self.annot_input, na_filter=False)
+            self.demos = {}
+            if self.demo_flags is not None and "plan" in self.demo_flags:
+                #self.demos["plan"] = df_to_dsp_augmented(_annotator, segment="plan")[:MAX_PLAN_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = self.MAX_PRI_PLAN_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = self.MAX_PRI_PLAN_DEMOS)
+                else:
+                    raise NotImplementedError()
+            if self.demo_flags is not None and "rewrite" in self.demo_flags:
+                #self.demos["rewrite"] = df_to_dsp_augmented(_annotator, segment="rewrite")[:MAX_REWRITE_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = self.MAX_PRI_REWRITE_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = self.MAX_PRI_REWRITE_DEMOS)
+                else:
+                    raise NotImplementedError()
+            if self.demo_flags is not None and "rationale" in self.demo_flags:
+                #self.demos["rationale"] = df_to_dsp_augmented(_annotator, segment="rationale")[:MAX_RATIONALE_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = self.MAX_PRI_RATIONALE_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = self.MAX_PRI_RATIONALE_DEMOS)
+                else:
+                    raise NotImplementedError()
                 
-                #self.annotator["Dependencies"] = ["None" if "no interdependencies" in dependencies else dependencies for dependencies in self.annotator["Dependencies"].values]
-                self.annotator["Dependencies"] = ["None" if dependencies is None else dependencies for dependencies in self.annotator["Dependencies"].values]
-                
-                self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.[\n\s]", r"\3 \1. ", rationale) for rationale in self.annotator["Rationale"].values]
-                self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.$", r"\3 \1.", rationale) for rationale in self.annotator["Rationale"].values]
-                self.annotator["Rationale"] = [rationale.replace('\n', ' ') for rationale in self.annotator["Rationale"].values]
-                
-                self.annotator["Pass"] = [self.annot_selector(prediction, answer) for prediction, answer in zip(self.annotator['Answer'].values, self.annotator['GT Answer'].values)]
-                
-                #self.annotator["Pass"] &= [all([step.endswith('?') and re.search(r"[Ii]s the query.+accurately addressed by the response.+", step, flags=re.DOTALL) is None for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
-                self.annotator["Pass"] &= [all([step.endswith('?') for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
-                
-                mean_step_lens = pd.Series([np.mean([len(step) for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values])
-                
-                # IQR
-                Q1 = np.percentile(mean_step_lens, 25, method='midpoint')
-                Q3 = np.percentile(mean_step_lens, 75, method='midpoint')
-                IQR = Q3 - Q1
-                self.annotator["Pass"] &= [np.mean([len(step) for step in self.find_steps(plan)]) < Q3 + 1.5*IQR for plan in self.annotator['Plan'].values]
-                
-                self.annotator["Pass"] &= [re.match(r"None|((\s*([Ss]tep [0-9]+) depends on ([Ss]tep [0-9]+)\.\s*)+)", dependencies) is not None for dependencies in self.annotator['Dependencies'].values]
-                
-                self.annotator["Pass"] &= ['\n' not in rationale and re.match(r"^([^\[\.]+(\[[0-9]+\])*\.)+$", rationale) is not None and re.search(r"\[[0-9]+\]", rationale) is not None for rationale in self.annotator['Rationale'].values]
-                
-                if self.annot_dump:
-                    self.annotator.to_csv(self.annot_dump+"_%d-%d"%(i//self.annot_step*self.annot_step, i), index=False)
-                
-                self.annotator = self.annotator[self.annotator["Pass"]==True]
-                self.annotator.drop("Pass", axis=1, inplace=True)
-                
-                if len(self.annotator.index) > 0:
-                    if self.annot_balance:
-                        self.annotator = transform_balancedly(self.annotator)
-                    
-                    _annotator = pd.concat([_annotator, self.annotator], ignore_index=True)
-                    if self.annot_dump:
-                        _annotator.to_csv(self.annot_dump, index=False)
-                    self.annotator = pd.DataFrame(columns=annot_columns)
-                    
-                    plan_demos = df_to_dsp_augmented(_annotator, segment="plan")
-                    rewrite_demos = df_to_dsp_augmented(_annotator, segment="rewrite")
-                    rationale_demos = df_to_dsp_augmented(_annotator, segment="rationale")
-                    
-                    if len(plan_demos) >= self.MIN_CAND_PLAN_DEMOS and len(rewrite_demos) >= self.MIN_CAND_REWRITE_DEMOS and len(rationale_demos) >= self.MIN_CAND_RATIONALE_DEMOS:
-                        annot_examples = i + 1
-                        break
-                    
-                    self.demos = {}
-                    if len(plan_demos) > 0:
-                        self.demos["plan"] = dsp.sample(plan_demos, k=self.MAX_PRI_PLAN_DEMOS) #plan_demos[:self.MAX_PRI_PLAN_DEMOS]
-                    if len(rewrite_demos) > 0:
-                        self.demos["rewrite"] = dsp.sample(rewrite_demos, k=self.MAX_PRI_REWRITE_DEMOS) #rewrite_demos[:self.MAX_PRI_REWRITE_DEMOS]
-                    if len(rationale_demos) > 0:
-                        self.demos["rationale"] = sample_balancedly(rationale_demos, k=self.MAX_PRI_RATIONALE_DEMOS) #rationale_demos[:self.MAX_PRI_RATIONALE_DEMOS]
-                    
-        print("="*35 + " ANNOTATION: EXAMPLES USED " + "="*35)
-        if annot_examples:
-            print(annot_examples)
+            if self.annot_dump:
+                _annotator.to_csv(self.annot_dump, index=False)
         else:
-            print(len(test))
+            if self.annot_log:
+                default_stdout = sys.stdout
+                log_file = open(self.annot_log,"w")
+                sys.stdout = log_file
             
-        self.annotator = None
+            default_electoral_college = dsp.settings.electoral_college
+            dsp.settings.configure(electoral_college=None)
+            default_depth = self.depth
+            self.depth = 2
+            default_B = self.B
+            self.B = copy.deepcopy(self.B)
+            self.B[0] = 0
+            
+            shuffled_train = [example.copy() for example in train]
+            rng = random.Random(dsp.settings.branch_idx)
+            rng.shuffle(shuffled_train)
+            train, test = shuffled_train[:len(shuffled_train)//10], shuffled_train[len(shuffled_train)//10:]
+            #test = dsp.sample(test, k=len(test))
+            
+            annot_columns = ['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer', 'GT Answer']
+            _annotator = pd.DataFrame(columns=annot_columns)
+            self.demos=None
+            self.annotator = pd.DataFrame(columns=annot_columns)
+            annot_examples = None
+            for i, example in enumerate(test):
+                print("#"*10 + example.question + "#"*10)
+                self.annotator.loc[len(self.annotator)] = [example.question,None, None, None, None, None, None, None, None, example.answer]
+                self.start(train, example.question)
                 
-        self.demos = {}
-        if self.demo_flags is not None and "plan" in self.demo_flags:
-            #self.demos["plan"] = df_to_dsp_augmented(_annotator, segment="plan")[:MAX_PLAN_DEMOS]
-            if "sample" in self.demo_sel_func.__name__:
-                self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = self.MAX_PRI_PLAN_DEMOS)
-            elif "knn" in self.demo_sel_func.__name__:
-                self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = self.MAX_PRI_PLAN_DEMOS)
+                if ((i % self.annot_step) == self.annot_step - 1) or i == len(test) - 1:
+                    
+                    #self.annotator["Dependencies"] = ["None" if "no interdependencies" in dependencies else dependencies for dependencies in self.annotator["Dependencies"].values]
+                    self.annotator["Dependencies"] = ["None" if dependencies is None else dependencies for dependencies in self.annotator["Dependencies"].values]
+                    
+                    self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.[\n\s]", r"\3 \1. ", rationale) for rationale in self.annotator["Rationale"].values]
+                    self.annotator["Rationale"] = [re.sub(r"((\[[0-9]+\])+)\s*([^a-z\[\.\s][^\[\.]*)\.$", r"\3 \1.", rationale) for rationale in self.annotator["Rationale"].values]
+                    self.annotator["Rationale"] = [rationale.replace('\n', ' ') for rationale in self.annotator["Rationale"].values]
+                    
+                    self.annotator["Pass"] = [self.annot_selector(prediction, answer) for prediction, answer in zip(self.annotator['Answer'].values, self.annotator['GT Answer'].values)]
+                    
+                    #self.annotator["Pass"] &= [all([step.endswith('?') and re.search(r"[Ii]s the query.+accurately addressed by the response.+", step, flags=re.DOTALL) is None for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
+                    self.annotator["Pass"] &= [all([step.endswith('?') for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values]
+                    
+                    mean_step_lens = pd.Series([np.mean([len(step) for step in self.find_steps(plan)]) for plan in self.annotator['Plan'].values])
+                    
+                    # IQR
+                    Q1 = np.percentile(mean_step_lens, 25, method='midpoint')
+                    Q3 = np.percentile(mean_step_lens, 75, method='midpoint')
+                    IQR = Q3 - Q1
+                    self.annotator["Pass"] &= [np.mean([len(step) for step in self.find_steps(plan)]) < Q3 + 1.5*IQR for plan in self.annotator['Plan'].values]
+                    
+                    self.annotator["Pass"] &= [re.match(r"None|((\s*([Ss]tep [0-9]+) depends on ([Ss]tep [0-9]+)\.\s*)+)", dependencies) is not None for dependencies in self.annotator['Dependencies'].values]
+                    
+                    self.annotator["Pass"] &= ['\n' not in rationale and re.match(r"^([^\[\.]+(\[[0-9]+\])*\.)+$", rationale) is not None and re.search(r"\[[0-9]+\]", rationale) is not None for rationale in self.annotator['Rationale'].values]
+                    
+                    if self.annot_dump:
+                        self.annotator.to_csv(self.annot_dump+"_%d-%d"%(i//self.annot_step*self.annot_step, i), index=False)
+                    
+                    self.annotator = self.annotator[self.annotator["Pass"]==True]
+                    self.annotator.drop("Pass", axis=1, inplace=True)
+                    
+                    if len(self.annotator.index) > 0:
+                        if self.annot_balance:
+                            self.annotator = transform_balancedly(self.annotator)
+                        
+                        _annotator = pd.concat([_annotator, self.annotator], ignore_index=True)
+                        if self.annot_dump:
+                            _annotator.to_csv(self.annot_dump, index=False)
+                        self.annotator = pd.DataFrame(columns=annot_columns)
+                        
+                        plan_demos = df_to_dsp_augmented(_annotator, segment="plan")
+                        rewrite_demos = df_to_dsp_augmented(_annotator, segment="rewrite")
+                        rationale_demos = df_to_dsp_augmented(_annotator, segment="rationale")
+                        
+                        if len(plan_demos) >= self.MIN_CAND_PLAN_DEMOS and len(rewrite_demos) >= self.MIN_CAND_REWRITE_DEMOS and len(rationale_demos) >= self.MIN_CAND_RATIONALE_DEMOS:
+                            annot_examples = i + 1
+                            break
+                        
+                        self.demos = {}
+                        if len(plan_demos) > 0:
+                            self.demos["plan"] = dsp.sample(plan_demos, k=self.MAX_PRI_PLAN_DEMOS) #plan_demos[:self.MAX_PRI_PLAN_DEMOS]
+                        if len(rewrite_demos) > 0:
+                            self.demos["rewrite"] = dsp.sample(rewrite_demos, k=self.MAX_PRI_REWRITE_DEMOS) #rewrite_demos[:self.MAX_PRI_REWRITE_DEMOS]
+                        if len(rationale_demos) > 0:
+                            self.demos["rationale"] = sample_balancedly(rationale_demos, k=self.MAX_PRI_RATIONALE_DEMOS) #rationale_demos[:self.MAX_PRI_RATIONALE_DEMOS]
+                        
+            print("="*35 + " ANNOTATION: EXAMPLES USED " + "="*35)
+            if annot_examples:
+                print(annot_examples)
             else:
-                raise NotImplementedError()
-        if self.demo_flags is not None and "rewrite" in self.demo_flags:
-            #self.demos["rewrite"] = df_to_dsp_augmented(_annotator, segment="rewrite")[:MAX_REWRITE_DEMOS]
-            if "sample" in self.demo_sel_func.__name__:
-                self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = self.MAX_PRI_REWRITE_DEMOS)
-            elif "knn" in self.demo_sel_func.__name__:
-                self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = self.MAX_PRI_REWRITE_DEMOS)
-            else:
-                raise NotImplementedError()
-        if self.demo_flags is not None and "rationale" in self.demo_flags:
-            #self.demos["rationale"] = df_to_dsp_augmented(_annotator, segment="rationale")[:MAX_RATIONALE_DEMOS]
-            if "sample" in self.demo_sel_func.__name__:
-                self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = self.MAX_PRI_RATIONALE_DEMOS)
-            elif "knn" in self.demo_sel_func.__name__:
-                self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = self.MAX_PRI_RATIONALE_DEMOS)
-            else:
-                raise NotImplementedError()
-        if self.annot_dump:
-            _annotator.to_csv(self.annot_dump, index=False)
-        
-        dsp.settings.configure(electoral_college=default_electoral_college)
-        self.depth = default_depth
-        self.B = default_B
-        
-        if self.annot_log:
-            sys.stdout = default_stdout
-            log_file.close()
+                print(len(test))
+                
+            self.annotator = None
+                    
+            self.demos = {}
+            if self.demo_flags is not None and "plan" in self.demo_flags:
+                #self.demos["plan"] = df_to_dsp_augmented(_annotator, segment="plan")[:MAX_PLAN_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["plan"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan"), k = self.MAX_PRI_PLAN_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["plan"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="plan")), k = self.MAX_PRI_PLAN_DEMOS)
+                else:
+                    raise NotImplementedError()
+            if self.demo_flags is not None and "rewrite" in self.demo_flags:
+                #self.demos["rewrite"] = df_to_dsp_augmented(_annotator, segment="rewrite")[:MAX_REWRITE_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["rewrite"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite"), k = self.MAX_PRI_REWRITE_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["rewrite"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rewrite")), k = self.MAX_PRI_REWRITE_DEMOS)
+                else:
+                    raise NotImplementedError()
+            if self.demo_flags is not None and "rationale" in self.demo_flags:
+                #self.demos["rationale"] = df_to_dsp_augmented(_annotator, segment="rationale")[:MAX_RATIONALE_DEMOS]
+                if "sample" in self.demo_sel_func.__name__:
+                    self.demos["rationale"] = self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale"), k = self.MAX_PRI_RATIONALE_DEMOS)
+                elif "knn" in self.demo_sel_func.__name__:
+                    self.demos["rationale"] = partial(self.demo_sel_func(df_to_dsp_augmented(_annotator, segment="rationale")), k = self.MAX_PRI_RATIONALE_DEMOS)
+                else:
+                    raise NotImplementedError()
+            if self.annot_dump:
+                _annotator.to_csv(self.annot_dump, index=False)
+            
+            dsp.settings.configure(electoral_college=default_electoral_college)
+            self.depth = default_depth
+            self.B = default_B
+            
+            if self.annot_log:
+                sys.stdout = default_stdout
+                log_file.close()
+                
+                
     '''
     def annotate(self, train, save_path):
         self.annotator = pd.DataFrame(columns=['Question', 'Plan Context', 'Plan', 'Dependencies', 'Rewrite Context', 'Rewrite', 'Rationale Context', 'Rationale', 'Answer'])

@@ -8,8 +8,8 @@ def passages2text(passages: Union[str, list, tuple]) -> str:
 
     assert type(passages) in [list, tuple]
 
-    if len(passages) == 1:
-        return f"«{passages[0]}»"
+    # if len(passages) == 1:
+    #    return f"«{passages[0]}»"
 
     return "\n".join([f"[{idx+1}] «{txt}»" for idx, txt in enumerate(passages)])
 

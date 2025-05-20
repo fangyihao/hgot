@@ -4,8 +4,8 @@ from typing import Any, Literal, Optional, cast
 
 import backoff
 import openai
-import openai.error
-from openai.openai_object import OpenAIObject
+
+# from openai.openai_object import OpenAIObject
 
 from dsp.modules.cache_utils import CacheMemory, NotebookCacheMemory, cache_turn_on
 from dsp.modules.lm import LM
@@ -71,7 +71,7 @@ class GPT(LM):
             self.kwargs["model"] = model
         self.history: list[dict[str, Any]] = []
 
-    def basic_request(self, prompt: str, **kwargs) -> OpenAIObject:
+    def basic_request(self, prompt: str, **kwargs):
         raw_kwargs = kwargs
 
         kwargs = {**self.kwargs, **kwargs}
@@ -99,11 +99,11 @@ class GPT(LM):
 
     @backoff.on_exception(
         backoff.expo,
-        (openai.error.RateLimitError, openai.error.ServiceUnavailableError, openai.error.Timeout, openai.error.APIError, openai.error.APIConnectionError),
+        (openai.APIError, openai.APIConnectionError),
         max_time=1000,
         on_backoff=backoff_hdlr,
     )
-    def request(self, prompt: str, **kwargs) -> OpenAIObject:
+    def request(self, prompt: str, **kwargs):
         """Handles retreival of GPT-3 completions whilst handling rate limiting and caching."""
         if "model_type" in kwargs:
             del kwargs["model_type"]
@@ -112,8 +112,8 @@ class GPT(LM):
 
     def _get_choice_text(self, choice: dict[str, Any]) -> str:
         if self.model_type == "chat":
-            return choice["message"]["content"]
-        return choice["text"]
+            return choice.message.content
+        return choice.text
 
     def __call__(
         self,
@@ -143,9 +143,9 @@ class GPT(LM):
                 kwargs = {**kwargs, "logprobs": 5}
 
         response = self.request(prompt, **kwargs)
-        choices = response["choices"]
+        choices = response.choices
 
-        completed_choices = [c for c in choices if c["finish_reason"] != "length"]
+        completed_choices = [c for c in choices if c.finish_reason != "length"]
 
         if only_completed and len(completed_choices):
             choices = completed_choices
@@ -176,7 +176,7 @@ class GPT(LM):
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
 def cached_gpt_request_v2(**kwargs):
-    return openai.Completion.create(**kwargs)
+    return openai.completions.create(**kwargs)
 
 '''
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
@@ -201,10 +201,11 @@ cached_gpt_request = cached_gpt_request_v2_logged
 
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
 @CacheMemory.cache
-def _cached_gpt_turbo_request_v2(**kwargs) -> OpenAIObject:
+def _cached_gpt_turbo_request_v2(**kwargs):
     if "stringify_request" in kwargs:
         kwargs = json.loads(kwargs["stringify_request"])
-    return cast(OpenAIObject, openai.ChatCompletion.create(**kwargs))
+    print(kwargs, file=sys.stderr)
+    return openai.chat.completions.create(**kwargs)
 
 '''
 @functools.lru_cache(maxsize=None if cache_turn_on else 0)
@@ -214,7 +215,7 @@ def _cached_gpt_turbo_request_v2_wrapped(**kwargs) -> OpenAIObject:
     return response
 '''
 
-def _cached_gpt_turbo_request_v2_logged(**kwargs) -> OpenAIObject:
+def _cached_gpt_turbo_request_v2_logged(**kwargs):
     print("calling chatgpt ...", file=sys.stderr)
     print("~"*35 + " PROMPT " + "~"*35)
     for message in json.loads(kwargs["stringify_request"])["messages"]:
@@ -224,8 +225,8 @@ def _cached_gpt_turbo_request_v2_logged(**kwargs) -> OpenAIObject:
     print("-"*35 + " RESPONSE " + "-"*35)
     for i, choice in enumerate(response.choices):
         print("-"*35 + (" CHOICE %d "%i) + "-"*35)
-        print("."*35 + choice.message['role'] + "."*35)
-        print(choice.message['content'])
+        print("."*35 + choice.message.role + "."*35)
+        print(choice.message.content)
     return response
 
 cached_gpt_turbo_request = _cached_gpt_turbo_request_v2_logged
