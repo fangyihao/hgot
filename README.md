@@ -18,7 +18,7 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 (We thank McMaster University for supporting the development of this feature in collaboration with the WiSeR research group: https://wiser.cas.mcmaster.ca/.)
 
 ## Installation
-To set up the environment and required language model, follow the steps below:
+To set up the environment and required Python packages, follow the steps below:
 
 1. Use pip to install all required Python packages listed in the requirements.txt file:
 ```
@@ -131,3 +131,5 @@ If you use our source code in a research paper, please cite our work as follows:
     pages = "118--144"
 }
 ```
+
+![](doc/image/best_paper_award.jpg)
