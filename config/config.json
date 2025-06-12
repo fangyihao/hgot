@@ -1,6 +1,6 @@
 {
 	"portal_rm":"google",
-	"portal_lm":"qwen2.5:14b",
-	"portal_lm_max_tokens":2816,
+	"portal_lm":"gpt-4o-mini",
+	"portal_lm_max_tokens":4096,
 	"portal_demos":"data/HotPotQA/train_short_augmented.csv"
 }

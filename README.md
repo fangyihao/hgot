@@ -17,7 +17,19 @@ With the widespread adoption of large language models (LLMs) in numerous applica
 **Web-based Inspection Panel:** Inspects LLM generation, confidence, latency, retrieval quality, citation quality, and the Planner (Reasoner)’s ability to deduce the hierarchical graph of thoughts.
 (We thank McMaster University for supporting the development of this feature in collaboration with the WiSeR research group: https://wiser.cas.mcmaster.ca/.)
 
+## Installation
+To set up the environment and required language model, follow the steps below:
 
+1. Use pip to install all required Python packages listed in the requirements.txt file:
+```
+pip install -r requirements.txt
+```
+
+2. Download the en_core_sci_lg model (version 0.5.4) and install it manually:
+```
+curl -o en_core_sci_lg-0.5.4.tar.gz https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz
+pip install en_core_sci_lg-0.5.4.tar.gz
+```
 
 ## Evaluation Platform
 HGOT provides a ready-to-use evaluation platform for benchmarking its performance on custom datasets across various application domains. To test this platform, start by downloading the FEVER, Open-SQuAD, and HotPotQA datasets, then run a designated Python script. The evaluation results on these datasets are also presented below.
@@ -83,8 +95,8 @@ To configure the language model for the web-based user interface, navigate to `c
 ```
 {
 	"portal_rm":"google",
-	"portal_lm":"qwen2.5:14b",
-	"portal_lm_max_tokens":2048,
+	"portal_lm":"gpt-4o-mini",
+	"portal_lm_max_tokens":4096,
 	"portal_demos":"data/HotPotQA/train_short_augmented.csv"
 }
 ```
