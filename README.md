@@ -22,13 +22,26 @@ To set up the environment and required Python packages, follow the steps below:
 
 1. Use pip to install all required Python packages listed in the requirements.txt file:
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt [--break-system-packages]
 ```
 
-2. Download the en_core_sci_lg model (version 0.5.4) and install it manually:
+2. Run the following command to download the punkt_tab tokenizer data required by the nltk library:
 ```
+python3 -c "import nltk; nltk.download('punkt_tab')"
+```
+
+3. Download the en_core_sci_lg model (version 0.5.4) and install it manually:
+```
+sudo apt install curl
 curl -o en_core_sci_lg-0.5.4.tar.gz https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz
-pip install en_core_sci_lg-0.5.4.tar.gz
+pip install en_core_sci_lg-0.5.4.tar.gz [--break-system-packages]
+```
+
+4. Rename the .env.example file to .env, and then set the values for OPENAI_API_KEY and SERPAPI_API_KEY within it.
+
+5. Run the following command to download and install Ollama using the official installation script:
+```
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ## Evaluation Platform
